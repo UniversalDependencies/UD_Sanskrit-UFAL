@@ -1,0 +1,310 @@
+# sent_id 3
+1-4	sakalArTaSAstrasAraM	_	_	_	_	_	_	_	_
+1	sakala	sakala	ADJ	X	Case=Voc|Number=Sing	2	amod	_	_
+2	arTaSAstra	arTaarTaSAstra	NOUN	X	Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	_
+3	sAram	sAra	NOUN	X	Case=Acc|Gender=Masc|Number=Sing	5	dobj	_	_
+4	jagati	jagat	NOUN	X	Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_
+5	samAlokya	samAlokya	VERB	_	Case=Voc|Gender=Masc|Number=Sing|VerbForm=Ger	11	ccomp	_	_
+6-7	vizRuSarmedam	_	_	_	_	_	_	_	_
+6	vizRuSarmA	vizRuSarman	PROPN	X	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+7	idam	ayam	PRON	X	Case=Nom|Gender=Neut|Number=Sing	8	nmod	_	_
+8	tantrEH	tantra	NOUN	X	Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+9	paYcaBiH	paYcan	ADJ	X	Case=Ins|Number=Plur	8	nummod	_	_
+10	etat	eza	PRON	X	Case=Nom|Gender=Neut|Number=Sing	11	dobj	_	_
+11	cakAra	kf	VERB	X	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Voice=Act	0	root	_	_
+12	sumanoharaM	sumanohar	ADJ	X	Case=Acc|Gender=Neut|Number=Sing	13	amod	_	_
+13	SAstram	SAstra	NOUN	X	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	_
+
+# sent_id 4
+1	tat	tad	DET	X	Case=Nom|Gender=Neut|Number=Sing	3	iobj	_	_
+2-3	yaTAnuSrUyate	_	_	_	_	_	_	_	_
+2	yaTA	yaTA	ADV	X	_	3	advmod	_	_
+3	anuSrUyate	anu-Sru	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
+
+# sent_id 5
+1	asti	as_1	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
+2	dAkziRAtye	dAkziRa	ADJ	X	Case=Loc|Gender=Neut|Number=Sing	3	amod	_	_
+3	janapade	janapade	NOUN	X	Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+4	mahilAropyaM	mahilAropya	PROPN	X	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+5	nAma	nAman	NOUN	X	Case=Voc|Gender=Neut|Number=Sing	6	vocative	_	_
+6	nagaram	nagara	NOUN	X	Case=Nom|Gender=Neut|Number=Sing	1	dobj	_	_
+
+# sent_id 6
+1	tatra	tatra	ADV	X	_	5	advmod	_	_
+2	amaraSaktir	amaraSakti	PROPN	X	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+3	nAmnaH	nAman	NOUN	X	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+4	rAjA	rAjan	NOUN	X	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	baBUva	BU_1	VERB	X	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Voice=Act	0	root	_	_
+
+# sent_id 7
+1	tasya	tad	PRON	X	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes	6	nmod	_	_
+2	ca	ca	CONJ	X	_	1	cc	_	_
+3	trayaH	tri	NUM	X	Case=Nom|Gender=Masc|Number=Plur	4	nummod	_	_
+4	putrAH	putra	NOUN	X	Case=Nom|Gender=Masc|Number=Plur	7	nmod	_	_
+5-6	paramadurmeDasaH	_	_	_	_	_	_	_	_
+5	parama	parama	ADV	X	Case=Voc|Number=Sing	6	advmod	_	_
+6	durmeDasaH	durmeDas	ADJ	X	Case=Nom|Gender=Masc|Number=Plur	4	amod	_	_
+7	vasuSaktiH	vasuSakti	PROPN	X	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+8	ugraSaktiH	ugraSakti	PROPN	X	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+9	anantaSaktiS	anantaSakti	PROPN	X	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+10-11	ceti	_	_	_	_	_	_	_	_
+10	ca	ca	CONJ	X	_	7	cc	_	_
+11	iti	iti	ADV	X	_	12	advmod	_	_
+12	baBUvuH	BU_1	VERB	X	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Voice=Act	0	root	_	_
+
+# sent_id 8
+1	aTa	aTa	ADV	X	_	9	advmod	_	_
+2	tAn	tad	PRON	X	Case=Abl|Gender=Masc|Number=Plur	4	nmod	_	_
+3	SAstravimuKAn	SAstravimuKa	NOUN	X	Case=Abl|Gender=Masc|Number=Plur	4	nmod	_	_
+4	samAlokya	samAlokya	VERB	X	Case=Voc|Gender=Masc|Number=Sing|VerbForm=Ger	8	ccomp	_	_
+5	sa	tad	DET	X	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
+6	rAjA	rAjan	NOUN	X	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	sacivAn	saciva	NOUN	X	Case=Abl|Gender=Masc|Number=Plur	8	dobj	_	_
+8	AhUya	AhUya	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	9	ccomp	_	_
+9	provAca	pro-vac	VERB	X	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Voice=Act	0	root	_	_
+
+# sent_id 10
+1	tat	tad	DET	X	Case=Nom|Gender=Neut|Number=Sing	3	det	_	_
+2	etAn	eza	PRON	X	Case=Abl|Gender=Masc|Number=Plur	3	dobj	_	_
+3	paSyataH	paSyat	VERB	X	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Ger	10	ccomp	_	_
+4	me	asmad	PRON	X	Case=Gen|Number=Sing	10	nmod	_	_
+5-6	madapi	_	_	_	_	_	_	_	_
+5	mahat	mahat	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	_
+6	api	api	CONJ	_	_	7	cc	_	_
+7	rAjyam	rAjya	NOUN	X	Case=Nom|Gender=Neut|Number=Sing	10	nmod	_	_
+8	na	na	PART	X	_	9	neg	_	_
+9	sOKyam	sOKya	NOUN	X	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	_
+10	Avahati	A-vah_1	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
+
+# sent_id 11
+1	aTavA	aTaVa	ADV	X	_	4	advmod	_	_
+2	sADU	sADu	ADV	X	Case=Nom|Gender=Neut|Number=Sing	4	advmod	_	_
+3	idam	idam	PRON	X	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	ucyate	vac	VERB	X	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id 14_1
+1	kim	ka_1	DET	X	Case=Nom|Gender=Neut|Number=Sing	3	det	_	_
+2	tayA	tad	PRON	X	Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	_
+3	kriyate	kf_1	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
+4	DenvA	Denu	NOUN	X	Case=Ins|Gender=Fem|Number=Sing	3	dobj	_	_
+5	yA	yad	PRON	X	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	na	na	PART	X	_	7	neg	_	_
+7	sUte	sU	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	_
+8	na	na	PART	X	_	10	neg	_	_
+9	kzIram	kzIra	NOUN	X	Case=Acc|Gender=Neut|Number=Sing	10	dobj	_	_
+10	dadAti	dA	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	ccomp	_	_
+
+#sent_id 14_2
+1	kaH	ka	DET	X	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	arTaH	arTa	NOUN	X	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	putreRa	putra	NOUN	X	Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	_
+4	jAtena	jAta	VERB	X	Case=Ins|Gender=Masc|Number=Sing|VerbForm=Ger	0	root	_	_
+5	yaH	yad	PRON	X	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+6	na	na	PART	X	_	7	neg	_	_
+7	vidvAn	vidvas	X	X	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+8	na	na	PART	X	_	9	neg	_	_
+9	BaktimAn	Baktimat	NOUN	X	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+10	asti	as_1	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	_
+
+# sent_id 15
+1	tat	tad	DET	X	Case=Nom|Gender=Neut|Number=Sing	2	det	_	_
+2	ezAm	etad	PRON	X	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+3-4	budDipraboDanaM	_	_	_	_	_	_	_	_
+3	budDi	budDi	NOUN	X	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	_
+4	praboDanam	praboDana	NOUN	X	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	_
+5	yaTA	yaTA	ADV	X	_	11	advmod	_	_
+6	Bavati	BU_1	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	ccomp	_	_
+7	taTA	taTA	ADV	X	_	11	advmod	_	_
+8-9	kenApy	_	_	_	_	_	_	_	_
+8	kena	kena	DET	X	Case=Ins|Gender=Masc|Number=Sing	10	det	_	_
+9	api	api	CONJ	X	_	10	cc	_	_
+10-11	upAyenAnuzWeyam	_	_	_	_	_	_	_	_
+10	upAyena	upAya	NOUN	X	Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+11	anusTyeam	anuSTheya	VERB	X	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Ger	0	root	_	_
+
+# sent_id 16
+1-2	tatrEkaH	_	_	_	_	_	_	_	_
+1	tatra	tatra_1	ADV	X	_	3	advmod	_	_
+2	ekaH	ek	NUM	X	_	3	nummod	_	_
+3	procuH	pra-vac	VERB	X	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Voice=Act	0	root	_	_
+
+# sent_id 17
+1	deva	deva	NOUN	X	Case=Voc|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	dvAdaSaBir	dvAdaSaBi	NUM	X	Case=Ins|Gender=Masc|Number=Sing	3	nummod	_	_
+3	varzEH	varza	NOUN	X	Case=Ins|Number=Plur	5	nmod	_	_
+4	vyAkaraRam	vyAkaraRa	NOUN	X	Case=Acc|Gender=Neut|Number=Sing	5	dobj	_	_
+5	SrUyate	Sru	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
+
+# sent_id _A1
+1	yAvat	yAvat	ADV	X	_	5	conj	_	_
+2	ayam	ayam	DET	X	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+3	prARena	prARa	NOUN	X	Case=Ins|Gender=Masc|Number=Sing	5	dobj	_	_
+4	na	na	PART	X	_	5	neg	_	_
+5	viyujyate	viyuj	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	ccomp	_	_
+6	tAvat	tAvat	ADV	X	_	8	advmod	_	_
+7	imam	ayam	PRON	X	Case=Acc|Gender=Masc|Number=Sing	8	dobj	_	_
+8	gfhARa	grah	VERB	X	Mood=Imp|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	_
+
+# sent_id 19
+1	tataH	tataH	ADV	X	_	4	advmod	_	_
+2	budDi	budDi	NOUN	_	_	3	compound	_	_
+3	praboDanaM	praboDanam	NOUN	X	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	Bavati	BU_1	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
+
+# sent_id 20
+1	aTa	aTa	ADV	X	_	7	advmod	_	_
+2-3	tanmaDyataH	_	_	_	_	_	_	_	_
+2	tat	tad	PRON	X	Case=Nom|Gender=Neut|Number=Sing	3	iobj	_	_
+3	maDyataH	maDyataH	ADV	X	_	7	advmod	_	_
+4-6	sumatinAmAmAtyaH	_	_	_	_	_	_	_	_
+4	sumati	sumati	PROPN	X	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+5	nAma	nAman	ADV	X	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	amAtyaH	amAtya	NOUN	X	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	prAha	prAh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
+
+# sent_id 22
+1-3	praBUtakAlajYeyAni	_	_	_	_	_	_	_	_
+1	praBUta	pra-BUta	ADV	X	Case=Voc|Gender=Masc|Number=Sing	2	advmod	_	_
+2	kAla	kAla_1	NOUN	X	Case=Acc|Gender=Neut|Number=Plur	3	iobj	_	_
+3	jYeyAni	jYeya	VERB	X	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Ger	0	root	_	_
+4-5	SabdaSAstrARi	_	_	_	_	_	_	_	_
+4	Sabda	Sabda	ADJ	X	Case=Nom|Gender=Neut|Number=Plur	5	amod	_	_
+5	SAstrARi	SAstra	X	X	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+
+# sent_id 23
+1	tat	tad	PRON	X	Case=Nom|Gender=Neut|Number=Sing	2	nmod	_	_
+2	saNkzepamAtram	saNkzepamatra	ADJ	X	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	_
+3	SAstram	Sastra	NOUN	X	Case=Acc|Gender=Neut|Number=Sing	7	nsubj	_	_
+4	kiMcid	kiMcid	DET	_	Case=Nom|Number=Sing	3	det	_	_
+5	etezAm	etad	PRON	X	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+6	praboDanarTam	praboDanaRTam	NOUN	X	Case=Acc|Gender=Neut|Number=Sing	7	dobj	_	_
+7	cintyatAm	cint	VERB	X	Mood=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
+
+# sent_id 26
+1-2	atrAsti	_	_	_	_	_	_	_	_
+1	atra	atra_1	ADV	X	_	2	advmod	_	_
+2	asti	as_1	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
+3	vizRuSarmA	vizRuSarma	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+4	nAma	nAman	NOUN	X	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	_
+5	brAhmaRaH	brAhmaRa	NOUN	X	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6-9	anekaSAstralabDakIrtiH	_	_	_	_	_	_	_	_
+6	aneka	an-eka	ADJ	X	Case=Nom|Gender=Neut|Number=Sing	7	amod	_	_
+7	SAstra	SAstra	NOUN	X	Case=Voc|Gender=Neut|Number=Plur	8	iobj	_	_
+8	labDa	labDa	VERB	X	Case=Voc|Gender=Masc|Number=Sing|VerbForm=Ger	2	ccomp	_	_
+9	kIrtiH	kIrti	NOUN	X	Case=Nom|Gender=Masc|Number=Sing	6	dobj	_	_
+
+# sent_id 27
+1	tasmE	tad	PRON	X	Case=Dat|Gender=Masc|Number=Sing	2	dobj	_	_
+2-3	samarpayEtAn	_	_	_	_	_	_	_	_
+2	samarpaya	samarpaya	VERB	X	Mood=Imp|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	_
+3	etAn	etad	PRON	X	Case=Abl|Gender=Masc|Number=Plur	2	nsubj	_	_
+
+# sent_id 28
+1	sa	tad	PRON	X	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	nUnam	nUnam	ADV	X	_	5	advmod	_	_
+3	drAk	drAk	ADV	X	_	4	advmod	_	_
+4	prabudDAn	pra-budDa	VERB	X	Case=Abl|Gender=Masc|Number=Plur|VerbForm=Ger	5	ccomp	_	_
+5	karizyati	kf_1	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+
+# sent_id 29
+1	saH	tad	DET	X	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	rAjA	rAjan	NOUN	X	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	tat	tad	PRON	X	Case=Acc|Gender=Neut|Number=Sing	4	dobj	_	_
+4	AkarRya	Akarnya	VERB	_	Case=Voc|Gender=Neut|Number=Sing|VerbForm=Part	6	ccomp	_	_
+5	vizRuSarmARam	vizRuSarmARa	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	6	dobj	_	_
+6	AhUya	AhUya	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	7	ccomp	_	_
+7	provAca	pra-vac	VERB	X	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	_
+
+# sent_id 31
+1	aham	asmad	PRON	X	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	tvAm	yuzmad	PRON	X	Case=Acc|Gender=Masc|Number=Sing	5	dobj	_	_
+3-4	SAsanaSatena	_	_	_	_	_	_	_	_
+3	SAsana	SAsana	NOUN	X	Case=Voc|Gender=Neut|Number=Sing	5	vocative	_	_
+4	Satena	Sata	NUM	X	Case=Ins|Gender=Masc|Number=Sing	3	nummod	_	_
+5	niyojayizyAmi	ni-yuj	VERB	X	Mood=Ind|Number=Sing|Person=1|Tense=Fut|Voice=Act	0	root	_	_
+
+# sent_id 32
+1	aTa	aTa	ADV	X	_	5	advmod	_	_
+2	vizRuSarma	vizRuSarmA	PROPN	X	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	tam	tad	DET	X	Case=Acc|Gender=Neut|Number=Sing	4	det	_	_
+4	rAjAnam	rAjan	X	X	Case=Acc|Gender=Masc|Number=Sing	5	dobj	_	_
+5	ucyate	vac	VERB	X	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id 33
+1	deva	deva	NOUN	X	Case=Voc|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	SrUyatAm	Sru	VERB	X	Mood=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
+3	me	asmad	PRON	X	Case=Gen|Number=Sing|Poss=Yes	5	nmod	_	_
+4-5	taTyavacanam	_	_	_	_	_	_	_	_
+4	taTya	taTya	ADJ	X	Case=Voc|Gender=Neut|Number=Sing	5	amod	_	_
+5	vacanam	vacana	NOUN	X	Case=Acc|Gender=Neut|Number=Sing	2	dobj	_	_
+
+# sent_id 34
+1-2	nAhaM	_	_	_	_	_	_	_	_
+1	na	na	PART	X	_	4	neg	_	_
+2	aham	asmad	PRON	X	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	vidyAvikrayaM	vidyavikraya	NOUN	X	Case=Acc|Gender=Masc|Number=Sing	4	dobj	_	_
+4	karomi	kf_1	VERB	X	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	_
+5	SAsana	SAsana	NOUN	X	Case=Voc|Gender=Neut|Number=Sing	4	vocative	_	_
+6	Satena	Sata	NUM	X	Case=Ins|Gender=Masc|Number=Sing	5	nummod	_	_
+
+#sent_id _A2
+1	mArIcaH	mArica	PROPN	X	Case=Nom|Gender=Masc|Number=Sing	4	iobj	_	_
+2	nAma	nAman	NOUN	X	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
+3	rAkzasaH	rAkzasa	NOUN	X	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	AsIt	As	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+
+#sent_id  _A3
+1	yadA	yadA	ADV	X	_	3	advmod	_	_
+2	meGaH	meGa	NOUN	X	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	varzati	varz	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
+4	tadA	tadA	ADV	X	_	3	advmod	_	_
+5	mayUraH	mayUra	NOUN	X	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	nftyati	nfty	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	_
+
+#sent_id _A4
+1	rAmaH	rAma	NOUN	X	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	yasmAt	yad	ADJ	X	Case=Abl|Gender=Masc|Number=Sing	3	amod	_	_
+3	aDyApakam	aDyApaka	NOUN	X	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+4	yat	yad	ADJ	X	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
+5	pustakam	pustaka	NOUN	X	Case=Acc|Gender=Masc|Number=Sing	6	dobj	_	_
+6	apaWat	paW	VERB	X	Mood=Imp|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
+7	aham	asmad	PRON	X	Case=Nom|Gender=Masc	12	nsubj	_	_
+8	tasmAt	tad	ADJ	X	Case=Abl|Gender=Masc|Number=Sing	9	amod	_	_
+9	aDyApakAt	adhyapaka	NOUN	X	Case=Abl|Gender=Masc|Number=Sing	12	nmod	_	_
+10	tat	tad	ADJ	X	Case=Acc|Gender=Masc|Number=Sing	11	amod	_	_
+11	pustakam	pustaka	NOUN	X	Case=Acc|Gender=Masc|Number=Sing	12	dobj	_	_
+12	apaWam	paW	VERB	X	Mood=Imp|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	ccomp	_	_
+
+#sent_id _A5
+1	tvam	yuzmad	PRON	X	Case=Nom|Number=Sing	2	nsubj	_	_
+2	icCasi	iz	VERB	X	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	7	ccomp	_	_
+3	cet	ced	ADV	X	_	7	advmod	_	_
+4	aham	asmad	PRON	X	Case=Nom|Number=Sing	7	nsubj	_	_
+5	BavataH	Bavat	PRON	X	Case=Abl|Number=Sing	6	nmod	_	_
+6	gfham	gfha	NOUN	X	Case=Acc|Gender=Neut|Number=Sing	7	dobj	_	_
+7	AgamizyAmi	A-gam	VERB	X	Mood=Ind|Number=Sing|Person=1|Tense=Fut|Voice=Act	0	root	_	_
+
+#sent_id _A6
+1	praTamam	praTama	ADV	X	Case=Acc|Gender=Masc|Number=Sing	3	advmod	_	_
+2	aham	asmad	PRON	X	Case=Nom|Number=Sing	3	nsubj	_	_
+3	SfRomi	sRu	VERB	X	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	_
+4	aTa	aTa	ADV	X	_	3	advmod	_	_
+5	liKAmi	liK	VERB	X	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	3	ccomp	_	_
+
+#sent_id _A7
+1	samaye	samaya	NOUN	X	Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+2	na	na	ADV	X	_	3	neg	_	_
+3	AgataH	aa-gam	VERB	X	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Ger	8	ccomp	_	_
+4	tataH	tad	ADV	X	_	8	advmod	_	_
+5-6	praveSaparIkzAyAm	_	_	_	_	_	_	_	_
+5	praveSa	praveSa	NOUN	X	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	_
+6	parIkzAyAm	parIkzA	NOUN	X	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+7	na	na	ADV	X	_	8	neg	_	_
+8	anumataH	anu-man	X	VERB	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Ger	0	root	_	_
+
+#sent_id _A8
+1	devadattaH	devadatta	PROPN	X	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	vizvAmitreRa	vizvamitra	PROPN	X	Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	_
+3	odanam	odana	NOUN	X	Case=Acc|Gender=Masc|Number=Sing	4	dobj	_	_
+4	pAcayati	paca	VERB	X	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	_
+
