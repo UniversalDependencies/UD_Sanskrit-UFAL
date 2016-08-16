@@ -44,7 +44,7 @@
 # sent_id s108/sa
 1	किम्	किम्	PRON	_	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	Translit=kim|LTranslit=kim
 2	अहम्	अस्मद्	PRON	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Translit=aham|LTranslit=asmad
-3	जानामि	ज्ञा_१	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	Translit=jānāmi|LTranslit=jñā_1
+3	जानामि	ज्ञा	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	Translit=jānāmi|LTranslit=jñā_1|LId=ज्ञा-१
 4	त्वयि	त्वद्	DET	_	Case=Loc|Number=Sing	5	det	_	Translit=tvayi|LTranslit=tvad
 5	मित्रे	मित्र	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	Translit=mitre|LTranslit=mitra
 6	यत्	य	PRON	_	Case=Nom|Gender=Neut|Number=Sing	7	nmod	_	Translit=yat|LTranslit=ya
@@ -137,7 +137,7 @@
 5	दत्त्वा	दा	VERB	_	VerbForm=Part	9	advcl	_	Translit=dattvā|LTranslit=dā
 6-7	यत्रेष्यते	_	_	_	_	_	_	_	_
 6	यत्र	यत्र	ADV	_	_	7	advmod	_	Translit=yatra|LTranslit=yatra
-7	इष्यते	इष्_१	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	advcl	_	Translit=iṣyate|LTranslit=iṣ_1
+7	इष्यते	इष्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	advcl	_	Translit=iṣyate|LTranslit=iṣ_1|LId=इष्-१
 8	तत्र	तत्र	ADV	_	_	9	advmod	_	Translit=tatra|LTranslit=tatra
 9	गम्यते	गम्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=gamyate|LTranslit=gam
 
@@ -171,13 +171,13 @@
 # sent_id s122/sa
 1	देव	देव	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	7	vocative	_	Translit=deva|LTranslit=deva
 2-3	किंनिमित्तम्	_	_	_	_	_	_	_	_
-2	किम्	क_१	PRON	_	Case=Nom|Gender=Neut|Number=Sing	3	det	_	Translit=kim|LTranslit=ka_1
+2	किम्	क	PRON	_	Case=Nom|Gender=Neut|Number=Sing	3	det	_	Translit=kim|LTranslit=ka_1|LId=क-१
 3	निमित्तम्	निमित्त	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	Translit=nimittam|LTranslit=nimitta
 4-7	इहागमनेनानुगृहीतास्मि	_	_	_	_	_	_	_	_
 4	इह	इह	ADV	_	_	5	advmod	_	Translit=iha|LTranslit=iha
 5	आगमनेन	आगमन	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	Translit=āgamanena|LTranslit=āgamana
 6	अनुगृहीता	अनुगृहीत	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	Translit=anugr̥hītā|LTranslit=anugr̥hīta
-7	अस्मि	अस्_१	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=asmi|LTranslit=as_1
+7	अस्मि	अस्	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=asmi|LTranslit=as_1|LId=अस्-१
 
 # sent_id s123/sa
 1	तस्मात्	तद्	PRON	_	Case=Abl|Gender=Neut|Number=Sing	2	nmod	_	Translit=tasmāt|LTranslit=tad
@@ -259,12 +259,12 @@
 # sent_id s133/sa
 1	किंचिद्	किम्चिद्	ADV	_	_	3	advmod	_	Translit=kiṁcid|LTranslit=kimcid
 2	विज्ञप्यम्	वि-ज्ञ	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	Translit=vijñapyam|LTranslit=vi-jña
-3	अस्ति	अस्_१	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=asti|LTranslit=as_1
+3	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=asti|LTranslit=as_1|LId=अस्-१
 
 # sent_id s134/sa
 1-3	नात्रास्माकं	_	_	_	_	_	_	_	_
 1	न	न	PART	_	_	2	neg	_	Translit=na|LTranslit=na
-2	अत्र	अत्र_१	ADV	_	_	6	advmod	_	Translit=atra|LTranslit=atra_1
+2	अत्र	अत्र	ADV	_	_	6	advmod	_	Translit=atra|LTranslit=atra_1|LId=अत्र-१
 3	अस्माकम्	अहम्	PRON	_	Case=Gen|Number=Plur	5	nmod	_	Translit=asmākam|LTranslit=aham
 4-5	गतिविषयः	_	_	_	_	_	_	_	_
 4	गति	गति	NOUN	_	_	5	compound	_	Translit=gati|LTranslit=gati
@@ -273,7 +273,7 @@
 
 # sent_id s135/sa
 1	देवः	देव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Translit=devaḥ|LTranslit=deva
-2	अत्र	अत्र_१	ADV	_	_	3	advmod	_	Translit=atra|LTranslit=atra_1
+2	अत्र	अत्र	ADV	_	_	3	advmod	_	Translit=atra|LTranslit=atra_1|LId=अत्र-१
 3	प्रमाणम्	प्रमाण	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	0	root	_	Translit=pramāṇam|LTranslit=pramāṇa
 
 # sent_id s136/sa
@@ -294,7 +294,7 @@
 7	वदन्ति	वद्	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=vadanti|LTranslit=vad
 
 # sent_id s138/sa
-1	किम्	क_१	PRON	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	Translit=kim|LTranslit=ka_1
+1	किम्	क	PRON	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	Translit=kim|LTranslit=ka_1|LId=क-१
 2	एवम्	एवम्	ADV	_	_	5	advmod	_	Translit=evam|LTranslit=evam
 3-4	शीलखण्डनं	_	_	_	_	_	_	_	_
 3	शील	शील	NOUN	_	_	4	compound	_	Translit=śīla|LTranslit=śīla
@@ -321,7 +321,7 @@
 # sent_id s141/sa
 1	देव	देव	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	Translit=deva|LTranslit=deva
 2	दिष्ट्या	दिष्टि	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	Translit=diṣṭyā|LTranslit=diṣṭi
-3	वर्धसे	वृध्_१	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=vardhase|LTranslit=vr̥dh_1
+3	वर्धसे	वृध्	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=vardhase|LTranslit=vr̥dh_1|LId=वृध्-१
 
 # sent_id s142/sa
 1	तेन	तद्	DET	_	Case=Ins|Gender=Masc|Number=Sing	3	det	_	Translit=tena|LTranslit=tad
@@ -345,7 +345,7 @@
 
 # sent_id s144/sa
 1	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	Translit=tat|LTranslit=tad
-2	सिद्धाः	सिद्ध_१	VERB	_	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	Translit=siddhāḥ|LTranslit=siddha_1
+2	सिद्धाः	सिद्ध	VERB	_	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	Translit=siddhāḥ|LTranslit=siddha_1|LId=सिद्ध-१
 3	अस्माकम्	अहम्	PRON	_	Case=Gen|Number=Plur	5	nmod	_	Translit=asmākam|LTranslit=aham
 4	सर्वे	सर्व	ADJ	_	Case=Acc|Gender=Masc|Number=Plur	5	amod	_	Translit=sarve|LTranslit=sarva
 5	हृदयस्था	हृदयस्थ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	Translit=hr̥dayasthā|LTranslit=hr̥dayastha
@@ -385,7 +385,7 @@
 1	देवः	देव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Translit=devaḥ|LTranslit=deva
 2	कथम्	कथम्	ADV	_	_	4	advmod	_	Translit=katham|LTranslit=katham
 3	निराकुलस्	निराकुल	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	Translit=nirākulas|LTranslit=nirākula
-4	तिष्ठति	स्था_१	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=tiṣṭhati|LTranslit=sthā_1
+4	तिष्ठति	स्था	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=tiṣṭhati|LTranslit=sthā_1|LId=स्था-१
 
 # sent_id s149/sa
 1	ततः	ततस्	ADV	_	_	3	advmod	_	Translit=tataḥ|LTranslit=tatas
@@ -394,7 +394,7 @@
 3	अब्रवीत्	ब्रू	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=abravīt|LTranslit=brū
 
 # sent_id s150/sa
-1	तिष्ठत	स्था_१	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=tiṣṭhata|LTranslit=sthā_1
+1	तिष्ठत	स्था	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=tiṣṭhata|LTranslit=sthā_1|LId=स्था-१
 2	यूयम्	युष्मद्	PRON	_	Case=Nom|Number=Plur	1	nsubj	_	Translit=yūyam|LTranslit=yuṣmad
 3-4	यथासुखम्	_	_	_	_	_	_	_	_
 3	यथा	यथा	ADV	_	_	4	advmod	_	Translit=yathā|LTranslit=yathā
