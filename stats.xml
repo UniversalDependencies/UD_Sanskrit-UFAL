@@ -13,21 +13,21 @@
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="13">
     <tag name="ADJ">47</tag><!-- महत्, सकल, गम्भीर, सर्व, अगमिन्, अतिरस्कृ, अप्राप्तकालं, असम्भाव्य, आद्य, उचित -->
-    <tag name="ADP">3</tag><!-- यदि, उपरि -->
-    <tag name="ADV">144</tag><!-- अथ, एवम्, तद्, तत्र, यथा, अपि, अत्र, कथम्, ततस्, इति -->
+    <tag name="ADP">4</tag><!-- यदि, उपरि -->
+    <tag name="ADV">149</tag><!-- अथ, अपि, एवम्, तद्, तत्र, यथा, अत्र, कथम्, ततस्, इति -->
     <tag name="AUX">1</tag><!-- अस्_१ -->
-    <tag name="CONJ">19</tag><!-- च, अपि, इति, इव, यदि, वा -->
+    <tag name="CONJ">13</tag><!-- च, इति, इव, वा -->
     <tag name="DET">58</tag><!-- तद्, अयम्, यद्, एतद्, एन, एष, अदस्, इदम्, एव, क -->
-    <tag name="NOUN">448</tag><!-- अर्थ, देव, राजन्, नामन्, ब्राह्मण, पुत्र, भद्र, उपाय, कौलिक, मनस् -->
+    <tag name="NOUN">450</tag><!-- अर्थ, देव, राजन्, नामन्, ब्राह्मण, पुत्र, भद्र, उपाय, कौलिक, मनस् -->
     <tag name="NUM">13</tag><!-- त्रि, पञ्चन्, शत, एक, एक्, द्वादशभि, मास, षष्, सप्तन् -->
     <tag name="PART">22</tag><!-- न -->
     <tag name="PRON">150</tag><!-- तद्, अस्मद्, यद्, अहम्, भवत्, अयम्, एष, त्वद्, युष्मद्, क -->
     <tag name="PROPN">40</tag><!-- दमनक, पिङ्गलक, करटक, नीतिशस्त्र, विष्णुशर्मन्, अनन्तशक्ति, अपरीक्षितकारकम्, अमरशक्ति, उग्रशक्ति, काकोलूकीय -->
     <tag name="VERB">239</tag><!-- गम्, ब्रू, कृ, अस्_१, श्रु, अह्, कृ_१, वच्, अस्, भू -->
-    <tag name="X">22</tag><!-- अनु-मन्, अव-धार्य, अवत्र्णः, अह्, आप्, कृतघ्न, ज्ञन्, तद्, नैर्गुण्य, भू -->
+    <tag name="X">20</tag><!-- अनु-मन्, अव-धार्य, अवत्र्णः, अह्, आप्, कृतघ्न, ज्ञन्, तद्, नैर्गुण्य, भू -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="31">
+  <feats unique="32">
     <feat name="Aspect" value="Perf" upos="NOUN,VERB,X">20</feat><!-- आह, प्रोवाच, उच्यते, उवाच, बभूवुः, ऊचे, चकार, जगाम, प्राह, प्रोचुः -->
     <feat name="Case" value="Abl" upos="DET,NOUN,PRON,PROPN,VERB,X">29</feat><!-- तस्मात्, अस्मत्, एतान्, करणात्, तान्, अध्यापकात्, अन्तःपुरमध्याद्, कुमारान्, जनन्याः, त्वत् -->
     <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB,X">240</feat><!-- तत्, अर्थम्, नाम, तम्, उपायम्, एतत्, एनम्, अध्वानम्, असौ, आरब्धम् -->
@@ -57,28 +57,29 @@
     <feat name="VerbForm" value="Ger" upos="NOUN,VERB,X">40</feat><!-- आदाय, आलोक्य, करणात्, श्रुत्वा, अगम्यम्, अधिरूढः, अनुज्ञातः, अनुमतः, अन्वितः, अभिहितम् -->
     <feat name="VerbForm" value="Inf" upos="VERB">5</feat><!-- कर्तुम्, अनुएष्टुम्, क्रीडितुम्, परिज्ञाय -->
     <feat name="VerbForm" value="Part" upos="ADJ,NOUN,VERB,X">64</feat><!-- गत्वा, आरब्धम्, आकर्ण्य, उक्ते, श्रुत्वा, समालोक्य, अधीत्य, अपृष्टः, अभिहितं, अभिहितम् -->
-    <feat name="Voice" value="Act" upos="AUX,NOUN,VERB,X">134</feat><!-- अब्रवीत्, अस्ति, आह, भवति, करिष्यामि, करोमि, प्रोवाच, स्यात्, आहूय, उवाच -->
+    <feat name="Voice" value="Act" upos="AUX,NOUN,VERB,X">126</feat><!-- अब्रवीत्, अस्ति, आह, भवति, करिष्यामि, करोमि, प्रोवाच, स्यात्, आहूय, उवाच -->
+    <feat name="Voice" value="Mid" upos="VERB">8</feat><!-- अवमन्येत, ऊचे, कुरुते, जायते, लभते, वर्तते, संतिष्ठते, सेवते -->
     <feat name="Voice" value="Pass" upos="VERB">19</feat><!-- उच्यते, श्रूयते, अनुश्रूयते, अपनीयते, इष्यते, इष्यन्ते, कथ्यताम्, क्रियताम्, क्रियते, गम्यते -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="23">
     <dep name="acl">5</dep>
-    <dep name="advcl">63</dep>
-    <dep name="advmod">142</dep>
+    <dep name="advcl">64</dep>
+    <dep name="advmod">147</dep>
     <dep name="amod">47</dep>
     <dep name="case">1</dep>
-    <dep name="cc">18</dep>
+    <dep name="cc">12</dep>
     <dep name="ccomp">1</dep>
-    <dep name="compound">50</dep>
-    <dep name="conj">29</dep>
+    <dep name="compound">51</dep>
+    <dep name="conj">36</dep>
     <dep name="cop">5</dep>
     <dep name="det">54</dep>
     <dep name="dobj">105</dep>
     <dep name="expl">2</dep>
     <dep name="iobj">1</dep>
     <dep name="mark">3</dep>
-    <dep name="neg">23</dep>
-    <dep name="nmod">260</dep>
+    <dep name="neg">24</dep>
+    <dep name="nmod">251</dep>
     <dep name="nsubj">178</dep>
     <dep name="nsubjpass">3</dep>
     <dep name="nummod">14</dep>
