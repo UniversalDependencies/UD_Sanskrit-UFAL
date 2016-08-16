@@ -27,7 +27,7 @@
     <tag name="X">20</tag><!-- अनु-मन्, अव-धार्य, अवत्र्णः, अह्, आप्, कृतघ्न, ज्ञन्, तद्, नैर्गुण्य, भू -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="32">
+  <feats unique="33">
     <feat name="Aspect" value="Perf" upos="NOUN,VERB,X">20</feat><!-- आह, प्रोवाच, उच्यते, उवाच, बभूवुः, ऊचे, चकार, जगाम, प्राह, प्रोचुः -->
     <feat name="Case" value="Abl" upos="DET,NOUN,PRON,PROPN,VERB,X">29</feat><!-- तस्मात्, अस्मत्, एतान्, करणात्, तान्, अध्यापकात्, अन्तःपुरमध्याद्, कुमारान्, जनन्याः, त्वत् -->
     <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB,X">240</feat><!-- तत्, अर्थम्, नाम, तम्, उपायम्, एतत्, एनम्, अध्वानम्, असौ, आरब्धम् -->
@@ -38,22 +38,23 @@
     <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB,X">323</feat><!-- अहम्, तत्, किम्, स, सः, अयम्, अर्थः, भवान्, राजा, इदम् -->
     <feat name="Case" value="Voc" upos="NOUN,NUM,PROPN,VERB,X">22</feat><!-- देव, भद्र, भद्रे, समालोक्य, अवधार्य, आकर्ण्य, उपार्जित, करटक, देवि, नाम -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">59</feat><!-- तया, भद्रे, संसदि, अटवीम्, अटव्याम्, अभिमतसिद्धये, असम्भाव्याम्, अस्याम्, इच्छया, एताम् -->
-    <feat name="Gender" value="Masc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB,X">439</feat><!-- तस्य, अहम्, स, देव, सः, अयम्, अर्थः, तत्, भवान्, मया -->
-    <feat name="Gender" value="Neut" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB,X">265</feat><!-- तत्, किम्, नाम, अर्थम्, इदम्, एतत्, आरब्धम्, सा, अभिहितम्, उक्ते -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">437</feat><!-- तस्य, अहम्, स, देव, सः, अयम्, अर्थः, तत्, भवान्, मया -->
+    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">256</feat><!-- तत्, किम्, नाम, अर्थम्, इदम्, एतत्, आरब्धम्, सा, अभिहितम्, उक्ते -->
     <feat name="Mood" value="Imp" upos="VERB">25</feat><!-- अब्रवीत्, गृहाण, अगतः, अपठत्, अपठम्, अस्तु, आगच्छ, आशृणोत्, कथ्यताम्, क्रियताम् -->
-    <feat name="Mood" value="Ind" upos="AUX,NOUN,VERB,X">105</feat><!-- अस्ति, आह, भवति, करिष्यामि, करोमि, प्रोवाच, स्यात्, आहूय, उवाच, करिष्यति -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">101</feat><!-- अस्ति, आह, भवति, करिष्यामि, करोमि, प्रोवाच, स्यात्, आहूय, करिष्यति, प्राह -->
     <feat name="Mood" value="Opt" upos="VERB">2</feat><!-- अवमन्येत, प्रसाधयेत् -->
     <feat name="Number" value="Dual" upos="ADJ,DET,NOUN,VERB,X">12</feat><!-- आरब्धौ, आवयोः, उत्पन्नौ, गोवृषयोः, तौ, नामानौ, पश्यसि, प्रभृती, ये, वृषभौ -->
     <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,NUM,PRON,VERB,X">90</feat><!-- अर्थः, ते, अस्माकम्, एतान्, तान्, अगामीनि, अपत्यानि, अर्थाः, अवश्यम्, अस्मत् -->
-    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">844</feat><!-- तत्, अहम्, किम्, तस्य, अब्रवीत्, अस्ति, नाम, आह, स, अर्थम् -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">833</feat><!-- तत्, अहम्, किम्, तस्य, अब्रवीत्, अस्ति, नाम, आह, स, अर्थम् -->
     <feat name="NumType" value="Card" upos="NUM">13</feat><!-- शतेन, एक, एकः, तिस्रः, त्रयः, त्रि, द्वादशभिर्, पञ्च, पञ्चभिः, मास -->
     <feat name="Person" value="1" upos="NOUN,PRON,VERB,X">38</feat><!-- आह, करिष्यामि, करोमि, प्रोवाच, स्यात्, आहूय, उवाच, अपठम्, अस्मि, अहम् -->
     <feat name="Person" value="2" upos="PRON,VERB">16</feat><!-- गृहाण, अगतः, अनुभविष्यसि, आगच्छ, इच्छसि, गच्छतु, तिष्ठ, तिष्ठत, तिष्ठसि, त्वम् -->
     <feat name="Person" value="3" upos="AUX,VERB,X">103</feat><!-- अब्रवीत्, अस्ति, भवति, आह, उच्यते, करिष्यति, बभूवुः, भविष्यति, व्यापादयिष्यति, श्रूयते -->
     <feat name="Poss" value="Yes" upos="DET,PRON">9</feat><!-- तस्य, यस्या, तस्मै, ते, त्वद्, मे, यस्य -->
     <feat name="Tense" value="Fut" upos="VERB">14</feat><!-- करिष्यामि, करिष्यति, भविष्यति, व्यापादयिष्यति, अनुभविष्यसि, आगमिष्यामि, करिष्यसि, नियोजयिष्यामि, वोढारौ -->
-    <feat name="Tense" value="Past" upos="NOUN,VERB">35</feat><!-- अब्रवीत्, स्यात्, आहूय, अकरोत्, अगतः, अगमत्, अधीत्य, अपठत्, आसीत्, उवाच -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB,X">101</feat><!-- अस्ति, आह, भवति, उच्यते, करोमि, गृहाण, श्रूयते, अधीते, अनुश्रूयते, अपठम् -->
+    <feat name="Tense" value="Past" upos="VERB">34</feat><!-- अब्रवीत्, स्यात्, आहूय, अकरोत्, अगतः, अगमत्, अधीत्य, अपठत्, आसीत्, कुर्वन्ति -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">98</feat><!-- अस्ति, आह, भवति, उच्यते, करोमि, गृहाण, श्रूयते, अधीते, अनुश्रूयते, अपठम् -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">151</feat><!-- अब्रवीत्, अस्ति, आह, भवति, उच्यते, करिष्यामि, करोमि, प्रोवाच, स्यात्, आहूय -->
     <feat name="VerbForm" value="Ger" upos="NOUN,VERB,X">40</feat><!-- आदाय, आलोक्य, करणात्, श्रुत्वा, अगम्यम्, अधिरूढः, अनुज्ञातः, अनुमतः, अन्वितः, अभिहितम् -->
     <feat name="VerbForm" value="Inf" upos="VERB">5</feat><!-- कर्तुम्, अनुएष्टुम्, क्रीडितुम्, परिज्ञाय -->
     <feat name="VerbForm" value="Part" upos="ADJ,NOUN,VERB,X">64</feat><!-- गत्वा, आरब्धम्, आकर्ण्य, उक्ते, श्रुत्वा, समालोक्य, अधीत्य, अपृष्टः, अभिहितं, अभिहितम् -->
