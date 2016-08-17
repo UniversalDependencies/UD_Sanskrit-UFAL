@@ -1,6 +1,7 @@
-The UD Sanskrit treebank is based on the Digital Corpus of Sanskrit (DCS), http://kjc-sv013.kjc.uni-heidelberg.de/dcs/.
-Its morphological annotation was automatically converted to universal POS tags and features; the result was checked
-manually while syntactic dependency annotation was being added.
+The UD Sanskrit treebank is based on the Digital Corpus of Sanskrit (DCS),
+http://kjc-sv013.kjc.uni-heidelberg.de/dcs/. Its morphological annotation was automatically converted to
+universal POS tags and features; the result was checked manually while syntactic dependency annotation was
+being added.
 
 Only a small sample of the DCS data has been annotated in the Universal Dependencies style (200 sentences).
 
