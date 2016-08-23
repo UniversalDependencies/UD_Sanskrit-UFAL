@@ -20,4 +20,5 @@ Data available since: UD v2.0
 License: CC BY-SA 4.0
 Genre: fiction
 Contributors: Dwivedi, Puneet; Zeman, Daniel
+Contact: zeman@ufal.mff.cuni.cz
 ---------------------------------
