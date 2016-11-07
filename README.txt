@@ -16,7 +16,7 @@ Only a small sample of the DCS data has been annotated in the Universal Dependen
 --- Machine-readable metadata ---
 Documentation status: stub
 Data source: automatic
-Data available since: UD v2.0
+Data available since: UD v1.4
 License: CC BY-SA 4.0
 Genre: fiction
 Contributors: Dwivedi, Puneet; Zeman, Daniel
