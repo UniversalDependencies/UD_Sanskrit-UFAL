@@ -13,6 +13,12 @@ Only a small sample of the DCS data has been annotated in the Universal Dependen
   url     = {http://kjc-sv013.kjc.uni-heidelberg.de/dcs/},
 }
 
+Changelog:
+
+2017-03-01 v2.0
+  * Converted to UD v2 guidelines.
+
+
 --- Machine-readable metadata ---
 Documentation status: stub
 Data source: automatic
