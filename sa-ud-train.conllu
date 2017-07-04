@@ -4,7 +4,7 @@
 # ryder = One Vishnusharman, shrewdly gleaning / All worldly wisdom's inner meaning, / In these five books the charm compresses / Of all such books the world possesses.
 1-3	सकलार्थशास्त्रसारं	_	_	_	_	_	_	_	_
 1	सकल	सकल	ADJ	_	Case=Acc|Number=Sing	3	amod	_	Translit=sakala|LTranslit=sakala
-2	अर्थशास्त्र	अर्थशास्त्र	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	Translit=arthaśāstra|LTranslit=arthaarthaśāstra
+2	अर्थशास्त्र	अर्थअर्थशास्त्र	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	Translit=arthaśāstra|LTranslit=arthaarthaśāstra
 3	सारम्	सार	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=sāram|LTranslit=sāra
 4	जगति	जगत्	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	Translit=jagati|LTranslit=jagat
 5	समालोक्य	समालोक्य	VERB	_	Case=Voc|Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	_	Translit=samālokya|LTranslit=samālokya
@@ -99,7 +99,7 @@
 # sent_id = s8
 # text = अथवा साधू इदम् उच्यते
 # translit = athavā sādhvidam ucyate
-1	अथवा	अथवा	ADV	_	_	4	advmod	_	Translit=athavā|LTranslit=athavā
+1	अथवा	अथVअ	ADV	_	_	4	advmod	_	Translit=athavā|LTranslit=athaVa
 2	साधू	साधु	ADV	_	Case=Acc	4	advmod	_	Translit=sādhū|LTranslit=sādhu
 3	इदम्	इदम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj:pass	_	Translit=idam|LTranslit=idam
 4	उच्यते	वच्	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=ucyate|LTranslit=vac
@@ -994,21 +994,23 @@
 
 # sent_id = s81
 # text = वयाम्सि किम् न कुर्वन्ति चञ्च्वा स्वोदरपूरणम्
-# translit = vayāṃsi kiṃ na kurvaṁti cañcvā svòdarapūraṇam || pañca_1.23 ||
+# translit = vayāmsi kim na kurvanti cañcvā svodarapūraṇam
+# gloss = crows whether not did with-beak their-stomach-filling
+# translit_web = vayāṃsi kiṃ na kurvaṁti cañcvā svòdarapūraṇam || pañca_1.23 ||
 # text_en_overlap = even the crow lives eating leftovers only. (Panchatantra Book 1. 20.)
 # ryder = A crow, with beak equipped, can fill / His belly's selfish need
 # text_hi = जिसके जीनेसे बहुतसे पुरुष जियें, सोर्ह जीता है और पक्षी क्या चोंचसै अपनी उदरपूर्ण नहीं करते है?
-# text_hi_translit = jisake jeenese bahutase purush jiyen, sorh jeeta hai aur pakshee kya chonchasai apanee udarapoorn nahin karate hai?
+# translit_hi = jisake jīnese bahutase puruṣa jiyeṁ, sorha jītā hai aura pakṣī kyā coṁcasai apanī udarapūrṇa nahīṁ karate hai?
 # text_hi_google_translate = By which many men live, the Source is won, and the birds do not care for their greediness?
-1	वयाम्सि	वयस्	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	Translit=vayāmsi|LTranslit=vayas
-2	किम्	किम्	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	Translit=kim|LTranslit=kim
-3	न	न	PART	_	Polarity=Neg	4	advmod	_	Translit=na|LTranslit=na
-4	कुर्वन्ति	क्र्	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=kurvanti|LTranslit=kr
-5	चञ्च्वा	चञ्चु	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	Translit=cañcvā|LTranslit=cañcu
+1	वयाम्सि	वयस्	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	Translit=vayāmsi|LTranslit=vayas|Gloss=birds,crows
+2	किम्	किम्	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	Translit=kim|LTranslit=kim|Gloss=whether
+3	न	न	PART	_	Polarity=Neg	4	advmod	_	Translit=na|LTranslit=na|Gloss=not
+4	कुर्वन्ति	क्र्	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=kurvanti|LTranslit=kr|Gloss=did
+5	चञ्च्वा	चञ्चु	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	Translit=cañcvā|LTranslit=cañcu|Gloss=with-beak
 6-8	स्वोदरपूरणम्	_	_	_	_	_	_	_	_
-6	स्वाः	स्व	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	8	nmod	_	Translit=svāḥ|LTranslit=sva
-7	उदर	उदर	NOUN	_	_	8	compound	_	Translit=udara|LTranslit=udara
-8	पूरणम्	पूरण	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Translit=pūraṇam|LTranslit=pūraṇa
+6	स्वाः	स्व	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	8	nmod	_	Translit=svāḥ|LTranslit=sva|Gloss=their
+7	उदर	उदर	NOUN	_	_	8	compound	_	Translit=udara|LTranslit=udara|Gloss=stomach
+8	पूरणम्	पूरण	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Translit=pūraṇam|LTranslit=pūraṇa|Gloss=filling
 
 # sent_id = s82
 # text = अथ भवाम् कर्तुम् मनाः
