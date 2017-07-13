@@ -1,6 +1,10 @@
 # sent_id = s1
 # text = सकलार्थशास्त्रसारं जगति समालोक्य विष्णुशर्मेदम् तन्त्रैः पञ्चभिः एतत् चकार सुमनोहरं शास्त्रम्
 # translit = sakalārthaśāstrasāraṁ jagati samālokya viṣṇuśarmedam tantraiḥ pañcabhiḥ etat cakāra sumanoharaṁ śāstram
+# wikisource = https://sa.wikisource.org/wiki/%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D_%E0%A5%A6%E0%A5%A7
+# wikisource_ryder = https://en.wikisource.org/wiki/The_Panchatantra_(Purnabhadra%27s_Recension_of_1199_CE)/Introduction
+# wsid = ॥०.२॥
+# ryder = One Vishnusharman, shrewdly gleaning / All worldly wisdom's inner meaning, / In these five books the charm compresses / Of all such books the world possesses.
 1-3	सकलार्थशास्त्रसारं	_	_	_	_	_	_	_	_
 1	सकल	सकल	ADJ	_	Case=Acc|Number=Sing	3	amod	_	Translit=sakala|LTranslit=sakala
 2	अर्थशास्त्र	अर्थशास्त्र	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	Translit=arthaśāstra|LTranslit=arthaśāstra
@@ -20,6 +24,8 @@
 # sent_id = s2
 # text = तत् यथानुश्रूयते
 # translit = tat yathānuśrūyate
+# wsid = ॥०.३॥
+# ryder = And this is how it happened.
 1	तत्	तद्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	Translit=tat|LTranslit=tad
 2-3	यथानुश्रूयते	_	_	_	_	_	_	_	_
 2	यथा	यथा	ADV	_	_	3	advmod	_	Translit=yathā|LTranslit=yathā
@@ -28,6 +34,8 @@
 # sent_id = s3
 # text = अस्ति दाक्षिणात्ये जनपदे महिलारोप्यं नाम नगरम्
 # translit = asti dākṣiṇātye janapade mahilāropyaṁ nāma nagaram
+# wsid = ॥०.३॥
+# ryder = In the southern country is a city called Maidens' Delight.
 1	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	LId=अस्-१|Translit=asti|LTranslit=as
 2	दाक्षिणात्ये	दाक्षिण	ADJ	_	Case=Loc|Gender=Neut|Number=Sing	3	amod	_	Translit=dākṣiṇātye|LTranslit=dākṣiṇa
 3	जनपदे	जनपदे	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	Translit=janapade|LTranslit=janapade
@@ -38,6 +46,8 @@
 # sent_id = s4
 # text = तत्र अमरशक्तिर् नाम्नः राजा बभूव
 # translit = tatra amaraśaktir nāmnaḥ rājā babhūva
+# wsid = ॥०.३॥
+# ryder = There lived a king named Immortal-Power.
 1	तत्र	तत्र	ADV	_	_	5	advmod	_	Translit=tatra|LTranslit=tatra
 2	अमरशक्तिर्	अमरशक्ति	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	Translit=amaraśaktir|LTranslit=amaraśakti
 3	नाम्नः	नामन्	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	Translit=nāmnaḥ|LTranslit=nāman
@@ -47,6 +57,8 @@
 # sent_id = s5
 # text = तस्य त्रयः पुत्राः परमदुर्मेधसः वसुशक्तिः उग्रशक्तिः अनन्तशक्तिश् चेति बभूवुः
 # translit = tasya trayaḥ putrāḥ paramadurmedhasaḥ vasuśaktiḥ ugraśaktiḥ anantaśaktiś ceti babhūvuḥ
+# wsid = ॥०.३॥
+# ryder = This king had three sons. Their names were Rich-Power, Fierce-Power, Endless-Power, and they were supreme blockheads.
 1	तस्य	तद्	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Dem	3	det	_	Translit=tasya|LTranslit=tad
 2	त्रयः	त्रि	NUM	_	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	3	nummod	_	Translit=trayaḥ|LTranslit=tri
 3	पुत्राः	पुत्र	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	Translit=putrāḥ|LTranslit=putra
@@ -64,6 +76,8 @@
 # sent_id = s6
 # text = अथ तान् शास्त्रविमुखान् समालोक्य स राजा सचिवान् आहूय प्रोवाच
 # translit = atha tān śāstravimukhān samālokya sa rājā sacivān āhūya provāca
+# wsid = ॥०.३॥
+# ryder = Now when the king perceived that they were hostile to education, he summoned his counselors and said:
 1	अथ	अथ	ADV	_	_	9	advmod	_	Translit=atha|LTranslit=atha
 2	तान्	तद्	PRON	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Dem	4	obj	_	Translit=tān|LTranslit=tad
 3	शास्त्रविमुखान्	शास्त्रविमुख	NOUN	_	Case=Abl|Gender=Masc|Number=Plur	4	obl	_	Translit=śāstravimukhān|LTranslit=śāstravimukha
@@ -77,6 +91,8 @@
 # sent_id = s7
 # text = तत् एतान् पश्यतः मे मदपि राज्यम् न सौख्यम् आवहति
 # translit = tat etān paśyataḥ me madapi rājyam na saukhyam āvahati
+# wsid = ॥०.३॥
+# ryder = So when I behold them, my kingdom brings me no happiness, though all external thorns are drawn.
 1	तत्	तद्	ADV	_	Case=Nom	10	advmod	_	Translit=tat|LTranslit=tad
 2	एतान्	एतद्	PRON	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Dem	3	obj	_	Translit=etān|LTranslit=etad
 3	पश्यतः	पश्यत्	VERB	_	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Ger	10	advcl	_	Translit=paśyataḥ|LTranslit=paśyat
@@ -92,6 +108,8 @@
 # sent_id = s8
 # text = अथवा साधू इदम् उच्यते
 # translit = athavā sādhū idam ucyate
+# wsid = ॥०.३॥
+# ryder = For there is wisdom in the proverb:
 1	अथवा	अथवा	ADV	_	_	4	advmod	_	Translit=athavā|LTranslit=athavā
 2	साधू	साधु	ADV	_	Case=Acc	4	advmod	_	Translit=sādhū|LTranslit=sādhu
 3	इदम्	इदम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj:pass	_	Translit=idam|LTranslit=idam
@@ -100,6 +118,7 @@
 # sent_id = s9
 # text = किम् तया क्रियते धेन्वा या न सूते न क्षीरम् ददाति
 # translit = kim tayā kriyate dhenvā yā na sūte na kṣīram dadāti
+# wsid = ॥०.५॥
 1	किम्	क	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj:pass	_	LId=क-१|Translit=kim|LTranslit=ka
 2	तया	तद्	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	Translit=tayā|LTranslit=tad
 3	क्रियते	कृ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	LId=कृ-१|Translit=kriyate|LTranslit=kr̥
@@ -114,6 +133,8 @@
 # sent_id = s10
 # text = कः अर्थः पुत्रेण जातेन यः न विद्वान् न भक्तिमान् अस्ति
 # translit = kaḥ arthaḥ putreṇa jātena yaḥ na vidvān na bhaktimān asti
+# wsid = ॥०.५॥
+# ryder = Or why beget a son who proves / A dunce and disobedient?
 1	कः	क	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	2	det	_	Translit=kaḥ|LTranslit=ka
 2	अर्थः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Translit=arthaḥ|LTranslit=artha
 3	पुत्रेण	पुत्र	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	4	obl	_	Translit=putreṇa|LTranslit=putra
@@ -128,6 +149,8 @@
 # sent_id = s11
 # text = तत्रैकः सचिवः प्रोचुः
 # translit = tatraikaḥ sacivaḥ procuḥ
+# wsid = ॥०.६॥
+# ryder = And they, one after another, replied:
 1-2	तत्रैकः	_	_	_	_	_	_	_	_
 1	तत्र	तत्र	ADV	_	_	4	advmod	_	LId=तत्र-१|Translit=tatra|LTranslit=tatra
 2	एकः	एक्	NUM	_	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	4	nummod	_	Translit=ekaḥ|LTranslit=ek
@@ -137,6 +160,8 @@
 # sent_id = s12
 # text = देव द्वादशभिर् वर्षैः व्याकरणम् श्रूयते
 # translit = deva dvādaśabhir varṣaiḥ vyākaraṇam śrūyate
+# wsid = ॥०.६॥
+# ryder = "O King, first one learns grammar, in twelve years.
 1	देव	देव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=deva|LTranslit=deva
 2	द्वादशभिर्	द्वादशभि	NUM	_	Case=Ins|Gender=Masc|Number=Sing|NumType=Card	3	nummod	_	Translit=dvādaśabhir|LTranslit=dvādaśabhi
 3	वर्षैः	वर्ष	NOUN	_	Case=Ins|Number=Plur	1	nmod	_	Translit=varṣaiḥ|LTranslit=varṣa
@@ -146,6 +171,8 @@
 # sent_id = s13
 # text = ततः बुद्धि प्रबोधनः भवति
 # translit = tataḥ buddhi prabodhanaḥ bhavati
+# wsid = ॥०.६॥
+# ryder = Then the intelligence awakens."
 1	ततः	ततः	ADV	_	_	4	advmod	_	Translit=tataḥ|LTranslit=tataḥ
 2	बुद्धि	बुद्धि	NOUN	_	_	3	compound	_	Translit=buddhi|LTranslit=buddhi
 3	प्रबोधनः	प्रबोधन	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	Translit=prabodhanaḥ|LTranslit=prabodhana
@@ -154,6 +181,8 @@
 # sent_id = s14
 # text = अथ तन्मध्यतः सुमतिनामामात्यः प्राह
 # translit = atha tanmadhyataḥ sumatināmāmātyaḥ prāha
+# wsid = ॥०.६॥
+# ryder = But one of their number, a counselor named Keen, said:
 1	अथ	अथ	ADV	_	_	7	advmod	_	Translit=atha|LTranslit=atha
 2-3	तन्मध्यतः	_	_	_	_	_	_	_	_
 2	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	Translit=tat|LTranslit=tad
@@ -167,6 +196,8 @@
 # sent_id = s15
 # text = प्रभूतकालज्ञेयानि शब्दशास्त्राणि
 # translit = prabhūtakālajñeyāni śabdaśāstrāṇi
+# wsid = ॥०.६॥
+# ryder = "O King, the duration of life is limited, and the verbal sciences require much time for mastery.
 1-3	प्रभूतकालज्ञेयानि	_	_	_	_	_	_	_	_
 1	प्रभूत	प्र-भूत	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	Translit=prabhūta|LTranslit=pra-bhūta
 2	काल	काल	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	LId=काल-१|Translit=kāla|LTranslit=kāla
@@ -178,6 +209,8 @@
 # sent_id = s16
 # text = तत् सङ्क्षेपमात्रम् शास्त्रम् किंचिद् एतेषाम् प्रबोधन अर्थम् चिन्त्यताम्
 # translit = tat saṅkṣepamātram śāstram kiṁcid eteṣām prabodhana artham cintyatām
+# wsid = ॥०.६॥
+# ryder = Therefore let some kind of epitome be devised to wake their intelligence.
 1	तत्	तद्	ADV	_	Case=Nom	8	advmod	_	Translit=tat|LTranslit=tad
 2	सङ्क्षेपमात्रम्	सङ्क्षेपमत्र	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	Translit=saṅkṣepamātram|LTranslit=saṅkṣepamatra
 3	शास्त्रम्	शस्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	Translit=śāstram|LTranslit=śastra
@@ -190,6 +223,8 @@
 # sent_id = s17
 # text = अत्रास्ति विष्णुशर्मा नाम ब्राह्मणः सकलशास्त्रपारङ्गतश्चात्र संसदि लब्धकीर्तिः
 # translit = atrāsti viṣṇuśarmā nāma brāhmaṇaḥ sakalaśāstrapāraṅgataścātra saṁsadi labdhakīrtiḥ
+# wsid = ॥०.७॥
+# ryder = Now there is a Brahman here named Vishnusharman, with a reputation for competence in numerous sciences.
 1-2	अत्रास्ति	_	_	_	_	_	_	_	_
 1	अत्र	अत्र	ADV	_	_	2	advmod	_	Translit=atra|LTranslit=atra
 2	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=asti|LTranslit=as
@@ -208,6 +243,8 @@
 # sent_id = s18
 # text = तस्मै समर्पयैतान्
 # translit = tasmai samarpayaitān
+# wsid = ॥०.७॥
+# ryder = Intrust the princes to him.
 1	तस्मै	तद्	PRON	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	2	obl	_	Translit=tasmai|LTranslit=tad
 2-3	समर्पयैतान्	_	_	_	_	_	_	_	_
 2	समर्पय	समर्पय	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=samarpaya|LTranslit=samarpaya
@@ -216,6 +253,8 @@
 # sent_id = s19
 # text = सः राजा तत् आकर्ण्य विष्णुशर्माणम् आहूय प्रोवाच
 # translit = saḥ rājā tat ākarṇya viṣṇuśarmāṇam āhūya provāca
+# wsid = ॥०.७॥
+# ryder = When the king had listened to this, he summoned Vishnusharman and said:
 1	सः	तद्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	Translit=saḥ|LTranslit=tad
 2	राजा	राजन्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Translit=rājā|LTranslit=rājan
 3	तत्	तद्	ADV	_	Case=Nom	4	advmod	_	Translit=tat|LTranslit=tad
@@ -227,6 +266,8 @@
 # sent_id = s20
 # text = अहम् त्वाम् शासनशतेन नियोजयिष्यामि
 # translit = aham tvām śāsanaśatena niyojayiṣyāmi
+# wsid = ॥०.७॥
+# ryder = In return, I will bestow upon you a hundred land-grants."
 1	अहम्	अहम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Translit=aham|LTranslit=aham
 2	त्वाम्	त्वद्	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	iobj	_	Translit=tvām|LTranslit=tvad
 3-4	शासनशतेन	_	_	_	_	_	_	_	_
@@ -237,6 +278,8 @@
 # sent_id = s21
 # text = अथ विष्णुशर्म तम् राजानम् उच्यते
 # translit = atha viṣṇuśarma tam rājānam ucyate
+# wsid = ॥०.७॥
+# ryder = And Vishnusharman made answer to the king:
 1	अथ	अथ	ADV	_	_	5	advmod	_	Translit=atha|LTranslit=atha
 2	विष्णुशर्म	विष्णुशर्मा	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=viṣṇuśarma|LTranslit=viṣṇuśarmā
 3	तम्	तद्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	Translit=tam|LTranslit=tad
@@ -246,6 +289,8 @@
 # sent_id = s22
 # text = देव श्रूयताम् मे तथ्यवचनम्
 # translit = deva śrūyatām me tathyavacanam
+# wsid = ॥०.७॥
+# ryder = "O King, listen. Here is the plain truth.
 1	देव	देव	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	2	nsubj	_	Translit=deva|LTranslit=deva
 2	श्रूयताम्	श्रु	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=śrūyatām|LTranslit=śru
 3	मे	अहम्	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod	_	Translit=me|LTranslit=aham
@@ -256,6 +301,8 @@
 # sent_id = s23
 # text = नाहं विद्याविक्रयं करोमि शासन शतेन
 # translit = nāhaṁ vidyāvikrayaṁ karomi śāsana śatena
+# wsid = ॥०.७॥
+# ryder = I am not the man to sell good learning for a hundred land-grants.
 1-2	नाहं	_	_	_	_	_	_	_	_
 1	न	न	PART	_	Polarity=Neg	4	advmod	_	Translit=na|LTranslit=na
 2	अहम्	अहम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Translit=aham|LTranslit=aham
@@ -275,6 +322,8 @@
 # sent_id = s25
 # text = अहम् तव पुत्रान् मास षट्केन यदि नीतिशास्त्र ज्ञानम् न करोमि ततḥ अहम् स्वनामत्यागम् करोमि
 # translit = aham tava putrān māsa ṣaṭkena yadi nītiśāstra jñānam na karomi tataḥ aham svanāmatyāgam karomi
+# wsid = ॥०.७॥
+# ryder = But if I do not, in six months' time, make the boys acquainted with the art of intelligent living, I will give up my own name.
 1	अहम्	अहम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Translit=aham|LTranslit=aham
 2	तव	त्वद्	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	3	nmod	_	Translit=tava|LTranslit=tvad
 3	पुत्रान्	पुत्र	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	10	obl	_	Translit=putrān|LTranslit=putra
@@ -296,6 +345,8 @@
 # sent_id = s26
 # text = ते अपि तानि अधीत्य मासषट्केन यथा उक्तह् संवृत्ताḥ
 # translit = te api tāni adhītya māsaṣaṭkena yathā uktah saṁvr̥ttāḥ
+# wsid = ॥०.७॥
+# ryder = These the princes learned, and in six months' time they answered the prescription.
 1	ते	तद्	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	9	nsubj	_	Translit=te|LTranslit=tad
 2	अपि	अपि	ADV	_	_	1	advmod	_	Translit=api|LTranslit=api
 3	तानि	तद्	PRON	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	4	obl	_	Translit=tāni|LTranslit=tad
@@ -310,6 +361,8 @@
 # sent_id = s27
 # text = ततः प्रभृती एतत् पञ्चतन्त्रकम् नाम नीतिशास्त्रं बाल अवबोधन् अर्थम् भूतले प्रवृत्तम्
 # translit = tataḥ prabhr̥tī etat pañcatantrakam nāma nītiśāstraṁ bāla avabodhan artham bhūtale pravr̥ttam
+# wsid = ॥०.७॥
+# ryder = Since that day this work on the art of intelligent living, called Panchatantra, or the "Five Books," has traveled the world, aiming at the awakening of intelligence in the young.
 1	ततः	ततः	ADV	_	_	2	advmod	_	Translit=tataḥ|LTranslit=tataḥ
 2	प्रभृती	प्रभृति	NOUN	_	Case=Acc|Gender=Masc|Number=Dual	11	obl	_	Translit=prabhr̥tī|LTranslit=prabhr̥ti
 3	एतत्	एतद्	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	Translit=etat|LTranslit=etad
@@ -325,6 +378,8 @@
 # sent_id = s28
 # text = अधीते य इदम् नित्यम् नीतिशस्त्रम् शृणोति च
 # translit = adhīte ya idam nityam nītiśastram śr̥ṇoti ca
+# wsid = ॥०.७॥
+# ryder = Whoever learns the work by heart, / Or through the story-teller's art
 1	अधीते	अधी	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=adhīte|LTranslit=adhī
 2	य	यद्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	Translit=ya|LTranslit=yad
 3	इदम्	इदम्	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	Translit=idam|LTranslit=idam
@@ -336,6 +391,8 @@
 # sent_id = s29
 # text = सः न पराभवम् आप्नोति स शक्रात् अपि कर्हिचित्
 # translit = saḥ na parābhavam āpnoti sa śakrāt api karhicit
+# wsid = ॥०.७॥
+# ryder = Becomes acquainted, / His life by sad defeat—although / The king of heaven be his foe— / Is never tainted.
 1	सः	तद्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	Translit=saḥ|LTranslit=tad
 2	न	न	PART	_	Polarity=Neg	4	advmod	_	Translit=na|LTranslit=na
 3	पराभवम्	प्राभवम्	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	Translit=parābhavam|LTranslit=prābhavam
@@ -348,6 +405,9 @@
 # sent_id = s30
 # text = अथातः प्रारभ्यते मित्रभेदो नाम प्रथमम् तन्त्र
 # translit = athātaḥ prārabhyate mitrabhedo nāma prathamam tantra
+# wikisource = https://sa.wikisource.org/wiki/%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D_%E0%A5%A6%E0%A5%A8
+# wsid = ॥१.१॥
+# ryder = Here then begins Book I, called "The Loss of Friends."
 1	अथातः	अथात	ADV	_	_	2	advmod	_	Translit=athātaḥ|LTranslit=athāta
 2	प्रारभ्यते	प्रा-रभ्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=prārabhyate|LTranslit=prā-rabh
 3	मित्रभेदो	मित्रभेद	PRON	_	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	Translit=mitrabhedo|LTranslit=mitrabheda
