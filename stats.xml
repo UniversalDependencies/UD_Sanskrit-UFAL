@@ -10,7 +10,7 @@
   <lemmas unique="634" /><!-- तद्, अहम्, न, यद्, अर्थ, कृ, अस्, क, इदम्, अथ, एतद्, गम्, देव, राजन्, अपि -->
   <forms unique="788" /><!-- तत्, न, अहम्, अथ, तस्य, अपि, एवम्, किम्, अब्रवीत्, अस्ति, च, ततः, तत्र, नाम, अर्थम् -->
   <fusions unique="121" /><!-- अस्मत्स्वामी, यस्यार्थाः, यस्यार्थास्तस्य, अतो'हं, अत्रास्ति, अनुचितस्थानप्रवेशाद्, आवयोर्भक्षितशेष, आहारो'स्त्येव, इवात्मानं, इहागमनम्, इहागमनेनानुगृहीतास्मि, उदकग्रहणार्थम्, उदकपानार्थम्, एतस्मिन्नन्तरे, एवेदम् -->
-  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="13">
     <tag name="ADJ">47</tag><!-- महत्, सकल, गम्भीर, सर्व, अगमिन्, अतिरस्कृ, अप्राप्तकालं, असम्भाव्य, आद्य, उचित -->
     <tag name="ADP">4</tag><!-- यदि, उपरि -->
@@ -26,7 +26,7 @@
     <tag name="VERB">239</tag><!-- कृ, अस्, गम्, ब्रू, भू, श्रु, अह्, वच्, स्था, ग्रह् -->
     <tag name="X">20</tag><!-- अनु-मन्, अव-धार्य, अवत्र्णः, अह्, आप्, कृतघ्न, ज्ञन्, तद्, नैर्गुण्य, भू -->
   </tags>
-  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="40">
     <feat name="Aspect" value="Perf" upos="NOUN,VERB,X">20</feat><!-- आह, प्रोवाच, उच्यते, उवाच, बभूवुः, ऊचे, चकार, जगाम, प्राह, प्रोचुः -->
     <feat name="Case" value="Abl" upos="DET,NOUN,PRON,PROPN,VERB,X">29</feat><!-- तस्मात्, अस्मत्, एतान्, करणात्, तान्, अध्यापकात्, अन्तःपुरमध्याद्, कुमारान्, जनन्याः, त्वत् -->
