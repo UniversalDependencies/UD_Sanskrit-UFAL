@@ -188,14 +188,14 @@
 8	चिन्त्यताम्	चिन्त्	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=cintyatām|LTranslit=cint
 
 # sent_id = s17
-# text = अत्रास्ति विष्णुशर्मा नाम ब्राह्मणḥ सकलशास्त्रपारङ्गतश्चात्र संसदि लब्धकीर्तिः
-# translit = atrāsti viṣṇuśarmā nāma brāhmaṇaḥ sakalaśāstrapāraṅgataścātra saṁsadi labdhakīrtiḥ
+# text = अत्रास्ति विष्णुशर्मा नाम ब्राह्मणः सकलशास्त्रपारङ्गतश्चात्र संसदि लब्धकीर्तिः
+# translit = atrāsti viṣṇuśarmā nāma brāhmaṇaḥ sakalaśāstrapāraṅgataścātra saṁsadi labdhakīrtiḥ
 1-2	अत्रास्ति	_	_	_	_	_	_	_	_
 1	अत्र	अत्र	ADV	_	_	2	advmod	_	Translit=atra|LTranslit=atra
 2	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=asti|LTranslit=as
 3	विष्णुशर्मा	विष्णुशर्म	X	_	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	Translit=viṣṇuśarmā|LTranslit=viṣṇuśarma
 4	नाम	नामन्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	Translit=nāma|LTranslit=nāman
-5	ब्राह्मणḥ	ब्राह्मण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Translit=brāhmaṇaḥ|LTranslit=brāhmaṇa
+5	ब्राह्मणः	ब्राह्मण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Translit=brāhmaṇaḥ|LTranslit=brāhmaṇa
 6-10	सकलशास्त्रपारङ्गतश्चात्र	_	_	_	_	_	_	_	_
 6	सकल	सकल	ADJ	_	Case=Acc|Number=Sing	7	amod	_	Translit=sakala|LTranslit=sakala
 7	शास्त्र	सास्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nmod	_	Translit=śāstra|LTranslit=sāstra
