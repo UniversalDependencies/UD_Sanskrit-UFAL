@@ -1005,9 +1005,9 @@
 6	अत्र	अत्र	ADV	_	_	7	advmod	_	Translit=atra|LTranslit=atra
 7	जीवतु	जिव्	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=jīvatu|LTranslit=jiv
 
-# There is a mismatch between the original text and the order of sentences here. The previous sentence (s73), corresponding to the first half of 1.23 in Sanskrit Wikisource, continues in our s81. I do not know where the 7 extra sentences come from but there were several missing parts elsewhere, so it may be just accidentally shuffled sentences.
 # sent_id = s74
 # text = त्वत्प्रार्थनासिद्ध्यर्थं सरस्वतीविनोदं करिष्यामि
+# There is a mismatch between the original text and the order of sentences here. The previous sentence (s73), corresponding to the first half of 1.23 in Sanskrit Wikisource, continues in our s81. I do not know where the 7 extra sentences come from but there were several missing parts elsewhere, so it may be just accidentally shuffled sentences.
 # translit = tvatprārthanāsiddhyarthaṁ sarasvatīvinodaṁ kariṣyāmi
 1-4	त्वत्प्रार्थनासिद्ध्यर्थं	_	_	_	_	_	_	_	_
 1	त्वद्	त्वद्	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	2	nmod	_	Translit=tvad|LTranslit=tvad
