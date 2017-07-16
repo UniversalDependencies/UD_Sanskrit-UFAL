@@ -21,6 +21,13 @@
 6	गुरुभ्यः	गुरु	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	Translit=gurubhyaḥ|LTranslit=guru|Gloss=lords
 7	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
 
+# sent_id = panc0.s2b
+# text = महाकविभ्यो नमः।
+# translit = mahākavibhyo namaḥ.
+1	महाकविभ्यो	महाकवि	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	Translit=mahākavibhyo|LTranslit=mahākavi|Gloss=great-poets
+2	नमः	नमस्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|Translit=namaḥ|LTranslit=namas|Gloss=glory
+3	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
+
 # sent_id = s1
 # text = सकलार्थशास्त्रसारं जगति समालोक्य विष्णुशर्मेदम् तन्त्रैः पञ्चभिः एतत् चकार सुमनोहरं शास्त्रम्
 # translit = sakalārthaśāstrasāraṁ jagati samālokya viṣṇuśarmedam tantraiḥ pañcabhiḥ etat cakāra sumanoharaṁ śāstram
