@@ -5,21 +5,21 @@
 # translit = pañcatantram kathāmukham
 # wikisource = https://sa.wikisource.org/wiki/%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D_%E0%A5%A6%E0%A5%A7
 # wikisource_ryder = https://en.wikisource.org/wiki/The_Panchatantra_(Purnabhadra%27s_Recension_of_1199_CE)/Introduction
-1	पञ्चतन्त्रम्	पञ्चतन्त्र	PROPN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Translit=pañcatantram|LTranslit=pañcatantra
-2	कथामुखम्	कथामुख	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	parataxis	_	Translit=kathāmukham|LTranslit=kathāmukha
+1	पञ्चतन्त्रम्	पञ्चतन्त्र	PROPN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Translit=pañcatantram|LTranslit=pañcatantra|Gloss=five-essays,Panchatantra
+2	कथामुखम्	कथामुख	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	parataxis	_	Translit=kathāmukham|LTranslit=kathāmukha|Gloss=introduction
 
 # newpar id = panc0.p2
 # sent_id = panc0.s2
 # text = ओं नमः श्रीशारदागणपतिगुरुभ्यः।
 # translit = oṁ namaḥ śrīśāradāgaṇapatigurubhyaḥ.
-1	ओं	ओं	INTJ	_	_	2	discourse	_	Translit=oṁ|LTranslit=oṁ
-2	नमः	नमस्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Translit=namaḥ|LTranslit=namas
+1	ओं	ओं	INTJ	_	_	2	discourse	_	Translit=oṁ|LTranslit=oṁ|Gloss=oh
+2	नमः	नमस्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Translit=namaḥ|LTranslit=namas|Gloss=glory
 3-6	श्रीशारदागणपतिगुरुभ्यः	_	_	_	_	_	_	_	SpaceAfter=No
-3	श्री	श्री	ADJ	_	_	4	amod	_	Translit=śrī|LTranslit=śrī
-4	शारदा	शारदा	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	Translit=śāradā|LTranslit=śāradā
-5	गणपति	गणपति	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	Translit=gaṇapati|LTranslit=gaṇapati
-6	गुरुभ्यः	गुरु	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	Translit=gurubhyaḥ|LTranslit=guru
-7	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
+3	श्री	श्री	ADJ	_	_	4	amod	_	Translit=śrī|LTranslit=śrī|Gloss=honorable
+4	शारदा	शारदा	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	Translit=śāradā|LTranslit=śāradā|Gloss=Śāradā
+5	गणपति	गणपति	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	Translit=gaṇapati|LTranslit=gaṇapati|Gloss=Gaṇapati
+6	गुरुभ्यः	गुरु	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	Translit=gurubhyaḥ|LTranslit=guru|Gloss=lords
+7	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = s1
 # text = सकलार्थशास्त्रसारं जगति समालोक्य विष्णुशर्मेदम् तन्त्रैः पञ्चभिः एतत् चकार सुमनोहरं शास्त्रम्
