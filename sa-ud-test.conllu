@@ -5,6 +5,7 @@
 # translit = pañcatantram kathāmukham
 # wikisource = https://sa.wikisource.org/wiki/%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D_%E0%A5%A6%E0%A5%A7
 # wikisource_ryder = https://en.wikisource.org/wiki/The_Panchatantra_(Purnabhadra%27s_Recension_of_1199_CE)/Introduction
+# french_translation = http://www.chatranjali.fr/Sanskrit/Pancatantra/Prologue_dev.html
 1	पञ्चतन्त्रम्	पञ्चतन्त्र	PROPN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Translit=pañcatantram|LTranslit=pañcatantra|Gloss=five-essays,Panchatantra
 2	कथामुखम्	कथामुख	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	parataxis	_	Translit=kathāmukham|LTranslit=kathāmukha|Gloss=introduction
 
@@ -27,6 +28,35 @@
 1	महाकविभ्यो	महाकवि	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	Translit=mahākavibhyo|LTranslit=mahākavi|Gloss=great-poets
 2	नमः	नमस्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|Translit=namaḥ|LTranslit=namas|Gloss=glory
 3	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc0.s2c
+# text = ब्रह्मा रुद्रः कुमारो हरिवरुणयमा वह्निरिद्रः कुबेरः चन्द्रादित्यौ सरस्वत्यदधियुगनगा वायुरुर्वीभुजङ्गाः ।
+# translit = brahmā rudraḥ kumāro harivaruṇayamā vahniridraḥ kuberaḥ candrādityau sarasvatyadadhiyuganagā vāyururvībhujaṅgāḥ .
+# text_fr = J’en appelle à Brahmā, créateur du monde, À Rudra, destructeur du monde, À Kumāra, premier fils de Shiva, dieu de la guerre, À Hari, protecteur du monde, À Varuṇa, dieu des océans, À Yamā, dieu de la mort, À Vahni, dieu du feu, À Indra, roi des dieux, maître du ciel, À Kubera, dieu des richesses de la terre ; J’en appelle à Chandra, la lune, et à Aditya, le soleil, À Sarasvatī, déesse de la sagesse, de la parole sacrée et de la science, Aux océans, Aux âges du monde, yuga, À la montagne, nagā, Au vent, vayu, À la terre, urvi, Et aux serpents, bhujanga ;
+1	ब्रह्मा	ब्रह्मन्	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Translit=brahmā|LTranslit=brahman|Gloss=Brahmā
+2	रुद्रः	रुद्र	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=rudraḥ|LTranslit=rudra|Gloss=Rudra
+3	कुमारो	कुमार	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=kumāro|LTranslit=kumāra|Gloss=Kumāra
+4-6	हरिवरुणयमा	_	_	_	_	_	_	_	_
+4	हरि	हरि	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=hari|LTranslit=hari|Gloss=Hari
+5	वरुण	वरुण	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=varuṇa|LTranslit=varuṇa|Gloss=Varuṇa
+6	यमा	यमा	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=yamā|LTranslit=yamā|Gloss=Yamā
+7-8	वह्निरिद्रः	_	_	_	_	_	_	_	_
+7	वह्नि	वह्नि	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=vahni|LTranslit=vahni|Gloss=Vahni
+8	रिद्रः	इन्द्र	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=ridraḥ|LTranslit=indra|Gloss=Indra
+9	कुबेरः	कुबेर	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=kuberaḥ|LTranslit=kubera|Gloss=Kubera
+10-11	चन्द्रादित्यौ	_	_	_	_	_	_	_	_
+10	चन्द्रा	चन्द्र	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=candrā|LTranslit=candra|Gloss=Chandra
+11	आदित्यौ	आदित्य	PROPN	_	Case=Nom|Gender=Masc|Number=Dual	10	conj	_	Translit=ādityau|LTranslit=āditya|Gloss=Āditya
+12-15	सरस्वत्यदधियुगनगा	_	_	_	_	_	_	_	_
+12	सरस्वती	सरस्वती	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Translit=sarasvatī|LTranslit=sarasvatī|Gloss=Sarasvatī
+13	अदधि	अदधि	X	_	_	1	conj	_	Translit=adadhi|LTranslit=adadhi|Gloss=oceans
+14	युग	युग	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	Translit=yuga|LTranslit=yuga|Gloss=age-of-the-world
+15	नगा	नग	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=nagā|LTranslit=naga|Gloss=mountain
+16-18	वायुरुर्वीभुजङ्गाः	_	_	_	_	_	_	_	_
+16	वायुः	वायु	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=vāyuḥ|LTranslit=vāyu|Gloss=wind
+17	उर्वी	उर्वी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Translit=urvī|LTranslit=urvī|Gloss=earth
+18	भुजङ्गाः	भुजङ्ग	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	Translit=bhujaṅgāḥ|LTranslit=bhujaṅga|Gloss=snakes
+19	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = s1
 # text = सकलार्थशास्त्रसारं जगति समालोक्य विष्णुशर्मेदम् तन्त्रैः पञ्चभिः एतत् चकार सुमनोहरं शास्त्रम्
