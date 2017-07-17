@@ -58,6 +58,35 @@
 18	भुजङ्गाः	भुजङ्ग	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	Translit=bhujaṅgāḥ|LTranslit=bhujaṅga|Gloss=snakes
 19	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
 
+# sent_id = panc0.s2d
+# text = सिढा नद्यो श्विनौ श्रीर् दितिर् अदितिसुता मातरश् चंडिकाद्या वेदास्तीर्थानि यक्षा गणवसुमुनयः पन्तु नित्यं ग्रहाश्च ॥
+# translit = siḍhā nadyo śvinau śrīr ditir aditisutā mātaraś caṁḍikādyā vedāstīrthāni yakṣā gaṇavasumunayaḥ pantu nityaṁ grahāśca ||
+# text_fr = J’en appelle aux hommes accomplis, siddha, Aux rivières, Aux jumeaux célestes émissaires de l’aurore, Aśvini, À la déesse Sri, la suprême, À Diti, la déesse sombre, mère des titans, Aux enfants de la déesse Aditi, À toutes les mères, À Chaṇḍikā, la déesse farouche, et à toutes les autres ! J’en appelle aux védas, Aux lieux saints de pèlerinages, tirtha, Aux génies sylvestres, yaksa, Aux divinités mineures de la troupe de Shiva, gaṇa, Aux assistants d’Indra, vasu, Aux sages, à vous, qui faites vœu de silence, Et à vous, les astres, Vous tous, protégéez-nous !
+1	सिढा	सिढ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	Translit=siḍhā|LTranslit=siḍha|Gloss=siddha
+2	नद्यो	नदी	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	Translit=nadyo|LTranslit=nadī|Gloss=rivers
+3	श्विनौ	अश्विनी	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	Translit=śvinau|LTranslit=aśvinī|Gloss=Aśvini
+4	श्रीर्	श्री	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Translit=śrīr|LTranslit=śrī|Gloss=Sri
+5	दितिर्	दिति	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Translit=ditir|LTranslit=diti|Gloss=Diti
+6	अदितिसुता	अदितिसुता	PROPN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	Translit=aditisutā|LTranslit=aditisutā|Gloss=children-of-Aditi
+7	मातरश्	मातृ	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	Translit=mātaraś|LTranslit=mātr̥|Gloss=mothers
+8-9	चंडिकाद्या	_	_	_	_	_	_	_	_
+8	चंडिका	चण्डिक	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Translit=caṁḍikā|LTranslit=caṇḍika|Gloss=Caṇḍikā
+9	आद्या	आद्या	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Translit=ādyā|LTranslit=ādyā|Gloss=Ādyā
+10-11	वेदास्तीर्थानि	_	_	_	_	_	_	_	_
+10	वेदाः	वेद	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	Translit=vedāḥ|LTranslit=veda|Gloss=Vedas
+11	तीर्थानि	तीर्थ	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	1	conj	_	Translit=tīrthāni|LTranslit=tīrtha|Gloss=place-of-pilgrimage
+12	यक्षा	यक्ष	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	Translit=yakṣā|LTranslit=yakṣa|Gloss=elfs
+13-15	गणवसुमुनयः	_	_	_	_	_	_	_	_
+13	गण	गण	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	Translit=gaṇa|LTranslit=gaṇa|Gloss=gaṇa
+14	वसु	वसु	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	Translit=vasu|LTranslit=vasu|Gloss=vasu
+15	मुनयः	मुनि	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	Translit=munayaḥ|LTranslit=muni|Gloss=sages
+16	पन्तु	पन्तु	X	_	_	1	conj	_	Translit=pantu|LTranslit=pantu
+17	नित्यं	नित्य	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	Translit=nityaṁ|LTranslit=nitya|Gloss=Nityā
+18-19	ग्रहाश्च	_	_	_	_	_	_	_	_
+18	ग्रहाः	ग्रह	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	Translit=grahāḥ|LTranslit=graha|Gloss=stars
+19	च	च	CCONJ	_	_	1	conj	_	Translit=ca|LTranslit=ca|Gloss=etc.
+20	॥	॥	PUNCT	_	_	1	punct	_	Translit=|LTranslit=|Gloss=.
+
 # sent_id = s1
 # text = सकलार्थशास्त्रसारं जगति समालोक्य विष्णुशर्मेदम् तन्त्रैः पञ्चभिः एतत् चकार सुमनोहरं शास्त्रम्
 # translit = sakalārthaśāstrasāraṁ jagati samālokya viṣṇuśarmedam tantraiḥ pañcabhiḥ etat cakāra sumanoharaṁ śāstram
