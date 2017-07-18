@@ -87,6 +87,17 @@
 19	च	च	CCONJ	_	_	1	conj	_	Translit=ca|LTranslit=ca|Gloss=etc.
 20	॥	॥	PUNCT	_	_	1	punct	_	Translit=|LTranslit=|Gloss=.
 
+# sent_id = panc0.s2e
+# text = मनवे वाचस्पतये शुक्राय पराशराय ससुताय।
+# translit = manave vācaspataye śukrāya parāśarāya sasutāya.
+# text_fr = J’en appelle aux sages érudits, À Manou, l’auteur de Manu-smriti, traité sur la gouvernance, À Vācaspati, auteur d’un traité de conduite, maître des prières, À Shukra, le scintillant Vénus, Au sage Parāśara, père de Vyāsa et des hymnes du rig-veda, À Sasuta, Vyasayukta…
+1	मनवे	मनु	PROPN	_	Case=Dat|Gender=Masc|Number=Sing	0	root	_	Translit=manave|LTranslit=manu|Gloss=Manu
+2	वाचस्पतये	वाचस्पति	PROPN	_	Case=Dat|Gender=Masc|Number=Sing	1	conj	_	Translit=vācaspataye|LTranslit=vācaspati|Gloss=Vācaspati
+3	शुक्राय	शुक्र	PROPN	_	Case=Dat|Gender=Masc|Number=Sing	1	conj	_	Translit=śukrāya|LTranslit=śukra|Gloss=Śukra
+4	पराशराय	पराशर	PROPN	_	Case=Dat|Gender=Masc|Number=Sing	1	conj	_	Translit=parāśarāya|LTranslit=parāśara|Gloss=Parāśara
+5	ससुताय	ससुत	PROPN	_	Case=Dat|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|Translit=sasutāya|LTranslit=sasuta|Gloss=Sasuta
+6	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
+
 # sent_id = s1
 # text = सकलार्थशास्त्रसारं जगति समालोक्य विष्णुशर्मेदम् तन्त्रैः पञ्चभिः एतत् चकार सुमनोहरं शास्त्रम्
 # translit = sakalārthaśāstrasāraṁ jagati samālokya viṣṇuśarmedam tantraiḥ pañcabhiḥ etat cakāra sumanoharaṁ śāstram
