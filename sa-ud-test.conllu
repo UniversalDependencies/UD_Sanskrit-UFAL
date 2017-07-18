@@ -29,6 +29,7 @@
 2	नमः	नमस्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|Translit=namaḥ|LTranslit=namas|Gloss=glory
 3	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
 
+# newpar id = panc0.p3
 # sent_id = panc0.s2c
 # text = ब्रह्मा रुद्रः कुमारो हरिवरुणयमा वह्निरिद्रः कुबेरः चन्द्रादित्यौ सरस्वत्यदधियुगनगा वायुरुर्वीभुजङ्गाः ।
 # translit = brahmā rudraḥ kumāro harivaruṇayamā vahniridraḥ kuberaḥ candrādityau sarasvatyadadhiyuganagā vāyururvībhujaṅgāḥ .
@@ -60,7 +61,7 @@
 
 # sent_id = panc0.s2d
 # text = सिढा नद्यो श्विनौ श्रीर् दितिर् अदितिसुता मातरश् चंडिकाद्या वेदास्तीर्थानि यक्षा गणवसुमुनयः पन्तु नित्यं ग्रहाश्च ॥
-# translit = siḍhā nadyo śvinau śrīr ditir aditisutā mātaraś caṁḍikādyā vedāstīrthāni yakṣā gaṇavasumunayaḥ pantu nityaṁ grahāśca ||
+# translit = siḍhā nadyo śvinau śrīr ditir aditisutā mātaraś caṁḍikādyā vedāstīrthāni yakṣā gaṇavasumunayaḥ pantu nityaṁ grahāśca :
 # text_fr = J’en appelle aux hommes accomplis, siddha, Aux rivières, Aux jumeaux célestes émissaires de l’aurore, Aśvini, À la déesse Sri, la suprême, À Diti, la déesse sombre, mère des titans, Aux enfants de la déesse Aditi, À toutes les mères, À Chaṇḍikā, la déesse farouche, et à toutes les autres ! J’en appelle aux védas, Aux lieux saints de pèlerinages, tirtha, Aux génies sylvestres, yaksa, Aux divinités mineures de la troupe de Shiva, gaṇa, Aux assistants d’Indra, vasu, Aux sages, à vous, qui faites vœu de silence, Et à vous, les astres, Vous tous, protégéez-nous !
 1	सिढा	सिढ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	Translit=siḍhā|LTranslit=siḍha|Gloss=siddha
 2	नद्यो	नदी	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	Translit=nadyo|LTranslit=nadī|Gloss=rivers
@@ -85,8 +86,9 @@
 18-19	ग्रहाश्च	_	_	_	_	_	_	_	_
 18	ग्रहाः	ग्रह	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	Translit=grahāḥ|LTranslit=graha|Gloss=stars
 19	च	च	CCONJ	_	_	1	conj	_	Translit=ca|LTranslit=ca|Gloss=etc.
-20	॥	॥	PUNCT	_	_	1	punct	_	Translit=|LTranslit=|Gloss=.
+20	॥	॥	PUNCT	_	_	1	punct	_	Translit=:|LTranslit=:|Gloss=.
 
+# newpar id = panc0.p4
 # sent_id = panc0.s2e
 # text = मनवे वाचस्पतये शुक्राय पराशराय ससुताय।
 # translit = manave vācaspataye śukrāya parāśarāya sasutāya.
@@ -98,6 +100,23 @@
 5	ससुताय	ससुत	PROPN	_	Case=Dat|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|Translit=sasutāya|LTranslit=sasuta|Gloss=Sasuta
 6	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
 
+# sent_id = panc0.s2f
+# text = चाणक्याय च विदुषे नमोऽस्तु नयशास्त्रकर्तृभ्यः ॥
+# translit = cāṇakyāya ca viduṣe namo’stu nayaśāstrakartr̥bhyaḥ :
+# text_fr = Et à Canakya, ministre de Chandra Gupta Maurya, À tous les savants, Auteurs du traité du Naya-shastra, traité qui rend compte de la réalité multiforme, Vous tous, protégéez-nous !
+# wsid = ॥०.१॥
+1	चाणक्याय	चाणक्य	PROPN	_	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	Translit=cāṇakyāya|LTranslit=cāṇakya|Gloss=Cāṇakya
+2	च	च	CCONJ	_	_	3	cc	_	Translit=ca|LTranslit=ca|Gloss=and
+3	विदुषे	विद्वस्	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	1	conj	_	Translit=viduṣe|LTranslit=vidvas|Gloss=scholar
+4-5	नमोऽस्तु	_	_	_	_	_	_	_	_
+4	नमः	नमस्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	Translit=namaḥ|LTranslit=namas|Gloss=glory
+5	अस्तु	अस्	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Translit=astu|LTranslit=as|Gloss=be
+6-7	नयशास्त्रकर्तृभ्यः	_	_	_	_	_	_	_	_
+6	नयशास्त्र	नयशास्त्र	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	Translit=nayaśāstra|LTranslit=nayaśāstra|Gloss=Naya-shastra
+7	कर्तृभ्यः	कर्तृ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	1	conj	_	Translit=kartr̥bhyaḥ|LTranslit=kartr̥|Gloss=authors
+8	॥	॥	PUNCT	_	_	5	punct	_	Translit=:|LTranslit=:|Gloss=.
+
+# newpar id = panc0.p5
 # sent_id = s1
 # text = सकलार्थशास्त्रसारं जगति समालोक्य विष्णुशर्मेदम् तन्त्रैः पञ्चभिः एतत् चकार सुमनोहरं शास्त्रम्
 # translit = sakalārthaśāstrasāraṁ jagati samālokya viṣṇuśarmedam tantraiḥ pañcabhiḥ etat cakāra sumanoharaṁ śāstram
