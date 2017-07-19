@@ -117,27 +117,33 @@
 8	॥	॥	PUNCT	_	_	5	punct	_	Translit=:|LTranslit=:|Gloss=.
 
 # newpar id = panc0.p5
-# sent_id = s1
+# sent_id = panc0.s3
 # text = सकलार्थशास्त्रसारं जगति समालोक्य विष्णुशर्मेदम् तन्त्रैः पञ्चभिः एतत् चकार सुमनोहरं शास्त्रम्
 # translit = sakalārthaśāstrasāraṁ jagati samālokya viṣṇuśarmedam tantraiḥ pañcabhiḥ etat cakāra sumanoharaṁ śāstram
+# wstext = सकलार्थशास्त्रसारं जगति समालोक्य विष्णुशर्मेदम्। तन्त्रैः पञ्चभिरैतच्चकार सुममोहरं शास्त्रम् ॥
+# wstranslit=sakalārthaśāstrasāraṁ jagati samālokya viṣṇuśarmedam. tantraiḥ pañcabhiraitaccakāra sumamoharaṁ śāstram :
 # wsid = ॥०.२॥
 # orig = panchatantra.conllu sent_id 3
+# text_fr = Après avoir étudié et ressenti la quintessence du traité de l’Artha-shastra dans ce monde, Vishnu Sharma créa cette œuvre divisée en cinq livres, un traité très ludique.
 # ryder = One Vishnusharman, shrewdly gleaning / All worldly wisdom's inner meaning, / In these five books the charm compresses / Of all such books the world possesses.
+# Gérard Huet tags समालोक्य as absolutive, i.e. an indeclinable participle, in English literature often called gerund.
+# See also https://sanskritstudio.wordpress.com/2013/03/15/the-sanskrit-gerund/
+# Four degrees of pronouns: http://blog.practicalsanskrit.com/2010/12/four-degrees-of-pronouns-etad-idam-adas.html
 1-3	सकलार्थशास्त्रसारं	_	_	_	_	_	_	_	_
-1	सकल	सकल	ADJ	_	Case=Acc|Number=Sing	3	amod	_	Translit=sakala|LTranslit=sakala
-2	अर्थशास्त्र	अर्थशास्त्र	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	Translit=arthaśāstra|LTranslit=arthaśāstra
-3	सारम्	सार	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=sāram|LTranslit=sāra
-4	जगति	जगत्	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	Translit=jagati|LTranslit=jagat
-5	समालोक्य	समालोक्य	VERB	_	Case=Voc|Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	_	Translit=samālokya|LTranslit=samālokya
+1	सकल	सकल	ADJ	_	Case=Acc|Number=Sing	3	amod	_	Translit=sakala|LTranslit=sakala|Gloss=entire
+2	अर्थशास्त्र	अर्थशास्त्र	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	Translit=arthaśāstra|LTranslit=arthaśāstra|Gloss=Arthaśāstra,State-Administration
+3	सारम्	सार	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=sāram|LTranslit=sāra|Gloss=essence
+4	जगति	जगत्	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	Translit=jagati|LTranslit=jagat|Gloss=in-the-world
+5	समालोक्य	समालोक्	VERB	_	VerbForm=Conv	11	advcl	_	Translit=samālokya|LTranslit=samālok|Gloss=after-having-studied
 6-7	विष्णुशर्मेदम्	_	_	_	_	_	_	_	_
-6	विष्णुशर्मा	विष्णुशर्मन्	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	Translit=viṣṇuśarmā|LTranslit=viṣṇuśarman
-7	इदम्	इदम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	Translit=idam|LTranslit=idam
-8	तन्त्रैः	तन्त्र	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	11	obl	_	Translit=tantraiḥ|LTranslit=tantra
-9	पञ्चभिः	पञ्चन्	NUM	_	Case=Ins|Number=Plur|NumType=Card	8	nummod	_	Translit=pañcabhiḥ|LTranslit=pañcan
-10	एतत्	एतद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	det	_	Translit=etat|LTranslit=etad
-11	चकार	कृ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	Translit=cakāra|LTranslit=kr̥
-12	सुमनोहरं	सुमनोहर्	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	13	amod	_	Translit=sumanoharaṁ|LTranslit=sumanohar
-13	शास्त्रम्	शास्त्र	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	Translit=śāstram|LTranslit=śāstra
+6	विष्णुशर्मा	विष्णुशर्मन्	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	Translit=viṣṇuśarmā|LTranslit=viṣṇuśarman|Gloss=Vishnusharma
+7	इदम्	इदम्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	Translit=idam|LTranslit=idam|Gloss=this
+8	तन्त्रैः	तन्त्र	NOUN	_	Case=Ins|Gender=Neut|Number=Plur	11	obl	_	Translit=tantraiḥ|LTranslit=tantra|Gloss=essays
+9	पञ्चभिः	पञ्चन्	NUM	_	Case=Ins|Number=Plur|NumType=Card	8	nummod	_	Translit=pañcabhiḥ|LTranslit=pañcan|Gloss=five
+10	एतत्	एतद्	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	det	_	Translit=etat|LTranslit=etad|Gloss=this
+11	चकार	कृ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Translit=cakāra|LTranslit=kr̥|Gloss=created
+12	सुमनोहरं	सुमनोहर्	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	13	amod	_	Translit=sumanoharaṁ|LTranslit=sumanohar|Gloss=pleasant
+13	शास्त्रम्	शास्त्र	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	Translit=śāstram|LTranslit=śāstra|Gloss=rule
 
 # sent_id = s2
 # text = तत् यथानुश्रूयते
@@ -218,7 +224,7 @@
 # orig = panchatantra.conllu sent_id 10
 # ryder = So when I behold them, my kingdom brings me no happiness, though all external thorns are drawn.
 1	तत्	तद्	ADV	_	Case=Nom	10	advmod	_	Translit=tat|LTranslit=tad
-2	एतान्	एतद्	PRON	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Dem	3	obj	_	Translit=etān|LTranslit=etad
+2	एतान्	एतद्	PRON	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Dem	3	obj	_	Translit=etān|LTranslit=etad|Gloss=this
 3	पश्यतः	पश्यत्	VERB	_	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Ger	10	advcl	_	Translit=paśyataḥ|LTranslit=paśyat
 4	मे	अहम्	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	10	obl	_	Translit=me|LTranslit=aham
 5-6	मदपि	_	_	_	_	_	_	_	_
@@ -237,7 +243,7 @@
 # ryder = For there is wisdom in the proverb:
 1	अथवा	अथवा	ADV	_	_	4	advmod	_	Translit=athavā|LTranslit=athavā
 2	साधू	साधु	ADV	_	Case=Acc	4	advmod	_	Translit=sādhū|LTranslit=sādhu
-3	इदम्	इदम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj:pass	_	Translit=idam|LTranslit=idam
+3	इदम्	इदम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj:pass	_	Translit=idam|LTranslit=idam|Gloss=this
 4	उच्यते	वच्	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=ucyate|LTranslit=vac
 
 # sent_id = s9
@@ -348,7 +354,7 @@
 2	सङ्क्षेपमात्रम्	सङ्क्षेपमत्र	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	Translit=saṅkṣepamātram|LTranslit=saṅkṣepamatra
 3	शास्त्रम्	शस्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	Translit=śāstram|LTranslit=śastra
 4	किंचिद्	किंचिद्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	det	_	Translit=kiṁcid|LTranslit=kiṁcid
-5	एतेषाम्	एतद्	PRON	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	6	nmod	_	Translit=eteṣām|LTranslit=etad
+5	एतेषाम्	एतद्	PRON	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	6	nmod	_	Translit=eteṣām|LTranslit=etad|Gloss=this
 6	प्रबोधन	प्रबोधन	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Ger	8	obl	_	Translit=prabodhana|LTranslit=prabodhana
 7	अर्थम्	अर्थ	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	Translit=artham|LTranslit=artha
 8	चिन्त्यताम्	चिन्त्	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=cintyatām|LTranslit=cint
@@ -362,11 +368,11 @@
 1-2	अत्रास्ति	_	_	_	_	_	_	_	_
 1	अत्र	अत्र	ADV	_	_	2	advmod	_	Translit=atra|LTranslit=atra
 2	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=asti|LTranslit=as
-3	विष्णुशर्मा	विष्णुशर्म	X	_	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	Translit=viṣṇuśarmā|LTranslit=viṣṇuśarma
+3	विष्णुशर्मा	विष्णुशर्म	X	_	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	Translit=viṣṇuśarmā|LTranslit=viṣṇuśarma|Gloss=Vishnusharma
 4	नाम	नामन्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	Translit=nāma|LTranslit=nāman
 5	ब्राह्मणः	ब्राह्मण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Translit=brāhmaṇaḥ|LTranslit=brāhmaṇa
 6-10	सकलशास्त्रपारङ्गतश्चात्र	_	_	_	_	_	_	_	_
-6	सकल	सकल	ADJ	_	Case=Acc|Number=Sing	7	amod	_	Translit=sakala|LTranslit=sakala
+6	सकल	सकल	ADJ	_	Case=Acc|Number=Sing	7	amod	_	Translit=sakala|LTranslit=sakala|Gloss=entire
 7	शास्त्र	सास्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nmod	_	Translit=śāstra|LTranslit=sāstra
 8	पारङ्गत	परङ्गत्	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	Translit=pāraṅgata|LTranslit=paraṅgat
 9	च	च	CCONJ	_	_	12	cc	_	Translit=ca|LTranslit=ca
@@ -383,7 +389,7 @@
 1	तस्मै	तद्	PRON	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	2	obl	_	Translit=tasmai|LTranslit=tad
 2-3	समर्पयैतान्	_	_	_	_	_	_	_	_
 2	समर्पय	समर्पय	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=samarpaya|LTranslit=samarpaya
-3	एतान्	एतद्	PRON	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Dem	2	obj	_	Translit=etān|LTranslit=etad
+3	एतान्	एतद्	PRON	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Dem	2	obj	_	Translit=etān|LTranslit=etad|Gloss=this
 
 # sent_id = s19
 # text = सः राजा तत् आकर्ण्य विष्णुशर्माणम् आहूय प्रोवाच
@@ -395,7 +401,7 @@
 2	राजा	राजन्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Translit=rājā|LTranslit=rājan
 3	तत्	तद्	ADV	_	Case=Nom	4	advmod	_	Translit=tat|LTranslit=tad
 4	आकर्ण्य	आकर्न्य	VERB	_	Case=Voc|Gender=Neut|Number=Sing|VerbForm=Part	6	advcl	_	Translit=ākarṇya|LTranslit=ākarnya
-5	विष्णुशर्माणम्	विष्णुशर्माण	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Translit=viṣṇuśarmāṇam|LTranslit=viṣṇuśarmāṇa
+5	विष्णुशर्माणम्	विष्णुशर्माण	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Translit=viṣṇuśarmāṇam|LTranslit=viṣṇuśarmāṇa|Gloss=Vishnusharma
 6	आहूय	आहूय	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=āhūya|LTranslit=āhūya
 7	प्रोवाच	प्र-वच्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	Translit=provāca|LTranslit=pra-vac
 
@@ -419,7 +425,7 @@
 # orig = panchatantra.conllu sent_id 32
 # ryder = And Vishnusharman made answer to the king:
 1	अथ	अथ	ADV	_	_	5	advmod	_	Translit=atha|LTranslit=atha
-2	विष्णुशर्म	विष्णुशर्मा	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=viṣṇuśarma|LTranslit=viṣṇuśarmā
+2	विष्णुशर्म	विष्णुशर्मा	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=viṣṇuśarma|LTranslit=viṣṇuśarmā|Gloss=Vishnusharma
 3	तम्	तद्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	Translit=tam|LTranslit=tad
 4	राजानम्	राजन्	X	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=rājānam|LTranslit=rājan
 5	उच्यते	वच्	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=ucyate|LTranslit=vac
@@ -509,7 +515,7 @@
 # ryder = Since that day this work on the art of intelligent living, called Panchatantra, or the "Five Books," has traveled the world, aiming at the awakening of intelligence in the young.
 1	ततः	ततः	ADV	_	_	2	advmod	_	Translit=tataḥ|LTranslit=tataḥ
 2	प्रभृती	प्रभृति	NOUN	_	Case=Acc|Gender=Masc|Number=Dual	11	obl	_	Translit=prabhr̥tī|LTranslit=prabhr̥ti
-3	एतत्	एतद्	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	Translit=etat|LTranslit=etad
+3	एतत्	एतद्	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	Translit=etat|LTranslit=etad|Gloss=this
 4	पञ्चतन्त्रकम्	पञ्चतन्त्रक	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	Translit=pañcatantrakam|LTranslit=pañcatantraka
 5	नाम	नामन्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	Translit=nāma|LTranslit=nāman
 6	नीतिशास्त्रं	नीतिशास्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	Translit=nītiśāstraṁ|LTranslit=nītiśāstra
@@ -527,7 +533,7 @@
 # ryder = Whoever learns the work by heart, / Or through the story-teller's art
 1	अधीते	अधी	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=adhīte|LTranslit=adhī
 2	य	यद्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	Translit=ya|LTranslit=yad
-3	इदम्	इदम्	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	Translit=idam|LTranslit=idam
+3	इदम्	इदम्	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	Translit=idam|LTranslit=idam|Gloss=this
 4	नित्यम्	नित्य	ADV	_	Case=Nom	6	advmod	_	Translit=nityam|LTranslit=nitya
 5	नीतिशस्त्रम्	नीतिशस्त्र	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	Translit=nītiśastram|LTranslit=nītiśastra
 6	शृणोति	श्रु	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	Translit=śr̥ṇoti|LTranslit=śru
@@ -571,7 +577,7 @@
 # ryder = The first verse runs:
 1-2	यस्यायम्	_	_	_	_	_	_	_	_
 1	यस्य	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	4	nmod	_	Translit=yasya|LTranslit=yad
-2	अयम्	इदम्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	Translit=ayam|LTranslit=idam
+2	अयम्	इदम्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	Translit=ayam|LTranslit=idam|Gloss=this
 3	आद्यः	आद्य	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	Translit=ādyaḥ|LTranslit=ādya
 4	श्लोकः	श्लोक	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	Translit=ślokaḥ|LTranslit=śloka
 
@@ -1079,7 +1085,7 @@
 # orig = panchatantra.conllu sent_id 115
 # ryder = There the monkeys began their playful frolics upon tree-top, lofty roof, and woodpile.
 1-2	एतस्मिन्नन्तरे	_	_	_	_	_	_	_	_
-1	एतस्मिन्	एतद्	DET	_	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	Translit=etasmin|LTranslit=etad
+1	एतस्मिन्	एतद्	DET	_	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	Translit=etasmin|LTranslit=etad|Gloss=this
 2	अन्तरे	अन्तर	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	Translit=antare|LTranslit=antara
 3	ते	तद्	DET	_	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	4	det	_	Translit=te|LTranslit=tad
 4	वानराः	वानर	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	Translit=vānarāḥ|LTranslit=vānara
@@ -1185,7 +1191,7 @@
 # text = एताम् ब्राह्मणस्यासंभाव्यां ससचिवो विस्मयान्वितस्
 # translit = etām brāhmaṇasyāsaṁbhāvyāṁ sasacivo vismayānvitas
 # orig = panchatantra.conllu sent_id 42
-1	एताम्	एतद्	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	Translit=etām|LTranslit=etad
+1	एताम्	एतद्	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	Translit=etām|LTranslit=etad|Gloss=this
 2-5	ब्राह्मणस्यासंभाव्यां	_	_	_	_	_	_	_	_
 2	ब्राह्मणस्य	ब्राह्मण	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Translit=brāhmaṇasya|LTranslit=brāhmaṇa
 3	असम्भाव्याम्	असम्भाव्य	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	Translit=asambhāvyām|LTranslit=asambhāvya
@@ -1204,7 +1210,7 @@
 # translit = viṣṇuśarmāpi tān ādāya svagr̥haṁ gatvā
 # orig = panchatantra.conllu sent_id 43
 1-2	विष्णुशर्मापि	_	_	_	_	_	_	_	_
-1	विष्णुशर्मा	विष्णुशर्मन्	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Translit=viṣṇuśarmā|LTranslit=viṣṇuśarman
+1	विष्णुशर्मा	विष्णुशर्मन्	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Translit=viṣṇuśarmā|LTranslit=viṣṇuśarman|Gloss=Vishnusharma
 2	अपि	अपि	ADV	_	_	1	advmod	_	Translit=api|LTranslit=api
 3	तान्	तद्	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Dem	4	obj	_	Translit=tān|LTranslit=tad
 4	आदाय	आदा	VERB	_	VerbForm=Ger	1	acl	_	Translit=ādāya|LTranslit=ādā
@@ -1235,12 +1241,12 @@
 # text = यावत् अयम् प्राणेन न वियुज्यते तावत् इमम् गृहाण
 # translit = yāvat ayam prāṇena na viyujyate tāvat imam gr̥hāṇa
 1	यावत्	यावत्	ADV	_	_	5	advmod	_	Translit=yāvat|LTranslit=yāvat
-2	अयम्	इदम्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	Translit=ayam|LTranslit=idam
+2	अयम्	इदम्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	Translit=ayam|LTranslit=idam|Gloss=this
 3	प्राणेन	प्राण	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	5	nsubj	_	Translit=prāṇena|LTranslit=prāṇa
 4	न	न	PART	_	Polarity=Neg	5	advmod	_	Translit=na|LTranslit=na
 5	वियुज्यते	वियुज्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	advcl	_	Translit=viyujyate|LTranslit=viyuj
 6	तावत्	तावत्	ADV	_	_	8	advmod	_	Translit=tāvat|LTranslit=tāvat
-7	इमम्	इदम्	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	obj	_	Translit=imam|LTranslit=idam
+7	इमम्	इदम्	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	obj	_	Translit=imam|LTranslit=idam|Gloss=this
 8	गृहाण	ग्रह्	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=gr̥hāṇa|LTranslit=grah
 
 # sent_id = s79
@@ -1346,7 +1352,7 @@
 # text = अयम् तावत् अस्मत्स्वामी भीतः मूढमनाः संतिष्ठते
 # translit = ayam tāvat asmatsvāmī bhītaḥ mūḍhamanāḥ saṁtiṣṭhate
 # orig = panchatantra.conllu sent_id 148
-1	अयम्	इदम्	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	8	obj	_	Translit=ayam|LTranslit=idam
+1	अयम्	इदम्	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	8	obj	_	Translit=ayam|LTranslit=idam|Gloss=this
 2	तावत्	तावत्	ADV	_	_	8	advmod	_	Translit=tāvat|LTranslit=tāvat
 3-4	अस्मत्स्वामी	_	_	_	_	_	_	_	_
 3	अस्मत्	अहम्	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	Translit=asmat|LTranslit=aham
@@ -1443,7 +1449,7 @@
 # translit = kadācit ayam anucitasthānapraveśād bhavantam avamanyeta
 # orig = panchatantra.conllu sent_id 166
 1	कदाचित्	कदाचिद्	ADV	_	_	2	advmod	_	Translit=kadācit|LTranslit=kadācid
-2	अयम्	इदम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	Translit=ayam|LTranslit=idam
+2	अयम्	इदम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	Translit=ayam|LTranslit=idam|Gloss=this
 3-6	अनुचितस्थानप्रवेशाद्	_	_	_	_	_	_	_	_
 3	अन्	अन्	NOUN	_	_	4	compound	_	Translit=an|LTranslit=an
 4	उचित	उचित	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	Translit=ucita|LTranslit=ucita
@@ -1505,7 +1511,7 @@
 # translit = tat eṣā kadācid vaiśyāsutā bhaviṣyati
 # orig = panchatantra.conllu sent_id 1187
 1	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	Translit=tat|LTranslit=tad
-2	एषा	एतद्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	Translit=eṣā|LTranslit=etad
+2	एषा	एतद्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	Translit=eṣā|LTranslit=etad|Gloss=this
 3	कदाचिद्	कदाचिद्	ADV	_	_	4	advmod	_	Translit=kadācid|LTranslit=kadācid
 4	वैश्यासुता	वैस्यशुत	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	Translit=vaiśyāsutā|LTranslit=vaisyaśuta
 5	भविष्यति	भू	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	Translit=bhaviṣyati|LTranslit=bhū
@@ -1689,7 +1695,7 @@
 3	अपनीयते	अप-नी	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	advcl	_	Translit=apanīyate|LTranslit=apa-nī
 4	तत्र	तत्र	ADV	_	_	7	advmod	_	Translit=tatra|LTranslit=tatra
 5	यन्त्रम्	यन्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	Translit=yantram|LTranslit=yantra
-6	इदम्	इदम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	Translit=idam|LTranslit=idam
+6	इदम्	इदम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	Translit=idam|LTranslit=idam|Gloss=this
 7	अवतरति	अ-वत्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=avatarati|LTranslit=a-vat
 
 # sent_id = s120
@@ -1699,7 +1705,7 @@
 1	तस्मात्	तद्	DET	_	Case=Abl|Gender=Neut|Number=Sing|PronType=Dem	2	obl	_	Translit=tasmāt|LTranslit=tad
 2-3	गृहाणैतत्	_	_	_	_	_	_	_	_
 2	गृहाण	ग्रह्	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=gr̥hāṇa|LTranslit=grah
-3	एतत्	एतद्	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	Translit=etat|LTranslit=etad
+3	एतत्	एतद्	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	Translit=etat|LTranslit=etad|Gloss=this
 
 # sent_id = s121
 # text = मयैवं निश्चितम् असौ राजदुहिता हर्म्यतले एकाकिनी स्वपिति
@@ -1753,7 +1759,7 @@
 7	श्लक्ष्णया	श्लक्ष्ण	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	Translit=ślakṣṇayā|LTranslit=ślakṣṇa
 8	गिरा	गिर्	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	11	obl	_	Translit=girā|LTranslit=gir
 9	शनैः	शनैस्	ADV	_	_	11	advmod	_	Translit=śanaiḥ|LTranslit=śanais
-10	इदम्	इदम्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	obj	_	Translit=idam|LTranslit=idam
+10	इदम्	इदम्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	obj	_	Translit=idam|LTranslit=idam|Gloss=this
 11	उवाच	वच्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=uvāca|LTranslit=vac
 
 # sent_id = s125
@@ -1766,7 +1772,7 @@
 3	अर्थम्	अर्थ	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	nmod	_	Translit=artham|LTranslit=artha
 4-5	एवेदम्	_	_	_	_	_	_	_	_
 4	एव	एव	ADV	_	_	3	advmod	_	Translit=eva|LTranslit=eva
-5	इदम्	अयम्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	Translit=idam|LTranslit=ayam
+5	इदम्	इदम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	Translit=idam|LTranslit=idam|Gloss=this
 6-7	इहागमनम्	_	_	_	_	_	_	_	_
 6	इह	इह	ADV	_	_	7	advmod	_	Translit=iha|LTranslit=iha
 7	आगमनम्	आगमन	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	0	root	_	Translit=āgamanam|LTranslit=āgamana
@@ -1884,7 +1890,7 @@
 2	विज्ञायतां	विज्ञ	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	Translit=vijñāyatāṁ|LTranslit=vijña
 3	सम्यक्	सम्यक्	ADV	_	_	7	advmod	_	Translit=samyak|LTranslit=samyak
 4	स	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	Translit=sa|LTranslit=tad
-5	एते	एतद्	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	Translit=ete|LTranslit=etad
+5	एते	एतद्	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	Translit=ete|LTranslit=etad|Gloss=this
 6	कञ्चुकिनः	कञ्चुकिन्	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	Translit=kañcukinaḥ|LTranslit=kañcukin
 7	वदन्ति	वद्	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=vadanti|LTranslit=vad
 
@@ -1977,7 +1983,7 @@
 2-3	जामातृप्रभावेण	_	_	_	_	_	_	_	_
 2	जामातृ	जामातृ	NOUN	_	_	3	compound	_	Translit=jāmātr̥|LTranslit=jāmātr̥
 3	प्रभावेण	प्रभाव	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	obl	_	Translit=prabhāveṇa|LTranslit=prabhāva
-4	सकलाम्	सकल	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	Translit=sakalām|LTranslit=sakala
+4	सकलाम्	सकल	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	Translit=sakalām|LTranslit=sakala|Gloss=entire
 5	वसुमतीम्	वसुमती	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	Translit=vasumatīm|LTranslit=vasumatī
 6	वशे	वश	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	Translit=vaśe|LTranslit=vaśa
 7	करिष्यामि	कृ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	Translit=kariṣyāmi|LTranslit=kr̥
@@ -2042,7 +2048,7 @@
 2	अस्ति	अस्	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	LId=अस्-१|Translit=asti|LTranslit=as
 3-4	मयास्य	_	_	_	_	_	_	_	_
 3	मया	अहम्	PRON	_	Case=Ins|Gender=Masc|Person=1|PronType=Prs	1	nmod	_	Translit=mayā|LTranslit=aham
-4	अस्य	इदम्	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	Translit=asya|LTranslit=idam
+4	अस्य	इदम्	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	Translit=asya|LTranslit=idam|Gloss=this
 5	रिपोः	रिपु	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	Translit=ripoḥ|LTranslit=ripu
 6-7	वधोपायम्	_	_	_	_	_	_	_	_
 6	वध	वध	NOUN	_	_	7	compound	_	Translit=vadha|LTranslit=vadha
@@ -2178,7 +2184,7 @@
 # text = एतत् आकर्ण्य करटकः आह
 # translit = etat ākarṇya karaṭakaḥ āha
 # orig = panchatantra.conllu sent_id 1345
-1	एतत्	एतद्	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	Translit=etat|LTranslit=etad
+1	एतत्	एतद्	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	Translit=etat|LTranslit=etad|Gloss=this
 2	आकर्ण्य	आकर्थ्य	VERB	_	VerbForm=Part	4	advcl	_	Translit=ākarṇya|LTranslit=ākarthya
 3	करटकः	करटक	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Translit=karaṭakaḥ|LTranslit=karaṭaka
 4	आह	अह्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=āha|LTranslit=ah
@@ -2223,7 +2229,7 @@
 # text = अयम् एव मन्त्रिप्राधान्ये महान् दोषः साधुम् च उच्यते
 # translit = ayam eva mantriprādhānye mahān doṣaḥ sādhum ca ucyate
 # orig = panchatantra.conllu sent_id 1366
-1	अयम्	इदम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	Translit=ayam|LTranslit=idam
+1	अयम्	इदम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	Translit=ayam|LTranslit=idam|Gloss=this
 2	एव	एव	DET	_	_	4	det	_	Translit=eva|LTranslit=eva
 3-4	मन्त्रिप्राधान्ये	_	_	_	_	_	_	_	_
 3	मन्त्रि	मन्त्रिन्	NOUN	_	_	4	compound	_	Translit=mantri|LTranslit=mantrin
@@ -2247,7 +2253,7 @@
 # text = अयम् तावत् मम भृत्यः
 # translit = ayam tāvat mama bhr̥tyaḥ
 # orig = panchatantra.conllu sent_id 1378
-1	अयम्	इदम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	Translit=ayam|LTranslit=idam
+1	अयम्	इदम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	Translit=ayam|LTranslit=idam|Gloss=this
 2	तावत्	तावत्	ADV	_	_	4	advmod	_	Translit=tāvat|LTranslit=tāvat
 3	मम	अहम्	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	obl	_	Translit=mama|LTranslit=aham
 4	भृत्यः	भृत्य	VERB	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Translit=bhr̥tyaḥ|LTranslit=bhr̥tya
@@ -2367,7 +2373,7 @@
 # translit = katham etat damanakaḥ kathayati
 # orig = panchatantra.conllu sent_id 1438, 1439
 1	कथम्	कथम्	ADV	_	_	4	advmod	_	Translit=katham|LTranslit=katham
-2	एतत्	एतद्	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	Translit=etat|LTranslit=etad
+2	एतत्	एतद्	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	Translit=etat|LTranslit=etad|Gloss=this
 3	दमनकः	दमनक	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Translit=damanakaḥ|LTranslit=damanaka
 4	कथयति	कथ्	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=kathayati|LTranslit=kath
 
