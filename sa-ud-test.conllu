@@ -164,18 +164,21 @@
 3	अनुश्रूयते	अनु-श्रु	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=anuśrūyate|LTranslit=anu-śru|Gloss=it-is-heard
 4	।	।	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s3
-# text = अस्ति दाक्षिणात्ये जनपदे महिलारोप्यं नाम नगरम्
-# translit = asti dākṣiṇātye janapade mahilāropyaṁ nāma nagaram
+# sent_id = panc0.s5
+# text = अस्ति दाक्षिणात्ये जनपदे महिलारोप्यं नाम नगरम्।
+# translit = asti dākṣiṇātye janapade mahilāropyaṁ nāma nagaram.
 # wsid = ॥०.३॥
 # orig = panchatantra.conllu sent_id 5
+# text_fr = Il y avait, dans une contrée méridionale, une contrée peuplée, une ville du nom de Mahilaropya.
+# text_en = There is a city called Mahilaropya in the southern country.
 # ryder = In the southern country is a city called Maidens' Delight.
-1	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	LId=अस्-१|Translit=asti|LTranslit=as
-2	दाक्षिणात्ये	दाक्षिण	ADJ	_	Case=Loc|Gender=Neut|Number=Sing	3	amod	_	Translit=dākṣiṇātye|LTranslit=dākṣiṇa
-3	जनपदे	जनपदे	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	Translit=janapade|LTranslit=janapade
-4	महिलारोप्यं	महिलारोप्य	PROPN	_	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	Translit=mahilāropyaṁ|LTranslit=mahilāropya
-5	नाम	नामन्	NOUN	_	Case=Voc|Gender=Neut|Number=Sing	6	nmod	_	Translit=nāma|LTranslit=nāman
-6	नगरम्	नगर	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	0	root	_	Translit=nagaram|LTranslit=nagara
+1	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	LId=अस्-१|Translit=asti|LTranslit=as|Gloss=is
+2	दाक्षिणात्ये	दाक्षिणात्य	ADJ	_	Case=Loc|Gender=Neut|Number=Sing	3	amod	_	Translit=dākṣiṇātye|LTranslit=dākṣiṇātya|Gloss=southern
+3	जनपदे	जनपद	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	0	root	_	Translit=janapade|LTranslit=janapada|Gloss=country
+4	महिलारोप्यं	महिलारोप्य	PROPN	_	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	Translit=mahilāropyaṁ|LTranslit=mahilāropya|Gloss=Mahilaropya
+5	नाम	नामन्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	Translit=nāma|LTranslit=nāman|Gloss=name
+6	नगरम्	नगर	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpaceAfter=No|Translit=nagaram|LTranslit=nagara|Gloss=city
+7	।	।	PUNCT	_	_	6	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = s4
 # text = तत्र अमरशक्तिर् नाम्नः राजा बभूव
