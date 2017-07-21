@@ -180,37 +180,49 @@
 6	नगरम्	नगर	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpaceAfter=No|Translit=nagaram|LTranslit=nagara|Gloss=city
 7	।	।	PUNCT	_	_	6	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s4
-# text = तत्र अमरशक्तिर् नाम्नः राजा बभूव
-# translit = tatra amaraśaktir nāmnaḥ rājā babhūva
+# sent_id = panc0.s6
+# text = तत्र अमरशक्तिर् नाम्नः राजा बभूव।
+# translit = tatra amaraśaktir nāmnaḥ rājā babhūva.
+# ptext = tatra sakala arTa SAstra viSAradaH pravara nfpa mukuwa maRi marIci caya carcita caraRaH sakala kalA pAram gataH a mara SaktiH nAma rAjA baBUva
+# wtext = तत्र सकलार्थिसार्थकल्पद्रुमः प्रवरमुकुटमणिमरीचिमञ्जरीचर्चितचरणयुगलः सकलकलापारङ्गतेऽमरशक्तिर्नाम राजा बभूव।
+# wtranslit = tatra sakalārthisārthakalpadrumaḥ pravaramukuṭamaṇimarīcimañjarīcarcitacaraṇayugalaḥ sakalakalāpāraṅgate’maraśaktirnāma rājā babhūva.
+# ftext = तत्र सकलार्थिशास्त्रकल्पद्रुमः प्रवरनृपमुकुटमणिम्मरीचिमञ्जरचर्चितचरणयुगलः सकलकल्पपारंगतोऽमरशक्तिर्नाम राजा बभूव।
+# ftranslit = tatra sakalārthiśāstrakalpadrumaḥ pravaranr̥pamukuṭamaṇimmarīcimañjaracarcitacaraṇayugalaḥ sakalakalpapāraṁgato’maraśaktirnāma rājā babhūva.
 # wsid = ॥०.३॥
 # orig = panchatantra.conllu sent_id 6
+# text_fr = Là, vivait un roi nommé Amara-shakti (Force-éternelle), versé dans l’Artha-shastra, traité sur la chose publique. Il était aussi généreux que Kalpa-druma, l’un des cinq arbres du paradis qui exauce les vœux de tous les quémandeurs ! Vénéré de son peuple pour sa grande intelligence, il était d’une aura resplendissante !
+# text_en = There lived a king named Amarashakti.
 # ryder = There lived a king named Immortal-Power.
-1	तत्र	तत्र	ADV	_	_	5	advmod	_	Translit=tatra|LTranslit=tatra
-2	अमरशक्तिर्	अमरशक्ति	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	Translit=amaraśaktir|LTranslit=amaraśakti
-3	नाम्नः	नामन्	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	Translit=nāmnaḥ|LTranslit=nāman
-4	राजा	राजन्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=rājā|LTranslit=rājan
-5	बभूव	भू	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	LId=भू-१|Translit=babhūva|LTranslit=bhū
+1	तत्र	तत्र	ADV	_	_	5	advmod	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
+2	अमरशक्तिर्	अमरशक्ति	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	Translit=amaraśaktir|LTranslit=amaraśakti|Gloss=Amarashakti
+3	नाम्नः	नामन्	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	Translit=nāmnaḥ|LTranslit=nāman|Gloss=name
+4	राजा	राजन्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=rājā|LTranslit=rājan|Gloss=king
+5	बभूव	भू	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|LId=भू-१|Translit=babhūva|LTranslit=bhū|Gloss=lived
+6	।	।	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s5
-# text = तस्य त्रयः पुत्राः परमदुर्मेधसः वसुशक्तिः उग्रशक्तिः अनन्तशक्तिश् चेति बभूवुः
-# translit = tasya trayaḥ putrāḥ paramadurmedhasaḥ vasuśaktiḥ ugraśaktiḥ anantaśaktiś ceti babhūvuḥ
+# sent_id = panc0.s7
+# text = तस्य त्रयः पुत्राः परमदुर्मेधसः वसुशक्तिः उग्रशक्तिः अनन्तशक्तिश् चेति बभूवुः।
+# translit = tasya trayaḥ putrāḥ paramadurmedhasaḥ vasuśaktiḥ ugraśaktiḥ anantaśaktiś ceti babhūvuḥ.
+# wtext = तस्य त्रयः पुत्राः परमदुर्मेधसो वहुशक्तिरुग्रशक्तिरनन्तशक्तिश्चेति नामानो बभूवुः।
+# wtranslit = tasya trayaḥ putrāḥ paramadurmedhaso vahuśaktirugraśaktiranantaśaktiśceti nāmāno babhūvuḥ.
 # wsid = ॥०.३॥
 # orig = panchatantra.conllu sent_id 7
+# text_fr = Mais ses trois fils, Vasu-shakti (Force brillante), Ugra-shakti (Force puissante) et Aneka-shakti (Force multiple), étaient dépourvus de toute lueur d’intelligence.
 # ryder = This king had three sons. Their names were Rich-Power, Fierce-Power, Endless-Power, and they were supreme blockheads.
-1	तस्य	तद्	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Dem	3	det	_	Translit=tasya|LTranslit=tad
-2	त्रयः	त्रि	NUM	_	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	3	nummod	_	Translit=trayaḥ|LTranslit=tri
-3	पुत्राः	पुत्र	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	Translit=putrāḥ|LTranslit=putra
+1	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nmod	_	Translit=tasya|LTranslit=tad|Gloss=his
+2	त्रयः	त्रि	NUM	_	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	3	nummod	_	Translit=trayaḥ|LTranslit=tri|Gloss=three
+3	पुत्राः	पुत्र	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	Translit=putrāḥ|LTranslit=putra|Gloss=sons
 4-5	परमदुर्मेधसः	_	_	_	_	_	_	_	_
-4	परम	परम	ADV	_	_	3	advmod	_	Translit=parama|LTranslit=parama
-5	दुर्मेधसः	दुर्मेधस्	ADJ	_	Case=Acc|Gender=Masc|Number=Plur	3	amod	_	Translit=durmedhasaḥ|LTranslit=durmedhas
-6	वसुशक्तिः	वसुशक्ति	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	Translit=vasuśaktiḥ|LTranslit=vasuśakti
-7	उग्रशक्तिः	उग्रशक्ति	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	Translit=ugraśaktiḥ|LTranslit=ugraśakti
-8	अनन्तशक्तिश्	अनन्तशक्ति	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	Translit=anantaśaktiś|LTranslit=anantaśakti
+4	परम	परम	ADV	_	Degree=Sup	5	advmod	_	Translit=parama|LTranslit=parama|Gloss=supreme
+5	दुर्मेधसः	दुर्मेधस्	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	3	amod	_	Translit=durmedhasaḥ|LTranslit=durmedhas|Gloss=stupid
+6	वसुशक्तिः	वसुशक्ति	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	Translit=vasuśaktiḥ|LTranslit=vasuśakti|Gloss=Vasushakti
+7	उग्रशक्तिः	उग्रशक्ति	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	Translit=ugraśaktiḥ|LTranslit=ugraśakti|Gloss=Ugrashakti
+8	अनन्तशक्तिश्	अनन्तशक्ति	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	Translit=anantaśaktiś|LTranslit=anantaśakti|Gloss=Anantashakti
 9-10	चेति	_	_	_	_	_	_	_	_
-9	च	च	CCONJ	_	_	8	cc	_	Translit=ca|LTranslit=ca
-10	इति	इति	ADV	_	_	11	advmod	_	Translit=iti|LTranslit=iti
-11	बभूवुः	भू	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	root	_	LId=भू-१|Translit=babhūvuḥ|LTranslit=bhū
+9	च	च	CCONJ	_	_	8	cc	_	Translit=ca|LTranslit=ca|Gloss=and,also
+10	इति	इति	ADV	_	_	11	advmod	_	Translit=iti|LTranslit=iti|Gloss=this-way
+11	बभूवुः	भू	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|LId=भू-१|Translit=babhūvuḥ|LTranslit=bhū|Gloss=lived
+12	।	।	PUNCT	_	_	6	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = s6
 # text = अथ तान् शास्त्रविमुखान् समालोक्य स राजा सचिवान् आहूय प्रोवाच
@@ -297,7 +309,7 @@
 # orig = panchatantra.conllu sent_id 16
 # ryder = And they, one after another, replied:
 1-2	तत्रैकः	_	_	_	_	_	_	_	_
-1	तत्र	तत्र	ADV	_	_	4	advmod	_	LId=तत्र-१|Translit=tatra|LTranslit=tatra
+1	तत्र	तत्र	ADV	_	_	4	advmod	_	LId=तत्र-१|Translit=tatra|LTranslit=tatra|Gloss=here,there
 2	एकः	एक्	NUM	_	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	4	nummod	_	Translit=ekaḥ|LTranslit=ek
 3	सचिवः	सचिव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Translit=sacivaḥ|LTranslit=saciva
 4	प्रोचुः	प्र-वच्	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=procuḥ|LTranslit=pra-vac
@@ -628,7 +640,7 @@
 # wsid = ॥१.२॥
 # orig = panchatantra.conllu sent_id 53?
 # ryder = In this city lived a merchant named Increase.
-1	तत्र	तत्र	PRON	_	PronType=Dem	2	expl	_	Translit=tatra|LTranslit=tatra
+1	तत्र	तत्र	PRON	_	PronType=Dem	2	expl	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
 2	बभूवुः	भू	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Translit=babhūvuḥ|LTranslit=bhū
 3-6	धर्मोपार्जितभूरिविभवो	_	_	_	_	_	_	_	_
 3	धर्म	धर्म	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	Translit=dharma|LTranslit=dharma
@@ -673,12 +685,12 @@
 1-3	यस्यार्थास्तस्य	_	_	_	_	_	_	_	_
 1	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	2	nmod	_	Translit=yasyā|LTranslit=yad
 2	अर्थः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	3	acl	_	Translit=arthaḥ|LTranslit=artha
-3	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	4	nmod	_	Translit=tasya|LTranslit=tad
+3	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nmod	_	Translit=tasya|LTranslit=tad|Gloss=his
 4	मित्रणि	मित्र्	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	0	root	_	Translit=mitraṇi|LTranslit=mitr
 5-7	यस्यार्थास्तस्य	_	_	_	_	_	_	_	_
 5	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	6	nmod	_	Translit=yasyā|LTranslit=yad
 6	अर्थः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	7	acl	_	Translit=arthaḥ|LTranslit=artha
-7	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	8	nmod	_	Translit=tasya|LTranslit=tad
+7	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nmod	_	Translit=tasya|LTranslit=tad|Gloss=his
 8	बान्धवाः	बान्धव	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	Translit=bāndhavāḥ|LTranslit=bāndhava
 
 # sent_id = s38
@@ -715,7 +727,7 @@
 1	अतः	अतस्	ADV	_	_	7	advmod	_	Translit=ataḥ|LTranslit=atas
 2	प्रभूना	प्रभु	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	3	amod	_	Translit=prabhūnā|LTranslit=prabhu
 3	द्रव्येण	द्रव्य	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	nsubj	_	LId=द्रव्य-२|Translit=dravyeṇa|LTranslit=dravya
-4	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	7	obl	_	Translit=tasya|LTranslit=tad
+4	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	obl	_	Translit=tasya|LTranslit=tad|Gloss=his
 5	एव	एव	ADV	_	_	4	advmod	_	Translit=eva|LTranslit=eva
 6	वृद्धिः	वृद्धि	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	Translit=vr̥ddhiḥ|LTranslit=vr̥ddhi
 7	करणीया	करणीय	VERB	_	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Ger	0	root	_	Translit=karaṇīyā|LTranslit=karaṇīya
@@ -794,7 +806,7 @@
 # wsid = ॥१.१९॥
 # orig = panchatantra.conllu sent_id 68?
 # ryder = To bear the yoke he had two bulls of good omen. Their names were Joyful and Lively; they looked like white clouds, and their chests were girded with golden bells.
-1	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Dem	3	nmod	_	Translit=tasya|LTranslit=tad
+1	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nmod	_	Translit=tasya|LTranslit=tad|Gloss=his
 2-3	मङ्गलवृषभौ	_	_	_	_	_	_	_	_
 2	मङ्गल	मङ्गल	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	3	amod	_	Translit=maṅgala|LTranslit=maṅgala
 3	वृषभौ	वृषभ	NOUN	_	Case=Nom|Gender=Masc|Number=Dual	10	nsubj	_	Translit=vr̥ṣabhau|LTranslit=vr̥ṣabha
@@ -941,7 +953,7 @@
 # wsid = ॥१.२१॥
 # orig = panchatantra.conllu sent_id 99
 # ryder = These two conferred secretly, and Victor said:
-1	तत्र	तत्र	ADV	_	_	3	advmod	_	Translit=tatra|LTranslit=tatra
+1	तत्र	तत्र	ADV	_	_	3	advmod	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
 2	दमनकः	दमनक	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Translit=damanakaḥ|LTranslit=damanaka
 3	अब्रवीत्	ब्रू	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=abravīt|LTranslit=brū
 
@@ -976,7 +988,7 @@
 # sent_id = s57
 # text = तत्र आसीत् मारीचः नाम राक्षसः
 # translit = tatra āsīt mārīcaḥ nāma rākṣasaḥ
-1	तत्र	तत्र	ADV	_	_	2	expl	_	Translit=tatra|LTranslit=tatra
+1	तत्र	तत्र	ADV	_	_	2	expl	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
 2	आसीत्	आस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=āsīt|LTranslit=ās
 3	मारीचः	मारिच	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	Translit=mārīcaḥ|LTranslit=mārica
 4	नाम	नामन्	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	Translit=nāma|LTranslit=nāman
@@ -1077,7 +1089,7 @@
 # wsid = ॥१.२२॥
 # orig = panchatantra.conllu sent_id 112
 # ryder = In a grove near by, a merchant was having a temple built. Each day at the noon hour the foreman and workers would go to the city for lunch.
-1	तत्र	तत्र	ADV	_	_	10	advmod	_	Translit=tatra|LTranslit=tatra
+1	तत्र	तत्र	ADV	_	_	10	advmod	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
 2	ये	यद्	DET	_	Case=Acc|Gender=Neut|Number=Dual|PronType=Rel	3	det	_	Translit=ye|LTranslit=yad
 3	कर्मकराः	कर्मकरि	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	Translit=karmakarāḥ|LTranslit=karmakari
 4	स्थापनादयस्ते	स्थापनादयस्त	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	Translit=sthāpanādayaste|LTranslit=sthāpanādayasta
@@ -1330,7 +1342,7 @@
 # wsid = ॥१.२५॥
 # orig = panchatantra.conllu sent_id 128
 1	किं	किं	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	det	_	Translit=kiṁ|LTranslit=kiṁ
-2	तस्य	तद्	PRON	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	Translit=tasya|LTranslit=tad
+2	तस्य	तद्	PRON	_	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	obl	_	Translit=tasya|LTranslit=tad|Gloss=its
 3-4	जीवितफलं	_	_	_	_	_	_	_	_
 3	जीवित	जीवित	VERB	_	VerbForm=Ger	0	root	_	Translit=jīvita|LTranslit=jīvita
 4	फलम्	फल	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	Translit=phalam|LTranslit=phala
@@ -1543,7 +1555,7 @@
 # orig = panchatantra.conllu sent_id 1191
 1	ततः	तत	ADV	_	_	5	advmod	_	Translit=tataḥ|LTranslit=tata
 2	रथकारः	रथकार	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=rathakāraḥ|LTranslit=rathakāra
-3	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	Translit=tasya|LTranslit=tad
+3	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obl	_	Translit=tasya|LTranslit=tad|Gloss=his
 4	निश्चयम्	निश्चय	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	Translit=niścayam|LTranslit=niścaya
 5	विज्ञायावदत्	विज्ञयवद	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=vijñāyāvadat|LTranslit=vijñayavada
 
@@ -1636,7 +1648,7 @@
 # translit = vacaḥ tatra prayoktavyaṁ yatra uktaṁ labhate phalam
 # orig = panchatantra.conllu sent_id 224
 1	वचः	वचस्	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	Translit=vacaḥ|LTranslit=vacas
-2	तत्र	तत्र	ADV	_	_	3	advmod	_	Translit=tatra|LTranslit=tatra
+2	तत्र	तत्र	ADV	_	_	3	advmod	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
 3	प्रयोक्तव्यं	प्र-युज्	VERB	_	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	Translit=prayoktavyaṁ|LTranslit=pra-yuj
 4	यत्र	यत्र	ADV	_	_	5	advmod	_	Translit=yatra|LTranslit=yatra
 5	उक्तं	वच्ह्	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Part	6	obl	_	Translit=uktaṁ|LTranslit=vach
@@ -1693,7 +1705,7 @@
 6-7	यत्रेष्यते	_	_	_	_	_	_	_	_
 6	यत्र	यत्र	ADV	_	_	7	advmod	_	Translit=yatra|LTranslit=yatra
 7	इष्यते	इष्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	advcl	_	LId=इष्-१|Translit=iṣyate|LTranslit=iṣ
-8	तत्र	तत्र	ADV	_	_	9	advmod	_	Translit=tatra|LTranslit=tatra
+8	तत्र	तत्र	ADV	_	_	9	advmod	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
 9	गम्यते	गम्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=gamyate|LTranslit=gam
 
 # sent_id = s119
@@ -1704,7 +1716,7 @@
 2-3	कीलिकापनीयते	_	_	_	_	_	_	_	_
 2	कीलिका	कीलिका	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	Translit=kīlikā|LTranslit=kīlikā
 3	अपनीयते	अप-नी	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	advcl	_	Translit=apanīyate|LTranslit=apa-nī
-4	तत्र	तत्र	ADV	_	_	7	advmod	_	Translit=tatra|LTranslit=tatra
+4	तत्र	तत्र	ADV	_	_	7	advmod	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
 5	यन्त्रम्	यन्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	Translit=yantram|LTranslit=yantra
 6	इदम्	इदम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	Translit=idam|LTranslit=idam|Gloss=this
 7	अवतरति	अ-वत्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=avatarati|LTranslit=a-vat
@@ -2005,7 +2017,7 @@
 # orig = panchatantra.conllu sent_id 1263
 1	एवम्	एवम्	ADV	_	_	2	advmod	_	Translit=evam|LTranslit=evam
 2	उक्ते	उक्त	VERB	_	Case=Loc|Gender=Neut|Number=Sing|VerbForm=Part	7	advcl	_	Translit=ukte|LTranslit=ukta
-3	तस्य	तद्	DET	_	Case=Ins|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	Translit=tasya|LTranslit=tad
+3	तस्य	तद्	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nmod	_	Translit=tasya|LTranslit=tad|Gloss=his
 4	राज्ञा	राजन्	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	obl	_	Translit=rājñā|LTranslit=rājan
 5-6	देवमार्गो	_	_	_	_	_	_	_	_
 5	देव	देव	NOUN	_	_	6	compound	_	Translit=deva|LTranslit=deva
@@ -2178,7 +2190,7 @@
 # orig = panchatantra.conllu sent_id 1317
 1	अनेन	अहम्	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	det	_	Translit=anena|LTranslit=aham
 2	घातकेन	घातक	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	5	obl	_	Translit=ghātakena|LTranslit=ghātaka
-3	तस्य	तद्	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	Translit=tasya|LTranslit=tad
+3	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nmod	_	Translit=tasya|LTranslit=tad|Gloss=his
 4	राज्ञः	राजन्	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	Translit=rājñaḥ|LTranslit=rājan
 5	भवितव्यम्	भवितव्य	VERB	_	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Ger	0	root	_	Translit=bhavitavyam|LTranslit=bhavitavya
 
@@ -2306,7 +2318,7 @@
 9	यत्र	यत्र	ADV	_	_	11	advmod	_	Translit=yatra|LTranslit=yatra
 10	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	LId=अस्-१|Translit=asti|LTranslit=as
 11	रमन्ते	रम्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=ramante|LTranslit=ram
-12	तत्र	तत्र	ADV	_	_	13	advmod	_	Translit=tatra|LTranslit=tatra
+12	तत्र	तत्र	ADV	_	_	13	advmod	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
 13	सम्पदः	सम्पद्	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	Translit=sampadaḥ|LTranslit=sampad
 
 # sent_id = 174
@@ -2337,7 +2349,7 @@
 5	गुणवान्	गुणवत्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	Translit=guṇavān|LTranslit=guṇavat
 6	संसदि	संसद्	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	Translit=saṁsadi|LTranslit=saṁsad
 7	न	न	PART	_	Polarity=Neg	10	advmod	_	Translit=na|LTranslit=na
-8	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	Translit=tasya|LTranslit=tad
+8	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nmod	_	Translit=tasya|LTranslit=tad|Gloss=his
 9	वाच्यम्	वाच्य	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	Translit=vācyam|LTranslit=vācya
 10	नैर्गुण्यम्	नैर्गुण्य	X	_	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	2	advcl	_	Translit=nairguṇyam|LTranslit=nairguṇya
 11-12	प्रतिज्ञाभङ्गभीरुणा	_	_	_	_	_	_	_	_
@@ -2349,7 +2361,7 @@
 # translit = tathā tasya mayā śaraṇā agataḥ
 # orig = panchatantra.conllu sent_id 1416
 1	तथा	तथा	ADV	_	_	4	advmod	_	Translit=tathā|LTranslit=tathā
-2	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	Translit=tasya|LTranslit=tad
+2	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obl	_	Translit=tasya|LTranslit=tad|Gloss=his
 3	मया	अहम्	PRON	_	Case=Ins|Gender=Masc|Person=1|PronType=Prs	4	nmod	_	Translit=mayā|LTranslit=aham
 4	शरणा	शरण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=śaraṇā|LTranslit=śaraṇa
 5	अगतः	अ-गम्	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=agataḥ|LTranslit=a-gam
@@ -2405,7 +2417,7 @@
 # text = तस्य ब्राह्मण्स्य दारिद्र्तः प्रतिदिनम् वदति
 # translit = tasya brāhmaṇsya dāridrtaḥ pratidinam vadati
 # orig = panchatantra.conllu sent_id 1442
-1	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	Translit=tasya|LTranslit=tad
+1	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nmod	_	Translit=tasya|LTranslit=tad|Gloss=his
 2	ब्राह्मण्स्य	ब्राह्मण	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	Translit=brāhmaṇsya|LTranslit=brāhmaṇa
 3	दारिद्र्तः	दारिद्र्त	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	Translit=dāridrtaḥ|LTranslit=dāridrta
 4	प्रतिदिनम्	प्रतिदिन	ADV	_	_	5	advmod	_	Translit=pratidinam|LTranslit=pratidina
