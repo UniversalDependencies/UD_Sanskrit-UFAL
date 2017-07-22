@@ -224,21 +224,26 @@
 11	बभूवुः	भू	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|LId=भू-१|Translit=babhūvuḥ|LTranslit=bhū|Gloss=lived
 12	।	।	PUNCT	_	_	6	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s6
-# text = अथ तान् शास्त्रविमुखान् समालोक्य स राजा सचिवान् आहूय प्रोवाच
-# translit = atha tān śāstravimukhān samālokya sa rājā sacivān āhūya provāca
+# newpar id = panc0.p6
+# sent_id = panc0.s8
+# text = अथ तान् शास्त्रविमुखान् समालोक्य स राजा सचिवान् आहूय प्रोवाच ।
+# translit = atha tān śāstravimukhān samālokya sa rājā sacivān āhūya provāca .
+# wtext = अथ राजा ताञ्शास्त्रविमुखान् आलोक्य सचिवान् आहूय प्रोवाच ।
+# wtranslit = atha rājā tāñśāstravimukhān ālokya sacivān āhūya provāca .
 # wsid = ॥०.३॥
 # orig = panchatantra.conllu sent_id 8
+# text_fr = Convoquant ses ministres, le roi leur dit :
 # ryder = Now when the king perceived that they were hostile to education, he summoned his counselors and said:
-1	अथ	अथ	ADV	_	_	9	advmod	_	Translit=atha|LTranslit=atha
-2	तान्	तद्	PRON	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Dem	4	obj	_	Translit=tān|LTranslit=tad
-3	शास्त्रविमुखान्	शास्त्रविमुख	NOUN	_	Case=Abl|Gender=Masc|Number=Plur	4	obl	_	Translit=śāstravimukhān|LTranslit=śāstravimukha
-4	समालोक्य	समालोक्य	VERB	_	Case=Voc|Gender=Masc|Number=Sing|VerbForm=Part	9	advcl	_	Translit=samālokya|LTranslit=samālokya
-5	स	तद्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	Translit=sa|LTranslit=tad
-6	राजा	राजन्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Translit=rājā|LTranslit=rājan
-7	सचिवान्	सचिव	NOUN	_	Case=Abl|Gender=Masc|Number=Plur	8	obj	_	Translit=sacivān|LTranslit=saciva
-8	आहूय	आहूय	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=āhūya|LTranslit=āhūya
-9	प्रोवाच	प्रो-वच्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	Translit=provāca|LTranslit=pro-vac
+1	अथ	अथ	ADV	_	_	9	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
+2	तान्	तद्	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	Translit=tān|LTranslit=tad|Gloss=that
+3	शास्त्रविमुखान्	शास्त्रविमुख	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	Translit=śāstravimukhān|LTranslit=śāstravimukha|Gloss=ignorance-of-education
+4	समालोक्य	समालोक्	VERB	_	VerbForm=Conv	9	advcl	_	Translit=samālokya|LTranslit=samālok|Gloss=after-having-perceived
+5	स	तद्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	Translit=sa|LTranslit=tad|Gloss=that
+6	राजा	राजन्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Translit=rājā|LTranslit=rājan|Gloss=king
+7	सचिवान्	सचिव	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	Translit=sacivān|LTranslit=saciva|Gloss=ministers
+8	आहूय	आहूय	VERB	_	VerbForm=Conv	9	advcl	_	Translit=āhūya|LTranslit=āhūya|Gloss=after-having-summoned
+9	प्रोवाच	प्रो-वच्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=provāca|LTranslit=pro-vac|Gloss=said
+10	।	।	PUNCT	_	_	9	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = s7
 # text = तत् एतान् पश्यतः मे मदपि राज्यम् न सौख्यम् आवहति
@@ -343,7 +348,7 @@
 # wsid = ॥०.६॥
 # orig = panchatantra.conllu sent_id 20
 # ryder = But one of their number, a counselor named Keen, said:
-1	अथ	अथ	ADV	_	_	7	advmod	_	Translit=atha|LTranslit=atha
+1	अथ	अथ	ADV	_	_	7	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2-3	तन्मध्यतः	_	_	_	_	_	_	_	_
 2	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	7	obl	_	Translit=tat|LTranslit=tad|Gloss=it
 3	मध्यतः	मध्यतः	ADV	_	_	2	advmod	_	Translit=madhyataḥ|LTranslit=madhyataḥ
@@ -447,7 +452,7 @@
 # wsid = ॥०.७॥
 # orig = panchatantra.conllu sent_id 32
 # ryder = And Vishnusharman made answer to the king:
-1	अथ	अथ	ADV	_	_	5	advmod	_	Translit=atha|LTranslit=atha
+1	अथ	अथ	ADV	_	_	5	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2	विष्णुशर्म	विष्णुशर्मा	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=viṣṇuśarma|LTranslit=viṣṇuśarmā|Gloss=Vishnusharma
 3	तम्	तद्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	Translit=tam|LTranslit=tad
 4	राजानम्	राजन्	X	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=rājānam|LTranslit=rājan
@@ -826,7 +831,7 @@
 # text = अथ तदवस्थमालोक्य वर्धमानः परम् विषादमगमत्
 # translit = atha tadavasthamālokya vardhamānaḥ param viṣādamagamat
 # wsid = ॥१.१९॥
-1	अथ	अथ	ADV	_	_	4	advmod	_	Translit=atha|LTranslit=atha
+1	अथ	अथ	ADV	_	_	4	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2-4	तदवस्थमालोक्य	_	_	_	_	_	_	_	_
 2	तत्	तद्	DET	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	det	_	Translit=tat|LTranslit=tad|Gloss=it
 3	अवस्थम्	अवस्था	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	Translit=avastham|LTranslit=avasthā
@@ -858,7 +863,7 @@
 # text = अथ तम् विषण्णमालोक्य सार्थिकैरभिहितम्
 # translit = atha tam viṣaṇṇamālokya sārthikairabhihitam
 # wsid = ॥१.१९॥
-1	अथ	अथ	ADV	_	_	6	advmod	_	Translit=atha|LTranslit=atha
+1	अथ	अथ	ADV	_	_	6	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2	तम्	तद्	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	Translit=tam|LTranslit=tad
 3-4	विषण्णमालोक्य	_	_	_	_	_	_	_	_
 3	विषण्णम्	विषण्ण	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	Translit=viṣaṇṇam|LTranslit=viṣaṇṇa
@@ -871,7 +876,7 @@
 # text = अथ तदवधार्य सञ्जीवकस्य रक्षापुरुषान् निरूप्या शेषसार्थम् स प्रस्थितः
 # translit = atha tadavadhārya sañjīvakasya rakṣāpuruṣān nirūpyā śeṣasārtham sa prasthitaḥ
 # wsid = ॥१.२०॥
-1	अथ	अथ	ADV	_	_	10	advmod	_	Translit=atha|LTranslit=atha
+1	अथ	अथ	ADV	_	_	10	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2-3	तदवधार्य	_	_	_	_	_	_	_	_
 2	तत्	तद्	DET	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	obj	_	Translit=tat|LTranslit=tad|Gloss=it
 3	अवधार्य	अव-धार्य	X	_	Case=Voc|Gender=Masc|Number=Sing|VerbForm=Part	10	advcl	_	Translit=avadhārya|LTranslit=ava-dhārya
@@ -903,7 +908,7 @@
 # wsid = ॥१.२१॥
 # orig = panchatantra.conllu sent_id 82
 # ryder = But one day a lion named Rusty, with a retinue of all kinds of animals, came down to the bank of the Jumna for water.
-1	अथ	अथ	ADV	_	_	5	advmod	_	Translit=atha|LTranslit=atha
+1	अथ	अथ	ADV	_	_	5	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2	कदाचित्	कदाचित्	DET	_	PronType=Int	5	det	_	Translit=kadācit|LTranslit=kadācit
 3	पिङ्गलकः	पिङ्गलक	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	Translit=piṅgalakaḥ|LTranslit=piṅgalaka
 4	नाम	नम	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	Translit=nāma|LTranslit=nama
@@ -1037,7 +1042,7 @@
 1	प्रथमम्	प्रथम	ADV	_	Case=Acc	3	advmod	_	Translit=prathamam|LTranslit=prathama
 2	अहम्	अहम्	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Translit=aham|LTranslit=aham
 3	शृणोमि	स्णु	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=śr̥ṇomi|LTranslit=sṇu
-4	अथ	अथ	ADV	_	_	5	advmod	_	Translit=atha|LTranslit=atha
+4	अथ	अथ	ADV	_	_	5	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 5	लिखामि	लिख्	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	Translit=likhāmi|LTranslit=likh
 
 # sent_id = s62
@@ -1311,7 +1316,7 @@
 # sent_id = s82
 # text = अथ भवाम् कर्तुम् मनाः
 # translit = atha bhavām kartum manāḥ
-1	अथ	अथ	ADV	_	_	4	advmod	_	Translit=atha|LTranslit=atha
+1	अथ	अथ	ADV	_	_	4	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2	भवाम्	भव	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	Translit=bhavām|LTranslit=bhava
 3	कर्तुम्	कृ	VERB	_	VerbForm=Inf	4	advcl	_	Translit=kartum|LTranslit=kr̥
 4	मनाः	मनस्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Translit=manāḥ|LTranslit=manas
@@ -1359,7 +1364,7 @@
 # text = अथ भवान् किम् वक्तुमनाम्
 # translit = atha bhavān kim vaktumanām
 # orig = panchatantra.conllu sent_id 146
-1	अथ	अथ	ADV	_	_	4	advmod	_	Translit=atha|LTranslit=atha
+1	अथ	अथ	ADV	_	_	4	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2	भवान्	भवत्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	Translit=bhavān|LTranslit=bhavat
 3	किम्	किम्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	Translit=kim|LTranslit=kim
 4	वक्तुमनाम्	वक्तुमआः	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	0	root	_	Translit=vaktumanām|LTranslit=vaktumaāḥ
@@ -2133,7 +2138,7 @@
 # text = अथ तया गत्वा सर्वम् सगर्वया राज्ञे निवेदितम्
 # translit = atha tayā gatvā sarvam sagarvayā rājñe niveditam
 # orig = panchatantra.conllu sent_id 1288
-1	अथ	अथ	ADV	_	_	3	advmod	_	Translit=atha|LTranslit=atha
+1	अथ	अथ	ADV	_	_	3	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2	तया	तद्	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	3	obl	_	Translit=tayā|LTranslit=tad
 3	गत्वा	गम्	VERB	_	VerbForm=Part	7	advcl	_	Translit=gatvā|LTranslit=gam
 4	सर्वम्	सर्व	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	Translit=sarvam|LTranslit=sarva
@@ -2468,7 +2473,7 @@
 # text = अथ ब्राह्मणः तद्वचननिर्वेदेन महाध्वानं आरब्धः
 # translit = atha brāhmaṇaḥ tadvacananirvedena mahādhvānaṁ ārabdhaḥ
 # orig = panchatantra.conllu sent_id 1446
-1	अथ	अथ	ADV	_	_	8	advmod	_	Translit=atha|LTranslit=atha
+1	अथ	अथ	ADV	_	_	8	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2	ब्राह्मणः	ब्राह्मण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	Translit=brāhmaṇaḥ|LTranslit=brāhmaṇa
 3-5	तद्वचननिर्वेदेन	_	_	_	_	_	_	_	_
 3	तत्	तद्	ADV	_	_	5	advmod	_	Translit=tat|LTranslit=tad
