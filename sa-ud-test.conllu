@@ -311,6 +311,98 @@
 4	उच्यते	वच्	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=ucyate|LTranslit=vac|Gloss=said
 5	-	-	PUNCT	_	_	4	punct	_	Translit=-|LTranslit=-|Gloss=-
 
+# newpar id = panc0.p7
+# sent_id = panc0.s12
+# text = अजातमृतमूर्खेभ्यो मृताजातौ सुतौ वरम्। यतस्तौ स्वल्पदुःखाय यावज्जीवं जडो दहेत् ॥
+# translit = ajātamr̥tamūrkhebhyo mr̥tājātau sutau varam. yatastau svalpaduḥkhāya yāvajjīvaṁ jaḍo dahet :
+# ptext = a jAta mfta mUrKeByaH mfta a jAtO sutO varam yataH tO svalpa duHKAya yAvat jIvam jaqaH dahet
+# text_fr = À choisir entre non né, mort ou idiot, mieux vaut un fils mort-né car la douleur est courte. Un fils idiot, lui, fait souffrir toute la vie !
+# text_en = Of unborn, dead or fools, dead and unborn sons are better. For they cause a little pain whereas an idiot destroys the whole life.
+# ryder = Of sons unborn, or dead, or fools, / Unborn or dead will do: / They cause a little grief, no doubt; / But fools, a long life through.
+1-3	अजातमृतमूर्खेभ्यो	_	_	_	_	_	_	_	_
+1	अजात	जात	ADJ	_	Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Pass	7	obl	_	Translit=ajāta|LTranslit=jāta|Gloss=unborn
+2	मृत	मृत	ADJ	_	Tense=Past|VerbForm=Part|Voice=Pass	1	conj	_	Translit=mr̥ta|LTranslit=mr̥ta|Gloss=dead
+3	मूर्खेभ्यः	मूर्ख	ADJ	_	Case=Abl|Gender=Masc|Number=Plur	1	conj	_	Translit=mūrkhebhyaḥ|LTranslit=mūrkha|Gloss=stupid
+4-5	मृताजातौ	_	_	_	_	_	_	_	_
+4	मृत	मृत	ADJ	_	Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	Translit=mr̥ta|LTranslit=mr̥ta|Gloss=dead
+5	अजातौ	जात	ADJ	_	Case=Nom|Gender=Masc|Number=Dual|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	Translit=ajātau|LTranslit=jāta|Gloss=unborn
+6	सुतौ	सुत	NOUN	_	Case=Nom|Gender=Masc|Number=Dual	7	nsubj	_	Translit=sutau|LTranslit=suta|Gloss=sons
+7	वरम्	वरम्	ADV	_	_	0	root	_	SpaceAfter=No|Translit=varam|LTranslit=varam|Gloss=preferably
+8	।	।	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.|Gloss=.
+9-10	यतस्तौ	_	_	_	_	_	_	_	_
+9	यतः	यतः	ADV	_	PronType=Rel	12	advmod	_	Translit=yataḥ|LTranslit=yataḥ|Gloss=from-which
+10	तौ	तद्	PRON	_	Case=Nom|Gender=Masc|Number=Dual|Person=3|PronType=Dem	12	nsubj	_	Translit=tau|LTranslit=tad|Gloss=those
+11-12	स्वल्पदुःखाय	_	_	_	_	_	_	_	_
+11	स्वल्प	स्वल्प	ADJ	_	_	12	amod	_	Translit=svalpa|LTranslit=svalpa|Gloss=minimal
+12	दुःखाय	दुःख	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	7	advcl	_	Translit=duḥkhāya|LTranslit=duḥkha|Gloss=pain
+13-14	यावज्जीवं	_	_	_	_	_	_	_	_
+13	यावत्	यावत्	ADV	_	PronType=Rel	16	cc	_	Translit=yāvat|LTranslit=yāvat|Gloss=whereas
+14	जीवं	जीव	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	Translit=jīvaṁ|LTranslit=jīva|Gloss=life
+15	जडो	जड	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	Translit=jaḍo|LTranslit=jaḍa|Gloss=idiot
+16	दहेत्	दह्	VERB	_	Mood=Opt|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	conj	_	Translit=dahet|LTranslit=dah|Gloss=destroy
+17	॥	॥	PUNCT	_	_	7	punct	_	Translit=:|LTranslit=:|Gloss=.
+
+# newpar id = panc0.p8
+# sent_id = panc0.s12b
+# text = वरं गर्भस्रावो वरमृतुषु नैवाभिगमनं वरं जातः प्रोतो वरमपि च कन्यैव जनिता। वरं वन्ध्या भार्या वरमपि च गर्भेषु वसतिर् न चाविद्वान् रूपद्रविणगुणयुक्तोऽपि तनयः॥
+# wsid = ॥०.४॥
+# translit = varaṁ garbhasrāvo varamr̥tuṣu naivābhigamanaṁ varaṁ jātaḥ proto varamapi ca kanyaiva janitā. varaṁ vandhyā bhāryā varamapi ca garbheṣu vasatir na cāvidvān rūpadraviṇaguṇayukto’pi tanayaḥ:
+# text_fr = Mieux vaut une fausse couche, Mieux vaut ne pas s’accoupler durant le printemps. Mieux vaut qu’un enfant naisse mort ou meure juste après la naissance. Mieux vaut encore la naissance d’une fille ! Mieux vaut une femme stérile ou que l’enfant ne naisse jamais plutôt qu’un fils beau et vertueux, mais inculte !
+# text_en = Better a miscarriage, better not have sex during the fertile period, better a dead birth, better beget a daughter. Better a sterile wife than a son that is unintelligent, even if beautiful, rich and honest.
+1	वरं	वरम्	ADV	_	Degree=Cmp	0	root	_	Translit=varaṁ|LTranslit=varam|Gloss=better
+2	गर्भस्रावो	गर्भस्राव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	Translit=garbhasrāvo|LTranslit=garbhasrāva|Gloss=miscarriage
+3-4	वरमृतुषु	_	_	_	_	_	_	_	_
+3	वरम्	वरम्	ADV	_	Degree=Cmp	6	advmod	_	Translit=varam|LTranslit=varam|Gloss=better
+4	ऋतुषु	ऋतु	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	6	obl	_	Translit=r̥tuṣu|LTranslit=r̥tu|Gloss=during-ovulation
+5-8	नैवाभिगमनं	_	_	_	_	_	_	_	_
+5	न	न	PART	_	Polarity=Neg	6	advmod	_	Translit=na|LTranslit=na|Gloss=not
+6	ऐव	इ	VERB	_	Aspect=Imp|Mood=Ind|Number=Dual|Person=1|VerbForm=Fin|Voice=Act	1	conj	_	Translit=aiva|LTranslit=i|Gloss=go
+7	अभि	अभि	ADP	_	_	8	case	_	Translit=abhi|LTranslit=abhi|Gloss=to
+8	गमनं	गमन	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	Translit=gamanaṁ|LTranslit=gamana|Gloss=sexual-partner
+9	वरं	वरम्	ADV	_	Degree=Cmp	1	conj	_	Translit=varaṁ|LTranslit=varam|Gloss=better
+10	जातः	जात	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Translit=jātaḥ|LTranslit=jāta|Gloss=birth
+11	प्रोतो	प्रोत	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	Translit=proto|LTranslit=prota|Gloss=pierced
+12-13	वरमपि	_	_	_	_	_	_	_	_
+12	वरम्	वरम्	ADV	_	Degree=Cmp	17	advmod	_	Translit=varam|LTranslit=varam|Gloss=better
+13	अपि	अपि	ADV	_	_	17	advmod	_	Translit=api|LTranslit=api|Gloss=also
+14	च	च	CCONJ	_	_	17	cc	_	Translit=ca|LTranslit=ca|Gloss=and
+15-16	कन्यैव	_	_	_	_	_	_	_	_
+15	कन्या	कन्य	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	17	nsubj:pass	_	Translit=kanyā|LTranslit=kanya|Gloss=small
+16	एव	एव	ADV	_	_	17	advmod	_	Translit=eva|LTranslit=eva|Gloss=just
+17	जनिता	जन्	ADJ	_	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	conj	_	SpaceAfter=No|Translit=janitā|LTranslit=jan|Gloss=begotten
+18	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
+19	वरं	वरम्	ADV	_	Degree=Cmp	1	conj	_	Translit=varaṁ|LTranslit=varam|Gloss=better
+20	वन्ध्या	वन्ध्य	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	21	amod	_	Translit=vandhyā|LTranslit=vandhya|Gloss=sterile
+21	भार्या	भार्य	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	Translit=bhāryā|LTranslit=bhārya|Gloss=wife
+22-23	वरमपि	_	_	_	_	_	_	_	_
+22	वरम्	वरम्	ADV	_	Degree=Cmp	26	advmod	_	Translit=varam|LTranslit=varam|Gloss=better
+23	अपि	अपि	ADV	_	_	26	advmod	_	Translit=api|LTranslit=api|Gloss=also
+24	च	च	CCONJ	_	_	26	cc	_	Translit=ca|LTranslit=ca|Gloss=and
+25	गर्भेषु	गर्भ	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	26	obl	_	Translit=garbheṣu|LTranslit=garbha|Gloss=in-the-womb
+26	वसतिर्	वस्	ADJ	_	Case=Nom|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	conj	_	Translit=vasatir|LTranslit=vas|Gloss=residing
+27	न	न	PART	_	Polarity=Neg	26	advmod	_	Translit=na|LTranslit=na|Gloss=not
+28-29	चाविद्वान्	_	_	_	_	_	_	_	_
+28	च	च	CCONJ	_	_	29	cc	_	Translit=ca|LTranslit=ca|Gloss=and
+29	अविद्वान्	विद्वस्	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|Polarity=Neg	35	amod	_	Translit=avidvān|LTranslit=vidvas|Gloss=unintelligent
+30-34	रूपद्रविणगुणयुक्तोऽपि	_	_	_	_	_	_	_	_
+30	रूप	रूप	NOUN	_	_	33	compound	_	Translit=rūpa|LTranslit=rūpa|Gloss=beauty
+31	द्रविण	द्रविण	NOUN	_	_	33	compound	_	Translit=draviṇa|LTranslit=draviṇa|Gloss=wealth
+32	गुण	गुण	NOUN	_	_	33	compound	_	Translit=guṇa|LTranslit=guṇa|Gloss=quality
+33	युक्तः	युक्त	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	conj	_	Translit=yuktaḥ|LTranslit=yukta|Gloss=united
+34	अपि	अपि	ADV	_	_	33	cc	_	Translit=api|LTranslit=api|Gloss=albeit
+35	तनयः	तनय	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No|Translit=tanayaḥ|LTranslit=tanaya|Gloss=son
+36	॥	॥	PUNCT	_	_	1	punct	_	Translit=:|LTranslit=:|Gloss=.
+
+# newpar id = panc0.p9
+# sent_id = panc0.s13
+# text = तथा च
+# translit = tathā ca
+# ptext = taTA ca
+# orig = panchatantra.conllu sent_id 13
+# ryder = And again:
+1	तथा	तथा	ADV	_	PronType=Dem	0	root	_	Translit=tathā|LTranslit=tathā|Gloss=so
+2	च	च	CCONJ	_	_	1	cc	_	Translit=ca|LTranslit=ca|Gloss=and
+
 # sent_id = s9
 # text = किम् तया क्रियते धेन्वा या न सूते न क्षीरम् ददाति
 # translit = kim tayā kriyate dhenvā yā na sūte na kṣīram dadāti
@@ -2402,7 +2494,7 @@
 # text = तथा तस्य मया शरणा अगतः
 # translit = tathā tasya mayā śaraṇā agataḥ
 # orig = panchatantra.conllu sent_id 1416
-1	तथा	तथा	ADV	_	_	4	advmod	_	Translit=tathā|LTranslit=tathā
+1	तथा	तथा	ADV	_	PronType=Dem	4	advmod	_	Translit=tathā|LTranslit=tathā|Gloss=so
 2	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obl	_	Translit=tasya|LTranslit=tad|Gloss=his
 3	मया	अहम्	PRON	_	Case=Ins|Gender=Masc|Person=1|PronType=Prs	4	nmod	_	Translit=mayā|LTranslit=aham
 4	शरणा	शरण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=śaraṇā|LTranslit=śaraṇa
