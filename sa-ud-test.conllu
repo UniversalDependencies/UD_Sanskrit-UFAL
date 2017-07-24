@@ -172,7 +172,7 @@
 # text_fr = Il y avait, dans une contrée méridionale, une contrée peuplée, une ville du nom de Mahilaropya.
 # text_en = There is a city called Mahilaropya in the southern country.
 # ryder = In the southern country is a city called Maidens' Delight.
-1	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	LId=अस्-१|Translit=asti|LTranslit=as|Gloss=is
+1	अस्ति	अस्	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	LId=अस्-१|Translit=asti|LTranslit=as|Gloss=is
 2	दाक्षिणात्ये	दाक्षिणात्य	ADJ	_	Case=Loc|Gender=Neut|Number=Sing	3	amod	_	Translit=dākṣiṇātye|LTranslit=dākṣiṇātya|Gloss=southern
 3	जनपदे	जनपद	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	0	root	_	Translit=janapade|LTranslit=janapada|Gloss=country
 4	महिलारोप्यं	महिलारोप्य	PROPN	_	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	Translit=mahilāropyaṁ|LTranslit=mahilāropya|Gloss=Mahilaropya
@@ -403,38 +403,50 @@
 1	तथा	तथा	ADV	_	PronType=Dem	0	root	_	Translit=tathā|LTranslit=tathā|Gloss=so
 2	च	च	CCONJ	_	_	1	cc	_	Translit=ca|LTranslit=ca|Gloss=and
 
-# sent_id = s9
-# text = किम् तया क्रियते धेन्वा या न सूते न क्षीरम् ददाति
-# translit = kim tayā kriyate dhenvā yā na sūte na kṣīram dadāti
+# newpar id = panc0.p10
+# sent_id = panc0.s14a
+# text = किम् तया क्रियते धेन्वा या न सूते न क्षीरम् ददाति।
+# translit = kim tayā kriyate dhenvā yā na sūte na kṣīram dadāti.
+# wtext = किं तया क्रियते धेन्वा या न सूते न दुग्धदा।
+# wtranslit = kiṁ tayā kriyate dhenvā yā na sūte na dugdhadā.
 # wsid = ॥०.५॥
 # orig = panchatantra.conllu sent_id 14
-1	किम्	क	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj:pass	_	LId=क-१|Translit=kim|LTranslit=ka
-2	तया	तद्	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	Translit=tayā|LTranslit=tad
-3	क्रियते	कृ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	LId=कृ-१|Translit=kriyate|LTranslit=kr̥
-4	धेन्वा	धेनु	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	Translit=dhenvā|LTranslit=dhenu
-5	या	यद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	7	nsubj	_	Translit=yā|LTranslit=yad
+# text_fr = À quoi bon une vache, qui ne vêle ni ne donne de lait !
+# text_en = What to do with a cow which neither calves nor gives milk?
+# ryder = To what good purpose can a cow / That brings no calf nor milk, be bent?
+1	किम्	किम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj:pass	_	LId=क-१|Translit=kim|LTranslit=kim|Gloss=what
+2	तया	तद्	DET	_	Case=Ins|Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	det	_	Translit=tayā|LTranslit=tad|Gloss=with-this
+3	क्रियते	कृ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	LId=कृ-१|Translit=kriyate|LTranslit=kr̥|Gloss=done
+4	धेन्वा	धेनु	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	Translit=dhenvā|LTranslit=dhenu|Gloss=with-cow
+5	या	यद्	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	7	nsubj	_	Translit=yā|LTranslit=yad|Gloss=which
 6	न	न	PART	_	Polarity=Neg	7	advmod	_	Translit=na|LTranslit=na|Gloss=not
-7	सूते	सू	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	Translit=sūte|LTranslit=sū
+7	सूते	सू	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	acl:relcl	_	Translit=sūte|LTranslit=sū|Gloss=calves
 8	न	न	PART	_	Polarity=Neg	10	advmod	_	Translit=na|LTranslit=na|Gloss=not
-9	क्षीरम्	क्षीर	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	Translit=kṣīram|LTranslit=kṣīra
-10	ददाति	दा	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	Translit=dadāti|LTranslit=dā
+9	क्षीरम्	क्षीर	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	Translit=kṣīram|LTranslit=kṣīra|Gloss=milk
+10	ददाति	दा	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No|Translit=dadāti|LTranslit=dā|Gloss=gives
+11	।	।	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s10
-# text = कः अर्थः पुत्रेण जातेन यः न विद्वान् न भक्तिमान् अस्ति
-# translit = kaḥ arthaḥ putreṇa jātena yaḥ na vidvān na bhaktimān asti
+# sent_id = panc0.s14b
+# text = कः अर्थः पुत्रेण जातेन यः न विद्वान् न भक्तिमान् अस्ति॥
+# translit = kaḥ arthaḥ putreṇa jātena yaḥ na vidvān na bhaktimān asti:
+# wtext = कोऽर्थः पुत्रेण जातेन यो न विद्वान्न भक्तिमान्॥
+# wtranslit = ko’rthaḥ putreṇa jātena yo na vidvānna bhaktimān:
 # wsid = ॥०.५॥
 # orig = panchatantra.conllu sent_id 14
+# text_fr = À quoi bon un fils né, qui n’est ni savant ni dévot !
+# text_en = What is the purpose of a son born who is neither intelligent nor obedient?
 # ryder = Or why beget a son who proves / A dunce and disobedient?
-1	कः	क	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	2	det	_	Translit=kaḥ|LTranslit=ka
-2	अर्थः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Translit=arthaḥ|LTranslit=artha
-3	पुत्रेण	पुत्र	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	4	obl	_	Translit=putreṇa|LTranslit=putra
-4	जातेन	जात	VERB	_	Case=Ins|Gender=Masc|Number=Sing|VerbForm=Ger	0	root	_	Translit=jātena|LTranslit=jāta
-5	यः	यद्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	7	nsubj	_	Translit=yaḥ|LTranslit=yad
+1	कः	किम्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	0	root	_	Translit=kaḥ|LTranslit=kim|Gloss=which
+2	अर्थः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	nsubj:cop	_	Translit=arthaḥ|LTranslit=artha|Gloss=purpose
+3	पुत्रेण	पुत्र	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	Translit=putreṇa|LTranslit=putra|Gloss=son
+4	जातेन	जात	ADJ	_	Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	Translit=jātena|LTranslit=jāta|Gloss=born
+5	यः	यद्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	7	nsubj	_	Translit=yaḥ|LTranslit=yad|Gloss=who
 6	न	न	PART	_	Polarity=Neg	7	advmod	_	Translit=na|LTranslit=na|Gloss=not
-7	विद्वान्	विद्वस्	X	_	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	Translit=vidvān|LTranslit=vidvas
-8	न	न	PART	_	Polarity=Neg	7	advmod	_	Translit=na|LTranslit=na|Gloss=not
-9	भक्तिमान्	भक्तिमत्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	Translit=bhaktimān|LTranslit=bhaktimat
-10	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	LId=अस्-१|Translit=asti|LTranslit=as
+7	विद्वान्	विद्वस्	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	3	acl:relcl	_	Translit=vidvān|LTranslit=vidvas|Gloss=intelligent
+8	न	न	PART	_	Polarity=Neg	9	advmod	_	Translit=na|LTranslit=na|Gloss=not
+9	भक्तिमान्	भक्तिमत्	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	Translit=bhaktimān|LTranslit=bhaktimat|Gloss=obedient
+10	अस्ति	अस्	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	SpaceAfter=No|LId=अस्-१|Translit=asti|LTranslit=as|Gloss=is
+11	॥	॥	PUNCT	_	_	1	punct	_	Translit=:|LTranslit=:|Gloss=.
 
 # sent_id = s11
 # text = तत्रैकः सचिवः प्रोचुः
@@ -1433,7 +1445,7 @@
 # orig = panchatantra.conllu sent_id 127
 # ryder = A crow, with beak equipped, can fill / His belly's selfish need.
 1	वयाम्सि	वयस्	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	Translit=vayāmsi|LTranslit=vayas
-2	किम्	किम्	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	Translit=kim|LTranslit=kim
+2	किम्	किम्	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obl	_	Translit=kim|LTranslit=kim|Gloss=what
 3	न	न	PART	_	Polarity=Neg	4	advmod	_	Translit=na|LTranslit=na|Gloss=not
 4	कुर्वन्ति	क्र्	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=kurvanti|LTranslit=kr
 5	चञ्च्वा	चञ्चु	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	Translit=cañcvā|LTranslit=cañcu
@@ -1475,7 +1487,7 @@
 # translit = kiṁ tasya jīvitaphalaṁ manuṣyaloke
 # wsid = ॥१.२५॥
 # orig = panchatantra.conllu sent_id 128
-1	किं	किं	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	det	_	Translit=kiṁ|LTranslit=kiṁ
+1	किं	किं	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	det	_	Translit=kiṁ|LTranslit=kiṁ|Gloss=what
 2	तस्य	तद्	PRON	_	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	obl	_	Translit=tasya|LTranslit=tad|Gloss=its
 3-4	जीवितफलं	_	_	_	_	_	_	_	_
 3	जीवित	जीवित	VERB	_	VerbForm=Ger	0	root	_	Translit=jīvita|LTranslit=jīvita
@@ -1495,7 +1507,7 @@
 # orig = panchatantra.conllu sent_id 146
 1	अथ	अथ	ADV	_	_	4	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2	भवान्	भवत्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	Translit=bhavān|LTranslit=bhavat
-3	किम्	किम्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	Translit=kim|LTranslit=kim
+3	किम्	किम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	4	nmod	_	Translit=kim|LTranslit=kim|Gloss=what
 4	वक्तुमनाम्	वक्तुमआः	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	0	root	_	Translit=vaktumanām|LTranslit=vaktumaāḥ
 
 # sent_id = s87
@@ -1546,7 +1558,7 @@
 # text = किम् अत्र ज्ञातव्यम्
 # translit = kim atra jñātavyam
 # orig = panchatantra.conllu sent_id 152
-1	किम्	किम्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	Translit=kim|LTranslit=kim
+1	किम्	किम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj	_	Translit=kim|LTranslit=kim|Gloss=what
 2	अत्र	अत्र	ADV	_	_	3	advmod	_	Translit=atra|LTranslit=atra
 3	ज्ञातव्यम्	ज्ञन्	X	_	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Ger	0	root	_	Translit=jñātavyam|LTranslit=jñan
 
@@ -1698,7 +1710,7 @@
 # translit = vayasya kim adhunā kartavyam
 # orig = panchatantra.conllu sent_id 1192
 1	वयस्य	वयस्य	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	4	vocative	_	Translit=vayasya|LTranslit=vayasya
-2	किम्	क	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	4	nsubj	_	Translit=kim|LTranslit=ka
+2	किम्	किम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	4	nsubj	_	Translit=kim|LTranslit=kim|Gloss=what
 3	अधुना	अधुना	ADV	_	_	4	advmod	_	Translit=adhunā|LTranslit=adhunā
 4	कर्तव्यम्	कर्तव्य	VERB	_	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Ger	0	root	_	Translit=kartavyam|LTranslit=kartavya
 
@@ -1713,7 +1725,7 @@
 # text = किम् अहम् जानामि त्वयि मित्रे यत् अभिहितं मया
 # translit = kim aham jānāmi tvayi mitre yat abhihitaṁ mayā
 # orig = panchatantra.conllu sent_id 1194
-1	किम्	क	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	obl	_	Translit=kim|LTranslit=ka
+1	किम्	किम्	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	obl	_	Translit=kim|LTranslit=kim|Gloss=what
 2	अहम्	अहम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Translit=aham|LTranslit=aham
 3	जानामि	ज्ञा	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	LId=ज्ञा-१|Translit=jānāmi|LTranslit=jñā
 4	त्वयि	त्वद्	DET	_	Case=Loc|Number=Sing|Person=2|PronType=Prs	5	det	_	Translit=tvayi|LTranslit=tvad
@@ -1884,7 +1896,7 @@
 # orig = panchatantra.conllu sent_id 1210
 1	देव	देव	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	7	vocative	_	Translit=deva|LTranslit=deva
 2-3	किंनिमित्तम्	_	_	_	_	_	_	_	_
-2	किम्	क	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	det	_	LId=क-१|Translit=kim|LTranslit=ka
+2	किम्	किम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	det	_	LId=क-१|Translit=kim|LTranslit=kim|Gloss=what
 3	निमित्तम्	निमित्त	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	Translit=nimittam|LTranslit=nimitta
 4-7	इहागमनेनानुगृहीतास्मि	_	_	_	_	_	_	_	_
 4	इह	इह	ADV	_	_	5	advmod	_	Translit=iha|LTranslit=iha
@@ -1898,7 +1910,7 @@
 # orig = panchatantra.conllu sent_id 1211
 1	तस्मात्	तद्	PRON	_	Case=Abl|Gender=Neut|Number=Sing|PronType=Dem	2	obl	_	Translit=tasmāt|LTranslit=tad
 2	समादिश्यताम्	समादिश्	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=samādiśyatām|LTranslit=samādiś
-3	किम्	क	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	4	det	_	Translit=kim|LTranslit=ka
+3	किम्	किम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	4	det	_	Translit=kim|LTranslit=kim|Gloss=what
 4	कर्तव्यः	कर्तव्य	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	Translit=kartavyaḥ|LTranslit=kartavya
 
 # sent_id = s124
@@ -2055,7 +2067,7 @@
 # text = किम् एवम् शीलखण्डनं कृतम्
 # translit = kim evam śīlakhaṇḍanaṁ kr̥tam
 # orig = panchatantra.conllu sent_id 1242
-1	किम्	क	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	5	nsubj	_	LId=क-१|Translit=kim|LTranslit=ka
+1	किम्	किम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	5	nsubj	_	LId=क-१|Translit=kim|LTranslit=kim|Gloss=what
 2	एवम्	एवम्	ADV	_	_	5	advmod	_	Translit=evam|LTranslit=evam
 3-4	शीलखण्डनं	_	_	_	_	_	_	_	_
 3	शील	शील	NOUN	_	_	4	compound	_	Translit=śīla|LTranslit=śīla
@@ -2279,7 +2291,7 @@
 # text = किम् अधुना मया विधेयम्
 # translit = kim adhunā mayā vidheyam
 # orig = panchatantra.conllu sent_id 1295
-1	किम्	क	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	4	nsubj	_	Translit=kim|LTranslit=ka
+1	किम्	किम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	4	nsubj	_	Translit=kim|LTranslit=kim|Gloss=what
 2	अधुना	अधुना	ADV	_	_	4	advmod	_	Translit=adhunā|LTranslit=adhunā
 3	मया	अहम्	PRON	_	Case=Ins|Gender=Masc|Person=1|PronType=Prs	4	obl	_	Translit=mayā|LTranslit=aham
 4	विधेयम्	वि-धेय	VERB	_	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Ger	0	root	_	Translit=vidheyam|LTranslit=vi-dheya
@@ -2450,7 +2462,7 @@
 7	श्रोता	श्रोतृ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	Translit=śrotā|LTranslit=śrotr̥
 8	च	च	CCONJ	_	_	6	conj	_	Translit=ca|LTranslit=ca
 9	यत्र	यत्र	ADV	_	_	11	advmod	_	Translit=yatra|LTranslit=yatra
-10	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	LId=अस्-१|Translit=asti|LTranslit=as
+10	अस्ति	अस्	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	LId=अस्-१|Translit=asti|LTranslit=as
 11	रमन्ते	रम्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=ramante|LTranslit=ram
 12	तत्र	तत्र	ADV	_	_	13	advmod	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
 13	सम्पदः	सम्पद्	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	Translit=sampadaḥ|LTranslit=sampad
@@ -2565,13 +2577,13 @@
 2	निरुत्साह	निरुत्साह	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Translit=nirutsāha|LTranslit=nirutsāha
 3	कठोर	कठोर	NOUN	_	_	4	compound	_	Translit=kaṭhora|LTranslit=kaṭhora
 4	हृदयम्	हृदय	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	0	root	_	Translit=hr̥dayam|LTranslit=hr̥daya
-5	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	LId=अस्-१|Translit=asti|LTranslit=as
+5	अस्ति	अस्	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	LId=अस्-१|Translit=asti|LTranslit=as
 
 # sent_id = 188
 # text = किम् न पश्यसि पीड्यमानानि अपत्यानि येन क्षुधया निश्चिन्तः तिष्ठसि
 # translit = kim na paśyasi pīḍyamānāni apatyāni yena kṣudhayā niścintaḥ tiṣṭhasi
 # orig = panchatantra.conllu sent_id 1444
-1	किम्	क	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj	_	Translit=kim|LTranslit=ka
+1	किम्	किम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj	_	Translit=kim|LTranslit=kim|Gloss=what
 2	न	न	PART	_	Polarity=Neg	3	advmod	_	Translit=na|LTranslit=na|Gloss=not
 3	पश्यसि	पश्	VERB	_	Mood=Ind|Number=Dual|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=paśyasi|LTranslit=paś
 4	पीड्यमानानि	पीड्यमान	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	5	amod	_	Translit=pīḍyamānāni|LTranslit=pīḍyamāna
