@@ -506,41 +506,82 @@
 9	इति	इति	ADV	_	PronType=Dem	8	advmod	_	Translit=iti|LTranslit=iti|Gloss=this-way
 10	।	।	PUNCT	_	_	9	punct	_	Translit=.|LTranslit=.|Gloss=.
 
+# newpar id = panc0.p12
 # sent_id = panc0.s16
 # text = तत्रैकः सचिवः प्रोचुः
 # translit = tatraikaḥ sacivaḥ procuḥ
 # ptext = atra ekEkaSaH pra UcuH
+# wtext = तत्रैकः प्रोवाच -
+# wtranslit = tatraikaḥ provāca -
 # wsid = ॥०.६॥
 # orig = panchatantra.conllu sent_id 16
+# text_fr = Alors l’un d’eux intervint :
+# text_en = Then one minister said
 # ryder = And they, one after another, replied:
 1-2	तत्रैकः	_	_	_	_	_	_	_	_
 1	तत्र	तत्र	ADV	_	_	4	advmod	_	LId=तत्र-१|Translit=tatra|LTranslit=tatra|Gloss=here,there
-2	एकः	एक्	NUM	_	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	4	nummod	_	Translit=ekaḥ|LTranslit=ek
-3	सचिवः	सचिव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Translit=sacivaḥ|LTranslit=saciva
-4	प्रोचुः	प्र-वच्	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=procuḥ|LTranslit=pra-vac
+2	एकः	एक	NUM	_	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	3	nummod	_	Translit=ekaḥ|LTranslit=eka|Gloss=one
+3	सचिवः	सचिव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Translit=sacivaḥ|LTranslit=saciva|Gloss=minister
+4	प्रोचुः	प्र-वच्	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=procuḥ|LTranslit=pra-vac|Gloss=said
 
-# sent_id = s12
-# text = देव द्वादशभिर् वर्षैः व्याकरणम् श्रूयते
-# translit = deva dvādaśabhir varṣaiḥ vyākaraṇam śrūyate
+# sent_id = panc0.s17
+# text = देव द्वादशभिर् वर्षैः व्याकरणम् श्रूयते ।
+# translit = deva dvādaśabhir varṣaiḥ vyākaraṇam śrūyate .
+# wtext = 'देव! द्वादशभिर्वर्षैर्व्याकरणं श्रूयते ।
+# wtranslit = 'deva! dvādaśabhirvarṣairvyākaraṇaṁ śrūyate .
 # wsid = ॥०.६॥
 # orig = panchatantra.conllu sent_id 17
+# text_fr = « Seigneur ! Il faut douze années pour apprendre la grammaire par la tradition orale aux pieds d’un maître ;
+# text_en = Your Majesty, one learns grammar in twelve years.
 # ryder = "O King, first one learns grammar, in twelve years.
-1	देव	देव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=deva|LTranslit=deva
-2	द्वादशभिर्	द्वादशभि	NUM	_	Case=Ins|Gender=Masc|Number=Sing|NumType=Card	3	nummod	_	Translit=dvādaśabhir|LTranslit=dvādaśabhi
-3	वर्षैः	वर्ष	NOUN	_	Case=Ins|Number=Plur	1	nmod	_	Translit=varṣaiḥ|LTranslit=varṣa
-4	व्याकरणम्	व्याकरण	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	Translit=vyākaraṇam|LTranslit=vyākaraṇa
-5	श्रूयते	श्रु	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=śrūyate|LTranslit=śru
+1	देव	देव	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	5	vocative	_	Translit=deva|LTranslit=deva|Gloss=your-majesty
+2	द्वादशभिर्	द्वादशभि	NUM	_	Case=Ins|Number=Plur|NumType=Card	3	nummod	_	Translit=dvādaśabhir|LTranslit=dvādaśabhi|Gloss=twelve
+3	वर्षैः	वर्ष	NOUN	_	Case=Ins|Gender=Neut|Number=Plur	5	obl	_	Translit=varṣaiḥ|LTranslit=varṣa|Gloss=years
+4	व्याकरणम्	व्याकरण	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	Translit=vyākaraṇam|LTranslit=vyākaraṇa|Gloss=grammar
+5	श्रूयते	श्रु	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=śrūyate|LTranslit=śru|Gloss=is-studied
+6	।	।	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s13
-# text = ततः बुद्धि प्रबोधनः भवति
-# translit = tataḥ buddhi prabodhanaḥ bhavati
+# sent_id = panc0.s17b
+# text = ततो धर्मशास्त्राणि मन्वादीनि अर्थशास्त्राणि चाणक्यादीनि कामशास्त्राणि वात्स्यायनादीनि।
+# translit = tato dharmaśāstrāṇi manvādīni arthaśāstrāṇi cāṇakyādīni kāmaśāstrāṇi vātsyāyanādīni.
+# text_fr = viennent ensuite l’apprentissage du Dharma-shastra, traité de lois du sage Manou, puis celui de l’Artha-shastra, traité sur la chose publique du sage Chanakya, suivi du Kama-shastra, traité sur l’amour du sage Vatsyayana, et bien d’autres encore.
+# text_en = Then Dharmashastra by Manu, Arthashastra by Chanakya, Kamashastra by Vātsyāyana.
+# ryder = If this subject has somehow been mastered, then one masters the books on religion and practical life.
+1	ततो	तद्	ADV	_	PronType=Dem	2	orphan	_	Translit=tato|LTranslit=tad|Gloss=then
+2	धर्मशास्त्राणि	धर्मशास्त्र	PROPN	_	Case=Acc|Gender=Neut|Number=Plur	0	root	_	Translit=dharmaśāstrāṇi|LTranslit=dharmaśāstra|Gloss=code-of-good-manner
+3	मन्वादीनि	मन्वादि	PROPN	_	Case=Acc|Gender=Neut|Number=Plur	2	appos	_	Translit=manvādīni|LTranslit=manvādi|Gloss=principles-of-Manu
+4	अर्थशास्त्राणि	अर्थशास्त्र	PROPN	_	Case=Acc|Gender=Neut|Number=Plur	2	conj	_	Translit=arthaśāstrāṇi|LTranslit=arthaśāstra|Gloss=Arthashastra
+5	चाणक्यादीनि	चाणक्यादि	PROPN	_	Case=Acc|Gender=Neut|Number=Plur	4	appos	_	Translit=cāṇakyādīni|LTranslit=cāṇakyādi|Gloss=principles-of-Chanakya
+6	कामशास्त्राणि	कामशास्त्र	PROPN	_	Case=Acc|Gender=Neut|Number=Plur	2	conj	_	Translit=kāmaśāstrāṇi|LTranslit=kāmaśāstra|Gloss=Kamashastra
+7	वात्स्यायनादीनि	वात्स्यायनादि	PROPN	_	Case=Acc|Gender=Neut|Number=Plur	6	appos	_	SpaceAfter=No|Translit=vātsyāyanādīni|LTranslit=vātsyāyanādi|Gloss=works-by-Vātsyāyana
+8	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc0.s18
+# text = एवञ्च ततो धर्मार्थकामशास्त्राणि ज्ञायन्ते।
+# translit = evañca tato dharmārthakāmaśāstrāṇi jñāyante.
+# ptext = tat yadi kaTam api jYAyate tataH Darma arTa SAstrARi jYAyante
+1-2	एवञ्च	_	_	_	_	_	_	_	_
+1	एवम्	एवम्	ADV	_	_	5	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
+2	च	च	CCONJ	_	_	5	cc	_	Translit=ca|LTranslit=ca|Gloss=and
+3	ततो	तद्	ADV	_	PronType=Dem	5	advmod	_	Translit=tato|LTranslit=tad|Gloss=so
+4	धर्मार्थकामशास्त्राणि	धर्मार्थकामशास्त्र	PROPN	_	Case=Acc|Gender=Neut|Number=Plur	5	nsubj:pass	_	Translit=dharmārthakāmaśāstrāṇi|LTranslit=dharmārthakāmaśāstra|Gloss=Dharma-Artha-Kamashastra
+5	ज्ञायन्ते	ज्ञा	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|Translit=jñāyante|LTranslit=jñā|Gloss=are-known
+6	।	।	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc0.s19
+# text = ततः बुद्धि प्रबोधनः भवति।
+# translit = tataḥ buddhi prabodhanaḥ bhavati.
+# wtext = ततः प्रतिबोधनं भवति।'
+# wtranslit = tataḥ pratibodhanaṁ bhavati.'
 # wsid = ॥०.६॥
 # orig = panchatantra.conllu sent_id 19
+# text_fr = C’est ainsi que se forge la connaissance. »
 # ryder = Then the intelligence awakens."
-1	ततः	ततः	ADV	_	_	4	advmod	_	Translit=tataḥ|LTranslit=tataḥ
-2	बुद्धि	बुद्धि	NOUN	_	_	3	compound	_	Translit=buddhi|LTranslit=buddhi
-3	प्रबोधनः	प्रबोधन	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	Translit=prabodhanaḥ|LTranslit=prabodhana
-4	भवति	भू	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LId=भू-१|Translit=bhavati|LTranslit=bhū
+1	ततः	ततः	ADV	_	_	4	advmod	_	Translit=tataḥ|LTranslit=tataḥ|Gloss=then
+2	बुद्धि	बुद्धि	NOUN	_	_	3	compound	_	Translit=buddhi|LTranslit=buddhi|Gloss=intelligence
+3	प्रबोधनः	प्रबोधन	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	Translit=prabodhanaḥ|LTranslit=prabodhana|Gloss=awakening
+4	भवति	भू	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|LId=भू-१|Translit=bhavati|LTranslit=bhū|Gloss=causes
+5	।	।	PUNCT	_	_	4	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = s14
 # text = अथ तन्मध्यतः सुमतिनामामात्यः प्राह
@@ -837,7 +878,7 @@
 # ryder = And this is how it happened.
 1	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	obj	_	Translit=tat|LTranslit=tad|Gloss=it
 2	यथा	यथा	ADV	_	PronType=Rel	3	advmod	_	Translit=yathā|LTranslit=yathā|Gloss=how
-3	श्रूयते	श्रु	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=śrūyate|LTranslit=śru
+3	श्रूयते	श्रु	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=śrūyate|LTranslit=śru|Gloss=is-studied
 
 # sent_id = s34
 # text = तत्र बभूवुः धर्मोपार्जितभूरिविभवो वर्ध्दमान नाम वणिक् पुत्रः
