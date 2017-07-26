@@ -583,50 +583,83 @@
 4	भवति	भू	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|LId=भू-१|Translit=bhavati|LTranslit=bhū|Gloss=causes
 5	।	।	PUNCT	_	_	4	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s14
-# text = अथ तन्मध्यतः सुमतिनामामात्यः प्राह
-# translit = atha tanmadhyataḥ sumatināmāmātyaḥ prāha
+# newpar id = panc0.p13
+# sent_id = panc0.s20
+# text = अथ तन्मध्यतः सुमतिनामामात्यः प्राह ।
+# translit = atha tanmadhyataḥ sumatināmāmātyaḥ prāha .
+# wtext = अथ तन्मध्यतः सुमतिर्नाम सचिवः प्राह ।
+# wtranslit = atha tanmadhyataḥ sumatirnāma sacivaḥ prāha .
 # wsid = ॥०.६॥
 # orig = panchatantra.conllu sent_id 20
+# text_fr = Alors, au milieu de tous, le ministre du nom de Sumati, le sage-bienveillant, prit la parole :
 # ryder = But one of their number, a counselor named Keen, said:
-1	अथ	अथ	ADV	_	_	7	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
+1	अथ	अथ	ADV	_	_	7	advmod	_	Translit=atha|LTranslit=atha|Gloss=but
 2-3	तन्मध्यतः	_	_	_	_	_	_	_	_
-2	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	7	obl	_	Translit=tat|LTranslit=tad|Gloss=it
-3	मध्यतः	मध्यतः	ADV	_	_	2	advmod	_	Translit=madhyataḥ|LTranslit=madhyataḥ
+2	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	obl	_	Translit=tat|LTranslit=tad|Gloss=it
+3	मध्यतः	मध्यतः	ADV	_	_	7	advmod	_	Translit=madhyataḥ|LTranslit=madhyataḥ|Gloss=midst
 4-6	सुमतिनामामात्यः	_	_	_	_	_	_	_	_
-4	सुमति	सुमति	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	Translit=sumati|LTranslit=sumati
-5	नाम	नामन्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	Translit=nāma|LTranslit=nāman
-6	अमात्यः	अमात्य	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Translit=amātyaḥ|LTranslit=amātya
-7	प्राह	प्राह्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=prāha|LTranslit=prāh
+4	सुमति	सुमति	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	Translit=sumati|LTranslit=sumati|Gloss=Sumati
+5	नाम	नामन्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	Translit=nāma|LTranslit=nāman|Gloss=name
+6	अमात्यः	अमात्य	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Translit=amātyaḥ|LTranslit=amātya|Gloss=counselor
+7	प्राह	प्र-अह्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=prāha|LTranslit=pra-ah|Gloss=spoke
+8	।	।	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s15
-# text = प्रभूतकालज्ञेयानि शब्दशास्त्राणि
-# translit = prabhūtakālajñeyāni śabdaśāstrāṇi
+# sent_id = panc0.s21
+# text = अशाश्वतो यं जीवितव्यविषयः।
+# translit = aśāśvato yaṁ jīvitavyaviṣayaḥ.
+# text_fr = « La vie n’est pas chose éternelle
+# text_en = Life is not eternal.
+# ryder = "O King, the duration of life is limited,
+1	अशाश्वतो	शाश्वत	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|Polarity=Neg	0	root	_	Translit=aśāśvato|LTranslit=śāśvata|Gloss=not-eternal
+2	यं	यद्	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	3	nmod	_	Translit=yaṁ|LTranslit=yad|Gloss=which
+3	जीवितव्यविषयः	जीवितव्यविषय	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No|Translit=jīvitavyaviṣayaḥ|LTranslit=jīvitavyaviṣaya|Gloss=life
+4	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc0.s22
+# text = प्रभूतकालज्ञेयानि शब्दशास्त्राणि।
+# translit = prabhūtakālajñeyāni śabdaśāstrāṇi.
 # wsid = ॥०.६॥
 # orig = panchatantra.conllu sent_id 22
-# ryder = "O King, the duration of life is limited, and the verbal sciences require much time for mastery.
+# text_fr = et les traités prennent du temps pour être intelligibles.
+# text_en = Mastered verbal sciences require time spent.
+# ryder = and the verbal sciences require much time for mastery.
 1-3	प्रभूतकालज्ञेयानि	_	_	_	_	_	_	_	_
-1	प्रभूत	प्र-भूत	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	Translit=prabhūta|LTranslit=pra-bhūta
-2	काल	काल	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	LId=काल-१|Translit=kāla|LTranslit=kāla
-3	ज्ञेयानि	ज्ञेय	VERB	_	Case=Acc|Gender=Neut|Number=Plur|VerbForm=Ger	0	root	_	Translit=jñeyāni|LTranslit=jñeya
-4-5	शब्दशास्त्राणि	_	_	_	_	_	_	_	_
-4	शब्द	शब्द	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	5	compound	_	Translit=śabda|LTranslit=śabda
-5	शास्त्राणि	शास्त्र	X	_	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	Translit=śāstrāṇi|LTranslit=śāstra
+1	प्रभूत	प्र-भूत	ADJ	_	Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	Translit=prabhūta|LTranslit=pra-bhūta|Gloss=spent
+2	काल	काल	NOUN	_	Gender=Masc	0	root	_	LId=काल-१|Translit=kāla|LTranslit=kāla|Gloss=time
+3	ज्ञेयानि	ज्ञेय	ADJ	_	Case=Nom|Gender=Neut|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Pass	4	amod	_	Translit=jñeyāni|LTranslit=jñeya|Gloss=who-will-be-known
+4	शब्दशास्त्राणि	शब्दशास्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	SpaceAfter=No|Translit=śabdaśāstrāṇi|LTranslit=śabdaśāstra|Gloss=verbal-sciences
+5	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s16
-# text = तत् सङ्क्षेपमात्रम् शास्त्रम् किंचिद् एतेषाम् प्रबोधन अर्थम् चिन्त्यताम्
-# translit = tat saṅkṣepamātram śāstram kiṁcid eteṣām prabodhana artham cintyatām
+# sent_id = panc0.s23
+# text = तत् सङ्क्षेपमात्रम् शास्त्रम् किंचिद् एतेषाम् प्रबोधन अर्थम् चिन्त्यताम्।
+# translit = tat saṅkṣepamātram śāstram kiṁcid eteṣām prabodhana artham cintyatām.
+# wtext = तत् सङ्क्षेपमात्रं शास्त्रं किञ्चितेतेषां प्रबोधनार्थं चिन्त्यतामिति।
+# wtranslit = tat saṅkṣepamātraṁ śāstraṁ kiñciteteṣāṁ prabodhanārthaṁ cintyatāmiti.
 # wsid = ॥०.६॥
 # orig = panchatantra.conllu sent_id 23
+# text_fr = Alors pensez plutôt à leur en faire un condensé pour éveiller leur conscience.
 # ryder = Therefore let some kind of epitome be devised to wake their intelligence.
-1	तत्	तद्	ADV	_	Case=Nom	8	advmod	_	Translit=tat|LTranslit=tad
-2	सङ्क्षेपमात्रम्	सङ्क्षेपमत्र	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	Translit=saṅkṣepamātram|LTranslit=saṅkṣepamatra
-3	शास्त्रम्	शस्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	Translit=śāstram|LTranslit=śastra
-4	किंचिद्	किंचिद्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	det	_	Translit=kiṁcid|LTranslit=kiṁcid
-5	एतेषाम्	एतद्	PRON	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	6	nmod	_	Translit=eteṣām|LTranslit=etad|Gloss=this
-6	प्रबोधन	प्रबोधन	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Ger	8	obl	_	Translit=prabodhana|LTranslit=prabodhana
-7	अर्थम्	अर्थ	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	Translit=artham|LTranslit=artha
-8	चिन्त्यताम्	चिन्त्	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=cintyatām|LTranslit=cint
+1	तत्	तद्	ADV	_	_	8	advmod	_	Translit=tat|LTranslit=tad|Gloss=so
+2	सङ्क्षेपमात्रम्	सङ्क्षेपमत्र	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	nmod	_	Translit=saṅkṣepamātram|LTranslit=saṅkṣepamatra|Gloss=summary
+3	शास्त्रम्	शस्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nsubj:pass	_	Translit=śāstram|LTranslit=śastra|Gloss=rule
+4	किंचिद्	किंचिद्	DET	_	PronType=Ind	3	det	_	Translit=kiṁcid|LTranslit=kiṁcid|Gloss=some
+5	एतेषाम्	एतद्	PRON	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	6	nmod	_	Translit=eteṣām|LTranslit=etad|Gloss=of-these
+6	प्रबोधन	प्रबोधन	NOUN	_	_	7	compound	_	Translit=prabodhana|LTranslit=prabodhana|Gloss=awakening
+7	अर्थम्	अर्थ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	Translit=artham|LTranslit=artha|Gloss=goal
+8	चिन्त्यताम्	चिन्त्	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|Translit=cintyatām|LTranslit=cint|Gloss=should-be-considered
+9	।	।	PUNCT	_	_	8	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc0.s24
+# text = उक्तं च यतः
+# translit = uktaṁ ca yataḥ
+# ptext = uktam ca yataH
+# orig = panchatantra.conllu sent_id 24
+# text_fr = Ainsi, ne dit-on pas :
+# text_en = And it is said
+# ryder = There is a proverb that says:
+1	उक्तं	उक्त	ADJ	_	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Translit=uktaṁ|LTranslit=ukta|Gloss=said
+2	च	च	CCONJ	_	_	1	cc	_	Translit=ca|LTranslit=ca|Gloss=and
+3	यतः	यतः	ADV	_	PronType=Rel	1	advmod	_	Translit=yataḥ|LTranslit=yataḥ|Gloss=where
 
 # sent_id = s17
 # text = अत्रास्ति विष्णुशर्मा नाम ब्राह्मणः सकलशास्त्रपारङ्गतश्चात्र संसदि लब्धकीर्तिः
