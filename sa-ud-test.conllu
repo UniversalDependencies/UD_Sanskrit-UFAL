@@ -760,23 +760,58 @@
 6	इति	इति	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=iti|LTranslit=iti|Gloss=this-way
 7	।	।	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s19
-# text = सः राजा तत् आकर्ण्य विष्णुशर्माणम् आहूय प्रोवाच
-# translit = saḥ rājā tat ākarṇya viṣṇuśarmāṇam āhūya provāca
+# newpar id = panc0.p16
+# sent_id = panc0.s29
+# text = सः राजा तत् आकर्ण्य विष्णुशर्माणम् आहूय प्रोवाच ।
+# translit = saḥ rājā tat ākarṇya viṣṇuśarmāṇam āhūya provāca .
+# wtext = स राजा तदाकर्ण्य विष्णुशर्माणमाहूय प्रोवाच ।
+# wtranslit = sa rājā tadākarṇya viṣṇuśarmāṇamāhūya provāca .
 # wsid = ॥०.७॥
 # orig = panchatantra.conllu sent_id 29
+# text_fr = Entendant cela, le roi appela Vishnu Sharma et dit :
+# text_en = Hearing this, the king summoned Vishnusharma and said:
 # ryder = When the king had listened to this, he summoned Vishnusharman and said:
-1	सः	तद्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	Translit=saḥ|LTranslit=tad
-2	राजा	राजन्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Translit=rājā|LTranslit=rājan
-3	तत्	तद्	ADV	_	Case=Nom	4	advmod	_	Translit=tat|LTranslit=tad
-4	आकर्ण्य	आकर्न्य	VERB	_	Case=Voc|Gender=Neut|Number=Sing|VerbForm=Part	6	advcl	_	Translit=ākarṇya|LTranslit=ākarnya
+1	सः	तद्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	Translit=saḥ|LTranslit=tad|Gloss=the
+2	राजा	राजन्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Translit=rājā|LTranslit=rājan|Gloss=king
+3	तत्	तद्	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	Translit=tat|LTranslit=tad|Gloss=this
+4	आकर्ण्य	आकर्न्य	ADJ	_	Case=Voc|Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	Translit=ākarṇya|LTranslit=ākarnya
 5	विष्णुशर्माणम्	विष्णुशर्माण	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Translit=viṣṇuśarmāṇam|LTranslit=viṣṇuśarmāṇa|Gloss=Vishnusharma
-6	आहूय	आहूय	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=āhūya|LTranslit=āhūya
-7	प्रोवाच	प्र-वच्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	Translit=provāca|LTranslit=pra-vac
+6	आहूय	आहू	VERB	_	Tense=Past|VerbForm=Conv	7	advcl	_	Translit=āhūya|LTranslit=āhū|Gloss=after-having-summoned
+7	प्रोवाच	प्र-वच्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Translit=provāca|LTranslit=pra-vac|Gloss=said
+8	।	।	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc0.s30
+# text = भोः भगवन् मदनुग्रहार्थमेतान् अर्थशास्त्रं प्रति द्राग् यथानंयषड्दर्शनान् विदधासि तथा कुरु।
+# translit = bhoḥ bhagavan madanugrahārthametān arthaśāstraṁ prati drāg yathānaṁyaṣaḍdarśanān vidadhāsi tathā kuru.
+# ptext = BoH Bagavan mat anu graha arTam etAn kumArAn arTa SAstram prati yaTA ananya sadfSAn vi daDAsi taTA kAryam
+# wsid = ॥०.७॥
+# orig = panchatantra.conllu sent_id 30
+# text_fr = « Noble Seigneur ! De grâce, pour moi, enseignez-leur l’Artha-shastra, l’art de la gouvernance !
+# ryder = "Holy sir, as a favor to me you must make these princes incomparable masters of the art of practical life.
+1	भोः	भोस्	INTJ	_	_	2	case	_	Translit=bhoḥ|LTranslit=bhos|Gloss=oh
+2	भगवन्	भगवत्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	15	vocative	_	Translit=bhagavan|LTranslit=bhagavat|Gloss=honorable
+3-6	मदनुग्रहार्थमेतान्	_	_	_	_	_	_	_	_
+3	मत्	अस्मद्	PRON	_	Case=Abl|Number=Sing|Person=1|PronType=Prs	4	nmod	_	Translit=mat|LTranslit=asmad|Gloss=me
+4	अनुग्रह	अनुग्रह	NOUN	_	_	5	compound	_	Translit=anugraha|LTranslit=anugraha|Gloss=favor
+5	अर्थम्	अर्थ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	Translit=artham|LTranslit=artha|Gloss=for-the-reason
+6	एतान्	एतद्	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	13	obj	_	Translit=etān|LTranslit=etad|Gloss=these
+7	अर्थशास्त्रं	अर्थशास्त्र	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	Translit=arthaśāstraṁ|LTranslit=arthaśāstra|Gloss=Arthashastra
+8	प्रति	प्रति	ADP	_	_	7	case	_	Translit=prati|LTranslit=prati|Gloss=against
+9	द्राग्	द्राक्	ADV	_	_	13	advmod	_	Translit=drāg|LTranslit=drāk|Gloss=quickly
+10-12	यथानंयषड्दर्शनान्	_	_	_	_	_	_	_	_
+10	यथा	यथा	ADV	_	PronType=Rel	11	advmod	_	Translit=yathā|LTranslit=yathā|Gloss=how
+11	आनं	अन्	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	13	advcl	_	Translit=ānaṁ|LTranslit=an|Gloss=breathe
+12	षड्दर्शनान्	षड्दर्शन	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	13	dep	_	Translit=ṣaḍdarśanān|LTranslit=ṣaḍdarśana|Gloss=six-doctrinaire-views
+13	विदधासि	वि-धा	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	Translit=vidadhāsi|LTranslit=vi-dhā|Gloss=put
+14	तथा	तथा	ADV	_	PronType=Dem	15	advmod	_	Translit=tathā|LTranslit=tathā|Gloss=so
+15	कुरु	कृ	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=kuru|LTranslit=kr̥|Gloss=do
+16	।	।	PUNCT	_	_	15	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = s20
 # text = अहम् त्वाम् शासनशतेन नियोजयिष्यामि
 # translit = aham tvām śāsanaśatena niyojayiṣyāmi
+# wtext = तदाहं त्वां शासनशतेन योजयिष्यामि।
+# wtranslit = tadāhaṁ tvāṁ śāsanaśatena yojayiṣyāmi.
 # wsid = ॥०.७॥
 # orig = panchatantra.conllu sent_id 31
 # ryder = In return, I will bestow upon you a hundred land-grants."
@@ -2240,7 +2275,7 @@
 3	विचिन्त्य	विचिन्त्य	VERB	_	VerbForm=Part	6	advcl	_	Translit=vicintya|LTranslit=vicintya
 4	देवीपार्श्वे	देवीपार्श्व	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	Translit=devīpārśve|LTranslit=devīpārśva
 5	गत्वा	गम्	VERB	_	VerbForm=Part	0	root	_	Translit=gatvā|LTranslit=gam
-6	प्रोवाच	प्र-उवच्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	5	conj	_	Translit=provāca|LTranslit=pra-uvac
+6	प्रोवाच	प्र-उवच्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	conj	_	Translit=provāca|LTranslit=pra-uvac|Gloss=said
 
 # sent_id = s137
 # text = देवि विज्ञायतां सम्यक् स एते कञ्चुकिनः वदन्ति
