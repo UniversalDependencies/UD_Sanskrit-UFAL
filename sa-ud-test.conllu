@@ -807,59 +807,103 @@
 15	कुरु	कृ	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=kuru|LTranslit=kr̥|Gloss=do
 16	।	।	PUNCT	_	_	15	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s20
-# text = अहम् त्वाम् शासनशतेन नियोजयिष्यामि
-# translit = aham tvām śāsanaśatena niyojayiṣyāmi
+# sent_id = panc0.s31
+# text = अहम् त्वाम् शासनशतेन नियोजयिष्यामि।
+# translit = aham tvām śāsanaśatena niyojayiṣyāmi.
 # wtext = तदाहं त्वां शासनशतेन योजयिष्यामि।
 # wtranslit = tadāhaṁ tvāṁ śāsanaśatena yojayiṣyāmi.
 # wsid = ॥०.७॥
 # orig = panchatantra.conllu sent_id 31
+# text_fr = Je vous ferai alors chef de cent villages ! »
 # ryder = In return, I will bestow upon you a hundred land-grants."
-1	अहम्	अहम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Translit=aham|LTranslit=aham
-2	त्वाम्	त्वद्	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	iobj	_	Translit=tvām|LTranslit=tvad
+1	अहम्	अहम्	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Translit=aham|LTranslit=aham|Gloss=I
+2	त्वाम्	त्वद्	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	iobj	_	Translit=tvām|LTranslit=tvad|Gloss=you
 3-4	शासनशतेन	_	_	_	_	_	_	_	_
-3	शासन	शासन	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	Translit=śāsana|LTranslit=śāsana
-4	शतेन	शत	NUM	_	Case=Ins|Gender=Masc|Number=Sing|NumType=Card	3	nummod	_	Translit=śatena|LTranslit=śata
-5	नियोजयिष्यामि	नि-युज्	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	Translit=niyojayiṣyāmi|LTranslit=ni-yuj
+3	शासन	शासन	NOUN	_	Gender=Neut	5	obj	_	Translit=śāsana|LTranslit=śāsana|Gloss=commander
+4	शतेन	शत	NUM	_	Case=Ins|Gender=Neut|Number=Sing|NumType=Card	3	nummod	_	Translit=śatena|LTranslit=śata|Gloss=hundred
+5	नियोजयिष्यामि	नि-युज्	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act,Cau	0	root	_	SpaceAfter=No|Translit=niyojayiṣyāmi|LTranslit=ni-yuj|Gloss=employ
+6	।	।	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s21
+# newpar id = panc0.p17
+# sent_id = panc0.s32
 # text = अथ विष्णुशर्म तम् राजानम् उच्यते
 # translit = atha viṣṇuśarma tam rājānam ucyate
+# wtext = अथ विष्णुशर्मा तं राजानमाह
+# wtranslit = atha viṣṇuśarmā taṁ rājānamāha
 # wsid = ॥०.७॥
 # orig = panchatantra.conllu sent_id 32
+# text_fr = Alors Vishnu Sharma répondit au roi :
 # ryder = And Vishnusharman made answer to the king:
 1	अथ	अथ	ADV	_	_	5	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2	विष्णुशर्म	विष्णुशर्मा	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=viṣṇuśarma|LTranslit=viṣṇuśarmā|Gloss=Vishnusharma
-3	तम्	तद्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	Translit=tam|LTranslit=tad
-4	राजानम्	राजन्	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=rājānam|LTranslit=rājan
-5	उच्यते	वच्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=ucyate|LTranslit=vac
+3	तम्	तद्	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	Translit=tam|LTranslit=tad|Gloss=the
+4	राजानम्	राजन्	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=rājānam|LTranslit=rājan|Gloss=king
+5	उच्यते	वच्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=ucyate|LTranslit=vac|Gloss=is-said
 
-# sent_id = s22
-# text = देव श्रूयताम् मे तथ्यवचनम्
-# translit = deva śrūyatām me tathyavacanam
+# sent_id = panc0.s33
+# text = देव श्रूयताम् मे तथ्यवचनम्।
+# translit = deva śrūyatām me tathyavacanam.
+# wtext = देव श्रूयतां मे तथ्यवचनम्।
+# wtranslit = deva śrūyatāṁ me tathyavacanam.
 # wsid = ॥०.७॥
 # orig = panchatantra.conllu sent_id 33
+# text_fr = « Écoutez donc ma parole sincère.
 # ryder = "O King, listen. Here is the plain truth.
-1	देव	देव	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	2	nsubj	_	Translit=deva|LTranslit=deva
-2	श्रूयताम्	श्रु	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=śrūyatām|LTranslit=śru
-3	मे	अहम्	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod	_	Translit=me|LTranslit=aham
-4-5	तथ्यवचनम्	_	_	_	_	_	_	_	_
-4	तथ्य	तथ्य	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	Translit=tathya|LTranslit=tathya
-5	वचनम्	वचन	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	Translit=vacanam|LTranslit=vacana
+1	देव	देव	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	2	vocative	_	Translit=deva|LTranslit=deva|Gloss=Sir
+2	श्रूयताम्	श्रु	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	0	root	_	Translit=śrūyatām|LTranslit=śru|Gloss=let-be-heard
+3	मे	अहम्	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	Translit=me|LTranslit=aham|Gloss=my
+4-5	तथ्यवचनम्	_	_	_	_	_	_	_	SpaceAfter=No
+4	तथ्य	तथ्य	ADJ	_	_	5	amod	_	Translit=tathya|LTranslit=tathya|Gloss=true
+5	वचनम्	वचन	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	Translit=vacanam|LTranslit=vacana|Gloss=word
+6	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s23
-# text = नाहं विद्याविक्रयं करोमि शासन शतेन
-# translit = nāhaṁ vidyāvikrayaṁ karomi śāsana śatena
+# sent_id = panc0.s34
+# text = नाहं विद्याविक्रयं करोमि शासन शतेन।
+# translit = nāhaṁ vidyāvikrayaṁ karomi śāsana śatena.
+# wtext = नाहं विद्याविक्रयं शासनशतेनापि करोमि।
+# wtranslit = nāhaṁ vidyāvikrayaṁ śāsanaśatenāpi karomi.
 # wsid = ॥०.७॥
 # orig = panchatantra.conllu sent_id 34
+# text_fr = Je ne vends pas la connaissance, ni ne souhaite gouverner cent villages.
 # ryder = I am not the man to sell good learning for a hundred land-grants.
 1-2	नाहं	_	_	_	_	_	_	_	_
 1	न	न	PART	_	Polarity=Neg	4	advmod	_	Translit=na|LTranslit=na|Gloss=not
-2	अहम्	अहम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Translit=aham|LTranslit=aham
-3	विद्याविक्रयं	विद्यविक्रय	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Translit=vidyāvikrayaṁ|LTranslit=vidyavikraya
-4	करोमि	कृ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LId=कृ-१|Translit=karomi|LTranslit=kr̥
-5	शासन	शासन	NOUN	_	Case=Voc|Gender=Neut|Number=Sing	4	obl	_	Translit=śāsana|LTranslit=śāsana
-6	शतेन	शत	NUM	_	Case=Ins|Gender=Masc|Number=Sing|NumType=Card	5	nummod	_	Translit=śatena|LTranslit=śata
+2	अहम्	अहम्	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Translit=aham|LTranslit=aham|Gloss=I
+3	विद्याविक्रयं	विद्यविक्रय	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Translit=vidyāvikrayaṁ|LTranslit=vidyavikraya|Gloss=sale-of-knowledge
+4	करोमि	कृ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LId=कृ-१|Translit=karomi|LTranslit=kr̥|Gloss=do
+5	शासन	शासन	NOUN	_	Gender=Neut	4	obl	_	Translit=śāsana|LTranslit=śāsana|Gloss=commander
+6	शतेन	शत	NUM	_	Case=Ins|Gender=Neut|Number=Sing|NumType=Card	5	nummod	_	SpaceAfter=No|Translit=śatena|LTranslit=śata|Gloss=hundred
+7	।	।	PUNCT	_	_	4	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc0.s35
+# text = अहम् तव पुत्रान् मास षट्केन यदि नीतिशास्त्र ज्ञानम् न करोमि ततः अहम् स्वनामत्यागम् करोमि।
+# translit = aham tava putrān māsa ṣaṭkena yadi nītiśāstra jñānam na karomi tataḥ aham svanāmatyāgam karomi.
+# wtext = पुनरेतान् तव पुत्रान् मासषट्केन यदि नीतिशास्त्रज्ञान् न करोमि ततः स्वनामत्यागं करोमि।
+# wtranslit = punaretān tava putrān māsaṣaṭkena yadi nītiśāstrajñān na karomi tataḥ svanāmatyāgaṁ karomi.
+# ptext = etAn punaH mAsa zawkena yadi nIti SAstra jYAn na karomi tataH sva nAma parityAgam karomi
+# wsid = ॥०.७॥
+# orig = panchatantra.conllu sent_id 35
+# text_fr = Mais en revanche, si, en six mois, je n’éduque pas vos fils dans l’art du Niti-Shastra, alors je ne serai plus digne de porter mon nom !
+# text_en = If I do not make your sons acquainted with the etiquette in six months, I will give up my own name.
+# ryder = But if I do not, in six months' time, make the boys acquainted with the art of intelligent living, I will give up my own name.
+1	अहम्	अहम्	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Translit=aham|LTranslit=aham|Gloss=I
+2	तव	त्वद्	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	3	nmod:poss	_	Translit=tava|LTranslit=tvad|Gloss=your
+3	पुत्रान्	पुत्र	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	Translit=putrān|LTranslit=putra|Gloss=sons
+4	मास	मास	NOUN	_	_	5	compound	_	Translit=māsa|LTranslit=māsa|Gloss=month
+5	षट्केन	षट्क	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	10	obl	_	Translit=ṣaṭkena|LTranslit=ṣaṭka|Gloss=sixtuple
+6	यदि	यदि	SCONJ	_	_	10	mark	_	Translit=yadi|LTranslit=yadi|Gloss=if
+7	नीतिशास्त्र	नीतिशस्त्र	PROPN	_	Gender=Neut|Number=Sing	8	compound	_	Translit=nītiśāstra|LTranslit=nītiśastra|Gloss=etiquette
+8	ज्ञानम्	ज्यन	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	10	xcomp	_	Translit=jñānam|LTranslit=jyana|Gloss=knowledge
+9	न	न	PART	_	Polarity=Neg	10	advmod	_	Translit=na|LTranslit=na|Gloss=not
+10	करोमि	कृ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	Translit=karomi|LTranslit=kr̥|Gloss=make
+11	ततः	तद्	ADV	_	_	16	advmod	_	Translit=tataḥ|LTranslit=tad|Gloss=then
+12	अहम्	अहम्	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	Translit=aham|LTranslit=aham|Gloss=I
+13-15	स्वनामत्यागम्	_	_	_	_	_	_	_	_
+13	स्व	स्व	DET	_	Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	Translit=sva|LTranslit=sva|Gloss=my-own
+14	नाम	नामन्	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	16	iobj	_	Translit=nāma|LTranslit=nāman|Gloss=name
+15	त्यागम्	त्याग	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	Translit=tyāgam|LTranslit=tyāga|Gloss=abandoning
+16	करोमि	कृ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=karomi|LTranslit=kr̥|Gloss=do
+17	।	।	PUNCT	_	_	16	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = s24
 # text = तत् लिख्यताम् अद्यतनः दिवसः
@@ -869,30 +913,6 @@
 2	लिख्यताम्	लिख्	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=likhyatām|LTranslit=likh
 3	अद्यतनः	अद्यतन	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	Translit=adyatanaḥ|LTranslit=adyatana
 4	दिवसः	दिवस	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Translit=divasaḥ|LTranslit=divasa
-
-# sent_id = s25
-# text = अहम् तव पुत्रान् मास षट्केन यदि नीतिशास्त्र ज्ञानम् न करोमि ततः अहम् स्वनामत्यागम् करोमि
-# translit = aham tava putrān māsa ṣaṭkena yadi nītiśāstra jñānam na karomi tataḥ aham svanāmatyāgam karomi
-# wsid = ॥०.७॥
-# orig = panchatantra.conllu sent_id 35
-# ryder = But if I do not, in six months' time, make the boys acquainted with the art of intelligent living, I will give up my own name.
-1	अहम्	अहम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Translit=aham|LTranslit=aham
-2	तव	त्वद्	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	3	nmod	_	Translit=tava|LTranslit=tvad
-3	पुत्रान्	पुत्र	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	10	obl	_	Translit=putrān|LTranslit=putra
-4	मास	मास	NOUN	_	_	5	nummod	_	Translit=māsa|LTranslit=māsa
-5	षट्केन	षट्क	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	10	obl	_	Translit=ṣaṭkena|LTranslit=ṣaṭka
-6	यदि	यदि	ADP	_	_	10	mark	_	Translit=yadi|LTranslit=yadi
-7	नीतिशास्त्र	नीतिशस्त्र	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	Translit=nītiśāstra|LTranslit=nītiśastra
-8	ज्ञानम्	ज्यन	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	Translit=jñānam|LTranslit=jyana
-9	न	न	PART	_	Polarity=Neg	10	advmod	_	Translit=na|LTranslit=na|Gloss=not
-10	करोमि	कृ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	Translit=karomi|LTranslit=kr̥
-11	ततः	तद्	ADV	_	_	16	advmod	_	Translit=tataḥ|LTranslit=tad
-12	अहम्	अहम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	Translit=aham|LTranslit=aham
-13-15	स्वनामत्यागम्	_	_	_	_	_	_	_	_
-13	स्व	स्व	NOUN	_	_	14	compound	_	Translit=sva|LTranslit=sva
-14	नाम	नाम	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	Translit=nāma|LTranslit=nāma
-15	त्यागम्	त्याग	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	Translit=tyāgam|LTranslit=tyāga
-16	करोमि	कृ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=karomi|LTranslit=kr̥
 
 # sent_id = s26
 # text = ते अपि तानि अधीत्य मासषट्केन यथा उक्तह् संवृत्ताः
