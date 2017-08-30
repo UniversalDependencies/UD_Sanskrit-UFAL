@@ -905,14 +905,134 @@
 16	करोमि	कृ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=karomi|LTranslit=kr̥|Gloss=do
 17	।	।	PUNCT	_	_	16	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s24
+# sent_id = panc0.s36
+# text = किं बहुना–
+# translit = kiṁ bahunā–
+# ptext = kim bahunA
+# orig = panchatantra.conllu sent_id 36
+# text_fr = Pour être bref,
+# ryder = Let us cut the matter short.
+1	किं	क	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	2	nsubj	_	LId=क-१|Translit=kiṁ|LTranslit=ka|Gloss=what
+2	बहुना	बहु	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Translit=bahunā|LTranslit=bahu|Gloss=important
+3	–	–	PUNCT	_	_	2	punct	_	Translit=–|LTranslit=–|Gloss=–
+
+# sent_id = panc0.s37
+# text = श्रूयतां ममैष सिंहनादः।
+# translit = śrūyatāṁ mamaiṣa siṁhanādaḥ.
+# ptext = SrUyatAm mama eza siMha nAdaH
+# orig = panchatantra.conllu sent_id 37
+# text_fr = écoutez donc ma parole de lion :
+# ryder = Listen to my lion-roar.
+1	श्रूयतां	श्रु	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	0	root	_	Translit=śrūyatāṁ|LTranslit=śru|Gloss=let-be-heard
+2-3	ममैष	_	_	_	_	_	_	_	_
+2	मम	अस्मद्	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod:poss	_	Translit=mama|LTranslit=asmad|Gloss=my
+3	एष	एतद्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	Translit=eṣa|LTranslit=etad|Gloss=this
+4	सिंहनादः	सिंहनाद	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	nsubj:pass	_	SpaceAfter=No|Translit=siṁhanādaḥ|LTranslit=siṁhanāda|Gloss=lion-roar
+5	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc0.s38
+# text = नाऽहमर्थलिप्सुर्ब्रवीमि।
+# translit = nā’hamarthalipsurbravīmi.
+# ptext = na aham arTa lipsuH bravImi na ca me aSIti varzasya vi A vftta sarva indriya arTasya kiYcit arTena prayojanam
+# orig = panchatantra.conllu sent_id 38
+# text_fr = « Je n’ai aucune pensée cupide de richesses.
+# ryder = My boasting arises from no greed for cash.
+1-5	नाऽहमर्थलिप्सुर्ब्रवीमि	_	_	_	_	_	_	_	SpaceAfter=No
+1	न	न	PART	_	Polarity=Neg	5	advmod	_	Translit=na|LTranslit=na|Gloss=not
+2	अहम्	अस्मद्	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Translit=aham|LTranslit=asmad|Gloss=I
+3	अर्थ	अर्थ	NOUN	_	Gender=Masc|Number=Sing	4	case	_	Translit=artha|LTranslit=artha|Gloss=reason
+4	लिप्सुः	लिप्सु	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	Translit=lipsuḥ|LTranslit=lipsu|Gloss=greed
+5	ब्रवीमि	ब्रू	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=bravīmi|LTranslit=brū|Gloss=talk
+6	।	।	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc0.s38a
+# text = ममाशीतिवर्षस्यव्यावृत्तसर्वेन्द्रियार्थस्य न किञ्चिदर्थेन प्रयोजनम्।
+# translit = mamāśītivarṣasyavyāvr̥ttasarvendriyārthasya na kiñcidarthena prayojanam.
+# orig = panchatantra.conllu sent_id 38
+# text_fr = J’ai quatre-vingts ans et je suis débarrassé des tourments des plaisirs des sens. Je n’ai pas besoin d’une once de richesse.
+# ryder = Besides, I have no use for money; I am eighty years old, and all the objects of sensual desire have lost their charm.
+1-7	ममाशीतिवर्षस्यव्यावृत्तसर्वेन्द्रियार्थस्य	_	_	_	_	_	_	_	_
+1	मम	अस्मद्	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	0	root	_	Translit=mama|LTranslit=asmad|Gloss=my
+2	अशीति	अशीति	NUM	_	NumType=Card	3	nummod:gov	_	Translit=aśīti|LTranslit=aśīti|Gloss=eighty
+3	वर्षस्य	वर्ष	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	1	nsubj	_	Translit=varṣasya|LTranslit=varṣa|Gloss=years
+4	व्यावृत्त	व्यावृत्त	ADJ	_	Tense=Past|VerbForm=Part|Voice=Pass	1	conj	_	Translit=vyāvr̥tta|LTranslit=vyāvr̥tta|Gloss=liberated
+5	सर्व	सर्व	ADJ	_	_	7	amod	_	Translit=sarva|LTranslit=sarva|Gloss=all
+6	इन्द्रिय	इन्द्रिय	ADJ	_	_	7	amod	_	Translit=indriya|LTranslit=indriya|Gloss=sensual
+7	अर्थस्य	अर्थ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	4	obj	_	Translit=arthasya|LTranslit=artha|Gloss=reason
+8	न	न	PART	_	Polarity=Neg	12	advmod	_	Translit=na|LTranslit=na|Gloss=not
+9-11	किञ्चिदर्थेन	_	_	_	_	_	_	_	_
+9	किं	क	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	12	det	_	LId=क-१|Translit=kiṁ|LTranslit=ka|Gloss=what
+10	चित्	चिद्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	LId=cid_3|Translit=cit|LTranslit=cid|Gloss=who-piles
+11	अर्थेन	अर्थ	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	Translit=arthena|LTranslit=artha|Gloss=posession
+12	प्रयोजनम्	प्रयोजन	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	SpaceAfter=No|Translit=prayojanam|LTranslit=prayojana|Gloss=use
+13	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc0.s39
+# text = किन्तु त्वत्प्रार्थनासिद्धर्थस्य सरस्वतीविनोदं करिष्यामि।
+# translit = kintu tvatprārthanāsiddharthasya sarasvatīvinodaṁ kariṣyāmi.
+# ptext = kim tu tvad prArTanA sidDi arTam sarasvatI vinodam karizyAmi
+# orig = panchatantra.conllu sent_id 39
+# text_fr = Mais afin de satisfaire à votre requête, je diffuserai des connaissances par jeu, en hommage à Sarasvatî, déesse de la sagesse.
+# ryder = But in order that your request may be granted, I will show a sporting spirit in reference to artistic matters.
+1	किन्तु	किन्तु	ADV	_	_	8	advmod	_	Translit=kintu|LTranslit=kintu|Gloss=nevertheless
+2-5	त्वत्प्रार्थनासिद्धर्थस्य	_	_	_	_	_	_	_	_
+2	त्वत्	त्वद्	PRON	_	Case=Abl|Number=Sing|Person=2|PronType=Prs	3	nmod:poss	_	Translit=tvat|LTranslit=tvad|Gloss=your
+3	प्रार्थना	प्रार्थना	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:cop	_	Translit=prārthanā|LTranslit=prārthanā|Gloss=request
+4	सिद्धि	सिद्ध	ADJ	_	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	Translit=siddhi|LTranslit=siddha|Gloss=accomplished
+5	अर्थम्	अर्थ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	Translit=artham|LTranslit=artha|Gloss=for-the-reason
+6-7	सरस्वतीविनोदं	_	_	_	_	_	_	_	_
+6	सरस्वती	सरस्वती	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	Translit=sarasvatī|LTranslit=sarasvatī|Gloss=Sarasvati
+7	विनोदं	विनोद	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	Translit=vinodaṁ|LTranslit=vinoda|Gloss=game
+8	करिष्यामि	कृ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=kariṣyāmi|LTranslit=kr̥|Gloss=I-will-do
+9	।	।	PUNCT	_	_	8	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc0.s40
 # text = तत् लिख्यताम् अद्यतनः दिवसः
 # translit = tat likhyatām adyatanaḥ divasaḥ
+# ptext = tat liKyatAm adyatanaH divasaH
+# wtext = तल्लिख्यतामद्यतनो दिवसः यद्यहं षड्मासाभ्यन्तरे तव पुत्रान्नयशास्त्रं प्रत्यनन्यसदृशान्न करिष्यामि ततो नार्हति देवो देवमार्गसंदर्शयितुम्।”
+# wtranslit = tallikhyatāmadyatano divasaḥ yadyahaṁ ṣaḍmāsābhyantare tava putrānnayaśāstraṁ pratyananyasadr̥śānna kariṣyāmi tato nārhati devo devamārgasaṁdarśayitum.”
 # orig = panchatantra.conllu sent_id 40
-1	तत्	तद्	ADV	_	Case=Nom	2	advmod	_	Translit=tat|LTranslit=tad
-2	लिख्यताम्	लिख्	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=likhyatām|LTranslit=likh
-3	अद्यतनः	अद्यतन	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	Translit=adyatanaḥ|LTranslit=adyatana
-4	दिवसः	दिवस	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Translit=divasaḥ|LTranslit=divasa
+# text_fr = Écrivez !
+# ryder = Make a note of the date.
+1	तत्	तद्	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	Translit=tat|LTranslit=tad|Gloss=this
+2	लिख्यताम्	लिख्	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=likhyatām|LTranslit=likh|Gloss=let-be-written
+3	अद्यतनः	अद्यतन	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	Translit=adyatanaḥ|LTranslit=adyatana|Gloss=today's
+4	दिवसः	दिवस	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	Translit=divasaḥ|LTranslit=divasa|Gloss=day
+
+# sent_id = panc0.s41
+# text = यद्यहं षड्मासाभ्यन्तरे तव पुत्रान्नयशास्त्रं प्रत्यनन्यसदृशान्न करिष्यामि ततो नार्हति देवो देवमार्गसंदर्शयितुम्।”
+# translit = yadyahaṁ ṣaḍmāsābhyantare tava putrānnayaśāstraṁ pratyananyasadr̥śānna kariṣyāmi tato nārhati devo devamārgasaṁdarśayitum.”
+# ptext = yat aham zaw mAsa aByantare tava putrAn nIti SAstram pratI an anu a sadfSAn na karomi tataH arhati me devaH deva mArgam sam darSayitum iti
+# orig = panchatantra.conllu sent_id 41
+# text_fr = « Si, en l’espace de six mois, je ne réussis pas à rendre vos fils exceptionnels dans l’art de la gouvernance, et à leur apprendre le traité de Naya-Shastra, alors je ne mériterai ni la grâce de Dieu ni ne serai digne de montrer la voie sacrée qui mène vers Lui ! »
+# ryder = If I fail to render your sons, in six months' time, incomparable masters of the art of intelligent living, then His Majesty is at liberty to show me His Majestic bare bottom."
+1-2	यद्यहं	_	_	_	_	_	_	_	_
+1	यदि	यदि	SCONJ	_	_	12	mark	_	Translit=yadi|LTranslit=yadi|Gloss=if
+2	अहम्	अस्मद्	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	Translit=aham|LTranslit=asmad|Gloss=I
+3-5	षड्मासाभ्यन्तरे	_	_	_	_	_	_	_	_
+3	षट्	षष्	NUM	_	Case=Nom|Number=Plur|NumType=Card	4	nummod	_	Translit=ṣaṭ|LTranslit=ṣaṣ|Gloss=six
+4	मासा	मास्	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	Translit=māsā|LTranslit=mās|Gloss=month
+5	अभ्यन्तरे	अभ्यन्तर	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	12	obl	_	Translit=abhyantare|LTranslit=abhyantara|Gloss=interval
+6	तव	युष्मद्	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	7	nmod:poss	_	Translit=tava|LTranslit=yuṣmad|Gloss=your
+7-8	पुत्रान्नयशास्त्रं	_	_	_	_	_	_	_	_
+7	पुत्रान्	पुत्र	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	Translit=putrān|LTranslit=putra|Gloss=sons
+8	नयशास्त्रं	नयशास्त्र	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	12	xcomp	_	Translit=nayaśāstraṁ|LTranslit=nayaśāstra|Gloss=etiquette
+9-11	प्रत्यनन्यसदृशान्न	_	_	_	_	_	_	_	_
+9	प्रति	प्रति	ADP	_	_	10	case	_	Translit=prati|LTranslit=prati|Gloss=against
+10	अनन्यसदृशान्	अनन्यसदृश	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	Translit=ananyasadr̥śān|LTranslit=ananyasadr̥śa|Gloss=comparables
+11	न	न	PART	_	Polarity=Neg	12	advmod	_	Translit=na|LTranslit=na|Gloss=not
+12	करिष्यामि	कृ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	15	advcl	_	Translit=kariṣyāmi|LTranslit=kr̥|Gloss=I-will-do
+13	ततो	तद्	ADV	_	_	15	advmod	_	Translit=tato|LTranslit=tad|Gloss=then
+14-15	नार्हति	_	_	_	_	_	_	_	_
+14	न	न	PART	_	Polarity=Neg	15	advmod	_	Translit=na|LTranslit=na|Gloss=not
+15	अर्हति	अर्ह्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=arhati|LTranslit=arh|Gloss=deserve
+16	देवो	देव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	Translit=devo|LTranslit=deva|Gloss=king
+17-18	देवमार्गसंदर्शयितुम्	_	_	_	_	_	_	_	SpaceAfter=No
+17	देवमार्गसं	देवमार्गसत्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	18	obj	_	Translit=devamārgasaṁ|LTranslit=devamārgasat|Gloss=king's-way-existant
+18	दर्शयितुम्	दृश्	VERB	_	VerbForm=Inf|Voice=Cau	15	ccomp	_	Translit=darśayitum|LTranslit=dr̥ś|Gloss=show
+19	।	।	PUNCT	_	_	15	punct	_	SpaceAfter=No|Translit=.|LTranslit=.|Gloss=.
+20	”	"	PUNCT	_	_	15	punct	_	Translit=”|LTranslit="|Gloss=”
 
 # sent_id = s26
 # text = ते अपि तानि अधीत्य मासषट्केन यथा उक्तह् संवृत्ताः
