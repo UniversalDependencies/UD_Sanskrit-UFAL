@@ -1205,32 +1205,34 @@
 2	कथामुखम्	कथामुख	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|Translit=kathāmukham|LTranslit=kathāmukha|Gloss=prologue
 3	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s30
-# text = अथातः प्रारभ्यते मित्रभेदो नाम प्रथमम् तन्त्र
-# translit = athātaḥ prārabhyate mitrabhedo nāma prathamam tantra
+# newpar id = panc1.p1
+# sent_id = panc1.s1
+# text = अथातः प्रारभ्यते मित्रभेदो नाम प्रथमम् तन्त्र।
+# translit = athātaḥ prārabhyate mitrabhedo nāma prathamam tantra.
 # wikisource = https://sa.wikisource.org/wiki/%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D_%E0%A5%A6%E0%A5%A8
 # wikisource_ryder = https://en.wikisource.org/wiki/The_Panchatantra_(Purnabhadra%27s_Recension_of_1199_CE)/Book_1/The_Loss_of_Friends
 # wsid = ॥१.१॥
 # orig = panchatantra.conllu sent_id 49
 # ryder = Here then begins Book I, called "The Loss of Friends."
-1	अथातः	अथात	ADV	_	_	2	advmod	_	Translit=athātaḥ|LTranslit=athāta
-2	प्रारभ्यते	प्रा-रभ्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=prārabhyate|LTranslit=prā-rabh
-3	मित्रभेदो	मित्रभेद	PRON	_	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	Translit=mitrabhedo|LTranslit=mitrabheda
-4	नाम	नामन्	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	Translit=nāma|LTranslit=nāman
-5	प्रथमम्	प्रथम	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	Translit=prathamam|LTranslit=prathama
-6	तन्त्र	तन्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	Translit=tantra|LTranslit=tantra
+1	अथातः	अथात	ADV	_	_	2	advmod	_	Translit=athātaḥ|LTranslit=athāta|Gloss=now
+2	प्रारभ्यते	प्रा-रभ्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=prārabhyate|LTranslit=prā-rabh|Gloss=is-taken
+3	मित्रभेदो	मित्रभेद	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	Translit=mitrabhedo|LTranslit=mitrabheda|Gloss=Mitrabheda
+4	नाम	नामन्	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	Translit=nāma|LTranslit=nāman|Gloss=name
+5	प्रथमम्	प्रथम	ADJ	_	Case=Nom|Gender=Neut|Number=Sing|NumType=Ord	6	amod	_	Translit=prathamam|LTranslit=prathama|Gloss=first
+6	तन्त्र	तन्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	SpaceAfter=No|Translit=tantra|LTranslit=tantra|Gloss=essay
+7	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s31
+# sent_id = panc1.s2
 # text = यस्यायम् आद्यः श्लोकः
 # translit = yasyāyam ādyaḥ ślokaḥ
 # wsid = ॥१.१॥
 # orig = panchatantra.conllu sent_id 49
 # ryder = The first verse runs:
 1-2	यस्यायम्	_	_	_	_	_	_	_	_
-1	यस्य	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	4	nmod	_	Translit=yasya|LTranslit=yad
-2	अयम्	इदम्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	Translit=ayam|LTranslit=idam|Gloss=this
-3	आद्यः	आद्य	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	Translit=ādyaḥ|LTranslit=ādya
-4	श्लोकः	श्लोक	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	Translit=ślokaḥ|LTranslit=śloka
+1	यस्य	यद्	PRON	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	4	nmod	_	Translit=yasya|LTranslit=yad|Gloss=of-which
+2	अयम्	इदम्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj:cop	_	Translit=ayam|LTranslit=idam|Gloss=this
+3	आद्यः	आद्य	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	Translit=ādyaḥ|LTranslit=ādya|Gloss=first
+4	श्लोकः	श्लोक	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Translit=ślokaḥ|LTranslit=śloka|Gloss=verse
 
 # sent_id = s32
 # text = वर्धमानो महान् स्नेहः सिंहगोवृषयोर्वने जम्बुकेनातिलुब्धेन पिशुनेन विनाशितः
@@ -1311,12 +1313,12 @@
 # translit = yasyārthāstasya mitraṇi yasyārthāstasya bāndhavāḥ
 # wsid = ॥१.३॥
 1-3	यस्यार्थास्तस्य	_	_	_	_	_	_	_	_
-1	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	2	nmod	_	Translit=yasyā|LTranslit=yad
+1	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	2	nmod	_	Translit=yasyā|LTranslit=yad|Gloss=of-which
 2	अर्थः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	3	acl	_	Translit=arthaḥ|LTranslit=artha
 3	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nmod	_	Translit=tasya|LTranslit=tad|Gloss=his
 4	मित्रणि	मित्र्	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	0	root	_	Translit=mitraṇi|LTranslit=mitr
 5-7	यस्यार्थास्तस्य	_	_	_	_	_	_	_	_
-5	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	6	nmod	_	Translit=yasyā|LTranslit=yad
+5	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	6	nmod	_	Translit=yasyā|LTranslit=yad|Gloss=of-which
 6	अर्थः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	7	acl	_	Translit=arthaḥ|LTranslit=artha
 7	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nmod	_	Translit=tasya|LTranslit=tad|Gloss=his
 8	बान्धवाः	बान्धव	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	Translit=bāndhavāḥ|LTranslit=bāndhava
@@ -1326,13 +1328,13 @@
 # translit = yasyārthāḥ sa pumān loke yasyārthāḥ sa ca paṇḍitaḥ
 # wsid = ॥१.३॥
 1-2	यस्यार्थाः	_	_	_	_	_	_	_	_
-1	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	2	nmod	_	Translit=yasyā|LTranslit=yad
+1	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	2	nmod	_	Translit=yasyā|LTranslit=yad|Gloss=of-which
 2	अर्थः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	3	acl	_	Translit=arthaḥ|LTranslit=artha
 3	स	तद्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	Translit=sa|LTranslit=tad
 4	पुमान्	पुंस्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Translit=pumān|LTranslit=puṁs
 5	लोके	लोक्	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	Translit=loke|LTranslit=lok
 6-7	यस्यार्थाः	_	_	_	_	_	_	_	_
-6	यस्य	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	2	nmod	_	Translit=yasya|LTranslit=yad
+6	यस्य	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	2	nmod	_	Translit=yasya|LTranslit=yad|Gloss=of-which
 7	अर्थाः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	6	acl	_	Translit=arthāḥ|LTranslit=artha
 8	स	तद्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	Translit=sa|LTranslit=tad
 9	च	च	CCONJ	_	_	10	cc	_	Translit=ca|LTranslit=ca|Gloss=and
@@ -1638,7 +1640,7 @@
 1	रामः	राम	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Translit=rāmaḥ|LTranslit=rāma
 2	यस्मात्	यद्	PRON	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Rel	3	nmod	_	Translit=yasmāt|LTranslit=yad
 3	अध्यापकम्	अध्यापक	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	Translit=adhyāpakam|LTranslit=adhyāpaka
-4	यत्	यद्	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	5	det	_	Translit=yat|LTranslit=yad
+4	यत्	यद्	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	5	det	_	Translit=yat|LTranslit=yad|Gloss=which
 5	पुस्तकम्	पुस्तक	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Translit=pustakam|LTranslit=pustaka
 6	अपठत्	पठ्	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=apaṭhat|LTranslit=paṭh
 7	अहम्	अहम्	PRON	_	Case=Nom|Gender=Masc|Person=1|PronType=Prs	12	nsubj	_	Translit=aham|LTranslit=aham
@@ -2129,7 +2131,7 @@
 3	जानामि	ज्ञा	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	LId=ज्ञा-१|Translit=jānāmi|LTranslit=jñā
 4	त्वयि	त्वद्	DET	_	Case=Loc|Number=Sing|Person=2|PronType=Prs	5	det	_	Translit=tvayi|LTranslit=tvad
 5	मित्रे	मित्र	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	Translit=mitre|LTranslit=mitra
-6	यत्	यद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	7	nmod	_	Translit=yat|LTranslit=yad
+6	यत्	यद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	7	nmod	_	Translit=yat|LTranslit=yad|Gloss=which
 7	अभिहितं	अभिहित	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	Translit=abhihitaṁ|LTranslit=abhihita
 8	मया	अहम्	PRON	_	Case=Ins|Gender=Masc|Person=1|PronType=Prs	7	nmod	_	Translit=mayā|LTranslit=aham
 
