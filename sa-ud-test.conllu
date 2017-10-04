@@ -1234,25 +1234,30 @@
 3	आद्यः	आद्य	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	Translit=ādyaḥ|LTranslit=ādya|Gloss=first
 4	श्लोकः	श्लोक	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Translit=ślokaḥ|LTranslit=śloka|Gloss=verse
 
-# sent_id = s32
-# text = वर्धमानो महान् स्नेहः सिंहगोवृषयोर्वने जम्बुकेनातिलुब्धेन पिशुनेन विनाशितः
-# translit = vardhamāno mahān snehaḥ siṁhagovr̥ṣayorvane jambukenātilubdhena piśunena vināśitaḥ
+# newpar id = panc1.p1
+# sent_id = panc1.s3
+# text = वर्धमानो महान् स्नेहः सिंहगोवृषयोर्वने । जम्बुकेनातिलुब्धेन पिशुनेन विनाशितः॥
+# translit = vardhamāno mahān snehaḥ siṁhagovr̥ṣayorvane . jambukenātilubdhena piśunena vināśitaḥ:
+# wtext = वर्धमानो महान् स्नेहः सिंहगोवृषयोर्वने । पिशुनेनातिलुब्धेन जम्बुकेन विनाशितः॥१.१॥
+# wtranslit = vardhamāno mahān snehaḥ siṁhagovr̥ṣayorvane . piśunenātilubdhena jambukena vināśitaḥ:1.1:
 # wsid = ॥१.१॥
 # orig = panchatantra.conllu sent_id 50
 # ryder = The forest lion and the bull / Were linked in friendship, growing, full: / A jackal then estranged the friends / For greedy and malicious ends.
-1	वर्धमानो	वर्धमन्	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part	3	amod	_	Translit=vardhamāno|LTranslit=vardhaman
-2	महान्	महत्	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	Translit=mahān|LTranslit=mahat
-3	स्नेहः	स्नेह	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	Translit=snehaḥ|LTranslit=sneha
+1	वर्धमानो	वर्धमान	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part	3	amod	_	Translit=vardhamāno|LTranslit=vardhamāna|Gloss=flourishing
+2	महान्	महत्	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	Translit=mahān|LTranslit=mahat|Gloss=great
+3	स्नेहः	स्नेह	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	Translit=snehaḥ|LTranslit=sneha|Gloss=friendship
 4-6	सिंहगोवृषयोर्वने	_	_	_	_	_	_	_	_
-4	सिंह	सिंह	NOUN	_	_	5	compound	_	Translit=siṁha|LTranslit=siṁha
-5	गोवृषयोः	गोवृष	NOUN	_	Case=Gen|Gender=Masc|Number=Dual	3	nmod	_	Translit=govr̥ṣayoḥ|LTranslit=govr̥ṣa
-6	वने	वन	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	Translit=vane|LTranslit=vana
-7-9	जम्बुकेनातिलुब्धेन	_	_	_	_	_	_	_	_
-7	जम्बुकेन	जम्बुक	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	11	obl	_	Translit=jambukena|LTranslit=jambuka
-8	अति	अति	ADV	_	_	9	advmod	_	Translit=ati|LTranslit=ati
-9	लुब्धेन	लुब्ध	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	7	amod	_	Translit=lubdhena|LTranslit=lubdha
-10	पिशुनेन	पिशुन	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	7	amod	_	Translit=piśunena|LTranslit=piśuna
-11	विनाशितः	विनासित्	VERB	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Ger	0	root	_	Translit=vināśitaḥ|LTranslit=vināsit
+4	सिंह	सिंह	NOUN	_	_	5	compound	_	Translit=siṁha|LTranslit=siṁha|Gloss=lion
+5	गोवृषयोः	गोवृष	NOUN	_	Case=Gen|Gender=Masc|Number=Dual	3	nmod	_	Translit=govr̥ṣayoḥ|LTranslit=govr̥ṣa|Gloss=bull
+6	वने	वन	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	Translit=vane|LTranslit=vana|Gloss=in-forest
+7	।	।	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.|Gloss=.
+8-10	जम्बुकेनातिलुब्धेन	_	_	_	_	_	_	_	_
+8	जम्बुकेन	जम्बुक	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	12	obl:agent	_	Translit=jambukena|LTranslit=jambuka|Gloss=by-jackal
+9	अति	अति	ADV	_	_	10	advmod	_	Translit=ati|LTranslit=ati|Gloss=very
+10	लुब्धेन	लुब्ध	ADJ	_	Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	Translit=lubdhena|LTranslit=lubdha|Gloss=greedy
+11	पिशुनेन	पिशुन	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	Translit=piśunena|LTranslit=piśuna|Gloss=traitor
+12	विनाशितः	विनासित्	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Cau,Pass	0	root	_	SpaceAfter=No|Translit=vināśitaḥ|LTranslit=vināsit|Gloss=destroyed
+13	॥	॥	PUNCT	_	_	12	punct	_	Translit=:|LTranslit=:|Gloss=.
 
 # sent_id = s33
 # text = तत् यथा श्रूयते
