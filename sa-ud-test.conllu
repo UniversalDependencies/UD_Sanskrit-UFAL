@@ -1259,47 +1259,130 @@
 12	विनाशितः	विनासित्	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Cau,Pass	0	root	_	SpaceAfter=No|Translit=vināśitaḥ|LTranslit=vināsit|Gloss=destroyed
 13	॥	॥	PUNCT	_	_	12	punct	_	Translit=:|LTranslit=:|Gloss=.
 
-# sent_id = s33
-# text = तत् यथा श्रूयते
-# translit = tat yathā śrūyate
+# newpar id = panc1.p2
+# sent_id = panc1.s4
+# text = तत् यथा श्रूयते।
+# translit = tat yathā śrūyate.
 # wsid = ॥१.२॥
 # orig = panchatantra.conllu sent_id 51
 # ryder = And this is how it happened.
-1	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	obj	_	Translit=tat|LTranslit=tad|Gloss=it
+1	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	nsubj:pass	_	Translit=tat|LTranslit=tad|Gloss=it
 2	यथा	यथा	ADV	_	PronType=Rel	3	advmod	_	Translit=yathā|LTranslit=yathā|Gloss=how
-3	श्रूयते	श्रु	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=śrūyate|LTranslit=śru|Gloss=is-studied
+3	श्रूयते	श्रु	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|Translit=śrūyate|LTranslit=śru|Gloss=is-studied
+4	।	।	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s34
-# text = तत्र बभूवुः धर्मोपार्जितभूरिविभवो वर्ध्दमान नाम वणिक् पुत्रः
-# translit = tatra babhūvuḥ dharmopārjitabhūrivibhavo vardhdamāna nāma vaṇik putraḥ
+# sent_id = panc1.s5
+# text = अस्ति दक्षिणात्ये जनपदे महिलारोप्यं नाम नगरम्।
+# translit = asti dakṣiṇātye janapade mahilāropyaṁ nāma nagaram.
+# ptext = dAkziRAtyezu jana padezu
+# ptext1 = purandarapurasya fdDi sarva guRa sam pannam pfTivyAH cUqA maRi ratna BUtam
+# ptext2 = kElAsa SiKara Akfti viviDa yantra praharaRa AcaraRa pari pUrRa go pura awwAlakam visaNkawa utkawa
+# ptext3 = dfQa pariGa kapAwa toraRa argala upagata indra kIla vipula dvAram su vi hita SfNgAwaka catuzpaTa
+# ptext4 = prati sTita an eka devatA Ayatanam pariKA pari karita ut Srita hima giri sadfSa AkAra prAkAra valaya pari vezwitam
+# ptext5 = mahilA ropyam nAma nagaram
+# orig = panchatantra.conllu sent_id 52
+# ryder = In the southern country was a city called Maidens' Delight.
+# ryder_extra = It rivaled the city of heaven's King, so abounding in every urban excellence as to form the central jewel of Earth's diadem. Its contour was like that of Kailasa Peak. Its gates and palaces were stocked with machines, missile weapons, and chariots in great variety. Its central portal, massive as Indrakila Mountain, was fitted with bolt and bar, panel and arch, all formidable, impressive, solid. Its numerous temples lifted their firm bulk near spacious squares and crossings. It wore a moat-girdled zone of walls that recalled the high-uplifted Himalayas.
+1	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=asti|LTranslit=as|Gloss=is
+2	दक्षिणात्ये	दक्षिणात्य	ADJ	_	Case=Loc|Gender=Masc|Number=Sing	3	amod	_	Translit=dakṣiṇātye|LTranslit=dakṣiṇātya|Gloss=in-southern
+3	जनपदे	जनपद	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	Translit=janapade|LTranslit=janapada|Gloss=in-country
+4	महिलारोप्यं	महिलारोप्य	PROPN	_	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	Translit=mahilāropyaṁ|LTranslit=mahilāropya|Gloss=Mahilaropya
+5	नाम	नामन्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	Translit=nāma|LTranslit=nāman|Gloss=name
+6	नगरम्	नगर	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpaceAfter=No|Translit=nagaram|LTranslit=nagara|Gloss=city
+7	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s6
+# text = तत्र बभूवुः धर्मोपार्जितभूरिविभवो वर्ध्दमान नाम वणिक् पुत्रः।
+# translit = tatra babhūvuḥ dharmopārjitabhūrivibhavo vardhdamāna nāma vaṇik putraḥ.
+# wtext = तत्र धर्मोपार्जितभूरिविभवो वर्धमानको नाम वणिक्पुत्रो बभूव।
+# wtranslit = tatra dharmopārjitabhūrivibhavo vardhamānako nāma vaṇikputro babhūva.
+# ptext = tatra an eka guRa samUhaH janma antara Darma up A arjan ava Apta Dana samUhaH varDa mAna nAmA sArTa vAhaH prati vasati sma
 # wsid = ॥१.२॥
-# orig = panchatantra.conllu sent_id 53?
-# ryder = In this city lived a merchant named Increase.
-1	तत्र	तत्र	PRON	_	PronType=Dem	2	expl	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
-2	बभूवुः	भू	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Translit=babhūvuḥ|LTranslit=bhū
+# orig = panchatantra.conllu sent_id 53
+# ryder = In this city lived a merchant named Increase. He possessed a heap of numerous virtues, and a heap of money, a result of the accumulation of merit in earlier lives.
+1	तत्र	तत्र	ADV	_	PronType=Dem	2	advmod	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
+2	बभूवुः	भू	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Translit=babhūvuḥ|LTranslit=bhū|Gloss=lived
 3-6	धर्मोपार्जितभूरिविभवो	_	_	_	_	_	_	_	_
-3	धर्म	धर्म	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	Translit=dharma|LTranslit=dharma
-4	उपार्जित	उप-र्ज्	VERB	_	Case=Voc|Gender=Neut|Number=Sing|VerbForm=Part	2	advcl	_	Translit=upārjita|LTranslit=upa-rj
-5	भुरि	भुरि	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	Translit=bhuri|LTranslit=bhuri
-6	विभवः	विभव	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Translit=vibhavaḥ|LTranslit=vibhava
-7	वर्ध्दमान	वर्ध्दमान	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	Translit=vardhdamāna|LTranslit=vardhdamāna
-8	नाम	नाम	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	Translit=nāma|LTranslit=nāma
-9	वणिक्	वणिक्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	compound	_	Translit=vaṇik|LTranslit=vaṇik
-10	पुत्रः	पुत्र	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Translit=putraḥ|LTranslit=putra
+3	धर्म	धर्म	NOUN	_	_	4	compound	_	Translit=dharma|LTranslit=dharma|Gloss=virtue
+4	उपार्जित	उप-र्ज्	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	Translit=upārjita|LTranslit=upa-rj|Gloss=acquired
+5	भूरि	भूरि	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	Translit=bhūri|LTranslit=bhūri|Gloss=abundant
+6	विभवः	विभव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	Translit=vibhavaḥ|LTranslit=vibhava|Gloss=wealth
+7	वर्ध्दमान	वर्ध्दमान	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	Translit=vardhdamāna|LTranslit=vardhdamāna|Gloss=Vardhamana
+8	नाम	नामन्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	10	nmod	_	Translit=nāma|LTranslit=nāman|Gloss=name
+9	वणिक्	वणिज्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	compound	_	Translit=vaṇik|LTranslit=vaṇij|Gloss=merchant
+10	पुत्रः	पुत्र	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|Translit=putraḥ|LTranslit=putra|Gloss=son
+11	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s35
-# text = तस्मै कदाचिद्रात्रौ शय्या आरूढस्य चिन्ता समुत्पन्ना
-# translit = tasmai kadācidrātrau śayyā ārūḍhasya cintā samutpannā
+# sent_id = panc1.s7
+# text = तस्मै कदाचिद्रात्रौ शय्या आरूढस्य चिन्ता समुत्पन्ना।
+# translit = tasmai kadācidrātrau śayyā ārūḍhasya cintā samutpannā.
+# wtext = तस्य कदाचिद् रात्रौ शय्यारूढस्य चिन्ता समुत्पन्ना।
+# wtranslit = tasya kadācid rātrau śayyārūḍhasya cintā samutpannā.
+# ptext = aTa kadAcit cintayataH arDa rAtra velAyAm IdfSam tasya cittam aBUt yaTA
 # wsid = ॥१.२॥
-# ryder = He possessed a heap of numerous virtues, and a heap of money, a result of the accumulation of merit in earlier lives.
-1	तस्मै	तद्	PRON	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	7	nmod	_	Translit=tasmai|LTranslit=tad
+# orig = panchatantra.conllu sent_id 54
+# ryder = As he once pondered in the dead of night, his conclusions took this form:
+1	तस्मै	तद्	PRON	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	7	iobj	_	Translit=tasmai|LTranslit=tad|Gloss=him
 2-3	कदाचिद्रात्रौ	_	_	_	_	_	_	_	_
-2	कदाचिद्	कधाचिद्	DET	_	PronType=Int	3	det	_	Translit=kadācid|LTranslit=kadhācid
-3	रात्रौ	रत्रि	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	Translit=rātrau|LTranslit=ratri
-4	शय्या	शय्या	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	obl	_	Translit=śayyā|LTranslit=śayyā
-5	आरूढस्य	अअ-रुह्	VERB	_	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Ger	7	advcl	_	Translit=ārūḍhasya|LTranslit=aa-ruh
-6	चिन्ता	चिन्ता	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	Translit=cintā|LTranslit=cintā
-7	समुत्पन्ना	समुत्पन्न	X	_	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Ger	0	root	_	Translit=samutpannā|LTranslit=samutpanna
+2	कदाचिद्	कदाचिद्	ADV	_	PronType=Int	7	advmod	_	Translit=kadācid|LTranslit=kadācid|Gloss=once,sometimes
+3	रात्रौ	रात्रि	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	Translit=rātrau|LTranslit=rātri|Gloss=in-night
+4	शय्या	शय्या	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	obl	_	Translit=śayyā|LTranslit=śayyā|Gloss=bed
+5	आरूढस्य	अअ-रुह्	VERB	_	Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	Translit=ārūḍhasya|LTranslit=aa-ruh|Gloss=having-got-up
+6	चिन्ता	चिन्ता	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	Translit=cintā|LTranslit=cintā|Gloss=thought
+7	समुत्पन्ना	समुत्-पद्	VERB	_	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Translit=samutpannā|LTranslit=samut-pad|Gloss=occurred
+8	।	।	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s8
+# text = तत् प्रभूतेऽपि वित्तेर्थोपायाश्चिन्तनीयाः कर्तव्याश्चेति।
+# translit = tat prabhūte’pi vitterthopāyāścintanīyāḥ kartavyāśceti.
+# ptext = praBUtaH UtaH api sam citaH arTaH pra vecyamAnaH aYjanam iva kzIyate /56/ svalpaH api sam cIyamAnaH valmIkavat varDate /57/ ataH praBUnA api dravyeRa tasya eva vfdDiH karaRIyA /58/ a labDAH arTAH laByAH labDAH pari rakzaRIyAH rakzitAH vi varDanIyAH pAtre sam pAdanIyAH ca iti /59/ loka mArgeRa api rakzyamARaH arTaH bahu apa dravatayA sadyaH vi naSyet /60/ a pra yujyamAnaH prayojana utpatt tulyaH a pra Aptasya iti /61/ tataH pra Aptasya sataH rakzaRa vi varDana upayoga Adi kAryam
+# orig = panchatantra.conllu sent_id 55
+# ryder = "Even an abundant store of wealth, if pecked at, sinks together like a pile of soot. /56/ A very little, if added to, grows like an ant-hill. /57/ Hence, even though money be abundant, it should be increased. /58/ Riches unearned should be earned. /59/ What is earned, should be guarded. /60/ What is guarded, should be enlarged and heedfully invested. /61/ Money, even if hoarded in commonplace fashion, is likely to go in a flash, the hindrances being many. Money unemployed when opportunities arise, is the same as money unpossessed. /61/ Therefore, money once acquired should be guarded, increased, employed.
+1	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	5	nsubj:pass	_	Translit=tat|LTranslit=tad|Gloss=it
+2-3	प्रभूतेऽपि	_	_	_	_	_	_	_	_
+2	प्रभूते	प्रभूत	ADJ	_	Case=Loc|Gender=Neut|Number=Sing	4	amod	_	Translit=prabhūte|LTranslit=prabhūta|Gloss=abundant
+3	अपि	अपि	ADV	_	_	2	advmod	_	Translit=api|LTranslit=api|Gloss=only
+4-6	वित्तेर्थोपायाश्चिन्तनीयाः	_	_	_	_	_	_	_	_
+4	वित्ते	वित्त	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	Translit=vitte|LTranslit=vitta|Gloss=fortune
+5	पेयाः	पेय	VERB	_	Case=Nom|Gender=Masc|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Pass	0	root	_	Translit=peyāḥ|LTranslit=peya|Gloss=must-be-protected
+6	चिन्तनीयाः	चिन्तनीय	VERB	_	Case=Nom|Gender=Masc|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Pass	5	conj	_	Translit=cintanīyāḥ|LTranslit=cintanīya|Gloss=must-be-thought
+7-9	कर्तव्याश्चेति	_	_	_	_	_	_	_	SpaceAfter=No
+7	कर्तव्याः	कर्तव्य	VERB	_	Case=Nom|Gender=Masc|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Pass	5	conj	_	Translit=kartavyāḥ|LTranslit=kartavya|Gloss=must-be-done
+8	च	च	CCONJ	_	_	7	cc	_	Translit=ca|LTranslit=ca|Gloss=and
+9	इति	इति	ADV	_	_	5	advmod	_	Translit=iti|LTranslit=iti|Gloss=so-much
+10	।	।	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s9
+# text = यत उक्तं च
+# translit = yata uktaṁ ca
+# ptext = uktam ca
+# orig = panchatantra.conllu sent_id 62
+# ryder = As the proverb says:
+1	यत	यत	ADV	_	PronType=Rel	2	advmod	_	Translit=yata|LTranslit=yata|Gloss=as
+2	उक्तं	वच्	VERB	_	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Translit=uktaṁ|LTranslit=vac|Gloss=said
+3	च	च	CCONJ	_	_	2	cc	_	Translit=ca|LTranslit=ca|Gloss=also
+
+# sent_id = s39
+# text = स्वल्पम् अपि संचीयमानः वल्मीकवत् वर्धते
+# translit = svalpam api saṁcīyamānaḥ valmīkavat vardhate
+# orig = panchatantra.conllu sent_id 56
+1	स्वल्पम्	स्वल्प	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	Translit=svalpam|LTranslit=svalpa
+2	अपि	अपि	ADV	_	_	3	advmod	_	Translit=api|LTranslit=api
+3	संचीयमानः	संचियमान	VERB	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Ger	5	advcl	_	Translit=saṁcīyamānaḥ|LTranslit=saṁciyamāna
+4	वल्मीकवत्	वल्मीकवत्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	Translit=valmīkavat|LTranslit=valmīkavat
+5	वर्धते	वृध्	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=vardhate|LTranslit=vr̥dh
+
+# sent_id = s40
+# text = अतः प्रभूना द्रव्येण तस्य एव वृद्धिः करणीया
+# translit = ataḥ prabhūnā dravyeṇa tasya eva vr̥ddhiḥ karaṇīyā
+# orig = panchatantra.conllu sent_id 57
+1	अतः	अतस्	ADV	_	_	7	advmod	_	Translit=ataḥ|LTranslit=atas
+2	प्रभूना	प्रभु	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	3	amod	_	Translit=prabhūnā|LTranslit=prabhu
+3	द्रव्येण	द्रव्य	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	nsubj	_	LId=द्रव्य-२|Translit=dravyeṇa|LTranslit=dravya
+4	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	obl	_	Translit=tasya|LTranslit=tad|Gloss=his
+5	एव	एव	ADV	_	_	4	advmod	_	Translit=eva|LTranslit=eva
+6	वृद्धिः	वृद्धि	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	Translit=vr̥ddhiḥ|LTranslit=vr̥ddhi
+7	करणीया	करणीय	VERB	_	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Ger	0	root	_	Translit=karaṇīyā|LTranslit=karaṇīya
 
 # sent_id = s36
 # text = यत्नेन मतिमांस्तस्मादर्थमेकम् प्रसाधयेत्
@@ -1344,28 +1427,6 @@
 8	स	तद्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	Translit=sa|LTranslit=tad
 9	च	च	CCONJ	_	_	10	cc	_	Translit=ca|LTranslit=ca|Gloss=and
 10	पण्डितः	पण्डितः	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	Translit=paṇḍitaḥ|LTranslit=paṇḍitaḥ
-
-# sent_id = s39
-# text = स्वल्पम् अपि संचीयमानः वल्मीकवत् वर्धते
-# translit = svalpam api saṁcīyamānaḥ valmīkavat vardhate
-# orig = panchatantra.conllu sent_id 56
-1	स्वल्पम्	स्वल्प	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	Translit=svalpam|LTranslit=svalpa
-2	अपि	अपि	ADV	_	_	3	advmod	_	Translit=api|LTranslit=api
-3	संचीयमानः	संचियमान	VERB	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Ger	5	advcl	_	Translit=saṁcīyamānaḥ|LTranslit=saṁciyamāna
-4	वल्मीकवत्	वल्मीकवत्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	Translit=valmīkavat|LTranslit=valmīkavat
-5	वर्धते	वृध्	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=vardhate|LTranslit=vr̥dh
-
-# sent_id = s40
-# text = अतः प्रभूना द्रव्येण तस्य एव वृद्धिः करणीया
-# translit = ataḥ prabhūnā dravyeṇa tasya eva vr̥ddhiḥ karaṇīyā
-# orig = panchatantra.conllu sent_id 57
-1	अतः	अतस्	ADV	_	_	7	advmod	_	Translit=ataḥ|LTranslit=atas
-2	प्रभूना	प्रभु	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	3	amod	_	Translit=prabhūnā|LTranslit=prabhu
-3	द्रव्येण	द्रव्य	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	nsubj	_	LId=द्रव्य-२|Translit=dravyeṇa|LTranslit=dravya
-4	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	obl	_	Translit=tasya|LTranslit=tad|Gloss=his
-5	एव	एव	ADV	_	_	4	advmod	_	Translit=eva|LTranslit=eva
-6	वृद्धिः	वृद्धि	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	Translit=vr̥ddhiḥ|LTranslit=vr̥ddhi
-7	करणीया	करणीय	VERB	_	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Ger	0	root	_	Translit=karaṇīyā|LTranslit=karaṇīya
 
 # sent_id = s41
 # text = स अर्थः पुरुषाणाम् षड्भिरुपायैर्भवति भिक्षया नृपसेवया कृषिकर्मणा विद्योपार्जनेन व्यवहारेण वणिक्कर्मणा वा
