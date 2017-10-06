@@ -1483,12 +1483,11 @@
 10	पण्डितः	पण्डित	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|Translit=paṇḍitaḥ|LTranslit=paṇḍita|Gloss=wise
 11	॥	॥	PUNCT	_	_	4	punct	_	Translit=:|LTranslit=:|Gloss=.
 
-# sent_id = s41
-# text = स अर्थः पुरुषाणाम् षड्भिरुपायैर्भवति भिक्षया नृपसेवया कृषिकर्मणा विद्योपार्जनेन व्यवहारेण वणिक्कर्मणा वा
-# Kam dál? Ve Wikisource následuje řada veršů, z nichž některé máme níže jako součást korpusu, ale mnohé další zřejmě ne.
-# V souboru panchatantra.conllu následuje mnohem kratší sada veršů (viz komentáře níže, věta panchatantra.conllu s63 a dále).
-# Těmto větám také odpovídá překlad Arthura Rydera. Vše se na chvíli opět sesynchronizuje na větě o odjezdu do města Mathura,
-# která je ve Wikitonary, v korpusu (s44) a také v panchatantra.conllu (s66) a v Ryderově překladu.
+# newpar id = panc1.p12
+# sent_id = panc1.s34
+# text = स अर्थः पुरुषाणाम् षड्भिरुपायैर्भवति भिक्षया नृपसेवया कृषिकर्मणा विद्योपार्जनेन व्यवहारेण वणिक्कर्मणा वा।
+# The following verses appear in the Wikisource edition but they have been skipped in our corpus.
+# We may add their annotation in the future though.
 # Wikisource: न सा विद्या न तद्दानं न तच्छिल्पं न सा कला। न तत् स्थैर्यं हि धनिनां याचकैर्यन्न गीयते ॥१.४॥
 # Wtranslit: na sā vidyā na taddānaṁ na tacchilpaṁ na sā kalā. na tat sthairyaṁ hi dhanināṁ yācakairyanna gīyate :1.4:
 # Wikisource: इह लोके हि धनिनां परोऽपि स्वजनायते । स्वजनोऽपि दरिद्राणां सर्वदा दुर्जनायते॥१.५॥
@@ -1503,19 +1502,107 @@
 # Wtranslit: arthārthī jīvaloko’yaṁ śmaśānamapi sevate. tyaktvā janayitāraṁ svaṁ niḥsvaṁ yacchati dūrataḥ:1.9:
 # Wikisource: गतवयसामपि पुंसां येषामर्था भवन्ति ते तरुणाः। अर्थे तु ये हीना वृथास्ते यौवनेपि स्युः ॥१.१०॥
 # Wtranslit: gatavayasāmapi puṁsāṁ yeṣāmarthā bhavanti te taruṇāḥ. arthe tu ye hīnā vr̥thāste yauvanepi syuḥ :1.10:
-# Wikisource: स चार्थः पुरुषाणां षड्भिरुपायैर्भवति भिक्षया नृपसेवया कृषिकर्मणा विद्योपार्जनेन व्यवहारेण वणिक्कर्मणा वा। सर्वेषाम् अपि तेषां वाणिज्येनातिरस्कृतोऽर्थलाभः स्यात्। उक्तं च यतः
-# Wtranslit: sa cārthaḥ puruṣāṇāṁ ṣaḍbhirupāyairbhavati bhikṣayā nr̥pasevayā kr̥ṣikarmaṇā vidyopārjanena vyavahāreṇa vaṇikkarmaṇā vā.
-# ...        sarveṣām api teṣāṁ vāṇijyenātiraskr̥to’rthalābhaḥ syāt. uktaṁ ca yataḥ
-# (Tohle už zase máme níže jako s41 a s42.)
+# 
+# translit = sa arthaḥ puruṣāṇām ṣaḍbhirupāyairbhavati bhikṣayā nr̥pasevayā kr̥ṣikarmaṇā vidyopārjanena vyavahāreṇa vaṇikkarmaṇā vā.
+# wtext = स चार्थः पुरुषाणां षड्भिरुपायैर्भवति भिक्षया नृपसेवया कृषिकर्मणा विद्योपार्जनेन व्यवहारेण वणिक्कर्मणा वा।
+# wtranslit = sa cārthaḥ puruṣāṇāṁ ṣaḍbhirupāyairbhavati bhikṣayā nr̥pasevayā kr̥ṣikarmaṇā vidyopārjanena vyavahāreṇa vaṇikkarmaṇā vā.
+# text_en = There are six ways of becoming a rich man: charity, service at the court, farming, science, trade or commerce.
+1	स	तद्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	Translit=sa|LTranslit=tad|Gloss=that
+2	अर्थः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Translit=arthaḥ|LTranslit=artha|Gloss=wealth
+3	पुरुषाणाम्	पुरुष	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	2	nmod:poss	_	Translit=puruṣāṇām|LTranslit=puruṣa|Gloss=people
+4-6	षड्भिरुपायैर्भवति	_	_	_	_	_	_	_	_
+4	षड्भिः	षष्	NUM	_	Case=Ins|Number=Plur|NumType=Card	5	nummod	_	Translit=ṣaḍbhiḥ|LTranslit=ṣaṣ|Gloss=six
+5	उपायैः	उपाय	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	6	obl	_	Translit=upāyaiḥ|LTranslit=upāya|Gloss=means
+6	भवति	भू	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=bhavati|LTranslit=bhū|Gloss=exists
+7	भिक्षया	भिक्षा	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	5	appos	_	Translit=bhikṣayā|LTranslit=bhikṣā|Gloss=charity
+8	नृपसेवया	नृपसेवा	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	7	conj	_	Translit=nr̥pasevayā|LTranslit=nr̥pasevā|Gloss=court-service
+9	कृषिकर्मणा	कृषिकर्मन्	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	7	conj	_	Translit=kr̥ṣikarmaṇā|LTranslit=kr̥ṣikarman|Gloss=farming
+10	विद्योपार्जनेन	विद्यओपार्जन	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	7	conj	_	Translit=vidyopārjanena|LTranslit=vidyaopārjana|Gloss=science-learning
+11	व्यवहारेण	व्यवहार	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	conj	_	Translit=vyavahāreṇa|LTranslit=vyavahāra|Gloss=craft-trade
+12	वणिक्कर्मणा	वणिक्कर्मन्	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	7	conj	_	Translit=vaṇikkarmaṇā|LTranslit=vaṇikkarman|Gloss=commerce
+13	वा	वा	CCONJ	_	_	12	cc	_	SpaceAfter=No|Translit=vā|LTranslit=vā|Gloss=or
+14	।	।	PUNCT	_	_	6	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s35
+# text = सर्वेषामपि तेषाम् वाणिज्येनातिरस्कृतो'र्थलाभः स्यात्।
+# translit = sarveṣāmapi teṣām vāṇijyenātiraskr̥to'rthalābhaḥ syāt.
+# wtext = सर्वेषाम् अपि तेषां वाणिज्येनातिरस्कृतोऽर्थलाभः स्यात्।
+# wtranslit = sarveṣām api teṣāṁ vāṇijyenātiraskr̥to’rthalābhaḥ syāt.
+# text_en = From all those, real wealth is only acquired through commerce.
+1-2	सर्वेषामपि	_	_	_	_	_	_	_	_
+1	सर्वेषाम्	सर्व	PRON	_	Case=Gen|Gender=Neut|Number=Plur|PronType=Tot	3	det	_	Translit=sarveṣām|LTranslit=sarva|Gloss=all
+2	अपि	अपि	ADV	_	_	8	advmod	_	Translit=api|LTranslit=api|Gloss=only
+3	तेषाम्	तद्	PRON	_	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	8	obl	_	Translit=teṣām|LTranslit=tad|Gloss=these
+4-7	वाणिज्येनातिरस्कृतो'र्थलाभः	_	_	_	_	_	_	_	_
+4	वाणिज्येना	वाणिज्य	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	8	obl	_	Translit=vāṇijyenā|LTranslit=vāṇijya|Gloss=through-commerce
+5	अतिरस्कृतः	अतिरस्कृ	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	Translit=atiraskr̥taḥ|LTranslit=atiraskr̥|Gloss=accomplished
+6	अर्थ	अर्थ	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	compound	_	Translit=artha|LTranslit=artha|Gloss=wealth
+7	लाभः	लाभ	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	Translit=lābhaḥ|LTranslit=lābha|Gloss=acquisition
+8	स्यात्	अस्	VERB	_	Mood=Opt|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=syāt|LTranslit=as|Gloss=be
+9	।	।	PUNCT	_	_	8	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# newpar id = panc1.p15
+# sent_id = panc1.s41
+# text = तत् वाणिज्यम् सप्तविधमर्थागमाय स्यात्।
+# The following verses appear in the Wikisource edition but they have been skipped in our corpus.
+# We may add their annotation in the future though.
+# Wikisource: उक्तं च यतः
+# Wtranslit: uktaṁ ca yataḥ
 # Wikisource: कृता भिक्षानेकैर् वितरति नृपो नोचितम् अहो कृषिः क्लिष्टा विद्या गुरुविनयवृत्त्त्याऽतिविषमा। कुसीदाद् दारिद्र्यं परकरगतग्रंथिशमनान् न मन्ये वाणिज्यात् किम् अपि परमं वर्तनम् इह॥पञ्च_१.११॥
-# Wtranslit: kr̥tā bhikṣānekair vitarati nr̥po nocitam aho kr̥ṣiḥ kliṣṭā vidyā guruvinayavr̥tttyā’tiviṣamā.
-# ...        kusīdād dāridryaṁ parakaragatagraṁthiśamanān na manye vāṇijyāt kim api paramaṁ vartanam iha:pañca_1.11:
+# Wtranslit: kr̥tā bhikṣānekair vitarati nr̥po nocitam aho kr̥ṣiḥ kliṣṭā vidyā guruvinayavr̥tttyā’tiviṣamā. kusīdād dāridryaṁ parakaragatagraṁthiśamanān na manye vāṇijyāt kim api paramaṁ vartanam iha:pañca_1.11:
 # Wikisource: उपायानां च सर्वेषाम् उपायः पण्यसंग्रहः। धनार्थं शस्यते ह्येकस् तदन्यः संशयात्मकः॥पञ्च_१.१२॥
 # Wtranslit: upāyānāṁ ca sarveṣām upāyaḥ paṇyasaṁgrahaḥ. dhanārthaṁ śasyate hyekas tadanyaḥ saṁśayātmakaḥ:pañca_1.12:
-# Wikisource: तच् च वाणिज्यं सप्तविधम् अर्थागमाय स्यात्। तद् यथा गांधिकव्यवहारः, निक्षेपप्रवेशः, गोष्ठिककर्म, परिचितग्राहकागमः, मिथ्याक्रयकथनम्, कूटतुलामानम्, देशांतराद् भांडानयनं चेति। उक्तं च
-# Wtranslit: tac ca vāṇijyaṁ saptavidham arthāgamāya syāt.
-# ... tad yathā gāṁdhikavyavahāraḥ, nikṣepapraveśaḥ, goṣṭhikakarma, paricitagrāhakāgamaḥ, mithyākrayakathanam, kūṭatulāmānam,
-# ... deśāṁtarād bhāṁḍānayanaṁ ceti. uktaṁ ca
+# 
+# translit = tat vāṇijyam saptavidhamarthāgamāya syāt.
+# wtext = तच् च वाणिज्यं सप्तविधम् अर्थागमाय स्यात्।
+# wtranslit = tac ca vāṇijyaṁ saptavidham arthāgamāya syāt.
+# text_en = The commerce can multiply the wealth seven times.
+1	तत्	तद्	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	Translit=tat|LTranslit=tad|Gloss=the
+2	वाणिज्यम्	वाणिज्य	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	Translit=vāṇijyam|LTranslit=vāṇijya|Gloss=commerce
+3-6	सप्तविधमर्थागमाय	_	_	_	_	_	_	_	_
+3	सप्त	सप्तन्	NUM	_	NumType=Card	4	nummod	_	Translit=sapta|LTranslit=saptan|Gloss=seven
+4	विधम्	विध	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	Translit=vidham|LTranslit=vidha|Gloss=times
+5	अर्था	अर्थ	NOUN	_	_	6	compound	_	Translit=arthā|LTranslit=artha|Gloss=wealth
+6	आगमाय	आगम	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	Translit=āgamāya|LTranslit=āgama|Gloss=to-coming
+7	स्यात्	अस्	VERB	_	Mood=Opt|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=syāt|LTranslit=as|Gloss=be
+8	।	।	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s42
+# text = तद् यथा गांधिकव्यवहारः, निक्षेपप्रवेशः, गोष्ठिककर्म, परिचितग्राहकागमः, मिथ्याक्रयकथनम्, कूटतुलामानम्, देशांतराद् भांडानयनं चेति।
+# translit = tad yathā gāṁdhikavyavahāraḥ, nikṣepapraveśaḥ, goṣṭhikakarma, paricitagrāhakāgamaḥ, mithyākrayakathanam, kūṭatulāmānam, deśāṁtarād bhāṁḍānayanaṁ ceti.
+1	तद्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	Translit=tad|LTranslit=tad|Gloss=it
+2	यथा	यथा	ADV	_	PronType=Rel	3	advmod	_	Translit=yathā|LTranslit=yathā|Gloss=how
+3	गांधिकव्यवहारः	गान्धिकव्यवहार	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Translit=gāṁdhikavyavahāraḥ|LTranslit=gāndhikavyavahāra|Gloss=perfume-trade
+4	,	,	PUNCT	_	_	5	punct	_	Translit=,|LTranslit=,|Gloss=,
+5	निक्षेपप्रवेशः	निक्षेपप्रवेश	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|Translit=nikṣepapraveśaḥ|LTranslit=nikṣepapraveśa|Gloss=depot-entry
+6	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,|Gloss=,
+7	गोष्ठिककर्म	गोष्ठिककर्मन्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No|Translit=goṣṭhikakarma|LTranslit=goṣṭhikakarman|Gloss=work-in-stable
+8	,	,	PUNCT	_	_	9	punct	_	Translit=,|LTranslit=,|Gloss=,
+9	परिचितग्राहकागमः	परिचितग्राहकागम	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|Translit=paricitagrāhakāgamaḥ|LTranslit=paricitagrāhakāgama|Gloss=???accustomed-to-hunting?
+10	,	,	PUNCT	_	_	11	punct	_	Translit=,|LTranslit=,|Gloss=,
+11	मिथ्याक्रयकथनम्	मिथ्याक्रयकथन	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No|Translit=mithyākrayakathanam|LTranslit=mithyākrayakathana|Gloss=fake-shopping-narration
+12	,	,	PUNCT	_	_	13	punct	_	Translit=,|LTranslit=,|Gloss=,
+13	कूटतुलामानम्	कूटतुलामान	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No|Translit=kūṭatulāmānam|LTranslit=kūṭatulāmāna|Gloss=fake-balance-weighing
+14	,	,	PUNCT	_	_	15	punct	_	Translit=,|LTranslit=,|Gloss=,
+15	देशांतराद्	देशान्तर	NOUN	_	Case=Abl|Gender=Neut|Number=Sing	16	nmod	_	Translit=deśāṁtarād|LTranslit=deśāntara|Gloss=from-inland
+16	भांडानयनं	भाण्डानयन	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	Translit=bhāṁḍānayanaṁ|LTranslit=bhāṇḍānayana|Gloss=merchandise-transport
+17-18	चेति	_	_	_	_	_	_	_	SpaceAfter=No
+17	च	च	CCONJ	_	_	16	cc	_	Translit=ca|LTranslit=ca|Gloss=and
+18	इति	इति	ADV	_	_	16	advmod	_	Translit=iti|LTranslit=iti|Gloss=so-much
+19	।	।	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s43
+# text = उक्तं च
+# translit = uktaṁ ca
+# text_en = And it is said:
+1	उक्तं	वच्	VERB	_	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Translit=uktaṁ|LTranslit=vac|Gloss=said
+2	च	च	CCONJ	_	_	1	cc	_	Translit=ca|LTranslit=ca|Gloss=and
+
+# newpar id = panc1.p25
+# sent_id = panc1.s59
+# text = एवम् मथुरागामीनि भाण्डान्यादाय शुभायाम् तिथौ गुरुजन अनुज्ञातः सुरथ अधिरूढः प्रस्थितः।
+# The following verses appear in the Wikisource edition but they have been skipped in our corpus.
+# We may add their annotation in the future though.
 # Wikisource: पण्यानां गांधिकं पण्यं किम् अन्यैः काञ्चनादिभिः। यत्रैकेन च यत् क्रीतं तच् छतेन प्रदीयते॥पञ्च_१.१३॥
 # Wtranslit: paṇyānāṁ gāṁdhikaṁ paṇyaṁ kim anyaiḥ kāñcanādibhiḥ. yatraikena ca yat krītaṁ tac chatena pradīyate:pañca_1.13:
 # Wikisource: निक्षेपे पतिते हर्म्ये श्रेष्ठी स्तौति स्वदेवताम्। निक्षेपी म्रियते तुभ्यं प्रदास्याम्य् उपयाचितम्॥पञ्च_१.१४॥
@@ -1528,115 +1615,83 @@
 # Wtranslit: anyaṁ ca pūrṇāpūrṇe māne paricitajanavañcanaṁ tathā nityam. mithyākrayasya kathanaṁ prakr̥tir iyaṁ syāt kirātānām:pañca_1.17:
 # Wikisource: द्विगुणं त्रिगुणं वित्तं भांडक्रयविचक्षणाः। प्राप्नुवंत्य् उद्यमाल् लोका दूरदेशांतरं गताः॥पञ्च_१.१८॥
 # Wtranslit: dviguṇaṁ triguṇaṁ vittaṁ bhāṁḍakrayavicakṣaṇāḥ. prāpnuvaṁty udyamāl lokā dūradeśāṁtaraṁ gatāḥ:pañca_1.18:
+# Complementarily, the panchatantra.conllu file contains the following three verses that do not appear in Wikisource:
 # panchatantra.conllu s63: upa arjitAnAm arTAnAm tyAgaH eva hi rakzaRam taqAga udara saMsTAnAm parI vAhaH iva amBasAm
 # Ryder: Release the money you have earned; / So keep it safely still: / The surplus water of a tank / Must find a way to spill.
 # panchatantra.conllu s64: arTEH arTAH ni baDyante gajEH iva mahA gajAH na hi an arTavatA Sakyam vARijyam kartum IhayA
 # Ryder: Wild elephants are caught by tame; / With capital it is the same: / In business, beggars have no scope / Whose stock-in-trade is empty hope.
 # panchatantra.conllu s65: dEva vaSAt upa panne sati viBave yasya na asti Boga icCAH na ca para loka sam IhA sa Bavati Dana pAlakaH mUrKaH
 # Ryder: If any fail to use his fate / For joy in this or future state, / His riches serve as foolish fetters; / He simply keeps them for his betters."
-# panchatantra.conllu s66: evam sam pra DArya maTurA gAmIni sAra BARqAni sam A hftya sa pari janaH SuBe nakzatre SuBAyAm tiTO guru jana anu
-# ...                      jYAtaH sva janEH anu vrajyamAnaH SaNKa tUrya nirGozeRa agrataH kriyamARena nagarAt niH sftaH
-# Ryder: Having thus set his mind in order, he collected merchandise bound for the city of Mathura, assembled his servants,
-# ...    and after saying farewell to his parents when asterism and lunar station were auspicious, set forth from the city,
-# ...    with his people following and with blare of conch-shell and beat of drum preceding.
-# Wikisource: इत्य् एवं संप्रधार्य मथुरागामीनि भांडानि आदाय शुभायां तिथौ गुरुजनानुज्ञातः सुरथाधिरूढः प्रस्थितः। तस्य च मंगलवृषभो संजीवकनंदकनामानौ गृहोत्पन्नौ धूर्वोढारौ स्थितौ। तयोर् एकः संजीवकाभिधानो यमुनाकच्छम्
-# Wtranslit: ity evaṁ saṁpradhārya mathurāgāmīni bhāṁḍāni ādāya śubhāyāṁ tithau gurujanānujñātaḥ surathādhirūḍhaḥ prasthitaḥ.
-# ... tasya ca maṁgalavr̥ṣabho saṁjīvakanaṁdakanāmānau gr̥hotpannau dhūrvoḍhārau sthitau. tayor ekaḥ saṁjīvakābhidhāno yamunākaccham
-# (Tohle by konečně mohlo alespoň velmi volně odpovídat větě panchatantra.conllu s66, uvedené nahoře.
-# Současně to odpovídá naší větě s44 níže.)
 # 
-# translit = sa arthaḥ puruṣāṇām ṣaḍbhirupāyairbhavati bhikṣayā nr̥pasevayā kr̥ṣikarmaṇā vidyopārjanena vyavahāreṇa vaṇikkarmaṇā vā
-# wsid = ॥१.११॥
-1	स	तद्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	Translit=sa|LTranslit=tad
-2	अर्थः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Translit=arthaḥ|LTranslit=artha
-3	पुरुषाणाम्	पुरुष	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	6	obl	_	Translit=puruṣāṇām|LTranslit=puruṣa
-4-6	षड्भिरुपायैर्भवति	_	_	_	_	_	_	_	_
-4	षड्भिः	षष्	NUM	_	Case=Ins|Number=Plur|NumType=Card	5	nummod	_	Translit=ṣaḍbhiḥ|LTranslit=ṣaṣ
-5	उपायैः	उपाय	NOUN	_	Case=Ins|Number=Plur	6	obl	_	Translit=upāyaiḥ|LTranslit=upāya
-6	भवति	भु	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=bhavati|LTranslit=bhu
-7	भिक्षया	भिक्षा	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	5	nmod	_	Translit=bhikṣayā|LTranslit=bhikṣā
-8	नृपसेवया	नृपसेव	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	7	conj	_	Translit=nr̥pasevayā|LTranslit=nr̥paseva
-9	कृषिकर्मणा	कृषिकर्म	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	7	conj	_	Translit=kr̥ṣikarmaṇā|LTranslit=kr̥ṣikarma
-10	विद्योपार्जनेन	विद्यओपार्जन्	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	7	conj	_	Translit=vidyopārjanena|LTranslit=vidyaopārjan
-11	व्यवहारेण	व्यवहार	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	conj	_	Translit=vyavahāreṇa|LTranslit=vyavahāra
-12	वणिक्कर्मणा	वणिक्कर्म	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	7	conj	_	Translit=vaṇikkarmaṇā|LTranslit=vaṇikkarma
-13	वा	वा	CCONJ	_	_	12	cc	_	Translit=vā|LTranslit=vā
-
-# sent_id = s42
-# text = सर्वेषामपि वाणिज्येनातिरस्कृतो'र्थलाभः स्यात्
-# translit = sarveṣāmapi vāṇijyenātiraskr̥to'rthalābhaḥ syāt
-# wsid = ॥१.११॥
-1-3	सर्वेषामपि	_	_	_	_	_	_	_	_
-1	सर्वेषाम्	सर्व	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	8	obl	_	Translit=sarveṣām|LTranslit=sarva
-2	अपि	अपि	ADV	_	_	3	advmod	_	Translit=api|LTranslit=api
-3	तेषाम्	तद्	PRON	_	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	1	nmod	_	Translit=teṣām|LTranslit=tad
-4-7	वाणिज्येनातिरस्कृतो'र्थलाभः	_	_	_	_	_	_	_	_
-4	वाणिज्येना	वारिज्य	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	8	obl	_	Translit=vāṇijyenā|LTranslit=vārijya
-5	अतिरस्कृतः	अतिरस्कृ	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	Translit=atiraskr̥taḥ|LTranslit=atiraskr̥
-6	अर्थ	अर्थ	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	compound	_	Translit=artha|LTranslit=artha
-7	लाभः	लाभः	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	Translit=lābhaḥ|LTranslit=lābhaḥ
-8	स्यात्	अस्	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=syāt|LTranslit=as
-
-# sent_id = s43
-# text = तत् वाणिज्यम् सप्तविधमर्थागमाय स्यात्
-# translit = tat vāṇijyam saptavidhamarthāgamāya syāt
-# wsid = ॥१.१३॥
-1	तत्	तद्	DET	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	Translit=tat|LTranslit=tad|Gloss=it
-2	वाणिज्यम्	वणिज्य	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	Translit=vāṇijyam|LTranslit=vaṇijya
-3-6	सप्तविधमर्थागमाय	_	_	_	_	_	_	_	_
-3	सप्त	सप्तन्	NUM	_	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	6	nummod	_	Translit=sapta|LTranslit=saptan
-4	विधम्	विध	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	Translit=vidham|LTranslit=vidha
-5	अर्था	अर्थ	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	compound	_	Translit=arthā|LTranslit=artha
-6	आगमाय	आगम्य	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	Translit=āgamāya|LTranslit=āgamya
-7	स्यात्	अस्	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=syāt|LTranslit=as
-
-# sent_id = s44
-# text = एवम् मथुरागामीनि भाण्डान्यादाय शुभायाम् तिथौ गुरुजन अनुज्ञातः सुरथ अधिरूढः प्रस्थितः
-# translit = evam mathurāgāmīni bhāṇḍānyādāya śubhāyām tithau gurujana anujñātaḥ suratha adhirūḍhaḥ prasthitaḥ
-# wsid = ॥१.१९॥
+# Finally, all versions synchronize again at the moment when Vardhamana sets off to the city of Mathura.
+# translit = evam mathurāgāmīni bhāṇḍānyādāya śubhāyām tithau gurujana anujñātaḥ suratha adhirūḍhaḥ prasthitaḥ.
+# wtext = इत्य् एवं संप्रधार्य मथुरागामीनि भांडानि आदाय शुभायां तिथौ गुरुजनानुज्ञातः सुरथाधिरूढः प्रस्थितः।
+# wtranslit = ity evaṁ saṁpradhārya mathurāgāmīni bhāṁḍāni ādāya śubhāyāṁ tithau gurujanānujñātaḥ surathādhirūḍhaḥ prasthitaḥ.
 # orig = panchatantra.conllu sent_id 66
+# ptext = evam sam pra DArya maTurA gAmIni sAra BARqAni sam A hftya sa pari janaH SuBe nakzatre SuBAyAm tiTO guru jana anu jYAtaH sva janEH anu vrajyamAnaH SaNKa tUrya nirGozeRa agrataH kriyamARena nagarAt niH sftaH
 # ryder = Having thus set his mind in order, he collected merchandise bound for the city of Mathura, assembled his servants, and after saying farewell to his parents when asterism and lunar station were auspicious, set forth from the city, with his people following and with blare of conch-shell and beat of drum preceding.
-1	एवम्	एवम्	ADV	_	_	12	advmod	_	Translit=evam|LTranslit=evam
+1	एवम्	एवम्	ADV	_	_	12	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
 2-3	मथुरागामीनि	_	_	_	_	_	_	_	_
-2	मथुरा	मथुरा	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	compound	_	Translit=mathurā|LTranslit=mathurā
-3	अगामीनि	अगमिन्	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	4	amod	_	Translit=agāmīni|LTranslit=agamin
+2	मथुरा	मथुरा	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	3	compound	_	Translit=mathurā|LTranslit=mathurā|Gloss=Mathura
+3	अगामीनि	अगामिन्	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	4	amod	_	Translit=agāmīni|LTranslit=agāmin|Gloss=bound-for
 4-5	भाण्डान्यादाय	_	_	_	_	_	_	_	_
-4	भाण्डानि	भाण्डा	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	Translit=bhāṇḍāni|LTranslit=bhāṇḍā
-5	आदाय	आद	VERB	_	Case=Dat|Gender=Neut|Number=Sing|VerbForm=Ger	12	advcl	_	Translit=ādāya|LTranslit=āda
-6	शुभायाम्	सुभ	ADJ	_	Case=Loc|Gender=Fem|Number=Sing	7	amod	_	Translit=śubhāyām|LTranslit=subha
-7	तिथौ	तिथ	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	Translit=tithau|LTranslit=titha
-8	गुरुजन	गुरुजन	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	Translit=gurujana|LTranslit=gurujana
-9	अनुज्ञातः	अनु-ज्ञ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Ger	12	obl	_	Translit=anujñātaḥ|LTranslit=anu-jña
-10	सुरथ	सुरथ	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	Translit=suratha|LTranslit=suratha
-11	अधिरूढः	अधि-रुह्	VERB	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Ger	12	advcl	_	Translit=adhirūḍhaḥ|LTranslit=adhi-ruh
-12	प्रस्थितः	प्र-स्थित	VERB	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Translit=prasthitaḥ|LTranslit=pra-sthita
+4	भाण्डानि	भाण्ड	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	Translit=bhāṇḍāni|LTranslit=bhāṇḍa|Gloss=merchandise
+5	आदाय	आदा	VERB	_	VerbForm=Conv	12	advcl	_	Translit=ādāya|LTranslit=ādā|Gloss=after-having-collected
+6	शुभायाम्	शुभ	ADJ	_	Case=Loc|Gender=Fem|Number=Sing	7	amod	_	Translit=śubhāyām|LTranslit=śubha|Gloss=brilliant
+7	तिथौ	तिथ	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	Translit=tithau|LTranslit=titha|Gloss=phase-of-the-moon
+8	गुरुजन	गुरुजन	NOUN	_	_	9	compound	_	Translit=gurujana|LTranslit=gurujana|Gloss=parents
+9	अनुज्ञातः	अनु-ज्ञ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	nsubj:pass	_	Translit=anujñātaḥ|LTranslit=anu-jña|Gloss=permission
+10	सुरथ	सुरथ	NOUN	_	_	11	compound	_	Translit=suratha|LTranslit=suratha
+11	अधिरूढः	अधि-रुह्	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	Translit=adhirūḍhaḥ|LTranslit=adhi-ruh|Gloss=got-on
+12	प्रस्थितः	प्र-स्था	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Translit=prasthitaḥ|LTranslit=pra-sthā|Gloss=set-out
+13	।	।	PUNCT	_	_	12	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s45
-# text = तस्य मङ्गलवृषभौ सञ्जीवकनन्दकनामानौ गृहोत्पन्नौ धूर्वोढारौ स्थितौ
-# translit = tasya maṅgalavr̥ṣabhau sañjīvakanandakanāmānau gr̥hotpannau dhūrvoḍhārau sthitau
-# wsid = ॥१.१९॥
-# orig = panchatantra.conllu sent_id 68?
+# sent_id = panc1.s61
+# text = तस्य मङ्गलवृषभौ सञ्जीवकनन्दकनामानौ गृहोत्पन्नौ धूर्वोढारौ स्थितौ।
+# Missing panchatantra.conllu sent_id 67
+# ptext(67) = udaka antAt suhft janam ni vartya tasmAt aBi pra sTitaH
+# text(67) = उदक अन्तात् सुहृत् जनम् नि वर्त्य तस्मात् अभि प्र स्थितः
+# translit(67) = udaka antāt suhr̥t janam ni vartya tasmāt abhi pra sthitaḥ
+# ryder(67) = At the first water he bade his friends turn back, while he proceeded.
+# 
+# translit = tasya maṅgalavr̥ṣabhau sañjīvakanandakanāmānau gr̥hotpannau dhūrvoḍhārau sthitau.
+# wtext = तस्य च मंगलवृषभो संजीवकनंदकनामानौ गृहोत्पन्नौ धूर्वोढारौ स्थितौ।
+# wtranslit = tasya ca maṁgalavr̥ṣabho saṁjīvakanaṁdakanāmānau gr̥hotpannau dhūrvoḍhārau sthitau.
+# ptext = tasya ca dvO maNgala vfzaBO DUH voQArO nandaka saYjIvaka nAmAnO pARqura aBra sam ni kASO suvarRa kiNkiRI pari vfta uraskO tizWataH
+# orig = panchatantra.conllu sent_id 68
 # ryder = To bear the yoke he had two bulls of good omen. Their names were Joyful and Lively; they looked like white clouds, and their chests were girded with golden bells.
-1	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nmod	_	Translit=tasya|LTranslit=tad|Gloss=his
+1	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nmod:poss	_	Translit=tasya|LTranslit=tad|Gloss=his
 2-3	मङ्गलवृषभौ	_	_	_	_	_	_	_	_
-2	मङ्गल	मङ्गल	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	3	amod	_	Translit=maṅgala|LTranslit=maṅgala
-3	वृषभौ	वृषभ	NOUN	_	Case=Nom|Gender=Masc|Number=Dual	10	nsubj	_	Translit=vr̥ṣabhau|LTranslit=vr̥ṣabha
+2	मङ्गल	मङ्गल	NOUN	_	_	3	compound	_	Translit=maṅgala|LTranslit=maṅgala|Gloss=blessed
+3	वृषभौ	वृषभ	NOUN	_	Case=Nom|Gender=Masc|Number=Dual	10	nsubj	_	Translit=vr̥ṣabhau|LTranslit=vr̥ṣabha|Gloss=bulls
 4-6	सञ्जीवकनन्दकनामानौ	_	_	_	_	_	_	_	_
-4	सञ्जीवक	सञ्जीवक	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	Translit=sañjīvaka|LTranslit=sañjīvaka
-5	नन्दक	नन्दक	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	Translit=nandaka|LTranslit=nandaka
-6	नामानौ	नामन्	NOUN	_	Case=Acc|Gender=Masc|Number=Dual	4	nmod	_	Translit=nāmānau|LTranslit=nāman
+4	सञ्जीवक	सञ्जीवक	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	Translit=sañjīvaka|LTranslit=sañjīvaka|Gloss=Sanjivaka
+5	नन्दक	नन्दक	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	Translit=nandaka|LTranslit=nandaka|Gloss=Nandaka
+6	नामानौ	नामन्	NOUN	_	Case=Nom|Gender=Masc|Number=Dual	3	nmod	_	Translit=nāmānau|LTranslit=nāman|Gloss=names
 7-8	गृहोत्पन्नौ	_	_	_	_	_	_	_	_
-7	गृह	गृह	NOUN	_	_	8	compound	_	Translit=gr̥ha|LTranslit=gr̥ha
-8	उत्पन्नौ	उत्-पन्न	ADJ	_	Case=Acc|Gender=Masc|Number=Dual	3	amod	_	Translit=utpannau|LTranslit=ut-panna
+7	गृह	गृह	NOUN	_	_	8	compound	_	Translit=gr̥ha|LTranslit=gr̥ha|Gloss=house
+8	उत्पन्नौ	उत्-पन्न	ADJ	_	Case=Nom|Gender=Masc|Number=Dual|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	Translit=utpannau|LTranslit=ut-panna|Gloss=found
 9-10	धूर्वोढारौ	_	_	_	_	_	_	_	_
-9	धूः	धुर्	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	Translit=dhūḥ|LTranslit=dhur
-10	वोढारौ	वह्	VERB	_	Mood=Ind|Number=Dual|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	advcl	_	Translit=voḍhārau|LTranslit=vah
-11	स्थितौ	स्थिति	NOUN	_	Case=Acc|Gender=Masc|Number=Dual|VerbForm=Part	0	root	_	Translit=sthitau|LTranslit=sthiti
+9	धूः	धुर्	NOUN	_	Gender=Fem	10	compound	_	Translit=dhūḥ|LTranslit=dhur|Gloss=yoke
+10	वोढारौ	वह्	VERB	_	Mood=Ind|Number=Dual|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	Translit=voḍhārau|LTranslit=vah|Gloss=they-will-bear
+11	स्थितौ	स्थिति	NOUN	_	Case=Loc|Gender=Fem|Number=Sing|VerbForm=Part	10	obl	_	SpaceAfter=No|Translit=sthitau|LTranslit=sthiti|Gloss=upright
+12	।	।	PUNCT	_	_	10	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = s46
 # text = अथ तदवस्थमालोक्य वर्धमानः परम् विषादमगमत्
+# ptext(69) = aTa Dava Kadira palASa SAlEH manaH harAm anyEH ca izwa darSanEH SAKiBiH nirantara upa citAm
+# ...         an eka gaja gavaya mahiza ruru camarI varAha SArdula citraka fkza BayodBawAm a cala nitamba nir gata udaka
+# ...         pari pUritAm viviDa darI gahanAm awavIm A sAdya dUra A pAti nirJaraka ut pAdita kardamam agrEka
+# ...         caraRa vEkalyAt ca atiBArAt aBi hataH kasmincit pradeSe kaTam api tayoH vfzaBayoh saYjIvakaH yuga BaNgam kftvA ni zasAda
+# ryder(69) = Presently he reached a forest lovely with grisleas, acacias, dhaks, and sals, densely planted with other trees of charming aspect; fearsome with elephants, wild oxen, buffaloes, deer, grunting-cows, boars, tigers, leopards, and bears; abounding in water that issued from the flanks of mountains; rich in caves and thickets.
+# wtext = तयोर् एकः संजीवकाभिधानो यमुनाकच्छम्
+# wtranslit = tayor ekaḥ saṁjīvakābhidhāno yamunākaccham
+# wtext = अवतीर्णः संपंकपूरम् आसाद्य कलितचरणो युगभंगं विधाय निषसाद।
+# wtranslit = avatīrṇaḥ saṁpaṁkapūram āsādya kalitacaraṇo yugabhaṁgaṁ vidhāya niṣasāda.
+# wtext = अथ तं तद्अवस्थम् आलोक्य वर्धमानः परं विषादम् आगमत्।
+# wtranslit = atha taṁ tadavastham ālokya vardhamānaḥ paraṁ viṣādam āgamat.
+# 
 # translit = atha tadavasthamālokya vardhamānaḥ param viṣādamagamat
-# wsid = ॥१.१९॥
 1	अथ	अथ	ADV	_	_	4	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2-4	तदवस्थमालोक्य	_	_	_	_	_	_	_	_
 2	तत्	तद्	DET	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	det	_	Translit=tat|LTranslit=tad|Gloss=it
@@ -2214,7 +2269,7 @@
 # translit = asti evam param aham deśakālavid vit api
 # orig = panchatantra.conllu sent_id 168, 169
 1	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=asti|LTranslit=as|Gloss=is
-2	एवम्	एवम्	ADV	_	_	1	advmod	_	Translit=evam|LTranslit=evam
+2	एवम्	एवम्	ADV	_	_	1	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
 3	परम्	परम्	ADV	_	_	5	advmod	_	Translit=param|LTranslit=param
 4	अहम्	अहम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	Translit=aham|LTranslit=aham
 5-6	देशकालविद्	_	_	_	_	_	_	_	_
@@ -2464,7 +2519,7 @@
 # orig = panchatantra.conllu sent_id 1207
 1-2	मयैवं	_	_	_	_	_	_	_	_
 1	मया	अहम्	PRON	_	Case=Ins|Gender=Masc|Person=1|PronType=Prs	3	nmod	_	Translit=mayā|LTranslit=aham
-2	एवम्	एवम्	ADV	_	_	3	advmod	_	Translit=evam|LTranslit=evam
+2	एवम्	एवम्	ADV	_	_	3	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
 3	निश्चितम्	निश्चित्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Ger	8	obl	_	Translit=niścitam|LTranslit=niścit
 4	असौ	अदस्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	Translit=asau|LTranslit=adas
 5	राजदुहिता	राजदुहित्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	Translit=rājaduhitā|LTranslit=rājaduhit
@@ -2499,7 +2554,7 @@
 # text = एवम् वादिन्याम् राजदुहितरि कौलिकः गम्भीरश्लक्ष्णया गिरा शनैः इदम् उवाच
 # translit = evam vādinyām rājaduhitari kaulikaḥ gambhīraślakṣṇayā girā śanaiḥ idam uvāca
 # orig = panchatantra.conllu sent_id 1212
-1	एवम्	एवम्	ADV	_	_	2	advmod	_	Translit=evam|LTranslit=evam
+1	एवम्	एवम्	ADV	_	_	2	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
 2	वादिन्याम्	वादिनी	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	Translit=vādinyām|LTranslit=vādinī
 3-4	राजदुहितरि	_	_	_	_	_	_	_	_
 3	राज	राजन्	NOUN	_	_	4	compound	_	Translit=rāja|LTranslit=rājan
@@ -2626,7 +2681,7 @@
 # text = एवम् बहुविधं विचिन्त्य देवीपार्श्वे गत्वा प्रोवाच
 # translit = evam bahuvidhaṁ vicintya devīpārśve gatvā provāca
 # orig = panchatantra.conllu sent_id 1237
-1	एवम्	एवम्	ADV	_	_	3	advmod	_	Translit=evam|LTranslit=evam
+1	एवम्	एवम्	ADV	_	_	3	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
 2	बहुविधं	बहुविध	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	Translit=bahuvidhaṁ|LTranslit=bahuvidha
 3	विचिन्त्य	विचिन्त्य	VERB	_	VerbForm=Part	6	advcl	_	Translit=vicintya|LTranslit=vicintya
 4	देवीपार्श्वे	देवीपार्श्व	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	Translit=devīpārśve|LTranslit=devīpārśva
@@ -2650,7 +2705,7 @@
 # translit = kim evam śīlakhaṇḍanaṁ kr̥tam
 # orig = panchatantra.conllu sent_id 1242
 1	किम्	किम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	5	nsubj	_	LId=क-१|Translit=kim|LTranslit=kim|Gloss=what
-2	एवम्	एवम्	ADV	_	_	5	advmod	_	Translit=evam|LTranslit=evam
+2	एवम्	एवम्	ADV	_	_	5	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
 3-4	शीलखण्डनं	_	_	_	_	_	_	_	_
 3	शील	शील	NOUN	_	_	4	compound	_	Translit=śīla|LTranslit=śīla
 4	खण्डनम्	खण्डन	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	Translit=khaṇḍanam|LTranslit=khaṇḍana
@@ -2662,7 +2717,7 @@
 # orig = panchatantra.conllu sent_id 1244
 1	तत्	तद्	DET	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	Translit=tat|LTranslit=tad|Gloss=it
 2	कथ्यताम्	कथ्	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=kathyatām|LTranslit=kath
-3	एवम्	एवम्	ADV	_	_	4	advmod	_	Translit=evam|LTranslit=evam
+3	एवम्	एवम्	ADV	_	_	4	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
 4	गते	गत	VERB	_	Case=Loc|Gender=Neut|Number=Sing|VerbForm=Part	2	advcl	_	Translit=gate|LTranslit=gata
 5	सत्यम्	सत्य	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	Translit=satyam|LTranslit=satya
 
@@ -2743,7 +2798,7 @@
 # text = एवम् उक्ते तस्य राज्ञा देवमार्गो दर्शितः
 # translit = evam ukte tasya rājñā devamārgo darśitaḥ
 # orig = panchatantra.conllu sent_id 1263
-1	एवम्	एवम्	ADV	_	_	2	advmod	_	Translit=evam|LTranslit=evam
+1	एवम्	एवम्	ADV	_	_	2	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
 2	उक्ते	उक्त	VERB	_	Case=Loc|Gender=Neut|Number=Sing|VerbForm=Part	7	advcl	_	Translit=ukte|LTranslit=ukta
 3	तस्य	तद्	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nmod	_	Translit=tasya|LTranslit=tad|Gloss=his
 4	राज्ञा	राजन्	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	obl	_	Translit=rājñā|LTranslit=rājan
@@ -2926,7 +2981,7 @@
 # text = एवम् अस्तु प्रतिपन्नः गरुडेन
 # translit = evam astu pratipannaḥ garuḍena
 # orig = panchatantra.conllu sent_id 1319
-1	एवम्	एवम्	ADV	_	_	2	advmod	_	Translit=evam|LTranslit=evam
+1	एवम्	एवम्	ADV	_	_	2	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
 2	अस्तु	अस्	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LId=अस्-१|Translit=astu|LTranslit=as
 3	प्रतिपन्नः	प्रतिपन्न	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	Translit=pratipannaḥ|LTranslit=pratipanna
 4	गरुडेन	गरुड	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	Translit=garuḍena|LTranslit=garuḍa
@@ -2945,7 +3000,7 @@
 # translit = yadi evam bhavān kr̥taniścayaḥ tataḥ gacchatu bhavān abhimatasiddhaye
 # orig = panchatantra.conllu sent_id 1346
 1	यदि	यदि	ADP	_	_	4	mark	_	Translit=yadi|LTranslit=yadi
-2	एवम्	एवम्	ADV	_	_	4	advmod	_	Translit=evam|LTranslit=evam
+2	एवम्	एवम्	ADV	_	_	4	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
 3	भवान्	भवत्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	Translit=bhavān|LTranslit=bhavat
 4	कृतनिश्चयः	कृतनिश्च्य	VERB	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part	6	advcl	_	Translit=kr̥taniścayaḥ|LTranslit=kr̥taniścya
 5	ततः	ततस्	ADV	_	_	6	advmod	_	Translit=tataḥ|LTranslit=tatas
@@ -3063,7 +3118,7 @@
 1	भद्र	भद्र	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	4	vocative	_	Translit=bhadra|LTranslit=bhadra
 2-3	मैवं	_	_	_	_	_	_	_	_
 2	मा	अहम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Translit=mā|LTranslit=aham
-3	एवम्	एवम्	ADV	_	_	4	advmod	_	Translit=evam|LTranslit=evam
+3	एवम्	एवम्	ADV	_	_	4	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
 4	वोचः	वच्	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=vocaḥ|LTranslit=vac
 
 # sent_id = 176
