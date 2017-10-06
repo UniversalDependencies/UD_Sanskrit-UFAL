@@ -1335,9 +1335,9 @@
 # sent_id = panc1.s8
 # text = तत् प्रभूतेऽपि वित्तेर्थोपायाश्चिन्तनीयाः कर्तव्याश्चेति।
 # translit = tat prabhūte’pi vitterthopāyāścintanīyāḥ kartavyāśceti.
-# ptext = praBUtaH UtaH api sam citaH arTaH pra vecyamAnaH aYjanam iva kzIyate /56/ svalpaH api sam cIyamAnaH valmIkavat varDate /57/ ataH praBUnA api dravyeRa tasya eva vfdDiH karaRIyA /58/ a labDAH arTAH laByAH labDAH pari rakzaRIyAH rakzitAH vi varDanIyAH pAtre sam pAdanIyAH ca iti /59/ loka mArgeRa api rakzyamARaH arTaH bahu apa dravatayA sadyaH vi naSyet /60/ a pra yujyamAnaH prayojana utpatt tulyaH a pra Aptasya iti /61/ tataH pra Aptasya sataH rakzaRa vi varDana upayoga Adi kAryam
+# ptext = praBUtaH UtaH api sam citaH arTaH pra vecyamAnaH aYjanam iva kzIyate
 # orig = panchatantra.conllu sent_id 55
-# ryder = "Even an abundant store of wealth, if pecked at, sinks together like a pile of soot. /56/ A very little, if added to, grows like an ant-hill. /57/ Hence, even though money be abundant, it should be increased. /58/ Riches unearned should be earned. /59/ What is earned, should be guarded. /60/ What is guarded, should be enlarged and heedfully invested. /61/ Money, even if hoarded in commonplace fashion, is likely to go in a flash, the hindrances being many. Money unemployed when opportunities arise, is the same as money unpossessed. /61/ Therefore, money once acquired should be guarded, increased, employed.
+# ryder = "Even an abundant store of wealth, if pecked at, sinks together like a pile of soot.
 1	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	5	nsubj:pass	_	Translit=tat|LTranslit=tad|Gloss=it
 2-3	प्रभूतेऽपि	_	_	_	_	_	_	_	_
 2	प्रभूते	प्रभूत	ADJ	_	Case=Loc|Gender=Neut|Number=Sing	4	amod	_	Translit=prabhūte|LTranslit=prabhūta|Gloss=abundant
@@ -1353,7 +1353,51 @@
 10	।	।	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = panc1.s9
+# text = स्वल्पम् अपि संचीयमानः वल्मीकवत् वर्धते।
+# translit = svalpam api saṁcīyamānaḥ valmīkavat vardhate.
+# ptext = svalpaH api sam cIyamAnaH valmIkavat varDate
+# orig = panchatantra.conllu sent_id 56
+# ryder = A very little, if added to, grows like an ant-hill.
+1	स्वल्पम्	स्वल्प	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	Translit=svalpam|LTranslit=svalpa|Gloss=very-little
+2	अपि	अपि	ADV	_	_	1	advmod	_	Translit=api|LTranslit=api|Gloss=only
+3	संचीयमानः	संचियमान	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	5	advcl	_	Translit=saṁcīyamānaḥ|LTranslit=saṁciyamāna|Gloss=piled-up
+4	वल्मीकवत्	वल्मीकवत्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	Translit=valmīkavat|LTranslit=valmīkavat|Gloss=anthill
+5	वर्धते	वृध्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|Translit=vardhate|LTranslit=vr̥dh|Gloss=grows
+6	।	।	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s10
+# text = अतः प्रभूना द्रव्येण तस्य एव वृद्धिः करणीया।
+# translit = ataḥ prabhūnā dravyeṇa tasya eva vr̥ddhiḥ karaṇīyā.
+# ptext = ataH praBUnA api dravyeRa tasya eva vfdDiH karaRIyA
+# orig = panchatantra.conllu sent_id 57
+# ryder = Hence, even though money be abundant, it should be increased.
+1	अतः	अतस्	ADV	_	_	7	advmod	_	Translit=ataḥ|LTranslit=atas|Gloss=hence
+2	प्रभूना	प्रभु	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	3	amod	_	Translit=prabhūnā|LTranslit=prabhu|Gloss=abundant
+3	द्रव्येण	द्रव्य	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	obl	_	LId=द्रव्य-२|Translit=dravyeṇa|LTranslit=dravya|Gloss=property
+4	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nmod:poss	_	Translit=tasya|LTranslit=tad|Gloss=its
+5	एव	एव	ADV	_	_	7	advmod	_	Translit=eva|LTranslit=eva|Gloss=just
+6	वृद्धिः	वृद्धि	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	Translit=vr̥ddhiḥ|LTranslit=vr̥ddhi|Gloss=growth
+7	करणीया	करणीय	VERB	_	Case=Nom|Gender=Fem|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Translit=karaṇīyā|LTranslit=karaṇīya|Gloss=must-be-done
+8	।	।	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s15
 # text = यत उक्तं च
+# Several sentences from panchatantra.conllu are missing here but we may add their annotation in the future.
+# panc1.s11 = panchatantra.conllu sent_id 58
+# ptext58 = a labDAH arTAH laByAH labDAH pari rakzaRIyAH rakzitAH vi varDanIyAH pAtre sam pAdanIyAH ca iti
+# panc1.s12 = panchatantra.conllu sent_id 59
+# ptext59 = loka mArgeRa api rakzyamARaH arTaH bahu apa dravatayA sadyaH vi naSyet
+# panc1.s13 = panchatantra.conllu sent_id 60
+# ptext60 = a pra yujyamAnaH prayojana utpatt tulyaH a pra Aptasya iti
+# panc1.s14 = panchatantra.conllu sent_id 61
+# ptext61 = tataH pra Aptasya sataH rakzaRa vi varDana upayoga Adi kAryam
+# ryder58 = Riches unearned should be earned.
+# ryder59 = What is earned, should be guarded.
+# ryder60 = What is guarded, should be enlarged and heedfully invested.
+# ryder61 = Money, even if hoarded in commonplace fashion, is likely to go in a flash, the hindrances being many.
+# ryder61b = Money unemployed when opportunities arise, is the same as money unpossessed.
+# ryder61c = Therefore, money once acquired should be guarded, increased, employed.
+# 
 # translit = yata uktaṁ ca
 # ptext = uktam ca
 # orig = panchatantra.conllu sent_id 62
@@ -1362,30 +1406,71 @@
 2	उक्तं	वच्	VERB	_	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Translit=uktaṁ|LTranslit=vac|Gloss=said
 3	च	च	CCONJ	_	_	2	cc	_	Translit=ca|LTranslit=ca|Gloss=also
 
-# sent_id = s39
-# text = स्वल्पम् अपि संचीयमानः वल्मीकवत् वर्धते
-# translit = svalpam api saṁcīyamānaḥ valmīkavat vardhate
-# orig = panchatantra.conllu sent_id 56
-1	स्वल्पम्	स्वल्प	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	Translit=svalpam|LTranslit=svalpa
-2	अपि	अपि	ADV	_	_	3	advmod	_	Translit=api|LTranslit=api
-3	संचीयमानः	संचियमान	VERB	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Ger	5	advcl	_	Translit=saṁcīyamānaḥ|LTranslit=saṁciyamāna
-4	वल्मीकवत्	वल्मीकवत्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	Translit=valmīkavat|LTranslit=valmīkavat
-5	वर्धते	वृध्	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=vardhate|LTranslit=vr̥dh
-
-# sent_id = s40
-# text = अतः प्रभूना द्रव्येण तस्य एव वृद्धिः करणीया
-# translit = ataḥ prabhūnā dravyeṇa tasya eva vr̥ddhiḥ karaṇīyā
-# orig = panchatantra.conllu sent_id 57
-1	अतः	अतस्	ADV	_	_	7	advmod	_	Translit=ataḥ|LTranslit=atas
-2	प्रभूना	प्रभु	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	3	amod	_	Translit=prabhūnā|LTranslit=prabhu
-3	द्रव्येण	द्रव्य	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	nsubj	_	LId=द्रव्य-२|Translit=dravyeṇa|LTranslit=dravya
-4	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	obl	_	Translit=tasya|LTranslit=tad|Gloss=his
-5	एव	एव	ADV	_	_	4	advmod	_	Translit=eva|LTranslit=eva
-6	वृद्धिः	वृद्धि	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	Translit=vr̥ddhiḥ|LTranslit=vr̥ddhi
-7	करणीया	करणीय	VERB	_	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Ger	0	root	_	Translit=karaṇīyā|LTranslit=karaṇīya
-
 # sent_id = s36
 # text = यत्नेन मतिमांस्तस्मादर्थमेकम् प्रसाधयेत्
+# Kam dál? Ve Wiktionary následuje řada veršů, z nichž některé máme níže jako součást korpusu (např. už věta 36).
+# V souboru panchatantra.conllu následuje mnohem kratší sada veršů (viz komentáře níže, věta panchatantra.conllu s63 a dále).
+# Těmto větám také odpovídá překlad Arthura Rydera. Vše se na chvíli opět sesynchronizuje na větě o odjezdu do města Mathura,
+# která je ve Wikitonary, v korpusu (s44) a také v panchatantra.conllu (s66) a v Ryderově překladu.
+# Wiktionary: यस्यार्थास्तस्य मित्राणि यस्यार्थास्तस्य बान्धवाः। यस्यार्थाः स पुमान्लोके यस्यार्थाः स च पण्डितः॥ १.३॥
+# Wtranslit: yasyārthāstasya mitrāṇi yasyārthāstasya bāndhavāḥ. yasyārthāḥ sa pumānloke yasyārthāḥ sa ca paṇḍitaḥ: 1.3:
+# (Tohle máme níže, s37 a s38.)
+# Wiktionary: न सा विद्या न तद्दानं न तच्छिल्पं न सा कला। न तत् स्थैर्यं हि धनिनां याचकैर्यन्न गीयते ॥१.४॥
+# Wtranslit: na sā vidyā na taddānaṁ na tacchilpaṁ na sā kalā. na tat sthairyaṁ hi dhanināṁ yācakairyanna gīyate :1.4:
+# Wiktionary: इह लोके हि धनिनां परोऽपि स्वजनायते । स्वजनोऽपि दरिद्राणां सर्वदा दुर्जनायते॥१.५॥
+# Wtranslit: iha loke hi dhanināṁ paro’pi svajanāyate . svajano’pi daridrāṇāṁ sarvadā durjanāyate:1.5:
+# Wiktionary: अर्थेभ्योऽपि हि वृद्धेभ्यः संवृत्तेभ्येतस्ततस्ततः । प्रवर्तन्ते क्रियाः सर्वाः पर्वतेभ्य इवापगाः॥१.६॥
+# Wtranslit: arthebhyo’pi hi vr̥ddhebhyaḥ saṁvr̥ttebhyetastatastataḥ . pravartante kriyāḥ sarvāḥ parvatebhya ivāpagāḥ:1.6:
+# Wiktionary: पूज्यते यदपूज्योऽपि यदगम्योऽपि गम्यते । वन्द्यते यदवन्द्योऽपि स प्रभावो धनस्य च॥ १.७॥
+# Wtranslit: pūjyate yadapūjyo’pi yadagamyo’pi gamyate . vandyate yadavandyo’pi sa prabhāvo dhanasya ca: 1.7:
+# Wiktionary: अशनादिन्द्रियाणीव स्युः कार्याण्यखिलान्यपि । एतस्मात्कारणाद्वित्तं सर्वसाधनमुच्यते ॥१.८॥
+# Wtranslit: aśanādindriyāṇīva syuḥ kāryāṇyakhilānyapi . etasmātkāraṇādvittaṁ sarvasādhanamucyate :1.8:
+# Wiktionary: अर्थार्थी जीवलोकोऽयं श्मशानमपि सेवते। त्यक्त्वा जनयितारं स्वं निःस्वं यच्छति दूरतः॥१.९॥
+# Wtranslit: arthārthī jīvaloko’yaṁ śmaśānamapi sevate. tyaktvā janayitāraṁ svaṁ niḥsvaṁ yacchati dūrataḥ:1.9:
+# Wiktionary: गतवयसामपि पुंसां येषामर्था भवन्ति ते तरुणाः। अर्थे तु ये हीना वृथास्ते यौवनेपि स्युः ॥१.१०॥
+# Wtranslit: gatavayasāmapi puṁsāṁ yeṣāmarthā bhavanti te taruṇāḥ. arthe tu ye hīnā vr̥thāste yauvanepi syuḥ :1.10:
+# Wiktionary: स चार्थः पुरुषाणां षड्भिरुपायैर्भवति भिक्षया नृपसेवया कृषिकर्मणा विद्योपार्जनेन व्यवहारेण वणिक्कर्मणा वा। सर्वेषाम् अपि तेषां वाणिज्येनातिरस्कृतोऽर्थलाभः स्यात्। उक्तं च यतः
+# Wtranslit: sa cārthaḥ puruṣāṇāṁ ṣaḍbhirupāyairbhavati bhikṣayā nr̥pasevayā kr̥ṣikarmaṇā vidyopārjanena vyavahāreṇa vaṇikkarmaṇā vā.
+# ...        sarveṣām api teṣāṁ vāṇijyenātiraskr̥to’rthalābhaḥ syāt. uktaṁ ca yataḥ
+# (Tohle už zase máme níže jako s41 a s42.)
+# Wiktionary: कृता भिक्षानेकैर् वितरति नृपो नोचितम् अहो कृषिः क्लिष्टा विद्या गुरुविनयवृत्त्त्याऽतिविषमा। कुसीदाद् दारिद्र्यं परकरगतग्रंथिशमनान् न मन्ये वाणिज्यात् किम् अपि परमं वर्तनम् इह॥पञ्च_१.११॥
+# Wtranslit: kr̥tā bhikṣānekair vitarati nr̥po nocitam aho kr̥ṣiḥ kliṣṭā vidyā guruvinayavr̥tttyā’tiviṣamā.
+# ...        kusīdād dāridryaṁ parakaragatagraṁthiśamanān na manye vāṇijyāt kim api paramaṁ vartanam iha:pañca_1.11:
+# Wiktionary: उपायानां च सर्वेषाम् उपायः पण्यसंग्रहः। धनार्थं शस्यते ह्येकस् तदन्यः संशयात्मकः॥पञ्च_१.१२॥
+# Wtranslit: upāyānāṁ ca sarveṣām upāyaḥ paṇyasaṁgrahaḥ. dhanārthaṁ śasyate hyekas tadanyaḥ saṁśayātmakaḥ:pañca_1.12:
+# Wiktionary: तच् च वाणिज्यं सप्तविधम् अर्थागमाय स्यात्। तद् यथा गांधिकव्यवहारः, निक्षेपप्रवेशः, गोष्ठिककर्म, परिचितग्राहकागमः, मिथ्याक्रयकथनम्, कूटतुलामानम्, देशांतराद् भांडानयनं चेति। उक्तं च
+# Wtranslit: tac ca vāṇijyaṁ saptavidham arthāgamāya syāt.
+# ... tad yathā gāṁdhikavyavahāraḥ, nikṣepapraveśaḥ, goṣṭhikakarma, paricitagrāhakāgamaḥ, mithyākrayakathanam, kūṭatulāmānam,
+# ... deśāṁtarād bhāṁḍānayanaṁ ceti. uktaṁ ca
+# Wiktionary: पण्यानां गांधिकं पण्यं किम् अन्यैः काञ्चनादिभिः। यत्रैकेन च यत् क्रीतं तच् छतेन प्रदीयते॥पञ्च_१.१३॥
+# Wtranslit: paṇyānāṁ gāṁdhikaṁ paṇyaṁ kim anyaiḥ kāñcanādibhiḥ. yatraikena ca yat krītaṁ tac chatena pradīyate:pañca_1.13:
+# Wiktionary: निक्षेपे पतिते हर्म्ये श्रेष्ठी स्तौति स्वदेवताम्। निक्षेपी म्रियते तुभ्यं प्रदास्याम्य् उपयाचितम्॥पञ्च_१.१४॥
+# Wtranslit: nikṣepe patite harmye śreṣṭhī stauti svadevatām. nikṣepī mriyate tubhyaṁ pradāsyāmy upayācitam:pañca_1.14:
+# Wiktionary: गोष्ठिककर्मनियुक्तः श्रेष्ठी चिंतयति चेतसा हृष्टः। वसुधा वसुसंपूर्णा मयाद्य लब्धा किम् अन्येन॥पञ्च_१.१५॥
+# Wtranslit: goṣṭhikakarmaniyuktaḥ śreṣṭhī ciṁtayati cetasā hr̥ṣṭaḥ. vasudhā vasusaṁpūrṇā mayādya labdhā kim anyena:pañca_1.15:
+# Wiktionary: परिचितम् आगच्छंतं ग्राहकम् उत्कंठ्या विलोकयासौ। हृष्यति तद्धनलब्धो यद्वत् पुत्रेण जातेन॥पञ्च_१.१६॥
+# Wtranslit: paricitam āgacchaṁtaṁ grāhakam utkaṁṭhyā vilokayāsau. hr̥ṣyati taddhanalabdho yadvat putreṇa jātena:pañca_1.16:
+# Wiktionary: अन्यं च पूर्णापूर्णे माने परिचितजनवञ्चनं तथा नित्यम्। मिथ्याक्रयस्य कथनं प्रकृतिर् इयं स्यात् किरातानाम्॥पञ्च_१.१७॥
+# Wtranslit: anyaṁ ca pūrṇāpūrṇe māne paricitajanavañcanaṁ tathā nityam. mithyākrayasya kathanaṁ prakr̥tir iyaṁ syāt kirātānām:pañca_1.17:
+# Wiktionary: द्विगुणं त्रिगुणं वित्तं भांडक्रयविचक्षणाः। प्राप्नुवंत्य् उद्यमाल् लोका दूरदेशांतरं गताः॥पञ्च_१.१८॥
+# Wtranslit: dviguṇaṁ triguṇaṁ vittaṁ bhāṁḍakrayavicakṣaṇāḥ. prāpnuvaṁty udyamāl lokā dūradeśāṁtaraṁ gatāḥ:pañca_1.18:
+# panchatantra.conllu s63: upa arjitAnAm arTAnAm tyAgaH eva hi rakzaRam taqAga udara saMsTAnAm parI vAhaH iva amBasAm
+# Ryder: Release the money you have earned; / So keep it safely still: / The surplus water of a tank / Must find a way to spill.
+# panchatantra.conllu s64: arTEH arTAH ni baDyante gajEH iva mahA gajAH na hi an arTavatA Sakyam vARijyam kartum IhayA
+# Ryder: Wild elephants are caught by tame; / With capital it is the same: / In business, beggars have no scope / Whose stock-in-trade is empty hope.
+# panchatantra.conllu s65: dEva vaSAt upa panne sati viBave yasya na asti Boga icCAH na ca para loka sam IhA sa Bavati Dana pAlakaH mUrKaH
+# Ryder: If any fail to use his fate / For joy in this or future state, / His riches serve as foolish fetters; / He simply keeps them for his betters."
+# panchatantra.conllu s66: evam sam pra DArya maTurA gAmIni sAra BARqAni sam A hftya sa pari janaH SuBe nakzatre SuBAyAm tiTO guru jana anu
+# ...                      jYAtaH sva janEH anu vrajyamAnaH SaNKa tUrya nirGozeRa agrataH kriyamARena nagarAt niH sftaH
+# Ryder: Having thus set his mind in order, he collected merchandise bound for the city of Mathura, assembled his servants,
+# ...    and after saying farewell to his parents when asterism and lunar station were auspicious, set forth from the city,
+# ...    with his people following and with blare of conch-shell and beat of drum preceding.
+# Wiktionary: इत्य् एवं संप्रधार्य मथुरागामीनि भांडानि आदाय शुभायां तिथौ गुरुजनानुज्ञातः सुरथाधिरूढः प्रस्थितः। तस्य च मंगलवृषभो संजीवकनंदकनामानौ गृहोत्पन्नौ धूर्वोढारौ स्थितौ। तयोर् एकः संजीवकाभिधानो यमुनाकच्छम्
+# Wtranslit: ity evaṁ saṁpradhārya mathurāgāmīni bhāṁḍāni ādāya śubhāyāṁ tithau gurujanānujñātaḥ surathādhirūḍhaḥ prasthitaḥ.
+# ... tasya ca maṁgalavr̥ṣabho saṁjīvakanaṁdakanāmānau gr̥hotpannau dhūrvoḍhārau sthitau. tayor ekaḥ saṁjīvakābhidhāno yamunākaccham
+# (Tohle by konečně mohlo alespoň velmi volně odpovídat větě panchatantra.conllu s66, uvedené nahoře.
+# Současně to odpovídá naší větě s44 níže.)
+# 
 # translit = yatnena matimāṁstasmādarthamekam prasādhayet
 # wsid = ॥१.२॥
 1	यत्नेन	यत्न	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	6	obl	_	Translit=yatnena|LTranslit=yatna
@@ -1834,7 +1919,7 @@
 4-6	आहारो'स्त्येव	_	_	_	_	_	_	_	_
 4	आहारः	आहारः	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=āhāraḥ|LTranslit=āhāraḥ
 5	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LId=अस्-१|Translit=asti|LTranslit=as|Gloss=is
-6	एव	एव	ADV	_	_	5	advmod	_	Translit=eva|LTranslit=eva
+6	एव	एव	ADV	_	_	5	advmod	_	Translit=eva|LTranslit=eva|Gloss=just
 
 # sent_id = s69
 # text = दमनक आह
@@ -2407,7 +2492,7 @@
 2	त्वत्	त्वद्	PRON	_	Case=Abl|Number=Sing|Person=2|PronType=Prs	3	nmod	_	Translit=tvat|LTranslit=tvad
 3	अर्थम्	अर्थ	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	nmod	_	Translit=artham|LTranslit=artha
 4-5	एवेदम्	_	_	_	_	_	_	_	_
-4	एव	एव	ADV	_	_	3	advmod	_	Translit=eva|LTranslit=eva
+4	एव	एव	ADV	_	_	3	advmod	_	Translit=eva|LTranslit=eva|Gloss=just
 5	इदम्	इदम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	Translit=idam|LTranslit=idam|Gloss=this
 6-7	इहागमनम्	_	_	_	_	_	_	_	_
 6	इह	इह	ADV	_	_	7	advmod	_	Translit=iha|LTranslit=iha
@@ -2866,7 +2951,7 @@
 # translit = ayam eva mantriprādhānye mahān doṣaḥ sādhum ca ucyate
 # orig = panchatantra.conllu sent_id 1366
 1	अयम्	इदम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	Translit=ayam|LTranslit=idam|Gloss=this
-2	एव	एव	DET	_	_	4	det	_	Translit=eva|LTranslit=eva
+2	एव	एव	DET	_	_	4	det	_	Translit=eva|LTranslit=eva|Gloss=just
 3-4	मन्त्रिप्राधान्ये	_	_	_	_	_	_	_	_
 3	मन्त्रि	मन्त्रिन्	NOUN	_	_	4	compound	_	Translit=mantri|LTranslit=mantrin
 4	प्राधान्ये	प्राधान्य	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	9	obl	_	Translit=prādhānye|LTranslit=prādhānya
