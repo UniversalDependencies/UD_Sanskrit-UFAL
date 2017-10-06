@@ -1406,53 +1406,127 @@
 2	उक्तं	वच्	VERB	_	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Translit=uktaṁ|LTranslit=vac|Gloss=said
 3	च	च	CCONJ	_	_	2	cc	_	Translit=ca|LTranslit=ca|Gloss=also
 
-# sent_id = s36
-# text = यत्नेन मतिमांस्तस्मादर्थमेकम् प्रसाधयेत्
-# Kam dál? Ve Wiktionary následuje řada veršů, z nichž některé máme níže jako součást korpusu (např. už věta 36).
+# newpar id = panc1.p3
+# sent_id = panc1.s16
+# text = नहि तद्विद्यते किञ्चिद्यदर्थेन न सिध्यति।
+# The following verses appear in the Wikisource edition but not in panchatantra.conllu and in the Ryder's translation.
+# 
+# translit = nahi tadvidyate kiñcidyadarthena na sidhyati.
+# wsid = ॥१.२॥
+# text_en = It is not known what reuses things.
+1	नहि	नहि	PART	_	Polarity=Neg	3	advmod	_	Translit=nahi|LTranslit=nahi|Gloss=not
+2-3	तद्विद्यते	_	_	_	_	_	_	_	_
+2	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	nsubj:pass	_	Translit=tat|LTranslit=tad|Gloss=it
+3	विद्यते	विद्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=vidyate|LTranslit=vid|Gloss=is-known
+4-6	किञ्चिद्यदर्थेन	_	_	_	_	_	_	_	_
+4	किञ्चित्	किंचिद्	ADV	_	PronType=Ind	3	advmod	_	Translit=kiñcit|LTranslit=kiṁcid|Gloss=a-little
+5	यत्	यद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	nsubj	_	Translit=yat|LTranslit=yad|Gloss=what
+6	अर्थेन	अर्थ	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	8	obj	_	Translit=arthena|LTranslit=artha|Gloss=thing
+7	न	न	PART	_	Polarity=Neg	8	advmod	_	Translit=na|LTranslit=na|Gloss=not
+8	सिध्यति	सिध्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	SpaceAfter=No|Translit=sidhyati|LTranslit=sidh|Gloss=reuses
+9	।	।	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s17
+# text = यत्नेन मतिमांस्तस्मादर्थमेकम् प्रसाधयेत् ॥
+# translit = yatnena matimāṁstasmādarthamekam prasādhayet :
+# wtext = यत्नेन मतिमांस्तस्मादर्थमेकं प्रसाधयेत् ॥ १.२॥
+# wtranslit = yatnena matimāṁstasmādarthamekaṁ prasādhayet : 1.2:
+# wsid = ॥१.२॥
+# text_en = An intelligent makes the effort to reuse one of those things.
+1	यत्नेन	यत्न	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	6	obl	_	Translit=yatnena|LTranslit=yatna|Gloss=effort
+2-5	मतिमांस्तस्मादर्थमेकम्	_	_	_	_	_	_	_	_
+2	मतिमान्	मतिमात्	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Translit=matimān|LTranslit=matimāt|Gloss=intelligent
+3	तस्मात्	तद्	PRON	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Dem	4	nmod	_	Translit=tasmāt|LTranslit=tad|Gloss=from-that
+4	अर्थम्	अर्थ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Translit=artham|LTranslit=artha|Gloss=thing
+5	एकम्	एक	NUM	_	Case=Acc|Gender=Masc|Number=Sing|NumType=Card	4	nummod	_	Translit=ekam|LTranslit=eka|Gloss=one
+6	प्रसाधयेत्	प्र-सिध्	VERB	_	Mood=Opt|Number=Sing|Person=3|VerbForm=Fin|Voice=Cau	0	root	_	Translit=prasādhayet|LTranslit=pra-sidh|Gloss=makes-reuse
+7	॥	॥	PUNCT	_	_	6	punct	_	Translit=:|LTranslit=:|Gloss=.
+
+# newpar id = panc1.p4
+# sent_id = panc1.s18
+# text = यस्यार्थास्तस्य मित्राणि यस्यार्थास्तस्य बान्धवाः।
+# translit = yasyārthāstasya mitrāṇi yasyārthāstasya bāndhavāḥ.
+# wtext = यस्यार्थास्तस्य मित्राणि यस्यार्थास्तस्य बान्धवाः।
+# wtranslit = yasyārthāstasya mitrāṇi yasyārthāstasya bāndhavāḥ.
+# wsid = ॥१.३॥
+# text_en = He who has wealth has friends, he who has wealth has family.
+1-3	यस्यार्थास्तस्य	_	_	_	_	_	_	_	_
+1	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	3	acl	_	Translit=yasyā|LTranslit=yad|Gloss=of-which
+2	अर्थाः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	nsubj:cop	_	Translit=arthāḥ|LTranslit=artha|Gloss=wealth
+3	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Dem	0	root	_	Translit=tasya|LTranslit=tad|Gloss=his
+4	मित्राणि	मित्र	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	3	nsubj:cop	_	Translit=mitrāṇi|LTranslit=mitra|Gloss=friends
+5-7	यस्यार्थास्तस्य	_	_	_	_	_	_	_	_
+5	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	7	acl	_	Translit=yasyā|LTranslit=yad|Gloss=of-which
+6	अर्थाः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	5	nsubj:cop	_	Translit=arthāḥ|LTranslit=artha|Gloss=wealth
+7	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Dem	3	conj	_	Translit=tasya|LTranslit=tad|Gloss=his
+8	बान्धवाः	बान्धव	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	7	nsubj:cop	_	SpaceAfter=No|Translit=bāndhavāḥ|LTranslit=bāndhava|Gloss=buddies,family
+9	।	।	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s19
+# text = यस्यार्थाः स पुमान् लोके यस्यार्थाः स च पण्डितः॥
+# translit = yasyārthāḥ sa pumān loke yasyārthāḥ sa ca paṇḍitaḥ:
+# wtext = यस्यार्थाः स पुमान्लोके यस्यार्थाः स च पण्डितः॥ १.३॥
+# wtranslit = yasyārthāḥ sa pumānloke yasyārthāḥ sa ca paṇḍitaḥ: 1.3:
+# wsid = ॥१.३॥
+# text_en = He who has wealth is a man of the world, he who has wealth is a wise man.
+1-2	यस्यार्थाः	_	_	_	_	_	_	_	_
+1	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	3	acl	_	Translit=yasyā|LTranslit=yad|Gloss=of-which
+2	अर्थाः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	nsubj:cop	_	Translit=arthāḥ|LTranslit=artha|Gloss=wealth
+3	स	तद्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj:cop	_	Translit=sa|LTranslit=tad|Gloss=he
+4	पुमान्	पुंस्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Translit=pumān|LTranslit=puṁs|Gloss=man
+5	लोके	लोक्	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	Translit=loke|LTranslit=lok|Gloss=world
+6-7	यस्यार्थाः	_	_	_	_	_	_	_	_
+6	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	8	acl	_	Translit=yasyā|LTranslit=yad|Gloss=of-which
+7	अर्थाः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	6	nsubj:cop	_	Translit=arthāḥ|LTranslit=artha|Gloss=wealth
+8	स	तद्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	nsubj:cop	_	Translit=sa|LTranslit=tad|Gloss=he
+9	च	च	CCONJ	_	_	10	cc	_	Translit=ca|LTranslit=ca|Gloss=and
+10	पण्डितः	पण्डित	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|Translit=paṇḍitaḥ|LTranslit=paṇḍita|Gloss=wise
+11	॥	॥	PUNCT	_	_	4	punct	_	Translit=:|LTranslit=:|Gloss=.
+
+# sent_id = s41
+# text = स अर्थः पुरुषाणाम् षड्भिरुपायैर्भवति भिक्षया नृपसेवया कृषिकर्मणा विद्योपार्जनेन व्यवहारेण वणिक्कर्मणा वा
+# Kam dál? Ve Wikisource následuje řada veršů, z nichž některé máme níže jako součást korpusu, ale mnohé další zřejmě ne.
 # V souboru panchatantra.conllu následuje mnohem kratší sada veršů (viz komentáře níže, věta panchatantra.conllu s63 a dále).
 # Těmto větám také odpovídá překlad Arthura Rydera. Vše se na chvíli opět sesynchronizuje na větě o odjezdu do města Mathura,
 # která je ve Wikitonary, v korpusu (s44) a také v panchatantra.conllu (s66) a v Ryderově překladu.
-# Wiktionary: यस्यार्थास्तस्य मित्राणि यस्यार्थास्तस्य बान्धवाः। यस्यार्थाः स पुमान्लोके यस्यार्थाः स च पण्डितः॥ १.३॥
-# Wtranslit: yasyārthāstasya mitrāṇi yasyārthāstasya bāndhavāḥ. yasyārthāḥ sa pumānloke yasyārthāḥ sa ca paṇḍitaḥ: 1.3:
-# (Tohle máme níže, s37 a s38.)
-# Wiktionary: न सा विद्या न तद्दानं न तच्छिल्पं न सा कला। न तत् स्थैर्यं हि धनिनां याचकैर्यन्न गीयते ॥१.४॥
+# Wikisource: न सा विद्या न तद्दानं न तच्छिल्पं न सा कला। न तत् स्थैर्यं हि धनिनां याचकैर्यन्न गीयते ॥१.४॥
 # Wtranslit: na sā vidyā na taddānaṁ na tacchilpaṁ na sā kalā. na tat sthairyaṁ hi dhanināṁ yācakairyanna gīyate :1.4:
-# Wiktionary: इह लोके हि धनिनां परोऽपि स्वजनायते । स्वजनोऽपि दरिद्राणां सर्वदा दुर्जनायते॥१.५॥
+# Wikisource: इह लोके हि धनिनां परोऽपि स्वजनायते । स्वजनोऽपि दरिद्राणां सर्वदा दुर्जनायते॥१.५॥
 # Wtranslit: iha loke hi dhanināṁ paro’pi svajanāyate . svajano’pi daridrāṇāṁ sarvadā durjanāyate:1.5:
-# Wiktionary: अर्थेभ्योऽपि हि वृद्धेभ्यः संवृत्तेभ्येतस्ततस्ततः । प्रवर्तन्ते क्रियाः सर्वाः पर्वतेभ्य इवापगाः॥१.६॥
+# Wikisource: अर्थेभ्योऽपि हि वृद्धेभ्यः संवृत्तेभ्येतस्ततस्ततः । प्रवर्तन्ते क्रियाः सर्वाः पर्वतेभ्य इवापगाः॥१.६॥
 # Wtranslit: arthebhyo’pi hi vr̥ddhebhyaḥ saṁvr̥ttebhyetastatastataḥ . pravartante kriyāḥ sarvāḥ parvatebhya ivāpagāḥ:1.6:
-# Wiktionary: पूज्यते यदपूज्योऽपि यदगम्योऽपि गम्यते । वन्द्यते यदवन्द्योऽपि स प्रभावो धनस्य च॥ १.७॥
+# Wikisource: पूज्यते यदपूज्योऽपि यदगम्योऽपि गम्यते । वन्द्यते यदवन्द्योऽपि स प्रभावो धनस्य च॥ १.७॥
 # Wtranslit: pūjyate yadapūjyo’pi yadagamyo’pi gamyate . vandyate yadavandyo’pi sa prabhāvo dhanasya ca: 1.7:
-# Wiktionary: अशनादिन्द्रियाणीव स्युः कार्याण्यखिलान्यपि । एतस्मात्कारणाद्वित्तं सर्वसाधनमुच्यते ॥१.८॥
+# Wikisource: अशनादिन्द्रियाणीव स्युः कार्याण्यखिलान्यपि । एतस्मात्कारणाद्वित्तं सर्वसाधनमुच्यते ॥१.८॥
 # Wtranslit: aśanādindriyāṇīva syuḥ kāryāṇyakhilānyapi . etasmātkāraṇādvittaṁ sarvasādhanamucyate :1.8:
-# Wiktionary: अर्थार्थी जीवलोकोऽयं श्मशानमपि सेवते। त्यक्त्वा जनयितारं स्वं निःस्वं यच्छति दूरतः॥१.९॥
+# Wikisource: अर्थार्थी जीवलोकोऽयं श्मशानमपि सेवते। त्यक्त्वा जनयितारं स्वं निःस्वं यच्छति दूरतः॥१.९॥
 # Wtranslit: arthārthī jīvaloko’yaṁ śmaśānamapi sevate. tyaktvā janayitāraṁ svaṁ niḥsvaṁ yacchati dūrataḥ:1.9:
-# Wiktionary: गतवयसामपि पुंसां येषामर्था भवन्ति ते तरुणाः। अर्थे तु ये हीना वृथास्ते यौवनेपि स्युः ॥१.१०॥
+# Wikisource: गतवयसामपि पुंसां येषामर्था भवन्ति ते तरुणाः। अर्थे तु ये हीना वृथास्ते यौवनेपि स्युः ॥१.१०॥
 # Wtranslit: gatavayasāmapi puṁsāṁ yeṣāmarthā bhavanti te taruṇāḥ. arthe tu ye hīnā vr̥thāste yauvanepi syuḥ :1.10:
-# Wiktionary: स चार्थः पुरुषाणां षड्भिरुपायैर्भवति भिक्षया नृपसेवया कृषिकर्मणा विद्योपार्जनेन व्यवहारेण वणिक्कर्मणा वा। सर्वेषाम् अपि तेषां वाणिज्येनातिरस्कृतोऽर्थलाभः स्यात्। उक्तं च यतः
+# Wikisource: स चार्थः पुरुषाणां षड्भिरुपायैर्भवति भिक्षया नृपसेवया कृषिकर्मणा विद्योपार्जनेन व्यवहारेण वणिक्कर्मणा वा। सर्वेषाम् अपि तेषां वाणिज्येनातिरस्कृतोऽर्थलाभः स्यात्। उक्तं च यतः
 # Wtranslit: sa cārthaḥ puruṣāṇāṁ ṣaḍbhirupāyairbhavati bhikṣayā nr̥pasevayā kr̥ṣikarmaṇā vidyopārjanena vyavahāreṇa vaṇikkarmaṇā vā.
 # ...        sarveṣām api teṣāṁ vāṇijyenātiraskr̥to’rthalābhaḥ syāt. uktaṁ ca yataḥ
 # (Tohle už zase máme níže jako s41 a s42.)
-# Wiktionary: कृता भिक्षानेकैर् वितरति नृपो नोचितम् अहो कृषिः क्लिष्टा विद्या गुरुविनयवृत्त्त्याऽतिविषमा। कुसीदाद् दारिद्र्यं परकरगतग्रंथिशमनान् न मन्ये वाणिज्यात् किम् अपि परमं वर्तनम् इह॥पञ्च_१.११॥
+# Wikisource: कृता भिक्षानेकैर् वितरति नृपो नोचितम् अहो कृषिः क्लिष्टा विद्या गुरुविनयवृत्त्त्याऽतिविषमा। कुसीदाद् दारिद्र्यं परकरगतग्रंथिशमनान् न मन्ये वाणिज्यात् किम् अपि परमं वर्तनम् इह॥पञ्च_१.११॥
 # Wtranslit: kr̥tā bhikṣānekair vitarati nr̥po nocitam aho kr̥ṣiḥ kliṣṭā vidyā guruvinayavr̥tttyā’tiviṣamā.
 # ...        kusīdād dāridryaṁ parakaragatagraṁthiśamanān na manye vāṇijyāt kim api paramaṁ vartanam iha:pañca_1.11:
-# Wiktionary: उपायानां च सर्वेषाम् उपायः पण्यसंग्रहः। धनार्थं शस्यते ह्येकस् तदन्यः संशयात्मकः॥पञ्च_१.१२॥
+# Wikisource: उपायानां च सर्वेषाम् उपायः पण्यसंग्रहः। धनार्थं शस्यते ह्येकस् तदन्यः संशयात्मकः॥पञ्च_१.१२॥
 # Wtranslit: upāyānāṁ ca sarveṣām upāyaḥ paṇyasaṁgrahaḥ. dhanārthaṁ śasyate hyekas tadanyaḥ saṁśayātmakaḥ:pañca_1.12:
-# Wiktionary: तच् च वाणिज्यं सप्तविधम् अर्थागमाय स्यात्। तद् यथा गांधिकव्यवहारः, निक्षेपप्रवेशः, गोष्ठिककर्म, परिचितग्राहकागमः, मिथ्याक्रयकथनम्, कूटतुलामानम्, देशांतराद् भांडानयनं चेति। उक्तं च
+# Wikisource: तच् च वाणिज्यं सप्तविधम् अर्थागमाय स्यात्। तद् यथा गांधिकव्यवहारः, निक्षेपप्रवेशः, गोष्ठिककर्म, परिचितग्राहकागमः, मिथ्याक्रयकथनम्, कूटतुलामानम्, देशांतराद् भांडानयनं चेति। उक्तं च
 # Wtranslit: tac ca vāṇijyaṁ saptavidham arthāgamāya syāt.
 # ... tad yathā gāṁdhikavyavahāraḥ, nikṣepapraveśaḥ, goṣṭhikakarma, paricitagrāhakāgamaḥ, mithyākrayakathanam, kūṭatulāmānam,
 # ... deśāṁtarād bhāṁḍānayanaṁ ceti. uktaṁ ca
-# Wiktionary: पण्यानां गांधिकं पण्यं किम् अन्यैः काञ्चनादिभिः। यत्रैकेन च यत् क्रीतं तच् छतेन प्रदीयते॥पञ्च_१.१३॥
+# Wikisource: पण्यानां गांधिकं पण्यं किम् अन्यैः काञ्चनादिभिः। यत्रैकेन च यत् क्रीतं तच् छतेन प्रदीयते॥पञ्च_१.१३॥
 # Wtranslit: paṇyānāṁ gāṁdhikaṁ paṇyaṁ kim anyaiḥ kāñcanādibhiḥ. yatraikena ca yat krītaṁ tac chatena pradīyate:pañca_1.13:
-# Wiktionary: निक्षेपे पतिते हर्म्ये श्रेष्ठी स्तौति स्वदेवताम्। निक्षेपी म्रियते तुभ्यं प्रदास्याम्य् उपयाचितम्॥पञ्च_१.१४॥
+# Wikisource: निक्षेपे पतिते हर्म्ये श्रेष्ठी स्तौति स्वदेवताम्। निक्षेपी म्रियते तुभ्यं प्रदास्याम्य् उपयाचितम्॥पञ्च_१.१४॥
 # Wtranslit: nikṣepe patite harmye śreṣṭhī stauti svadevatām. nikṣepī mriyate tubhyaṁ pradāsyāmy upayācitam:pañca_1.14:
-# Wiktionary: गोष्ठिककर्मनियुक्तः श्रेष्ठी चिंतयति चेतसा हृष्टः। वसुधा वसुसंपूर्णा मयाद्य लब्धा किम् अन्येन॥पञ्च_१.१५॥
+# Wikisource: गोष्ठिककर्मनियुक्तः श्रेष्ठी चिंतयति चेतसा हृष्टः। वसुधा वसुसंपूर्णा मयाद्य लब्धा किम् अन्येन॥पञ्च_१.१५॥
 # Wtranslit: goṣṭhikakarmaniyuktaḥ śreṣṭhī ciṁtayati cetasā hr̥ṣṭaḥ. vasudhā vasusaṁpūrṇā mayādya labdhā kim anyena:pañca_1.15:
-# Wiktionary: परिचितम् आगच्छंतं ग्राहकम् उत्कंठ्या विलोकयासौ। हृष्यति तद्धनलब्धो यद्वत् पुत्रेण जातेन॥पञ्च_१.१६॥
+# Wikisource: परिचितम् आगच्छंतं ग्राहकम् उत्कंठ्या विलोकयासौ। हृष्यति तद्धनलब्धो यद्वत् पुत्रेण जातेन॥पञ्च_१.१६॥
 # Wtranslit: paricitam āgacchaṁtaṁ grāhakam utkaṁṭhyā vilokayāsau. hr̥ṣyati taddhanalabdho yadvat putreṇa jātena:pañca_1.16:
-# Wiktionary: अन्यं च पूर्णापूर्णे माने परिचितजनवञ्चनं तथा नित्यम्। मिथ्याक्रयस्य कथनं प्रकृतिर् इयं स्यात् किरातानाम्॥पञ्च_१.१७॥
+# Wikisource: अन्यं च पूर्णापूर्णे माने परिचितजनवञ्चनं तथा नित्यम्। मिथ्याक्रयस्य कथनं प्रकृतिर् इयं स्यात् किरातानाम्॥पञ्च_१.१७॥
 # Wtranslit: anyaṁ ca pūrṇāpūrṇe māne paricitajanavañcanaṁ tathā nityam. mithyākrayasya kathanaṁ prakr̥tir iyaṁ syāt kirātānām:pañca_1.17:
-# Wiktionary: द्विगुणं त्रिगुणं वित्तं भांडक्रयविचक्षणाः। प्राप्नुवंत्य् उद्यमाल् लोका दूरदेशांतरं गताः॥पञ्च_१.१८॥
+# Wikisource: द्विगुणं त्रिगुणं वित्तं भांडक्रयविचक्षणाः। प्राप्नुवंत्य् उद्यमाल् लोका दूरदेशांतरं गताः॥पञ्च_१.१८॥
 # Wtranslit: dviguṇaṁ triguṇaṁ vittaṁ bhāṁḍakrayavicakṣaṇāḥ. prāpnuvaṁty udyamāl lokā dūradeśāṁtaraṁ gatāḥ:pañca_1.18:
 # panchatantra.conllu s63: upa arjitAnAm arTAnAm tyAgaH eva hi rakzaRam taqAga udara saMsTAnAm parI vAhaH iva amBasAm
 # Ryder: Release the money you have earned; / So keep it safely still: / The surplus water of a tank / Must find a way to spill.
@@ -1465,56 +1539,12 @@
 # Ryder: Having thus set his mind in order, he collected merchandise bound for the city of Mathura, assembled his servants,
 # ...    and after saying farewell to his parents when asterism and lunar station were auspicious, set forth from the city,
 # ...    with his people following and with blare of conch-shell and beat of drum preceding.
-# Wiktionary: इत्य् एवं संप्रधार्य मथुरागामीनि भांडानि आदाय शुभायां तिथौ गुरुजनानुज्ञातः सुरथाधिरूढः प्रस्थितः। तस्य च मंगलवृषभो संजीवकनंदकनामानौ गृहोत्पन्नौ धूर्वोढारौ स्थितौ। तयोर् एकः संजीवकाभिधानो यमुनाकच्छम्
+# Wikisource: इत्य् एवं संप्रधार्य मथुरागामीनि भांडानि आदाय शुभायां तिथौ गुरुजनानुज्ञातः सुरथाधिरूढः प्रस्थितः। तस्य च मंगलवृषभो संजीवकनंदकनामानौ गृहोत्पन्नौ धूर्वोढारौ स्थितौ। तयोर् एकः संजीवकाभिधानो यमुनाकच्छम्
 # Wtranslit: ity evaṁ saṁpradhārya mathurāgāmīni bhāṁḍāni ādāya śubhāyāṁ tithau gurujanānujñātaḥ surathādhirūḍhaḥ prasthitaḥ.
 # ... tasya ca maṁgalavr̥ṣabho saṁjīvakanaṁdakanāmānau gr̥hotpannau dhūrvoḍhārau sthitau. tayor ekaḥ saṁjīvakābhidhāno yamunākaccham
 # (Tohle by konečně mohlo alespoň velmi volně odpovídat větě panchatantra.conllu s66, uvedené nahoře.
 # Současně to odpovídá naší větě s44 níže.)
 # 
-# translit = yatnena matimāṁstasmādarthamekam prasādhayet
-# wsid = ॥१.२॥
-1	यत्नेन	यत्न	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	6	obl	_	Translit=yatnena|LTranslit=yatna
-2-5	मतिमांस्तस्मादर्थमेकम्	_	_	_	_	_	_	_	_
-2	मतिमान्	मतिमात्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Translit=matimān|LTranslit=matimāt
-3	तस्मात्	तद्	PRON	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Dem	4	nmod	_	Translit=tasmāt|LTranslit=tad
-4	अर्थम्	अर्थ	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	Translit=artham|LTranslit=artha
-5	एकम्	एक	ADV	_	Case=Acc	6	advmod	_	Translit=ekam|LTranslit=eka
-6	प्रसाधयेत्	प्र-सिध्	VERB	_	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=prasādhayet|LTranslit=pra-sidh
-
-# sent_id = s37
-# text = यस्यार्थास्तस्य मित्रणि यस्यार्थास्तस्य बान्धवाः
-# translit = yasyārthāstasya mitraṇi yasyārthāstasya bāndhavāḥ
-# wsid = ॥१.३॥
-1-3	यस्यार्थास्तस्य	_	_	_	_	_	_	_	_
-1	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	2	nmod	_	Translit=yasyā|LTranslit=yad|Gloss=of-which
-2	अर्थः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	3	acl	_	Translit=arthaḥ|LTranslit=artha
-3	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nmod	_	Translit=tasya|LTranslit=tad|Gloss=his
-4	मित्रणि	मित्र्	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	0	root	_	Translit=mitraṇi|LTranslit=mitr
-5-7	यस्यार्थास्तस्य	_	_	_	_	_	_	_	_
-5	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	6	nmod	_	Translit=yasyā|LTranslit=yad|Gloss=of-which
-6	अर्थः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	7	acl	_	Translit=arthaḥ|LTranslit=artha
-7	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nmod	_	Translit=tasya|LTranslit=tad|Gloss=his
-8	बान्धवाः	बान्धव	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	Translit=bāndhavāḥ|LTranslit=bāndhava
-
-# sent_id = s38
-# text = यस्यार्थाः स पुमान् लोके यस्यार्थाः स च पण्डितः
-# translit = yasyārthāḥ sa pumān loke yasyārthāḥ sa ca paṇḍitaḥ
-# wsid = ॥१.३॥
-1-2	यस्यार्थाः	_	_	_	_	_	_	_	_
-1	यस्या	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	2	nmod	_	Translit=yasyā|LTranslit=yad|Gloss=of-which
-2	अर्थः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	3	acl	_	Translit=arthaḥ|LTranslit=artha
-3	स	तद्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	Translit=sa|LTranslit=tad
-4	पुमान्	पुंस्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Translit=pumān|LTranslit=puṁs
-5	लोके	लोक्	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	Translit=loke|LTranslit=lok
-6-7	यस्यार्थाः	_	_	_	_	_	_	_	_
-6	यस्य	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	2	nmod	_	Translit=yasya|LTranslit=yad|Gloss=of-which
-7	अर्थाः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	6	acl	_	Translit=arthāḥ|LTranslit=artha
-8	स	तद्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	Translit=sa|LTranslit=tad
-9	च	च	CCONJ	_	_	10	cc	_	Translit=ca|LTranslit=ca|Gloss=and
-10	पण्डितः	पण्डितः	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	Translit=paṇḍitaḥ|LTranslit=paṇḍitaḥ
-
-# sent_id = s41
-# text = स अर्थः पुरुषाणाम् षड्भिरुपायैर्भवति भिक्षया नृपसेवया कृषिकर्मणा विद्योपार्जनेन व्यवहारेण वणिक्कर्मणा वा
 # translit = sa arthaḥ puruṣāṇām ṣaḍbhirupāyairbhavati bhikṣayā nr̥pasevayā kr̥ṣikarmaṇā vidyopārjanena vyavahāreṇa vaṇikkarmaṇā vā
 # wsid = ॥१.११॥
 1	स	तद्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	Translit=sa|LTranslit=tad
