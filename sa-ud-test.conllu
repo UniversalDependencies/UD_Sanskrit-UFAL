@@ -1653,6 +1653,9 @@
 # text(67) = उदक अन्तात् सुहृत् जनम् नि वर्त्य तस्मात् अभि प्र स्थितः
 # translit(67) = udaka antāt suhr̥t janam ni vartya tasmāt abhi pra sthitaḥ
 # ryder(67) = At the first water he bade his friends turn back, while he proceeded.
+# Missing panchatantra.conllu sent_id 69 (while 68 is below and matches a sentence from Wikisource).
+# ptext(69) = aTa Dava Kadira palASa SAlEH manaH harAm anyEH ca izwa darSanEH SAKiBiH nirantara upa citAm an eka gaja gavaya mahiza ruru camarI varAha SArdula citraka fkza BayodBawAm a cala nitamba nir gata udaka pari pUritAm viviDa darI gahanAm awavIm A sAdya dUra A pAti nirJaraka ut pAdita kardamam agrEka caraRa vEkalyAt ca atiBArAt aBi hataH kasmincit pradeSe kaTam api tayoH vfzaBayoh saYjIvakaH yuga BaNgam kftvA ni zasAda
+# ryder(69) = Presently he reached a forest lovely with grisleas, acacias, dhaks, and sals, densely planted with other trees of charming aspect; fearsome with elephants, wild oxen, buffaloes, deer, grunting-cows, boars, tigers, leopards, and bears; abounding in water that issued from the flanks of mountains; rich in caves and thickets.
 # 
 # translit = tasya maṅgalavr̥ṣabhau sañjīvakanandakanāmānau gr̥hotpannau dhūrvoḍhārau sthitau.
 # wtext = तस्य च मंगलवृषभो संजीवकनंदकनामानौ गृहोत्पन्नौ धूर्वोढारौ स्थितौ।
@@ -1660,6 +1663,7 @@
 # ptext = tasya ca dvO maNgala vfzaBO DUH voQArO nandaka saYjIvaka nAmAnO pARqura aBra sam ni kASO suvarRa kiNkiRI pari vfta uraskO tizWataH
 # orig = panchatantra.conllu sent_id 68
 # ryder = To bear the yoke he had two bulls of good omen. Their names were Joyful and Lively; they looked like white clouds, and their chests were girded with golden bells.
+# text_en = His two bulls of good omen, named Sanjivaka and Nandaka, taken from his home, bore the yoke.
 1	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nmod:poss	_	Translit=tasya|LTranslit=tad|Gloss=his
 2-3	मङ्गलवृषभौ	_	_	_	_	_	_	_	_
 2	मङ्गल	मङ्गल	NOUN	_	_	3	compound	_	Translit=maṅgala|LTranslit=maṅgala|Gloss=blessed
@@ -1677,36 +1681,52 @@
 11	स्थितौ	स्थिति	NOUN	_	Case=Loc|Gender=Fem|Number=Sing|VerbForm=Part	10	obl	_	SpaceAfter=No|Translit=sthitau|LTranslit=sthiti|Gloss=upright
 12	।	।	PUNCT	_	_	10	punct	_	Translit=.|LTranslit=.|Gloss=.
 
-# sent_id = s46
-# text = अथ तदवस्थमालोक्य वर्धमानः परम् विषादमगमत्
-# ptext(69) = aTa Dava Kadira palASa SAlEH manaH harAm anyEH ca izwa darSanEH SAKiBiH nirantara upa citAm
-# ...         an eka gaja gavaya mahiza ruru camarI varAha SArdula citraka fkza BayodBawAm a cala nitamba nir gata udaka
-# ...         pari pUritAm viviDa darI gahanAm awavIm A sAdya dUra A pAti nirJaraka ut pAdita kardamam agrEka
-# ...         caraRa vEkalyAt ca atiBArAt aBi hataH kasmincit pradeSe kaTam api tayoH vfzaBayoh saYjIvakaH yuga BaNgam kftvA ni zasAda
-# ryder(69) = Presently he reached a forest lovely with grisleas, acacias, dhaks, and sals, densely planted with other trees of charming aspect; fearsome with elephants, wild oxen, buffaloes, deer, grunting-cows, boars, tigers, leopards, and bears; abounding in water that issued from the flanks of mountains; rich in caves and thickets.
-# wtext = तयोर् एकः संजीवकाभिधानो यमुनाकच्छम्
-# wtranslit = tayor ekaḥ saṁjīvakābhidhāno yamunākaccham
-# wtext = अवतीर्णः संपंकपूरम् आसाद्य कलितचरणो युगभंगं विधाय निषसाद।
-# wtranslit = avatīrṇaḥ saṁpaṁkapūram āsādya kalitacaraṇo yugabhaṁgaṁ vidhāya niṣasāda.
+# sent_id = panc1.s63
+# text = तयोर् एकः संजीवकाभिधानो यमुनाकच्छम् अवतीर्णः संपंकपूरम् आसाद्य कलितचरणो युगभंगं विधाय निषसाद।
+# translit = tayor ekaḥ saṁjīvakābhidhāno yamunākaccham avatīrṇaḥ saṁpaṁkapūram āsādya kalitacaraṇo yugabhaṁgaṁ vidhāya niṣasāda.
+# text_en = The one called Sanjivaka, when descending to the muddy bank of Yamuna, got stuck, broke the leg of the yoke and lay down.
+# orig = panchatantra.conllu sent_id 70,71
+# ptext = (70) tataH tam ni patitam dfzwvA SAkawikaH sa samBramaH SakawAt ut tIrya tvarita gatiH an ati dUre sa upa cAram aYjalim kftvA sArTa vAham uvAca (71) Arya putra aDva pari SrAntaH saYjIvakaH puNke ni zasAda
+# ryder = Here the bull Lively was overcome, partly by the excessive weight of the wagon, partly because one foot sank helpless where far-flung water from cascades made a muddy spot. At this spot the bull somehow snapped the yoke and sank in a heap.
+1	तयोर्	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Dual|PronType=Dem	2	nmod	_	Translit=tayor|LTranslit=tad|Gloss=of-them
+2	एकः	एक	NUM	_	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	11	nsubj	_	Translit=ekaḥ|LTranslit=eka|Gloss=the-one
+3	संजीवकाभिधानो	सञ्जीवकाभिधान	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	Translit=saṁjīvakābhidhāno|LTranslit=sañjīvakābhidhāna|Gloss=called-Sanjivaka
+4	यमुनाकच्छम्	यमुनाकच्छ	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	Translit=yamunākaccham|LTranslit=yamunākaccha|Gloss=marsh-at-the-bank-of-Yamuna
+5	अवतीर्णः	अव-तॄ	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	Translit=avatīrṇaḥ|LTranslit=ava-tl̥|Gloss=descended
+6	संपंकपूरम्	संपङ्कपूर	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	Translit=saṁpaṁkapūram|LTranslit=saṁpaṅkapūra|Gloss=full-of-mud
+7	आसाद्य	आ-सद्	VERB	_	VerbForm=Conv	11	advcl	_	Translit=āsādya|LTranslit=ā-sad|Gloss=after-having-gotten-stuck
+8	कलितचरणो	कलितचरण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	Translit=kalitacaraṇo|LTranslit=kalitacaraṇa|Gloss=leading-leg
+9	युगभंगं	युगभङ्ग	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	Translit=yugabhaṁgaṁ|LTranslit=yugabhaṅga|Gloss=yoke-fracture
+10	विधाय	वि-धा	VERB	_	VerbForm=Conv	11	advcl	_	Translit=vidhāya|LTranslit=vi-dhā|Gloss=after-having-made
+11	निषसाद	नि-सद्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=niṣasāda|LTranslit=ni-sad|Gloss=lay-down
+12	।	।	PUNCT	_	_	11	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s64
+# text = अथ तदवस्थमालोक्य वर्धमानः परम् विषादमगमत्।
+# translit = atha tadavasthamālokya vardhamānaḥ param viṣādamagamat.
 # wtext = अथ तं तद्अवस्थम् आलोक्य वर्धमानः परं विषादम् आगमत्।
 # wtranslit = atha taṁ tadavastham ālokya vardhamānaḥ paraṁ viṣādam āgamat.
-# 
-# translit = atha tadavasthamālokya vardhamānaḥ param viṣādamagamat
+# text_en = When Vardhamana saw what happened, he was deeply dejected.
+# orig = panchatantra.conllu sent_id 72
+# ptext = tat SrutvA varDa mAna sArTa vAhaH param vizAdam agamat
+# ryder = When the driver saw that he was down, he jumped excitedly from the wagon, ran to the merchant not far away, and humbly bowing, said: "Oh, my lord! Lively was wearied by the trip, and sank in the mud." On hearing this, merchant Increase was deeply dejected.
 1	अथ	अथ	ADV	_	_	4	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2-4	तदवस्थमालोक्य	_	_	_	_	_	_	_	_
-2	तत्	तद्	DET	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	det	_	Translit=tat|LTranslit=tad|Gloss=it
-3	अवस्थम्	अवस्था	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	Translit=avastham|LTranslit=avasthā
-4	आलोक्य	अअ-लोक्	VERB	_	VerbForm=Ger	8	advcl	_	Translit=ālokya|LTranslit=aa-lok
-5	वर्धमानः	वर्धमान	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	Translit=vardhamānaḥ|LTranslit=vardhamāna
-6	परम्	परम्	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	Translit=param|LTranslit=param
-7-8	विषादमगमत्	_	_	_	_	_	_	_	_
-7	विषाद	विषाद	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	Translit=viṣāda|LTranslit=viṣāda
-8	अगमत्	अग-मत्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=agamat|LTranslit=aga-mat
+2	तत्	तद्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	Translit=tat|LTranslit=tad|Gloss=the
+3	अवस्थम्	अवस्था	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	Translit=avastham|LTranslit=avasthā|Gloss=situation
+4	आलोक्य	आ-लोक्	VERB	_	VerbForm=Conv	8	advcl	_	Translit=ālokya|LTranslit=ā-lok|Gloss=after-having-seen
+5	वर्धमानः	वर्धमान	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	Translit=vardhamānaḥ|LTranslit=vardhamāna|Gloss=Vardhamana
+6	परम्	परम्	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	Translit=param|LTranslit=param|Gloss=extreme
+7-8	विषादमगमत्	_	_	_	_	_	_	_	SpaceAfter=No
+7	विषादम्	विषाद	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	Translit=viṣādam|LTranslit=viṣāda|Gloss=sadness
+8	अगमत्	गम्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=agamat|LTranslit=gam|Gloss=fell-to
+9	।	।	PUNCT	_	_	8	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = s47
 # text = तदर्थम् स्नेहार्द्रहृदयस्त्रिरात्रम् प्रयाणभङ्गमकरोत्
 # translit = tadartham snehārdrahr̥dayastrirātram prayāṇabhaṅgamakarot
-# wsid = ॥१.१९॥
+# wtext = तद् अर्थं च स्नेहार्द्रहृदयस् त्रिरात्रं प्रयाणभंगम् अकरोत्।
+# wtranslit = tad arthaṁ ca snehārdrahr̥dayas trirātraṁ prayāṇabhaṁgam akarot.
 1-2	तदर्थम्	_	_	_	_	_	_	_	_
 1	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	2	nmod	_	Translit=tat|LTranslit=tad|Gloss=it
 2	अर्थम्	अर्थ	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	9	obl	_	Translit=artham|LTranslit=artha
@@ -1723,7 +1743,8 @@
 # sent_id = s48
 # text = अथ तम् विषण्णमालोक्य सार्थिकैरभिहितम्
 # translit = atha tam viṣaṇṇamālokya sārthikairabhihitam
-# wsid = ॥१.१९॥
+# wtext = अथ तं विषण्णम् आलोक्य सार्थिकैर् अभिहितम् भोः श्रेष्ठिन्! किम् एवं वृषभस्य कृते सिंहव्याघ्रसमाकुले बह्वपायेस्मिन् वने समस्तसार्थस् त्वया संदेहे नियोजितः।
+# wtranslit = atha taṁ viṣaṇṇam ālokya sārthikair abhihitam bhoḥ śreṣṭhin! kim evaṁ vr̥ṣabhasya kr̥te siṁhavyāghrasamākule bahvapāyesmin vane samastasārthas tvayā saṁdehe niyojitaḥ.
 1	अथ	अथ	ADV	_	_	6	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2	तम्	तद्	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	Translit=tam|LTranslit=tad
 3-4	विषण्णमालोक्य	_	_	_	_	_	_	_	_
