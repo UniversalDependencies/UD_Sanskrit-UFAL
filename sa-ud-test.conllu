@@ -1989,8 +1989,8 @@
 1	सः	तद्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	Translit=saḥ|LTranslit=tad|Gloss=he
 2	अब्रवीत्	ब्रू	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	Translit=abravīt|LTranslit=brū|Gloss=said
 
-# sent_id = s57
-# text = तत्र आसीत् मारीचः नाम राक्षसः।
+# sent_id = s64
+# text = कस्मिंश्चिन्नगराभ्यासे केनापि वणिक् पुत्रेण तरुखण्डमध्ये देवताः यतनं कर्तुम् आरब्धम्
 # wparagraph
 # wtext = करटक आह भद्र किम् आवयोर् अनेन व्यापारेण उक्तं च यतः
 # wtranslit = karaṭaka āha bhadra kim āvayor anena vyāpāreṇa uktaṁ ca yataḥ
@@ -2018,95 +2018,6 @@
 # wtext = ==कथा - १ - कीलोत्पाटिवानरकथा==
 # wtranslit = ==kathā - 1 - kīlotpāṭivānarakathā==
 # 
-# translit = tatra āsīt mārīcaḥ nāma rākṣasaḥ.
-# text_en = There was a man-eating giant named Maricha.
-1	तत्र	तत्र	ADV	_	_	2	expl	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
-2	आसीत्	आस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	Translit=āsīt|LTranslit=ās|Gloss=was
-3	मारीचः	मारीच	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	Translit=mārīcaḥ|LTranslit=mārīca|Gloss=Maricha
-4	नाम	नामन्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	Translit=nāma|LTranslit=nāman|Gloss=name
-5	राक्षसः	राक्षस	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|Translit=rākṣasaḥ|LTranslit=rākṣasa|Gloss=man-eater
-6	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
-
-# sent_id = s58
-# text = यदा मेघः वर्षति तदा मयूरः नृत्यति।
-# translit = yadā meghaḥ varṣati tadā mayūraḥ nr̥tyati.
-# text_en = When it rains, peacocks dance.
-1	यदा	यदा	ADV	_	PronType=Rel	3	advmod	_	Translit=yadā|LTranslit=yadā|Gloss=when
-2	मेघः	मेघ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Translit=meghaḥ|LTranslit=megha|Gloss=cloud
-3	वर्षति	वृष्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	Translit=varṣati|LTranslit=vr̥ṣ|Gloss=rains
-4	तदा	तदा	ADV	_	PronType=Dem	6	advmod	_	Translit=tadā|LTranslit=tadā|Gloss=then
-5	मयूरः	मयूर	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Translit=mayūraḥ|LTranslit=mayūra|Gloss=peacock
-6	नृत्यति	नृत्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=nr̥tyati|LTranslit=nr̥t|Gloss=dances
-7	।	।	PUNCT	_	_	6	punct	_	Translit=.|LTranslit=.|Gloss=.
-
-# sent_id = s59
-# text = रामः यस्मात् अध्यापकम् यत् पुस्तकम् अपठत् अहम् तस्मात् अध्यापकात् तत् पुस्तकम् अपठम्।
-# translit = rāmaḥ yasmāt adhyāpakam yat pustakam apaṭhat aham tasmāt adhyāpakāt tat pustakam apaṭham.
-# text_en = I read the book from the teacher from whom was the book that Rama read.
-1	रामः	राम	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Translit=rāmaḥ|LTranslit=rāma|Gloss=Rama
-2	यस्मात्	यद्	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Rel	3	det	_	Translit=yasmāt|LTranslit=yad|Gloss=from-which
-3	अध्यापकम्	अध्यापक	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	Translit=adhyāpakam|LTranslit=adhyāpaka|Gloss=teacher
-4	यत्	यद्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	5	det	_	Translit=yat|LTranslit=yad|Gloss=which
-5	पुस्तकम्	पुस्तक	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	Translit=pustakam|LTranslit=pustaka|Gloss=book
-6	अपठत्	पठ्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	9	acl:relcl	_	Translit=apaṭhat|LTranslit=paṭh|Gloss=read
-7	अहम्	अहम्	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	Translit=aham|LTranslit=aham|Gloss=I
-8	तस्मात्	तद्	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	Translit=tasmāt|LTranslit=tad|Gloss=from-that
-9	अध्यापकात्	अद्ह्यपक	NOUN	_	Case=Abl|Gender=Masc|Number=Sing	11	nmod	_	Translit=adhyāpakāt|LTranslit=adhyapaka|Gloss=teacher
-10	तत्	तद्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	det	_	Translit=tat|LTranslit=tad|Gloss=that
-11	पुस्तकम्	पुस्तक	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	Translit=pustakam|LTranslit=pustaka|Gloss=book
-12	अपठम्	पठ्	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=apaṭham|LTranslit=paṭh|Gloss=read
-13	।	।	PUNCT	_	_	12	punct	_	Translit=.|LTranslit=.|Gloss=.
-
-# sent_id = s60
-# text = त्वम् इच्छसि चेत् अहम् भवतः गृहम् आगमिष्यामि।
-# translit = tvam icchasi cet aham bhavataḥ gr̥ham āgamiṣyāmi.
-# text_en = If you like, I will come to his house.
-1	त्वम्	त्वद्	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	Translit=tvam|LTranslit=tvad|Gloss=you
-2	इच्छसि	इष्	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	Translit=icchasi|LTranslit=iṣ|Gloss=wish
-3	चेत्	चेद्	SCONJ	_	_	2	mark	_	Translit=cet|LTranslit=ced|Gloss=if
-4	अहम्	अहम्	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Translit=aham|LTranslit=aham|Gloss=I
-5	भवतः	भवत्	PRON	_	Case=Gen|Number=Sing|Person=3|Polite=Form|PronType=Prs	6	nmod:poss	_	Translit=bhavataḥ|LTranslit=bhavat|Gloss=his
-6	गृहम्	गृह	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	Translit=gr̥ham|LTranslit=gr̥ha|Gloss=house
-7	आगमिष्यामि	आ-गम्	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=āgamiṣyāmi|LTranslit=ā-gam|Gloss=will-come
-8	।	।	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.|Gloss=.
-
-# sent_id = s61
-# text = प्रथमम् अहम् शृणोमि अथ लिखामि।
-# translit = prathamam aham śr̥ṇomi atha likhāmi.
-# text_en = I first listen and then write.
-1	प्रथमम्	प्रथम	ADJ	_	Case=Acc|Gender=Neut|Number=Sing|NumType=Ord	3	advmod	_	Translit=prathamam|LTranslit=prathama|Gloss=first
-2	अहम्	अहम्	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Translit=aham|LTranslit=aham|Gloss=I
-3	शृणोमि	स्णु	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=śr̥ṇomi|LTranslit=sṇu|Gloss=listen
-4	अथ	अथ	ADV	_	_	5	advmod	_	Translit=atha|LTranslit=atha|Gloss=then
-5	लिखामि	लिख्	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|Translit=likhāmi|LTranslit=likh|Gloss=write
-6	।	।	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.|Gloss=.
-
-# sent_id = s62
-# text = समये न आगतः ततः प्रवेशपरीक्षायाम् न अनुमतः।
-# translit = samaye na āgataḥ tataḥ praveśaparīkṣāyām na anumataḥ.
-1	समये	समय	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	Translit=samaye|LTranslit=samaya|Gloss=in-time
-2	न	न	PART	_	Polarity=Neg	3	advmod	_	Translit=na|LTranslit=na|Gloss=not
-3	आगतः	आ-गम्	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	Translit=āgataḥ|LTranslit=ā-gam|Gloss=came
-4	ततः	तद्	ADV	_	_	8	advmod	_	Translit=tataḥ|LTranslit=tad|Gloss=then
-5-6	प्रवेशपरीक्षायाम्	_	_	_	_	_	_	_	_
-5	प्रवेश	प्रवेश	NOUN	_	Gender=Masc	6	compound	_	Translit=praveśa|LTranslit=praveśa|Gloss=entrance
-6	परीक्षायाम्	परीक्षा	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	Translit=parīkṣāyām|LTranslit=parīkṣā|Gloss=exam
-7	न	न	PART	_	Polarity=Neg	8	advmod	_	Translit=na|LTranslit=na|Gloss=not
-8	अनुमतः	अनु-मन्	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Translit=anumataḥ|LTranslit=anu-man|Gloss=authorized
-9	।	।	PUNCT	_	_	8	punct	_	Translit=.|LTranslit=.|Gloss=.
-
-# sent_id = s63
-# text = देवदत्तः विष्वामित्रेण ओदनम् पाचयति।
-# translit = devadattaḥ viṣvāmitreṇa odanam pācayati.
-# text_en = Devadatta with Visvamitra cooked rice.
-1	देवदत्तः	देवदत्त	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Translit=devadattaḥ|LTranslit=devadatta|Gloss=Devadatta
-2	विष्वामित्रेण	विष्वमित्र	PROPN	_	Case=Ins|Gender=Masc|Number=Sing	4	obl	_	Translit=viṣvāmitreṇa|LTranslit=viṣvamitra|Gloss=Visvamitra
-3	ओदनम्	ओदन	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Translit=odanam|LTranslit=odana|Gloss=rice
-4	पाचयति	पच्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act,Cau	0	root	_	SpaceAfter=No|Translit=pācayati|LTranslit=pac|Gloss=cook
-5	।	।	PUNCT	_	_	4	punct	_	Translit=.|LTranslit=.|Gloss=.
-
-# sent_id = s64
-# text = कस्मिंश्चिन्नगराभ्यासे केनापि वणिक् पुत्रेण तरुखण्डमध्ये देवताः यतनं कर्तुम् आरब्धम्
 # translit = kasmiṁścinnagarābhyāse kenāpi vaṇik putreṇa tarukhaṇḍamadhye devatāḥ yatanaṁ kartum ārabdham
 # wsid = ॥१.२२॥
 # wikisource_ryder = https://en.wikisource.org/wiki/The_Panchatantra_(Purnabhadra%27s_Recension_of_1199_CE)/Book_1/The_Wedge-pulling_Monkey
@@ -3476,4 +3387,93 @@
 6	महान्	महत्	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	Translit=mahān|LTranslit=mahat
 7	कूपः	कूप	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	Translit=kūpaḥ|LTranslit=kūpa
 8	दृष्टः	दृष्ट	VERB	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Translit=dr̥ṣṭaḥ|LTranslit=dr̥ṣṭa
+
+# sent_id = s57
+# text = तत्र आसीत् मारीचः नाम राक्षसः।
+# translit = tatra āsīt mārīcaḥ nāma rākṣasaḥ.
+# text_en = There was a man-eating giant named Maricha.
+1	तत्र	तत्र	ADV	_	_	2	expl	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
+2	आसीत्	आस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	Translit=āsīt|LTranslit=ās|Gloss=was
+3	मारीचः	मारीच	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	Translit=mārīcaḥ|LTranslit=mārīca|Gloss=Maricha
+4	नाम	नामन्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	Translit=nāma|LTranslit=nāman|Gloss=name
+5	राक्षसः	राक्षस	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|Translit=rākṣasaḥ|LTranslit=rākṣasa|Gloss=man-eater
+6	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = s58
+# text = यदा मेघः वर्षति तदा मयूरः नृत्यति।
+# translit = yadā meghaḥ varṣati tadā mayūraḥ nr̥tyati.
+# text_en = When it rains, peacocks dance.
+1	यदा	यदा	ADV	_	PronType=Rel	3	advmod	_	Translit=yadā|LTranslit=yadā|Gloss=when
+2	मेघः	मेघ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Translit=meghaḥ|LTranslit=megha|Gloss=cloud
+3	वर्षति	वृष्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	Translit=varṣati|LTranslit=vr̥ṣ|Gloss=rains
+4	तदा	तदा	ADV	_	PronType=Dem	6	advmod	_	Translit=tadā|LTranslit=tadā|Gloss=then
+5	मयूरः	मयूर	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Translit=mayūraḥ|LTranslit=mayūra|Gloss=peacock
+6	नृत्यति	नृत्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=nr̥tyati|LTranslit=nr̥t|Gloss=dances
+7	।	।	PUNCT	_	_	6	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = s59
+# text = रामः यस्मात् अध्यापकम् यत् पुस्तकम् अपठत् अहम् तस्मात् अध्यापकात् तत् पुस्तकम् अपठम्।
+# translit = rāmaḥ yasmāt adhyāpakam yat pustakam apaṭhat aham tasmāt adhyāpakāt tat pustakam apaṭham.
+# text_en = I read the book from the teacher from whom was the book that Rama read.
+1	रामः	राम	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Translit=rāmaḥ|LTranslit=rāma|Gloss=Rama
+2	यस्मात्	यद्	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Rel	3	det	_	Translit=yasmāt|LTranslit=yad|Gloss=from-which
+3	अध्यापकम्	अध्यापक	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	Translit=adhyāpakam|LTranslit=adhyāpaka|Gloss=teacher
+4	यत्	यद्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	5	det	_	Translit=yat|LTranslit=yad|Gloss=which
+5	पुस्तकम्	पुस्तक	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	Translit=pustakam|LTranslit=pustaka|Gloss=book
+6	अपठत्	पठ्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	9	acl:relcl	_	Translit=apaṭhat|LTranslit=paṭh|Gloss=read
+7	अहम्	अहम्	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	Translit=aham|LTranslit=aham|Gloss=I
+8	तस्मात्	तद्	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	Translit=tasmāt|LTranslit=tad|Gloss=from-that
+9	अध्यापकात्	अद्ह्यपक	NOUN	_	Case=Abl|Gender=Masc|Number=Sing	11	nmod	_	Translit=adhyāpakāt|LTranslit=adhyapaka|Gloss=teacher
+10	तत्	तद्	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	det	_	Translit=tat|LTranslit=tad|Gloss=that
+11	पुस्तकम्	पुस्तक	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	Translit=pustakam|LTranslit=pustaka|Gloss=book
+12	अपठम्	पठ्	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=apaṭham|LTranslit=paṭh|Gloss=read
+13	।	।	PUNCT	_	_	12	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = s60
+# text = त्वम् इच्छसि चेत् अहम् भवतः गृहम् आगमिष्यामि।
+# translit = tvam icchasi cet aham bhavataḥ gr̥ham āgamiṣyāmi.
+# text_en = If you like, I will come to his house.
+1	त्वम्	त्वद्	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	Translit=tvam|LTranslit=tvad|Gloss=you
+2	इच्छसि	इष्	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	Translit=icchasi|LTranslit=iṣ|Gloss=wish
+3	चेत्	चेद्	SCONJ	_	_	2	mark	_	Translit=cet|LTranslit=ced|Gloss=if
+4	अहम्	अहम्	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Translit=aham|LTranslit=aham|Gloss=I
+5	भवतः	भवत्	PRON	_	Case=Gen|Number=Sing|Person=3|Polite=Form|PronType=Prs	6	nmod:poss	_	Translit=bhavataḥ|LTranslit=bhavat|Gloss=his
+6	गृहम्	गृह	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	Translit=gr̥ham|LTranslit=gr̥ha|Gloss=house
+7	आगमिष्यामि	आ-गम्	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=āgamiṣyāmi|LTranslit=ā-gam|Gloss=will-come
+8	।	।	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = s61
+# text = प्रथमम् अहम् शृणोमि अथ लिखामि।
+# translit = prathamam aham śr̥ṇomi atha likhāmi.
+# text_en = I first listen and then write.
+1	प्रथमम्	प्रथम	ADJ	_	Case=Acc|Gender=Neut|Number=Sing|NumType=Ord	3	advmod	_	Translit=prathamam|LTranslit=prathama|Gloss=first
+2	अहम्	अहम्	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Translit=aham|LTranslit=aham|Gloss=I
+3	शृणोमि	स्णु	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=śr̥ṇomi|LTranslit=sṇu|Gloss=listen
+4	अथ	अथ	ADV	_	_	5	advmod	_	Translit=atha|LTranslit=atha|Gloss=then
+5	लिखामि	लिख्	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|Translit=likhāmi|LTranslit=likh|Gloss=write
+6	।	।	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = s62
+# text = समये न आगतः ततः प्रवेशपरीक्षायाम् न अनुमतः।
+# translit = samaye na āgataḥ tataḥ praveśaparīkṣāyām na anumataḥ.
+1	समये	समय	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	Translit=samaye|LTranslit=samaya|Gloss=in-time
+2	न	न	PART	_	Polarity=Neg	3	advmod	_	Translit=na|LTranslit=na|Gloss=not
+3	आगतः	आ-गम्	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	Translit=āgataḥ|LTranslit=ā-gam|Gloss=came
+4	ततः	तद्	ADV	_	_	8	advmod	_	Translit=tataḥ|LTranslit=tad|Gloss=then
+5-6	प्रवेशपरीक्षायाम्	_	_	_	_	_	_	_	_
+5	प्रवेश	प्रवेश	NOUN	_	Gender=Masc	6	compound	_	Translit=praveśa|LTranslit=praveśa|Gloss=entrance
+6	परीक्षायाम्	परीक्षा	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	Translit=parīkṣāyām|LTranslit=parīkṣā|Gloss=exam
+7	न	न	PART	_	Polarity=Neg	8	advmod	_	Translit=na|LTranslit=na|Gloss=not
+8	अनुमतः	अनु-मन्	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Translit=anumataḥ|LTranslit=anu-man|Gloss=authorized
+9	।	।	PUNCT	_	_	8	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = s63
+# text = देवदत्तः विष्वामित्रेण ओदनम् पाचयति।
+# translit = devadattaḥ viṣvāmitreṇa odanam pācayati.
+# text_en = Devadatta with Visvamitra cooked rice.
+1	देवदत्तः	देवदत्त	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Translit=devadattaḥ|LTranslit=devadatta|Gloss=Devadatta
+2	विष्वामित्रेण	विष्वमित्र	PROPN	_	Case=Ins|Gender=Masc|Number=Sing	4	obl	_	Translit=viṣvāmitreṇa|LTranslit=viṣvamitra|Gloss=Visvamitra
+3	ओदनम्	ओदन	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Translit=odanam|LTranslit=odana|Gloss=rice
+4	पाचयति	पच्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act,Cau	0	root	_	SpaceAfter=No|Translit=pācayati|LTranslit=pac|Gloss=cook
+5	।	।	PUNCT	_	_	4	punct	_	Translit=.|LTranslit=.|Gloss=.
 
