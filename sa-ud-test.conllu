@@ -2294,9 +2294,9 @@
 4	फलम्	फल	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Translit=phalam|LTranslit=phala|Gloss=fruit
 5	मनुष्यलोके	मनुष्यलोक	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	Translit=manuṣyaloke|LTranslit=manuṣyaloka|Gloss=in-human-world
 
-# newpar id = panc1.p69
-# sent_id = panc1.s164
-# text = अप्रधानः प्रधानम् स्यात् सेवते यदि पार्थिवम्।
+# newpar id = panc1.p58
+# sent_id = panc1.s142
+# text = परिवर्तिनि संसारे मृतः को न जायते।
 # pparagraph
 # ptext(129) = svalpa snAyu vasA ava Seza malinam niH mAMsam api asTikam SvA labDvA paritozam eti na ca tat tasya kzuDA SAntaye siMhaH jambukam aNkam A gatam api tyaktvA ni hanti dvipam sarvaH kfcCra gataH api vAYCati janaH sattva anu rUpam Palam
 # ryder(129) = A dog is quite contented if // He gets a meatless bone, // A dirty thing with gristle-strings // And marrow-fat alone— // And not enough of it at that // To still his belly's moan.
@@ -2320,9 +2320,22 @@
 # wtext = किं च
 # wtext = किं तेन जातु जातेन मातुर् यौवनहारिणा। आरोहति न यः स्वस्य वंशस्याग्रे ध्वजो यथा॥पञ्च_१.२७॥
 # wtranslit = kiṁ tena jātu jātena mātur yauvanahāriṇā. ārohati na yaḥ svasya vaṁśasyāgre dhvajo yathā:pañca_1.27:
-# wparagraph
+# 
+# translit = parivartini saṁsāre mr̥taḥ ko na jāyate.
 # wtext = परिवर्तिनि संसारे मृतः को वा न जायते। जातस् तु गण्यते सोऽत्र यः स्फुरेच् च श्रियाधिकः॥पञ्च_१.२८॥
 # wtranslit = parivartini saṁsāre mr̥taḥ ko vā na jāyate. jātas tu gaṇyate so’tra yaḥ sphurec ca śriyādhikaḥ:pañca_1.28:
+# wsid = ॥१.२८॥
+# text_en = In ever-turning transition is dead who is not born.
+1	परिवर्तिनि	परिवर्तिन्	ADJ	_	Case=Loc|Gender=Masc|Number=Sing	2	amod	_	Translit=parivartini|LTranslit=parivartin|Gloss=turning
+2	संसारे	संसार	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	Translit=saṁsāre|LTranslit=saṁsāra|Gloss=transition
+3	मृतः	मृ	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Translit=mr̥taḥ|LTranslit=mr̥|Gloss=dead
+4	को	किम्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	6	nsubj	_	Translit=ko|LTranslit=kim|Gloss=who
+5	न	न	PART	_	Polarity=Neg	6	advmod	_	Translit=na|LTranslit=na|Gloss=not
+6	जायते	जन्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	csubj	_	SpaceAfter=No|Translit=jāyate|LTranslit=jan|Gloss=is-born
+7	।	।	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s149
+# text = जायन्ते विरला लोके जलदा इव सज्जनाः॥
 # wparagraph
 # wtext = किं च
 # wtext = जातस्य नदीतीरे तस्यापि तृणस्य जन्मसाफल्यम्। यत् सलिलमज्जनाकुलजनहस्तालंबनं भवति॥पञ्च_१.२९॥
@@ -2331,9 +2344,38 @@
 # wtext = तथा च
 # wtext = स्तिमितोन्नतसञ्चारा जनसंतापहारिणः। जायंते विरला लोके जलदा इव सज्जनाः॥पञ्च_१.३०॥
 # wtranslit = stimitonnatasañcārā janasaṁtāpahāriṇaḥ. jāyaṁte viralā loke jaladā iva sajjanāḥ:pañca_1.30:
-# wparagraph
+# 
+# translit = jāyante viralā loke jaladā iva sajjanāḥ:
+# wtext = जायंते विरला लोके जलदा इव सज्जनाः॥पञ्च_१.३०॥
+# wtranslit = jāyaṁte viralā loke jaladā iva sajjanāḥ:pañca_1.30:
+# wsid = ॥१.३०॥
+# text_en = Rare clouds are born in the world; they look as if they were human.
+1	जायन्ते	जन्	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Translit=jāyante|LTranslit=jan|Gloss=are-born
+2	विरला	विरल	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	4	amod	_	Translit=viralā|LTranslit=virala|Gloss=rare
+3	लोके	लोक	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	Translit=loke|LTranslit=loka|Gloss=world
+4	जलदा	जलद	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	Translit=jaladā|LTranslit=jalada|Gloss=clouds
+5	इव	इव	SCONJ	_	_	6	mark	_	Translit=iva|LTranslit=iva|Gloss=as-if
+6	सज्जनाः	सज्जन	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	4	advcl	_	SpaceAfter=No|Translit=sajjanāḥ|LTranslit=sajjana|Gloss=human
+7	॥	॥	PUNCT	_	_	1	punct	_	Translit=:|LTranslit=:|Gloss=.
+
+# newpar id = panc1.p61
+# sent_id = panc1.s150
+# text = निरतिशयं गरिमाणं तेन जनन्याः स्मरन्ति विद्वांसः।
+# translit = niratiśayaṁ garimāṇaṁ tena jananyāḥ smaranti vidvāṁsaḥ.
 # wtext = निरतिशयं गरिमाणं तेन जनन्याः स्मरंति विद्वांसः। यत् कम् अपि वहति गर्भं महताम् अपि यो गुरुर् भवति॥पञ्च_१.३१॥
 # wtranslit = niratiśayaṁ garimāṇaṁ tena jananyāḥ smaraṁti vidvāṁsaḥ. yat kam api vahati garbhaṁ mahatām api yo gurur bhavati:pañca_1.31:
+# wsid = ॥१.३१॥
+# text_en = Scholars remember the unsurpassable weight of expectant mothers.
+1	निरतिशयं	निरतिशय	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	Translit=niratiśayaṁ|LTranslit=niratiśaya|Gloss=unsurpassable
+2	गरिमाणं	गरिमन्	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=garimāṇaṁ|LTranslit=gariman|Gloss=weight
+3	तेन	तद्	DET	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	Translit=tena|LTranslit=tad|Gloss=by-this
+4	जनन्याः	जनन	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	2	nmod:poss	_	Translit=jananyāḥ|LTranslit=janana|Gloss=of-expectant-mother
+5	स्मरन्ति	स्मृ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=smaranti|LTranslit=smr̥|Gloss=remember
+6	विद्वांसः	विद्वस्	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No|Translit=vidvāṁsaḥ|LTranslit=vidvas|Gloss=scholars
+7	।	।	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s162
+# text = अपृष्टः अत्र अप्रधानः यः ब्रूते राज्ञः पुरः कुधीः।
 # wparagraph
 # wtext = अप्रकटीकृतशक्तिः शक्तोऽपि जनस् तिरस्क्रियां लभते। निवसन्न् अंतर्दारुणि लंघ्यो वह्निर् न तु ज्वलितः॥पञ्च_१.३२॥
 # wtranslit = aprakaṭīkr̥taśaktiḥ śakto’pi janas tiraskriyāṁ labhate. nivasann aṁtardāruṇi laṁghyo vahnir na tu jvalitaḥ:pañca_1.32:
@@ -2356,12 +2398,69 @@
 # ryder(139) = "My dear fellow, after a little the jobless man does hold a job.
 # wparagraph
 # wtext = उक्तं च
+# 
+# translit = apr̥ṣṭaḥ atra apradhānaḥ yaḥ brūte rājñaḥ puraḥ kudhīḥ.
 # wtext = अपृष्टोऽत्राप्रधानो यो ब्रूते राज्ञः पुरः कुधीः। न केवलम् असम्मानं लभते च विडंबनम्॥पञ्च_१.३३॥
 # wtranslit = apr̥ṣṭo’trāpradhāno yo brūte rājñaḥ puraḥ kudhīḥ. na kevalam asammānaṁ labhate ca viḍaṁbanam:pañca_1.33:
-# wparagraph
-# wtext = तथा च
-# wtext = वचस् तत्र प्रयोक्तव्यं यत्रोक्तं लभते फलम्। स्थायी भवति चात्यन्तं रागः शुक्लपटे यथा॥पञ्च_१.३४॥
-# wtranslit = vacas tatra prayoktavyaṁ yatroktaṁ labhate phalam. sthāyī bhavati cātyantaṁ rāgaḥ śuklapaṭe yathā:pañca_1.34:
+# wsid = ॥१.३३॥
+# text_en = Disregarded is who says that the king is stupid.
+1	अपृष्टः	अ-पृष्ट	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Translit=apr̥ṣṭaḥ|LTranslit=a-pr̥ṣṭa|Gloss=unoffended
+2	अत्र	अत्र	ADV	_	PronType=Dem	1	advmod	_	Translit=atra|LTranslit=atra|Gloss=here
+3	अप्रधानः	अप्रधान	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=apradhānaḥ|LTranslit=apradhāna|Gloss=unimportant
+4	यः	यद्	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	Translit=yaḥ|LTranslit=yad|Gloss=who
+5	ब्रूते	ब्रू	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	csubj	_	Translit=brūte|LTranslit=brū|Gloss=says
+6	राज्ञः	राजन्	NOUN	_	Case=Abl|Gender=Masc|Number=Sing	5	obl:arg	_	Translit=rājñaḥ|LTranslit=rājan|Gloss=about-king
+7	पुरः	पुरस्	ADV	_	_	8	advmod	_	Translit=puraḥ|LTranslit=puras|Gloss=ahead
+8	कुधीः	कुधी	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No|Translit=kudhīḥ|LTranslit=kudhī|Gloss=stupid
+9	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# newpar id = panc1.p67a
+# sent_id = panc1.s163a
+# text = तथा च
+# translit = tathā ca
+# text_en = and so
+1	तथा	तथा	ADV	_	PronType=Dem	0	root	_	Translit=tathā|LTranslit=tathā|Gloss=so
+2	च	च	CCONJ	_	_	1	cc	_	Translit=ca|LTranslit=ca|Gloss=and
+
+# newpar id = panc1.p67b
+# sent_id = panc1.s163b
+# text = वचः तत्र प्रयोक्तव्यं यत्र उक्तं लभते फलम्।
+# translit = vacaḥ tatra prayoktavyaṁ yatra uktaṁ labhate phalam.
+# wtext = वचस् तत्र प्रयोक्तव्यं यत्रोक्तं लभते फलम्।
+# wtranslit = vacas tatra prayoktavyaṁ yatroktaṁ labhate phalam.
+# wsid = ॥१.३४॥
+# text_en = Speech should just be used where the spoken word brings fruit.
+# orig = panchatantra.conllu sent_id 224
+# ptext = vacaH tatra pra yoktavyam yatra uktam laBate Palam
+1	वचः	वचस्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	Translit=vacaḥ|LTranslit=vacas|Gloss=speech
+2	तत्र	तत्र	ADV	_	_	3	advmod	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
+3	प्रयोक्तव्यं	प्र-युज्	VERB	_	Case=Nom|Gender=Neut|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Pass	0	root	_	Translit=prayoktavyaṁ|LTranslit=pra-yuj|Gloss=should-be-employed
+4	यत्र	यत्र	ADV	_	PronType=Rel	6	advmod	_	Translit=yatra|LTranslit=yatra|Gloss=where
+5	उक्तं	वच्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	nsubj	_	Translit=uktaṁ|LTranslit=vac|Gloss=said
+6	लभते	लभ्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	advcl	_	Translit=labhate|LTranslit=labh|Gloss=acquires
+7	फलम्	फल	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No|Translit=phalam|LTranslit=phala|Gloss=fruit
+8	।	।	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s163c
+# text = स्थायी भवति अत्यन्तं रागः शुक्लपटे यथा॥
+# translit = sthāyī bhavati atyantaṁ rāgaḥ śuklapaṭe yathā:
+# wtext = स्थायी भवति चात्यन्तं रागः शुक्लपटे यथा॥पञ्च_१.३४॥
+# wtranslit = sthāyī bhavati cātyantaṁ rāgaḥ śuklapaṭe yathā:pañca_1.34:
+# text_en = How does coloration of a blue cloth stay stable forever?
+# wsid = ॥१.३४॥
+# orig = panchatantra.conllu sent_id 224
+# ptext = sTAyI Bavati ca atyantam rAgaH Sukla pawe yaTA
+1	स्थायी	स्थायिन्	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	Translit=sthāyī|LTranslit=sthāyin|Gloss=stable
+2	भवति	भू	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=bhavati|LTranslit=bhū|Gloss=exists
+3	अत्यन्तं	अत्यन्त	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	Translit=atyantaṁ|LTranslit=atyanta|Gloss=eternal
+4	रागः	राग	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Translit=rāgaḥ|LTranslit=rāga|Gloss=coloration
+5	शुक्लपटे	शुक्लपट	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	2	obl	_	Translit=śuklapaṭe|LTranslit=śuklapaṭa|Gloss=in-blue-fabric
+6	यथा	यथा	ADV	_	PronType=Rel	2	advmod	_	SpaceAfter=No|Translit=yathā|LTranslit=yathā|Gloss=how
+7	॥	॥	PUNCT	_	_	2	punct	_	Translit=:|LTranslit=:|Gloss=.
+
+# newpar id = panc1.p69
+# sent_id = panc1.s164
+# text = अप्रधानः प्रधानम् स्यात् सेवते यदि पार्थिवम्।
 # wparagraph
 # wtext = दमनक आह मा मैवं वद।
 # wtranslit = damanaka āha mā maivaṁ vada.
@@ -2715,75 +2814,6 @@
 9	विप्रियत्वं	विप्रियत्व	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	8	conj	_	Translit=vipriyatvaṁ|LTranslit=vipriyatva|Gloss=unpleasant
 10	च	च	CCONJ	_	_	9	cc	_	Translit=ca|LTranslit=ca|Gloss=and
 11	गच्छति	गम्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=gacchati|LTranslit=gam|Gloss=goes
-
-# sent_id = s110
-# text = परिवर्तिनि संसारे मृतम् को न जायते
-# translit = parivartini saṁsāre mr̥tam ko na jāyate
-# wsid = ॥१.२८॥
-1	परिवर्तिनि	परिवर्तिन्	ADJ	_	Case=Loc|Gender=Masc|Number=Sing	2	advmod	_	Translit=parivartini|LTranslit=parivartin
-2	संसारे	संसर	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	Translit=saṁsāre|LTranslit=saṁsara
-3	मृतम्	मृत	NOUN	_	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Ger	6	obj	_	Translit=mr̥tam|LTranslit=mr̥ta
-4	को	क	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	6	nsubj	_	Translit=ko|LTranslit=ka
-5	न	न	PART	_	Polarity=Neg	6	advmod	_	Translit=na|LTranslit=na|Gloss=not
-6	जायते	जन्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Translit=jāyate|LTranslit=jan
-
-# sent_id = s111
-# text = जायन्ते विरला लोके जलदा इव सज्जनाः
-# translit = jāyante viralā loke jaladā iva sajjanāḥ
-# wsid = ॥१.३०॥
-1	जायन्ते	जन्	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=jāyante|LTranslit=jan
-2	विरला	विरल	ADJ	_	Case=Acc|Gender=Fem|Number=Plur	3	amod	_	Translit=viralā|LTranslit=virala
-3	लोके	लोक्	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	Translit=loke|LTranslit=lok
-4	जलदा	जलद	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	Translit=jaladā|LTranslit=jalada
-5	इव	इव	CCONJ	_	_	6	cc	_	Translit=iva|LTranslit=iva
-6	सज्जनाः	सत्हनाः	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	Translit=sajjanāḥ|LTranslit=sathanāḥ
-
-# sent_id = s112
-# text = निरतिशयं गरिमाणं तेन जनन्याः स्मरन्ति विद्वांसः
-# translit = niratiśayaṁ garimāṇaṁ tena jananyāḥ smaranti vidvāṁsaḥ
-# wsid = ॥१.३१॥
-1	निरतिशयं	निरतिसय	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	Translit=niratiśayaṁ|LTranslit=niratisaya
-2	गरिमाणं	गरिमन्	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=garimāṇaṁ|LTranslit=gariman
-3	तेन	तद्	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	Translit=tena|LTranslit=tad
-4	जनन्याः	जनन	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	5	obl	_	Translit=jananyāḥ|LTranslit=janana
-5	स्मरन्ति	स्मृ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=smaranti|LTranslit=smr̥
-6	विद्वांसः	विद्वस्	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	Translit=vidvāṁsaḥ|LTranslit=vidvas
-
-# sent_id = s113
-# text = अपृष्टः अत्र अप्रधानः यः ब्रूते राज्ञः पुरः कुधीः
-# translit = apr̥ṣṭaḥ atra apradhānaḥ yaḥ brūte rājñaḥ puraḥ kudhīḥ
-# wsid = ॥१.३३॥
-1	अपृष्टः	अ-पृष्ट	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part	5	obl	_	Translit=apr̥ṣṭaḥ|LTranslit=a-pr̥ṣṭa
-2	अत्र	अत्र	ADV	_	PronType=Dem	5	advmod	_	Translit=atra|LTranslit=atra|Gloss=here
-3	अप्रधानः	अप्रधान्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=apradhānaḥ|LTranslit=apradhān
-4	यः	यद्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	3	nmod	_	Translit=yaḥ|LTranslit=yad
-5	ब्रूते	ब्रू	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=brūte|LTranslit=brū
-6	राज्ञः	रज	NOUN	_	Case=Abl|Gender=Masc|Number=Sing	1	nmod	_	Translit=rājñaḥ|LTranslit=raja
-7	पुरः	पुरस्	ADV	_	_	8	advmod	_	Translit=puraḥ|LTranslit=puras
-8	कुधीः	कुधी	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	Translit=kudhīḥ|LTranslit=kudhī
-
-# sent_id = s114
-# text = वचः तत्र प्रयोक्तव्यं यत्र उक्तं लभते फलम्
-# translit = vacaḥ tatra prayoktavyaṁ yatra uktaṁ labhate phalam
-# orig = panchatantra.conllu sent_id 224
-1	वचः	वचस्	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	Translit=vacaḥ|LTranslit=vacas
-2	तत्र	तत्र	ADV	_	_	3	advmod	_	Translit=tatra|LTranslit=tatra|Gloss=here,there
-3	प्रयोक्तव्यं	प्र-युज्	VERB	_	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	Translit=prayoktavyaṁ|LTranslit=pra-yuj
-4	यत्र	यत्र	ADV	_	_	5	advmod	_	Translit=yatra|LTranslit=yatra
-5	उक्तं	वच्ह्	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Part	6	obl	_	Translit=uktaṁ|LTranslit=vach
-6	लभते	लभ्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	3	advcl	_	Translit=labhate|LTranslit=labh
-7	फलम्	फल	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	Translit=phalam|LTranslit=phala
-
-# sent_id = s115
-# text = स्थायी भवति अत्यन्तं रागः शुक्लपटे यथा
-# translit = sthāyī bhavati atyantaṁ rāgaḥ śuklapaṭe yathā
-# orig = panchatantra.conllu sent_id 224
-1	स्थायी	स्थायिन्	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	Translit=sthāyī|LTranslit=sthāyin
-2	भवति	भू	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=bhavati|LTranslit=bhū
-3	अत्यन्तं	अत्यन्त	ADV	_	_	1	advmod	_	Translit=atyantaṁ|LTranslit=atyanta
-4	रागः	राग	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Translit=rāgaḥ|LTranslit=rāga
-5	शुक्लपटे	शुक्लपट्	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	2	obl	_	Translit=śuklapaṭe|LTranslit=śuklapaṭ
-6	यथा	यथा	ADV	_	PronType=Rel	5	advmod	_	Translit=yathā|LTranslit=yathā|Gloss=how
 
 # sent_id = s101
 # text = ततः असौ प्राह
