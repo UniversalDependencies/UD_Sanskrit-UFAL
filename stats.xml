@@ -5,26 +5,26 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>224</sentences><tokens>1363</tokens><words>1638</words><fused>183</fused></total>
+    <total><sentences>224</sentences><tokens>1373</tokens><words>1648</words><fused>183</fused></total>
   </size>
-  <lemmas unique="752" /><!-- तद्, ।, अहम्, न, च, अर्थ, यद्, कृ, अस्, किम्, अपि, एतद्, ब्रू, इदम्, ॥ -->
+  <lemmas unique="746" /><!-- ।, तद्, अहम्, न, च, अर्थ, यद्, कृ, अस्, किम्, अपि, एतद्, इदम्, ब्रू, ॥ -->
   <forms unique="975" /><!-- ।, न, च, तत्, अपि, अहम्, ॥, अथ, एवम्, तस्य, यथा, अब्रवीत्, अर्थम्, अस्ति, किम् -->
   <fusions unique="177" /><!-- चेति, अस्मत्स्वामी, यस्यार्थाः, यस्यार्थास्तस्य, वरमपि, अजातमृतमूर्खेभ्यो, अतो'हं, अत्रास्ति, अथासौ, अनुचितस्थानप्रवेशाद्, आवयोर्भक्षितशेष, आहारो'स्त्येव, इवात्मानं, इहागमनम्, इहागमनेनानुगृहीतास्मि -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">98</tag><!-- महत्, जात, सकल, सर्व, स्वल्प, गम्भीर, पर, प्रथम, मृत, विद्वस् -->
     <tag name="ADP">5</tag><!-- प्रति, अभि, उपरि, यदि -->
-    <tag name="ADV">183</tag><!-- अपि, अथ, एवम्, तद्, यथा, इति, तत्र, अत्र, वरम्, तथा -->
+    <tag name="ADV">183</tag><!-- अपि, अथ, एवम्, ततः, यथा, इति, तत्र, तद्, अत्र, वरम् -->
     <tag name="AUX">9</tag><!-- अस् -->
     <tag name="CCONJ">31</tag><!-- च, अथ, तु, वा -->
-    <tag name="DET">63</tag><!-- तद्, इदम्, किम्, एतद्, यद्, अदस्, एन, एव, किंचिद्, त्वद् -->
+    <tag name="DET">61</tag><!-- तद्, इदम्, किम्, एतद्, यद्, अदस्, एन, एव, किंचिद्, सर्व -->
     <tag name="INTJ">3</tag><!-- भोस्, ओं -->
-    <tag name="NOUN">528</tag><!-- अर्थ, देव, नामन्, राजन्, पुत्र, ब्राह्मण, उपाय, भद्र, कौलिक, मनस् -->
+    <tag name="NOUN">527</tag><!-- अर्थ, देव, नामन्, राजन्, पुत्र, ब्राह्मण, उपाय, भद्र, कौलिक, मनस् -->
     <tag name="NUM">18</tag><!-- एक, त्रि, शत, षष्, अशीति, द्वादशभि, पञ्चन्, पञ्चशती, षट्क, सप्तन् -->
     <tag name="PART">35</tag><!-- न, अन्, किम्, चिद्, नहि -->
-    <tag name="PRON">182</tag><!-- तद्, अहम्, यद्, एतद्, किम्, त्वद्, अस्मद्, भवत्, इदम्, क -->
+    <tag name="PRON">185</tag><!-- तद्, अहम्, यद्, एतद्, किम्, त्वद्, अस्मद्, भवत्, इदम्, क -->
     <tag name="PROPN">83</tag><!-- दमनक, पिङ्गलक, अर्थशास्त्र, करटक, पञ्चतन्त्र, महिलारोप्य, मित्रभेद, विष्णुशर्मा, सञ्जीवक, सरस्वती -->
-    <tag name="PUNCT">119</tag><!-- ।, ॥, ,, ?, ", -, – -->
+    <tag name="PUNCT">129</tag><!-- ।, ॥, ,, ?, ", -, – -->
     <tag name="SCONJ">7</tag><!-- यदि, इव, चेद्, यथा, यद् -->
     <tag name="VERB">266</tag><!-- कृ, ब्रू, गम्, भू, वच्, अस्, अह्, श्रु, स्था, ज्ञा -->
     <tag name="X">8</tag><!-- अदधि, कृतघ्न, नैर्गुण्य, पन्तु, भू, रथ, वद्, सिंह -->
@@ -34,61 +34,61 @@
     <feat name="Aspect" value="Imp" upos="VERB">2</feat><!-- आनं, ऐव -->
     <feat name="Aspect" value="Perf" upos="NOUN,VERB">24</feat><!-- आह, प्रोवाच, उवाच, प्राह, बभूवुः, आजगाम, ऊचे, चकार, निषसाद, प्रोचुः -->
     <feat name="Case" value="Abl" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">23</feat><!-- तस्मात्, अस्मत्, करणात्, त्वत्, मत्, अध्यापकात्, अन्तःपुरमध्याद्, देशांतराद्, पश्यतः, प्रवेशात् -->
-    <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">212</feat><!-- अर्थम्, तत्, एतत्, तम्, उपायम्, एतान्, एनम्, तान्, नाम, अध्वानम् -->
-    <feat name="Case" value="Dat" upos="NOUN,PRON,PROPN">19</feat><!-- तस्मै, अभिमतसिद्धये, आगमाय, कर्तृभ्यः, गुरुभ्यः, चाणक्याय, दुःखाय, पराशराय, मनवे, महाकविभ्यो -->
+    <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">209</feat><!-- अर्थम्, तत्, एतत्, तम्, उपायम्, एतान्, एनम्, तान्, नाम, अध्वानम् -->
+    <feat name="Case" value="Dat" upos="NOUN,PRON,PROPN">20</feat><!-- तस्मै, अभिमतसिद्धये, आगमाय, कर्तृभ्यः, गुरुभ्यः, चाणक्याय, ते, दुःखाय, पराशराय, मनवे -->
     <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN,VERB,X">62</feat><!-- तस्य, मम, यस्या, अस्माकम्, तव, ब्राह्मण्स्य, सञ्जीवकस्य, अप्रियस्य, अर्थस्य, अस्य -->
     <feat name="Case" value="Ins" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">87</feat><!-- मया, तया, तेन, अर्थेन, पुत्रेण, बहुना, येन, विवाहेन, शतेन, षट्केन -->
-    <feat name="Case" value="Loc" upos="ADJ,DET,NOUN,PRON,VERB">56</feat><!-- उक्ते, कस्मिन्, जनपदे, लोके, संसदि, अटव्याम्, अधिष्ठाने, अन्तरे, अभ्यन्तरे, अभ्यासे -->
-    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">471</feat><!-- तत्, अहम्, स, किम्, नाम, सः, अयम्, उक्तं, भवान्, राजा -->
+    <feat name="Case" value="Loc" upos="ADJ,DET,NOUN,PRON,VERB">57</feat><!-- उक्ते, कस्मिन्, जनपदे, लोके, संसदि, अटव्याम्, अधिष्ठाने, अन्तरे, अभ्यन्तरे, अभ्यासे -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">472</feat><!-- तत्, अहम्, स, किम्, नाम, सः, अयम्, उक्तं, भवान्, राजा -->
     <feat name="Case" value="Voc" upos="ADJ,NOUN,PROPN">15</feat><!-- देव, भद्र, भद्रे, आकर्ण्य, करटक, देवि, वयस्य -->
     <feat name="Degree" value="Cmp" upos="ADV">6</feat><!-- वरं, वरम् -->
     <feat name="Degree" value="Sup" upos="ADV">1</feat><!-- परम -->
-    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">82</feat><!-- तया, भद्रे, भार्या, संसदि, सरस्वती, सेवा, अटवीम्, अटव्याम्, अभिमतसिद्धये, असंभाव्यां -->
-    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">541</feat><!-- तस्य, अर्थम्, स, सः, अयम्, देव, भवान्, मया, राजा, अर्थाः -->
-    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">291</feat><!-- तत्, किम्, नाम, इदम्, उक्तं, एतत्, किं, अर्थम्, आरब्धम्, नमः -->
-    <feat name="Mood" value="Imp" upos="VERB">27</feat><!-- अनुष्ठीयताम्, अस्तु, गृहाण, अगतः, अस्य, आगच्छ, कथ्यताम्, कुरु, क्रियताम्, गच्छतु -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">142</feat><!-- अब्रवीत्, अस्ति, आह, भवति, करिष्यामि, उच्यते, करोमि, प्रोवाच, करिष्यति, तिष्ठति -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">85</feat><!-- तया, भद्रे, भार्या, संसदि, सरस्वती, सेवा, अटवीम्, अटव्याम्, अभिमतसिद्धये, असंभाव्यां -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">540</feat><!-- तस्य, अर्थम्, स, सः, अयम्, देव, भवान्, राजा, अर्थाः, असौ -->
+    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">287</feat><!-- तत्, किम्, नाम, इदम्, उक्तं, एतत्, किं, अर्थम्, आरब्धम्, नमः -->
+    <feat name="Mood" value="Imp" upos="VERB">26</feat><!-- अनुष्ठीयताम्, अस्तु, गृहाण, अगतः, अस्य, आगच्छ, कथ्यताम्, कुरु, क्रियताम्, गच्छतु -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">143</feat><!-- अब्रवीत्, अस्ति, आह, भवति, करिष्यामि, उच्यते, करोमि, प्रोवाच, करिष्यति, तिष्ठति -->
     <feat name="Mood" value="Opt" upos="AUX,VERB">6</feat><!-- स्यात्, अवमन्येत, दहेत्, प्रसाधयेत् -->
     <feat name="Mood" value="Sub" upos="VERB">1</feat><!-- संस्कृत -->
     <feat name="Number" value="Dual" upos="ADJ,NOUN,PRON,PROPN,VERB">17</feat><!-- तौ, अजातौ, आदित्यौ, आरब्धौ, आवयोः, उत्पन्नौ, ऐव, गोवृषयोः, तयोर्, नामानौ -->
     <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">139</feat><!-- अर्थाः, एतान्, तान्, ते, अस्मत्, अस्माकम्, एते, त्रयः, पुत्राः, पुत्रान् -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">963</feat><!-- तत्, अहम्, तस्य, अब्रवीत्, अर्थम्, अस्ति, नाम, किम्, आह, स -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">964</feat><!-- तत्, अहम्, तस्य, अब्रवीत्, अर्थम्, अस्ति, नाम, किम्, आह, स -->
     <feat name="NumType" value="Card" upos="NUM">18</feat><!-- एकः, त्रयः, शतेन, अशीति, एक, एकम्, तिस्रः, त्रि, द्वादशभिर्, पञ्चभिः -->
     <feat name="NumType" value="Ord" upos="ADJ">3</feat><!-- प्रथमम्, आद्यः -->
-    <feat name="Person" value="1" upos="NOUN,PRON,VERB">65</feat><!-- अहम्, मम, मया, करिष्यामि, अस्मत्, करोमि, अस्माकम्, उवाच, ब्रवीमि, मत् -->
-    <feat name="Person" value="2" upos="DET,PRON,VERB">37</feat><!-- त्वम्, गृहाण, तव, त्वत्, त्वाम्, भवान्, अगतः, अनुभविष्यसि, अस्य, आगच्छ -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB,X">172</feat><!-- तत्, अब्रवीत्, अस्ति, तस्य, आह, भवति, उच्यते, एनम्, प्रोवाच, भवान् -->
+    <feat name="Person" value="1" upos="NOUN,PRON,VERB">64</feat><!-- अहम्, मम, मया, करिष्यामि, अस्मत्, करोमि, अस्माकम्, उवाच, ब्रवीमि, मत् -->
+    <feat name="Person" value="2" upos="PRON,VERB">37</feat><!-- त्वम्, गृहाण, तव, त्वत्, त्वाम्, भवान्, अगतः, अनुभविष्यसि, अस्य, आगच्छ -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB,X">170</feat><!-- तत्, अब्रवीत्, अस्ति, आह, तस्य, भवति, उच्यते, एनम्, प्रोवाच, भवान् -->
     <feat name="Polarity" value="Neg" upos="ADJ,PART">38</feat><!-- न, अजात, अजातौ, अन्, अविद्वान्, अशाश्वतो, असंभाव्यां, नहि -->
     <feat name="Polite" value="Form" upos="PRON">10</feat><!-- भवान्, भवतः, भवत्, भवद्भिः, भवन्तम्, भवाम् -->
     <feat name="Poss" value="Yes" upos="DET,PRON">8</feat><!-- यस्या, तस्य, मे, स्व -->
-    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">150</feat><!-- तत्, तस्य, स, अत्र, तथा, सः, अयम्, इदम्, असौ, एतत् -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">154</feat><!-- तत्, तस्य, स, अत्र, तथा, सः, अयम्, इदम्, असौ, एतत् -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">4</feat><!-- आत्मना, कः, किंचिद्, किञ्चित् -->
-    <feat name="PronType" value="Int" upos="ADV,DET,PART,PRON">29</feat><!-- किम्, किं, कथम्, कदाचित्, कस्मिन्, को, कः, कतिभिः, कदाचिद्, कम् -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PART,PRON">30</feat><!-- किम्, किं, कथम्, कदाचित्, कदाचिद्, कस्मिन्, को, कः, कतिभिः, कम् -->
     <feat name="PronType" value="Prs" upos="DET,PRON">72</feat><!-- अहम्, मम, भवान्, मया, अस्मत्, एनम्, त्वम्, अस्माकम्, तव, त्वत् -->
-    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">37</feat><!-- यथा, यस्या, यः, यत्, यतः, येन, य, यं, यत, यत्र -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">39</feat><!-- यथा, यस्या, यः, यत्, यत्र, यतः, येन, य, यं, यत -->
     <feat name="PronType" value="Tot" upos="DET,PRON">2</feat><!-- सर्व, सर्वेषाम् -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">3</feat><!-- आत्मानः, स्व, स्वाः -->
-    <feat name="Tense" value="Fut" upos="ADJ,VERB">25</feat><!-- करिष्यामि, करिष्यति, भविष्यति, व्यापादयिष्यति, अनुभविष्यसि, असंभाव्यां, आगमिष्यामि, करणीया, करिष्यसि, कर्तव्याः -->
-    <feat name="Tense" value="Imp" upos="VERB">16</feat><!-- अब्रवीत्, अकरोत्, अपठत्, अपठम्, आशृणोत्, आसीत् -->
-    <feat name="Tense" value="Past" upos="ADJ,NOUN,VERB">65</feat><!-- उक्तं, आरब्धम्, प्रस्थितः, प्राह, मृत, अगतः, अगमत्, अजात, अजातौ, अधिरूढः -->
-    <feat name="Tense" value="Pres" upos="ADJ,AUX,NOUN,VERB">105</feat><!-- अस्ति, भवति, उच्यते, करोमि, गृहाण, तिष्ठति, ब्रवीमि, श्रूयते, अधीते, अनुश्रूयते -->
-    <feat name="VerbForm" value="Conv" upos="VERB">15</feat><!-- आदाय, आलोक्य, आहूय, समालोक्य, अधीत्य, अवधार्य, आसाद्य, निरूप्या, रचयित्वा, विधाय -->
+    <feat name="Tense" value="Fut" upos="ADJ,VERB">26</feat><!-- करिष्यामि, करिष्यति, भविष्यति, व्यापादयिष्यति, अनुभविष्यसि, असंभाव्यां, आगमिष्यामि, करणीया, करिष्यसि, कर्तव्यम् -->
+    <feat name="Tense" value="Imp" upos="VERB">17</feat><!-- अब्रवीत्, अकरोत्, अपठत्, अपठम्, आशृणोत्, आसीत्, विज्ञायावदत् -->
+    <feat name="Tense" value="Past" upos="ADJ,NOUN,VERB">65</feat><!-- उक्तं, आरब्धम्, प्रस्थितः, मृत, अगतः, अगमत्, अजात, अजातौ, अधिरूढः, अधीत्य -->
+    <feat name="Tense" value="Pres" upos="ADJ,AUX,NOUN,VERB">104</feat><!-- अस्ति, भवति, उच्यते, करोमि, गृहाण, तिष्ठति, ब्रवीमि, श्रूयते, अधीते, अनुश्रूयते -->
+    <feat name="VerbForm" value="Conv" upos="VERB">17</feat><!-- आदाय, आलोक्य, आहूय, समालोक्य, अधीत्य, अवधार्य, आरुह्य, आसाद्य, दत्त्वा, निरूप्या -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">174</feat><!-- अब्रवीत्, अस्ति, आह, भवति, करिष्यामि, उच्यते, करोमि, प्रोवाच, स्यात्, अनुष्ठीयताम् -->
-    <feat name="VerbForm" value="Ger" upos="NOUN,VERB">8</feat><!-- अगम्यम्, कर्तव्यम्, निश्चितम्, भवितव्यम्, मन्यमानः, विधेयम्, श्रुत्वा, समागत्य -->
+    <feat name="VerbForm" value="Ger" upos="NOUN,VERB">7</feat><!-- अगम्यम्, निश्चितम्, भवितव्यम्, मन्यमानः, विधेयम्, श्रुत्वा, समागत्य -->
     <feat name="VerbForm" value="Inf" upos="VERB">6</feat><!-- कर्तुम्, अनुएष्टुम्, क्रीडितुम्, दर्शयितुम्, परिज्ञाय -->
-    <feat name="VerbForm" value="Part" upos="ADJ,NOUN,VERB,X">112</feat><!-- उक्तं, गत्वा, आरब्धम्, अभिहितम्, आकर्ण्य, उक्ते, प्रस्थितः, मृत, श्रुत्वा, अजात -->
+    <feat name="VerbForm" value="Part" upos="ADJ,NOUN,VERB,X">110</feat><!-- उक्तं, गत्वा, आरब्धम्, अभिहितम्, आकर्ण्य, उक्ते, प्रस्थितः, मृत, श्रुत्वा, अजात -->
     <feat name="Voice" value="Act" upos="ADJ,AUX,NOUN,VERB,X">141</feat><!-- अब्रवीत्, अस्ति, आह, भवति, करिष्यामि, करोमि, प्रोवाच, स्यात्, अस्तु, उवाच -->
     <feat name="Voice" value="Act,Cau" upos="VERB">3</feat><!-- नियोजयिष्यामि, पाचयति, समर्पय -->
     <feat name="Voice" value="Cau" upos="VERB">2</feat><!-- दर्शयितुम्, प्रसाधयेत् -->
     <feat name="Voice" value="Cau,Pass" upos="ADJ,VERB">2</feat><!-- पाठिताः, विनाशितः -->
     <feat name="Voice" value="Mid" upos="VERB">13</feat><!-- अधीते, ऊचे, कुरुते, जायते, जायन्ते, ब्रूते, लभते, वर्तते, वर्धते, संतिष्ठते -->
-    <feat name="Voice" value="Pass" upos="ADJ,NOUN,VERB">86</feat><!-- उक्तं, उच्यते, अनुष्ठीयताम्, आरब्धम्, प्रस्थितः, मृत, श्रूयते, अजात, अजातौ, अधिरूढः -->
+    <feat name="Voice" value="Pass" upos="ADJ,NOUN,VERB">88</feat><!-- उक्तं, उच्यते, अनुष्ठीयताम्, आरब्धम्, प्रस्थितः, मृत, श्रूयते, अजात, अजातौ, अधिरूढः -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="38">
     <dep name="acl">11</dep>
-    <dep name="acl:relcl">3</dep>
-    <dep name="advcl">66</dep>
+    <dep name="acl:relcl">4</dep>
+    <dep name="advcl">64</dep>
     <dep name="advmod">201</dep>
     <dep name="advmod:emph">4</dep>
     <dep name="amod">66</dep>
@@ -97,32 +97,32 @@
     <dep name="cc">31</dep>
     <dep name="ccomp">3</dep>
     <dep name="compound">72</dep>
-    <dep name="conj">107</dep>
+    <dep name="conj">108</dep>
     <dep name="cop">9</dep>
     <dep name="csubj">2</dep>
     <dep name="dep">1</dep>
-    <dep name="det">61</dep>
+    <dep name="det">60</dep>
     <dep name="discourse">1</dep>
     <dep name="expl">1</dep>
-    <dep name="flat">1</dep>
-    <dep name="iobj">7</dep>
+    <dep name="flat">2</dep>
+    <dep name="iobj">8</dep>
     <dep name="mark">8</dep>
-    <dep name="nmod">110</dep>
-    <dep name="nmod:poss">16</dep>
-    <dep name="nsubj">184</dep>
+    <dep name="nmod">108</dep>
+    <dep name="nmod:poss">19</dep>
+    <dep name="nsubj">181</dep>
     <dep name="nsubj:cop">17</dep>
-    <dep name="nsubj:pass">21</dep>
+    <dep name="nsubj:pass">25</dep>
     <dep name="nummod">14</dep>
     <dep name="nummod:gov">2</dep>
     <dep name="obj">107</dep>
-    <dep name="obl">120</dep>
-    <dep name="obl:agent">6</dep>
+    <dep name="obl">115</dep>
+    <dep name="obl:agent">7</dep>
     <dep name="obl:arg">1</dep>
     <dep name="orphan">5</dep>
     <dep name="parataxis">6</dep>
-    <dep name="punct">119</dep>
+    <dep name="punct">129</dep>
     <dep name="root">224</dep>
     <dep name="vocative">14</dep>
-    <dep name="xcomp">5</dep>
+    <dep name="xcomp">6</dep>
   </deps>
 </treebank>
