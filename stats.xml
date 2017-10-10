@@ -5,7 +5,7 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>224</sentences><tokens>1373</tokens><words>1648</words><fused>183</fused></total>
+    <total><sentences>224</sentences><tokens>1436</tokens><words>1711</words><fused>183</fused></total>
   </size>
   <lemmas unique="746" /><!-- ।, तद्, अहम्, न, च, अर्थ, यद्, कृ, अस्, किम्, अपि, एतद्, इदम्, ब्रू, ॥ -->
   <forms unique="975" /><!-- ।, न, च, तत्, अपि, अहम्, ॥, अथ, एवम्, तस्य, यथा, अब्रवीत्, अर्थम्, अस्ति, किम् -->
@@ -24,7 +24,7 @@
     <tag name="PART">35</tag><!-- न, अन्, किम्, चिद्, नहि -->
     <tag name="PRON">185</tag><!-- तद्, अहम्, यद्, एतद्, किम्, त्वद्, अस्मद्, भवत्, इदम्, क -->
     <tag name="PROPN">83</tag><!-- दमनक, पिङ्गलक, अर्थशास्त्र, करटक, पञ्चतन्त्र, महिलारोप्य, मित्रभेद, विष्णुशर्मा, सञ्जीवक, सरस्वती -->
-    <tag name="PUNCT">129</tag><!-- ।, ॥, ,, ?, ", -, – -->
+    <tag name="PUNCT">192</tag><!-- ।, ॥, ,, ?, ", -, – -->
     <tag name="SCONJ">7</tag><!-- यदि, इव, चेद्, यथा, यद् -->
     <tag name="VERB">266</tag><!-- कृ, ब्रू, गम्, भू, वच्, अस्, अह्, श्रु, स्था, ज्ञा -->
     <tag name="X">8</tag><!-- अदधि, कृतघ्न, नैर्गुण्य, पन्तु, भू, रथ, वद्, सिंह -->
@@ -120,7 +120,7 @@
     <dep name="obl:arg">1</dep>
     <dep name="orphan">5</dep>
     <dep name="parataxis">6</dep>
-    <dep name="punct">129</dep>
+    <dep name="punct">192</dep>
     <dep name="root">224</dep>
     <dep name="vocative">14</dep>
     <dep name="xcomp">6</dep>
