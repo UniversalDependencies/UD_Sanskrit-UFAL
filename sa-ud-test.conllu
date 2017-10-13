@@ -774,9 +774,9 @@
 1	सः	तद्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	Translit=saḥ|LTranslit=tad|Gloss=the
 2	राजा	राजन्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Translit=rājā|LTranslit=rājan|Gloss=king
 3	तत्	तद्	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	Translit=tat|LTranslit=tad|Gloss=this
-4	आकर्ण्य	आकर्न्य	ADJ	_	Case=Voc|Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	Translit=ākarṇya|LTranslit=ākarnya
+4	आकर्ण्य	आ-कर्ण	ADJ	_	VerbForm=Conv	2	acl	_	Translit=ākarṇya|LTranslit=ā-karṇa|Gloss=having-listened-to
 5	विष्णुशर्माणम्	विष्णुशर्माण	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Translit=viṣṇuśarmāṇam|LTranslit=viṣṇuśarmāṇa|Gloss=Vishnusharma
-6	आहूय	आहू	VERB	_	Tense=Past|VerbForm=Conv	7	advcl	_	Translit=āhūya|LTranslit=āhū|Gloss=after-having-summoned
+6	आहूय	आहू	VERB	_	VerbForm=Conv	7	advcl	_	Translit=āhūya|LTranslit=āhū|Gloss=after-having-summoned
 7	प्रोवाच	प्र-वच्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Translit=provāca|LTranslit=pra-vac|Gloss=said
 8	।	।	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.|Gloss=.
 
@@ -3714,13 +3714,14 @@
 # sent_id = panc5.s175
 # text = भद्र मैवं वोचः।
 # translit = bhadra maivaṁ vocaḥ.
+# text_en = Dear fellow, do not speak this way.
 # orig = panchatantra.conllu sent_id 1413
 # ryder = "My good fellow, pray do not say such things.
 1	भद्र	भद्र	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	4	vocative	_	Translit=bhadra|LTranslit=bhadra|Gloss=dear
 2-3	मैवं	_	_	_	_	_	_	_	_
-2	मा	अहम्	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	Translit=mā|LTranslit=aham|Gloss=me
+2	मा	मा	PART	_	Polarity=Neg	4	advmod	_	Translit=mā|LTranslit=mā|Gloss=do-not
 3	एवम्	एवम्	ADV	_	_	4	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
-4	वोचः	वच्	VERB	_	Mood=Sub|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=vocaḥ|LTranslit=vac|Gloss=say
+4	वोचः	वच्	VERB	_	Mood=Jus|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=vocaḥ|LTranslit=vac|Gloss=say
 5	।	।	PUNCT	_	_	4	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # newpar id = panc5.p84
