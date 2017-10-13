@@ -30,8 +30,7 @@
     <tag name="X">2</tag><!-- अदधि, पन्तु -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="51">
-    <feat name="Aspect" value="Imp" upos="VERB">2</feat><!-- आनं, ऐव -->
+  <feats unique="50">
     <feat name="Aspect" value="Perf" upos="VERB">24</feat><!-- आह, प्रोवाच, उवाच, प्राह, बभूवुः, आजगाम, ऊचे, चकार, निषसाद, प्रोचुः -->
     <feat name="Case" value="Abl" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">24</feat><!-- तस्मात्, अस्मत्, करणात्, त्वत्, मत्, अध्यापकात्, अन्तःपुरमध्याद्, तस्याः, देशांतराद्, पश्यतः -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">190</feat><!-- अर्थम्, तत्, एतत्, किम्, तम्, उपायम्, एतान्, एनम्, तान्, अध्वानम् -->
@@ -69,7 +68,7 @@
     <feat name="PronType" value="Tot" upos="DET,PRON">4</feat><!-- सर्व, सर्वम्, सर्वे, सर्वेषाम् -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">3</feat><!-- आत्मानः, स्व, स्वाः -->
     <feat name="Tense" value="Fut" upos="ADJ,NOUN,VERB">33</feat><!-- करिष्यामि, करिष्यति, भविष्यति, व्यापादयिष्यति, अगम्यम्, अनुभविष्यसि, अवश्यम्, असंभाव्यां, आगमिष्यामि, करणीया -->
-    <feat name="Tense" value="Imp" upos="VERB">17</feat><!-- अब्रवीत्, अकरोत्, अपठत्, अपठम्, आशृणोत्, आसीत्, विज्ञायावदत् -->
+    <feat name="Tense" value="Imp" upos="VERB">19</feat><!-- अब्रवीत्, अकरोत्, अपठत्, अपठम्, आनं, आशृणोत्, आसीत्, ऐव, विज्ञायावदत् -->
     <feat name="Tense" value="Past" upos="ADJ,NOUN,VERB">82</feat><!-- उक्तं, आरब्धम्, अभिहितम्, उक्ते, प्रस्थितः, मृत, अगतः, अगमत्, अजात, अजातौ -->
     <feat name="Tense" value="Pres" upos="ADJ,AUX,NOUN,VERB">103</feat><!-- अस्ति, भवति, उच्यते, करोमि, गृहाण, तिष्ठति, ब्रवीमि, श्रूयते, अधीते, अनुश्रूयते -->
     <feat name="VerbForm" value="Conv" upos="ADJ,VERB">34</feat><!-- गत्वा, श्रुत्वा, आकर्ण्य, आदाय, आलोक्य, आहूय, समालोक्य, अधीत्य, अवधार्य, आरुह्य -->

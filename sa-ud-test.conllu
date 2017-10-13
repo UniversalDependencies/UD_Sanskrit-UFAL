@@ -356,7 +356,7 @@
 4	ऋतुषु	ऋतु	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	6	obl	_	Translit=r̥tuṣu|LTranslit=r̥tu|Gloss=during-ovulation
 5-8	नैवाभिगमनं	_	_	_	_	_	_	_	_
 5	न	न	PART	_	Polarity=Neg	6	advmod	_	Translit=na|LTranslit=na|Gloss=not
-6	ऐव	इ	VERB	_	Aspect=Imp|Mood=Ind|Number=Dual|Person=1|VerbForm=Fin|Voice=Act	1	conj	_	Translit=aiva|LTranslit=i|Gloss=go
+6	ऐव	इ	VERB	_	Mood=Ind|Number=Dual|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act	1	conj	_	Translit=aiva|LTranslit=i|Gloss=go
 7	अभि	अभि	ADP	_	_	8	case	_	Translit=abhi|LTranslit=abhi|Gloss=to
 8	गमनं	गमन	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	Translit=gamanaṁ|LTranslit=gamana|Gloss=sexual-partner
 9	वरं	वरम्	ADV	_	Degree=Cmp	1	conj	_	Translit=varaṁ|LTranslit=varam|Gloss=better
@@ -800,7 +800,7 @@
 9	द्राग्	द्राक्	ADV	_	_	13	advmod	_	Translit=drāg|LTranslit=drāk|Gloss=quickly
 10-12	यथानंयषड्दर्शनान्	_	_	_	_	_	_	_	_
 10	यथा	यथा	ADV	_	PronType=Rel	11	advmod	_	Translit=yathā|LTranslit=yathā|Gloss=how
-11	आनं	अन्	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	13	advcl	_	Translit=ānaṁ|LTranslit=an|Gloss=breathe
+11	आनं	अन्	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act	13	advcl	_	Translit=ānaṁ|LTranslit=an|Gloss=breathe
 12	षड्दर्शनान्	षड्दर्शन	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	13	dep	_	Translit=ṣaḍdarśanān|LTranslit=ṣaḍdarśana|Gloss=six-doctrinaire-views
 13	विदधासि	वि-धा	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	Translit=vidadhāsi|LTranslit=vi-dhā|Gloss=put
 14	तथा	तथा	ADV	_	PronType=Dem	15	advmod	_	Translit=tathā|LTranslit=tathā|Gloss=so
