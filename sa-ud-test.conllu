@@ -1380,23 +1380,39 @@
 7	करणीया	करणीय	VERB	_	Case=Nom|Gender=Fem|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Translit=karaṇīyā|LTranslit=karaṇīya|Gloss=must-be-done
 8	।	।	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.|Gloss=.
 
+# sent_id = panc1.s11
+# text = अलब्धाः अर्थाः लभ्याः लब्धाः परि रक्षणीयाः रक्षिताः विवर्धनीयाः पात्रे सम्पादनीयाः चेति।
+# translit = alabdhāḥ arthāḥ labhyāḥ labdhāḥ pari rakṣaṇīyāḥ rakṣitāḥ vivardhanīyāḥ pātre sampādanīyāḥ ceti.
+# orig = panchatantra.conllu sent_id 58
+# ptext = a labDAH arTAH laByAH labDAH pari rakzaRIyAH rakzitAH vi varDanIyAH pAtre sam pAdanIyAH ca iti
+# ryder = Riches unearned should be earned. What is earned, should be guarded. What is guarded, should be enlarged and heedfully invested.
+1	अलब्धाः	लभ्	VERB	_	Case=Nom|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	Translit=alabdhāḥ|LTranslit=labh|Gloss=taken
+2	अर्थाः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	Translit=arthāḥ|LTranslit=artha|Gloss=money
+3	लभ्याः	लभ्	VERB	_	Case=Nom|Gender=Masc|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Pass	0	root	_	Translit=labhyāḥ|LTranslit=labh|Gloss=to-be-taken
+4	लब्धाः	लभ्	VERB	_	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	csubj:pass	_	Translit=labdhāḥ|LTranslit=labh|Gloss=taken
+5	परि	परि	ADV	_	_	6	advmod	_	Translit=pari|LTranslit=pari|Gloss=very
+6	रक्षणीयाः	रक्ष्	VERB	_	Case=Nom|Gender=Masc|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Pass	3	conj	_	Translit=rakṣaṇīyāḥ|LTranslit=rakṣ|Gloss=to-be-protected
+7	रक्षिताः	रक्ष्	VERB	_	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	csubj:pass	_	Translit=rakṣitāḥ|LTranslit=rakṣ|Gloss=protected
+8	विवर्धनीयाः	वि-वृध्	VERB	_	Case=Nom|Gender=Masc|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Pass	3	conj	_	Translit=vivardhanīyāḥ|LTranslit=vi-vr̥dh|Gloss=to-be-grown
+9	पात्रे	पात्र	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	Translit=pātre|LTranslit=pātra|Gloss=in-a-pot
+10	सम्पादनीयाः	सं-पद्	VERB	_	Case=Nom|Gender=Masc|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Pass	8	conj	_	Translit=sampādanīyāḥ|LTranslit=saṁ-pad|Gloss=invested
+11-12	चेति	_	_	_	_	_	_	_	SpaceAfter=No
+11	च	च	CCONJ	_	_	10	cc	_	Translit=ca|LTranslit=ca|Gloss=and
+12	इति	इति	ADV	_	_	10	advmod	_	Translit=iti|LTranslit=iti|Gloss=so-much
+13	।	।	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.|Gloss=.
+
 # sent_id = panc1.s15
 # text = यत उक्तं च
 # Several sentences from panchatantra.conllu are missing here but we may add their annotation in the future.
-# panc1.s11 = panchatantra.conllu sent_id 58
-# ptext58 = a labDAH arTAH laByAH labDAH pari rakzaRIyAH rakzitAH vi varDanIyAH pAtre sam pAdanIyAH ca iti
 # panc1.s12 = panchatantra.conllu sent_id 59
 # ptext59 = loka mArgeRa api rakzyamARaH arTaH bahu apa dravatayA sadyaH vi naSyet
 # panc1.s13 = panchatantra.conllu sent_id 60
 # ptext60 = a pra yujyamAnaH prayojana utpatt tulyaH a pra Aptasya iti
 # panc1.s14 = panchatantra.conllu sent_id 61
 # ptext61 = tataH pra Aptasya sataH rakzaRa vi varDana upayoga Adi kAryam
-# ryder58 = Riches unearned should be earned.
-# ryder59 = What is earned, should be guarded.
-# ryder60 = What is guarded, should be enlarged and heedfully invested.
-# ryder61 = Money, even if hoarded in commonplace fashion, is likely to go in a flash, the hindrances being many.
-# ryder61b = Money unemployed when opportunities arise, is the same as money unpossessed.
-# ryder61c = Therefore, money once acquired should be guarded, increased, employed.
+# ryder59 = Money, even if hoarded in commonplace fashion, is likely to go in a flash, the hindrances being many.
+# ryder60 = Money unemployed when opportunities arise, is the same as money unpossessed.
+# ryder61 = Therefore, money once acquired should be guarded, increased, employed.
 # 
 # translit = yata uktaṁ ca
 # ptext = uktam ca
