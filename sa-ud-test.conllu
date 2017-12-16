@@ -1401,16 +1401,30 @@
 12	इति	इति	ADV	_	_	10	advmod	_	Translit=iti|LTranslit=iti|Gloss=so-much
 13	।	।	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.|Gloss=.
 
+# sent_id = panc1.s12
+# text = लोकमार्गेण अपि रक्ष्यमाणः अर्थः बहु अप द्रवतया सद्यस् विनश्येत्।
+# translit = lokamārgeṇa api rakṣyamāṇaḥ arthaḥ bahu apa dravatayā sadyas vinaśyet.
+# orig = panchatantra.conllu sent_id 59
+# ptext = loka mArgeRa api rakzyamARaH arTaH bahu apa dravatayA sadyaH vi naSyet
+# ryder = Money, even if hoarded in commonplace fashion, is likely to go in a flash, the hindrances being many.
+1	लोकमार्गेण	लोकमार्ग	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	3	obl	_	Translit=lokamārgeṇa|LTranslit=lokamārga|Gloss=in-commonplace-fashion
+2	अपि	अपि	ADV	_	_	1	advmod	_	Translit=api|LTranslit=api|Gloss=only
+3	रक्ष्यमाणः	रक्ष्यमाण	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	amod	_	Translit=rakṣyamāṇaḥ|LTranslit=rakṣyamāṇa|Gloss=being-protected
+4	अर्थः	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Translit=arthaḥ|LTranslit=artha|Gloss=money
+5	बहु	बहु	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	Translit=bahu|LTranslit=bahu|Gloss=abundance
+6	अप	अप	ADP	_	_	7	case	_	Translit=apa|LTranslit=apa|Gloss=without
+7	द्रवतया	द्रव	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	Translit=dravatayā|LTranslit=drava|Gloss=flowing
+8	सद्यस्	सद्यस्	ADV	_	_	9	advmod	_	Translit=sadyas|LTranslit=sadyas|Gloss=immediately
+9	विनश्येत्	विनश्	VERB	_	Mood=Opt|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=vinaśyet|LTranslit=vinaś|Gloss=may-vanish
+10	।	।	PUNCT	_	_	9	punct	_	Translit=.|LTranslit=.|Gloss=.
+
 # sent_id = panc1.s15
 # text = यत उक्तं च
 # Several sentences from panchatantra.conllu are missing here but we may add their annotation in the future.
-# panc1.s12 = panchatantra.conllu sent_id 59
-# ptext59 = loka mArgeRa api rakzyamARaH arTaH bahu apa dravatayA sadyaH vi naSyet
 # panc1.s13 = panchatantra.conllu sent_id 60
 # ptext60 = a pra yujyamAnaH prayojana utpatt tulyaH a pra Aptasya iti
 # panc1.s14 = panchatantra.conllu sent_id 61
 # ptext61 = tataH pra Aptasya sataH rakzaRa vi varDana upayoga Adi kAryam
-# ryder59 = Money, even if hoarded in commonplace fashion, is likely to go in a flash, the hindrances being many.
 # ryder60 = Money unemployed when opportunities arise, is the same as money unpossessed.
 # ryder61 = Therefore, money once acquired should be guarded, increased, employed.
 # 
