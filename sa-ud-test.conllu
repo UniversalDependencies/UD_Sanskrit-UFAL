@@ -1650,9 +1650,8 @@
 1	उक्तं	वच्	VERB	_	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Translit=uktaṁ|LTranslit=vac|Gloss=said
 2	च	च	CCONJ	_	_	1	cc	_	Translit=ca|LTranslit=ca|Gloss=and
 
-# newpar id = panc1.p25
-# sent_id = panc1.s59
-# text = एवम् मथुरागामीनि भाण्डान्यादाय शुभायाम् तिथौ गुरुजन अनुज्ञातः सुरथ अधिरूढः प्रस्थितः।
+# sent_id = panc1.s58
+# text = दैववशात् उपपन्ने सति विभवे यस्य न अस्ति भोगः इच्छा न च परलोके समीहे स भवति धनपालकः मूर्खः।
 # The following verses appear in the Wikisource edition but they have been skipped in our corpus.
 # We may add their annotation in the future though.
 # Wikisource: पण्यानां गांधिकं पण्यं किम् अन्यैः काञ्चनादिभिः। यत्रैकेन च यत् क्रीतं तच् छतेन प्रदीयते॥पञ्च_१.१३॥
@@ -1672,9 +1671,33 @@
 # Ryder: Release the money you have earned; / So keep it safely still: / The surplus water of a tank / Must find a way to spill.
 # panchatantra.conllu s64: arTEH arTAH ni baDyante gajEH iva mahA gajAH na hi an arTavatA Sakyam vARijyam kartum IhayA
 # Ryder: Wild elephants are caught by tame; / With capital it is the same: / In business, beggars have no scope / Whose stock-in-trade is empty hope.
-# panchatantra.conllu s65: dEva vaSAt upa panne sati viBave yasya na asti Boga icCAH na ca para loka sam IhA sa Bavati Dana pAlakaH mUrKaH
-# Ryder: If any fail to use his fate / For joy in this or future state, / His riches serve as foolish fetters; / He simply keeps them for his betters."
 # 
+# translit = daivavaśāt upapanne sati vibhave yasya na asti bhogaḥ icchā na ca paraloke samīhe sa bhavati dhanapālakaḥ mūrkhaḥ.
+# orig = panchatantra.conllu sent_id 65
+# ptext = dEva vaSAt upa panne sati viBave yasya na asti Boga icCAH na ca para loka sam IhA sa Bavati Dana pAlakaH mUrKaH
+# ryder = If any fail to use his fate / For joy in this or future state, / His riches serve as foolish fetters; / He simply keeps them for his betters."
+1	दैववशात्	दैववश	NOUN	_	Case=Abl|Gender=Masc|Number=Sing	2	obl	_	Translit=daivavaśāt|LTranslit=daivavaśa|Gloss=from-divine-authority
+2	उपपन्ने	उपपन्न	ADJ	_	Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	Translit=upapanne|LTranslit=upapanna|Gloss=obtained
+3	सति	सत्	NOUN	_	Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	nmod	_	Translit=sati|LTranslit=sat|Gloss=being
+4	विभवे	विभव	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	Translit=vibhave|LTranslit=vibhava|Gloss=rich
+5	यस्य	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	14	acl:relcl	_	Translit=yasya|LTranslit=yad|Gloss=of-which
+6	न	न	PART	_	Polarity=Neg	5	advmod	_	Translit=na|LTranslit=na|Gloss=not
+7	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	Translit=asti|LTranslit=as|Gloss=is
+8	भोगः	भोग	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=bhogaḥ|LTranslit=bhoga|Gloss=pleasure
+9	इच्छा	इच्छा	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	Translit=icchā|LTranslit=icchā|Gloss=desire
+10	न	न	PART	_	Polarity=Neg	13	advmod	_	Translit=na|LTranslit=na|Gloss=not
+11	च	च	CCONJ	_	_	13	cc	_	Translit=ca|LTranslit=ca|Gloss=and
+12	परलोके	परलोक	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	13	obl	_	Translit=paraloke|LTranslit=paraloka|Gloss=in-ancient-world
+13	समीहे	समीह्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Mid	5	conj	_	Translit=samīhe|LTranslit=samīh|Gloss=aspires
+14	स	तद्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	15	nsubj	_	Translit=sa|LTranslit=tad|Gloss=that
+15	भवति	भू	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=bhavati|LTranslit=bhū|Gloss=exists
+16	धनपालकः	धनपालक	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	15	xcomp	_	Translit=dhanapālakaḥ|LTranslit=dhanapālaka|Gloss=protector-of-riches
+17	मूर्खः	मूर्ख	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|Translit=mūrkhaḥ|LTranslit=mūrkha|Gloss=fool
+18	।	।	PUNCT	_	_	15	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# newpar id = panc1.p25
+# sent_id = panc1.s59
+# text = एवम् मथुरागामीनि भाण्डान्यादाय शुभायाम् तिथौ गुरुजन अनुज्ञातः सुरथ अधिरूढः प्रस्थितः।
 # Finally, all versions synchronize again at the moment when Vardhamana sets off to the city of Mathura.
 # translit = evam mathurāgāmīni bhāṇḍānyādāya śubhāyām tithau gurujana anujñātaḥ suratha adhirūḍhaḥ prasthitaḥ.
 # wtext = इत्य् एवं संप्रधार्य मथुरागामीनि भांडानि आदाय शुभायां तिथौ गुरुजनानुज्ञातः सुरथाधिरूढः प्रस्थितः।
