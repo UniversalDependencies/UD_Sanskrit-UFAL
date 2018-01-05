@@ -1282,7 +1282,7 @@
 # ptext5 = mahilA ropyam nAma nagaram
 # orig = panchatantra.conllu sent_id 52
 # ryder = In the southern country was a city called Maidens' Delight.
-# ryder_extra = It rivaled the city of heaven's King, so abounding in every urban excellence as to form the central jewel of Earth's diadem. Its contour was like that of Kailasa Peak. Its gates and palaces were stocked with machines, missile weapons, and chariots in great variety. Its central portal, massive as Indrakila Mountain, was fitted with bolt and bar, panel and arch, all formidable, impressive, solid. Its numerous temples lifted their firm bulk near spacious squares and crossings. It wore a moat-girdled zone of walls that recalled the high-uplifted Himalayas.
+# ryder_extra = Its contour was like that of Kailasa Peak. Its gates and palaces were stocked with machines, missile weapons, and chariots in great variety. Its central portal, massive as Indrakila Mountain, was fitted with bolt and bar, panel and arch, all formidable, impressive, solid. Its numerous temples lifted their firm bulk near spacious squares and crossings. It wore a moat-girdled zone of walls that recalled the high-uplifted Himalayas.
 1	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=asti|LTranslit=as|Gloss=is
 2	दक्षिणात्ये	दक्षिणात्य	ADJ	_	Case=Loc|Gender=Masc|Number=Sing	3	amod	_	Translit=dakṣiṇātye|LTranslit=dakṣiṇātya|Gloss=in-southern
 3	जनपदे	जनपद	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	Translit=janapade|LTranslit=janapada|Gloss=in-country
@@ -1290,6 +1290,21 @@
 5	नाम	नामन्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	Translit=nāma|LTranslit=nāman|Gloss=name
 6	नगरम्	नगर	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpaceAfter=No|Translit=nagaram|LTranslit=nagara|Gloss=city
 7	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
+
+# sent_id = panc1.s5b
+# text = पुरन्दरपुरस्य वृद्धिम् सर्व गुण सम्पन्नम् पृथिव्याः चूडामणिरत्न भूतम्
+# translit = purandarapurasya vr̥ddhim sarva guṇa sampannam pr̥thivyāḥ cūḍāmaṇiratna bhūtam
+# ptext = purandarapurasya fdDi sarva guRa sam pannam pfTivyAH cUqA maRi ratna BUtam
+# orig = panchatantra.conllu sent_id 52
+# ryder = It rivaled the city of heaven's King, so abounding in every urban excellence as to form the central jewel of Earth's diadem.
+1	पुरन्दरपुरस्य	पुरन्दरपुर	PROPN	_	Case=Gen|Gender=Neut|Number=Sing	2	nmod:poss	_	Translit=purandarapurasya|LTranslit=purandarapura|Gloss=city-of-Purandara
+2	वृद्धिम्	वृद्धि	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	Translit=vr̥ddhim|LTranslit=vr̥ddhi|Gloss=growth
+3	सर्व	सर्व	PRON	_	PronType=Tot	4	compound	_	Translit=sarva|LTranslit=sarva|Gloss=every
+4	गुण	गुण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	Translit=guṇa|LTranslit=guṇa|Gloss=aspect
+5	सम्पन्नम्	संपद्	ADJ	_	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Translit=sampannam|LTranslit=saṁpad|Gloss=achieved
+6	पृथिव्याः	पृथिवी	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	nmod:poss	_	Translit=pr̥thivyāḥ|LTranslit=pr̥thivī|Gloss=Earth's
+7	चूडामणिरत्न	चूडामणिरत्न	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	Translit=cūḍāmaṇiratna|LTranslit=cūḍāmaṇiratna|Gloss=gem-in-diadem
+8	भूतम्	भूत	ADJ	_	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	Translit=bhūtam|LTranslit=bhūta|Gloss=was
 
 # sent_id = panc1.s6
 # text = तत्र बभूवुः धर्मोपार्जितभूरिविभवो वर्ध्दमान नाम वणिक् पुत्रः।
