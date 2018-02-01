@@ -1,6 +1,7 @@
 # newdoc id = pancatantra
 # newpar id = panc0.p1
-# sent_id = panc0.s1
+# sen
+t_id = panc0.s1
 # text = पञ्चतन्त्रम् कथामुखम्
 # translit = pañcatantram kathāmukham
 # wikisource = https://sa.wikisource.org/wiki/%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D_%E0%A5%A6%E0%A5%A7
@@ -1477,7 +1478,7 @@
 # sent_id = panc1.s16
 # text = नहि तद्विद्यते किञ्चिद्यदर्थेन न सिध्यति।
 # The following verses appear in the Wikisource edition but not in panchatantra.conllu and in the Ryder's translation.
-# 
+#
 # translit = nahi tadvidyate kiñcidyadarthena na sidhyati.
 # wsid = ॥१.२॥
 # text_en = It is not known what reuses things.
@@ -1569,7 +1570,7 @@
 # Wtranslit: arthārthī jīvaloko’yaṁ śmaśānamapi sevate. tyaktvā janayitāraṁ svaṁ niḥsvaṁ yacchati dūrataḥ:1.9:
 # Wikisource: गतवयसामपि पुंसां येषामर्था भवन्ति ते तरुणाः। अर्थे तु ये हीना वृथास्ते यौवनेपि स्युः ॥१.१०॥
 # Wtranslit: gatavayasāmapi puṁsāṁ yeṣāmarthā bhavanti te taruṇāḥ. arthe tu ye hīnā vr̥thāste yauvanepi syuḥ :1.10:
-# 
+#
 # translit = sa arthaḥ puruṣāṇām ṣaḍbhirupāyairbhavati bhikṣayā nr̥pasevayā kr̥ṣikarmaṇā vidyopārjanena vyavahāreṇa vaṇikkarmaṇā vā.
 # wtext = स चार्थः पुरुषाणां षड्भिरुपायैर्भवति भिक्षया नृपसेवया कृषिकर्मणा विद्योपार्जनेन व्यवहारेण वणिक्कर्मणा वा।
 # wtranslit = sa cārthaḥ puruṣāṇāṁ ṣaḍbhirupāyairbhavati bhikṣayā nr̥pasevayā kr̥ṣikarmaṇā vidyopārjanena vyavahāreṇa vaṇikkarmaṇā vā.
@@ -1619,7 +1620,7 @@
 # Wtranslit: kr̥tā bhikṣānekair vitarati nr̥po nocitam aho kr̥ṣiḥ kliṣṭā vidyā guruvinayavr̥tttyā’tiviṣamā. kusīdād dāridryaṁ parakaragatagraṁthiśamanān na manye vāṇijyāt kim api paramaṁ vartanam iha:pañca_1.11:
 # Wikisource: उपायानां च सर्वेषाम् उपायः पण्यसंग्रहः। धनार्थं शस्यते ह्येकस् तदन्यः संशयात्मकः॥पञ्च_१.१२॥
 # Wtranslit: upāyānāṁ ca sarveṣām upāyaḥ paṇyasaṁgrahaḥ. dhanārthaṁ śasyate hyekas tadanyaḥ saṁśayātmakaḥ:pañca_1.12:
-# 
+#
 # translit = tat vāṇijyam saptavidhamarthāgamāya syāt.
 # wtext = तच् च वाणिज्यं सप्तविधम् अर्थागमाय स्यात्।
 # wtranslit = tac ca vāṇijyaṁ saptavidham arthāgamāya syāt.
@@ -1686,7 +1687,7 @@
 # Ryder: Release the money you have earned; / So keep it safely still: / The surplus water of a tank / Must find a way to spill.
 # panchatantra.conllu s64: arTEH arTAH ni baDyante gajEH iva mahA gajAH na hi an arTavatA Sakyam vARijyam kartum IhayA
 # Ryder: Wild elephants are caught by tame; / With capital it is the same: / In business, beggars have no scope / Whose stock-in-trade is empty hope.
-# 
+#
 # translit = daivavaśāt upapanne sati vibhave yasya na asti bhogaḥ icchā na ca paraloke samīhe sa bhavati dhanapālakaḥ mūrkhaḥ.
 # orig = panchatantra.conllu sent_id 65
 # ptext = dEva vaSAt upa panne sati viBave yasya na asti Boga icCAH na ca para loka sam IhA sa Bavati Dana pAlakaH mUrKaH
@@ -1746,7 +1747,7 @@
 # Missing panchatantra.conllu sent_id 69 (while 68 is below and matches a sentence from Wikisource).
 # ptext(69) = aTa Dava Kadira palASa SAlEH manaH harAm anyEH ca izwa darSanEH SAKiBiH nirantara upa citAm an eka gaja gavaya mahiza ruru camarI varAha SArdula citraka fkza BayodBawAm a cala nitamba nir gata udaka pari pUritAm viviDa darI gahanAm awavIm A sAdya dUra A pAti nirJaraka ut pAdita kardamam agrEka caraRa vEkalyAt ca atiBArAt aBi hataH kasmincit pradeSe kaTam api tayoH vfzaBayoh saYjIvakaH yuga BaNgam kftvA ni zasAda
 # ryder(69) = Presently he reached a forest lovely with grisleas, acacias, dhaks, and sals, densely planted with other trees of charming aspect; fearsome with elephants, wild oxen, buffaloes, deer, grunting-cows, boars, tigers, leopards, and bears; abounding in water that issued from the flanks of mountains; rich in caves and thickets.
-# 
+#
 # translit = tasya maṅgalavr̥ṣabhau sañjīvakanandakanāmānau gr̥hotpannau dhūrvoḍhārau sthitau.
 # wtext = तस्य च मंगलवृषभो संजीवकनंदकनामानौ गृहोत्पन्नौ धूर्वोढारौ स्थितौ।
 # wtranslit = tasya ca maṁgalavr̥ṣabho saṁjīvakanaṁdakanāmānau gr̥hotpannau dhūrvoḍhārau sthitau.
@@ -1860,7 +1861,7 @@
 # Missing from panchatantra.conllu / Ryder:
 # ptext(74) = ayam saYjIvakaH yadi jIvati tadA enam gfhItvA yadi mriyate tadA amum sam kftya yuzmABiH A gantavyam
 # ryder = "You must join me later, bringing Lively, if he lives; if he dies, after performing the last sad rites."
-# 
+#
 # translit = atha tadavadhārya sañjīvakasya rakṣāpuruṣān nirūpyā śeṣasārtham sa prasthitaḥ.
 # wtext = अथासौ तद् अवधार्य संजीवकस्य रक्षापुरुषान् निरूप्याशेषसार्थं नीत्वा प्रस्थितः।
 # wtranslit = athāsau tad avadhārya saṁjīvakasya rakṣāpuruṣān nirūpyāśeṣasārthaṁ nītvā prasthitaḥ.
@@ -1890,7 +1891,7 @@
 # Missing from panchatantra.conllu:
 # ptext(76) = anye dyuH ca bahu apAyam vanam iti BayAt tEH api gatvA svAmine mfzA ni veditam yaTA
 # ryder(76) = On the next day, the men, fearing the many drawbacks of the forest, started also and made a false report to their master.
-# 
+#
 # translit = asmābhiḥ tu sārthavāhasya abhīṣṭa iti matvā vahninā saṁskr̥taḥ.
 # wtext = अस्माभिस् तु सार्थवाहस्याभीष्ट इति मत्वा वह्निना संस्कृतः इति।
 # wtranslit = asmābhis tu sārthavāhasyābhīṣṭa iti matvā vahninā saṁskr̥taḥ iti.
@@ -1931,7 +1932,7 @@
 # wtranslit = sādhu cedam ucyate
 # wtext = अरक्षितं तिष्ठति देवरक्षितं सुरक्षितं देवहतं विनश्यति। जीवत्य् अनाथोऽपि वने विसर्जितः कृतप्रयत्नोऽपि गृहे विनश्यति॥पञ्च_१.२०॥
 # wtranslit = arakṣitaṁ tiṣṭhati devarakṣitaṁ surakṣitaṁ devahataṁ vinaśyati. jīvaty anātho’pi vane visarjitaḥ kr̥taprayatno’pi gr̥he vinaśyati:pañca_1.20:
-# 
+#
 # translit = atha kadācit piṅgalakaḥ nāma siṁhaḥ sarvamr̥gaparivr̥taḥ pipāsākula udakapānārtham yamunātaṭamavatīrṇaḥ
 # wtext = अथ कदाचित् पिंगलको नाम सिंहः सर्वमृगपरिवृतः पिपासाकुल उदकपानार्थं यमुनातटम् अवतीर्णः संजीवकस्य गंभीरतररावं दूराद् एवाशृणोत्।
 # wtranslit = atha kadācit piṁgalako nāma siṁhaḥ sarvamr̥gaparivr̥taḥ pipāsākula udakapānārthaṁ yamunātaṭam avatīrṇaḥ saṁjīvakasya gaṁbhīratararāvaṁ dūrād evāśr̥ṇot.
@@ -2018,7 +2019,7 @@
 # pparagraph
 # ptext(97) = tasya ca karawaka damanaka nAmAnO AnO dvO SfgAlO Brazwa aDikArO mantri putrO AstAm
 # ryder(97) = Now Rusty had in his train two jackals, sons of counselors, but out of a job. Their names were Cheek and Victor.
-# 
+#
 # translit = tau parasparam vicāram ārabdhau.
 # wtext = तौ च परस्परं मंत्रयतः।
 # wtranslit = tau ca parasparaṁ maṁtrayataḥ.
@@ -2072,7 +2073,7 @@
 # wtranslit = sa kiṁ nimittaṁ pipāsākulo’pi nivr̥ttya vyūharacanāṁ vidhāya daurmanasyenābhibhūto’tra vaṭatale sthitaḥ.
 # ptext(101) = kim nimittam iha dOrmanasyena ava sTitaH
 # ryder(101) = For what reason does he crouch here so disconsolate?"
-# 
+#
 # translit = saḥ abravīt
 # orig = panchatantra.conllu sent_id 102
 # ptext = saH abravIt
@@ -2109,7 +2110,7 @@
 # wparagraph
 # wtext = ==कथा - १ - कीलोत्पाटिवानरकथा==
 # wtranslit = ==kathā - 1 - kīlotpāṭivānarakathā==
-# 
+#
 # translit = kasmiṁścinnagarābhyāse kenāpi vaṇik putreṇa tarukhaṇḍamadhye devatāḥ yatanaṁ kartum ārabdham.
 # wtext = कस्मिंश्चिन् नगराभ्याशे केनापि वणिक्पुत्रेण तरुखंडमध्ये देवतायतनं कर्तुम् आरब्धम्।
 # wtranslit = kasmiṁścin nagarābhyāśe kenāpi vaṇikputreṇa tarukhaṁḍamadhye devatāyatanaṁ kartum ārabdham.
@@ -2167,7 +2168,7 @@
 # wtranslit = tatraikasya kasyacic chilpino’rdhasphāṭito’ñjanavr̥kṣadārumayaḥ staṁbhaḥ khadirakīlakena madhyanihitena tiṣṭhati.
 # ptext(114) = aTa ekasya SilpinaH arDa sPawitaH mahA pramARaH aYjana stamBaH Sirasi ni KAta KAdira kIlakaH ava tizWate
 # ryder(114) = There lay a tremendous anjana-log, which a mechanic had begun to split, a wedge of acacia-wood being thrust in at the top.
-# 
+#
 # translit = etasminnantare te vānarāḥ yathecchayā krīḍitum ārabdham.
 # wtext = एतस्मिंन् अन्तरे ते वानरास् तरुशिखरप्रसादशृंगदारुपर्यंतेषु यथेच्छया क्रीडितुम् आरब्धाः।
 # wtranslit = etasmiṁn antare te vānarās taruśikharaprasādaśr̥ṁgadāruparyaṁteṣu yathecchayā krīḍitum ārabdhāḥ.
@@ -2195,7 +2196,7 @@
 # ryder(116) = Then one of them, whose doom was near, thoughtlessly bestrode the log, thinking: "Who stuck a wedge in this queer place?" So he seized it with both hands and started to work it loose.
 # ptext(117) = arDa sPAwita antara pra vizwa vfzaRa sTAnAt calita kIlakena yat vfttam tat BavatA vyA KyAtam api viditam iti
 # ryder(117) = Now what happened when the wedge gave at the spot where his private parts entered the cleft, that, sir, you know without being told.
-# 
+#
 # translit = ato'haṁ bravīmi
 # wtext = अतोऽहं ब्रवीमि अव्यापारेषु इति।
 # wtranslit = ato’haṁ bravīmi avyāpāreṣu iti.
@@ -2213,7 +2214,7 @@
 # ryder(119) = that meddling should be avoided by the intelligent.
 # ptext(120) = punaH ca abravIt
 # ryder(120) = And you know," he continued,
-# 
+#
 # translit = āvayorbhakṣitaśeṣa āhāro'styeva.
 # wtext = आवयोर् भक्षितशेष आहारोऽस्त्य् एव।
 # wtranslit = āvayor bhakṣitaśeṣa āhāro’sty eva.
@@ -2235,7 +2236,7 @@
 # text = दमनक आह
 # wtext = तत् किम् अनेन व्यापारेण।
 # wtranslit = tat kim anena vyāpāreṇa.
-# 
+#
 # translit = damanaka āha
 # wtext = दमनक आह तत् किं भवान् आहारार्थी केवलम् एव।
 # wtranslit = damanaka āha tat kiṁ bhavān āhārārthī kevalam eva.
@@ -2249,7 +2250,7 @@
 # text = तत् न युक्तम्।
 # ptext(123) = kaTam AhAra mAtra arTI kevalam BavAn praDAna sevAm kurute na viSeza arTitayA
 # ryder(123) = "how can you give first-rate service merely from a desire for food with no desire for distinction?
-# 
+#
 # translit = tat na yuktam.
 # wtext = तन् न युक्तम्। उक्तं च
 # wtranslit = tan na yuktam. uktaṁ ca
@@ -2297,7 +2298,7 @@
 # wtranslit = kiṁ ca
 # ptext(126) = api ca
 # ryder(126) = And again:
-# 
+#
 # translit = yasmin jīvati jīvanti bahavaḥ so'tra jīvatu.
 # wtext = यस्मिञ् जीवंति जीवंति बहवः सोऽत्र जीवतु।
 # wtranslit = yasmiñ jīvaṁti jīvaṁti bahavaḥ so’tra jīvatu.
@@ -2345,7 +2346,7 @@
 # wparagraph
 # wtext = यज् जीव्यते क्षणम् अपि प्रथितं मनुष्यैर् विज्ञानशौर्यविभवार्यगुणैः समेतम्। तन् नाम जीवितम् इह प्रवदंति तज्ज्ञाः काकोऽपि जीवति चिराय बलिं च भुंक्ते॥पञ्च_१.२४॥
 # wtranslit = yaj jīvyate kṣaṇam api prathitaṁ manuṣyair vijñānaśauryavibhavāryaguṇaiḥ sametam. tan nāma jīvitam iha pravadaṁti tajjñāḥ kāko’pi jīvati cirāya baliṁ ca bhuṁkte:pañca_1.24:
-# 
+#
 # translit = yo na ātmanā na ca pareṇa ca bandhuvarge dīne na kurute na ca martyavarge.
 # wtext = यो नात्मना न च परेण च बंधुवर्गे दीने दयां न कुरुते न च मर्त्यवर्गे।
 # wtranslit = yo nātmanā na ca pareṇa ca baṁdhuvarge dīne dayāṁ na kurute na ca martyavarge.
@@ -2411,7 +2412,7 @@
 # wtext = किं च
 # wtext = किं तेन जातु जातेन मातुर् यौवनहारिणा। आरोहति न यः स्वस्य वंशस्याग्रे ध्वजो यथा॥पञ्च_१.२७॥
 # wtranslit = kiṁ tena jātu jātena mātur yauvanahāriṇā. ārohati na yaḥ svasya vaṁśasyāgre dhvajo yathā:pañca_1.27:
-# 
+#
 # translit = parivartini saṁsāre mr̥taḥ ko na jāyate.
 # wtext = परिवर्तिनि संसारे मृतः को वा न जायते। जातस् तु गण्यते सोऽत्र यः स्फुरेच् च श्रियाधिकः॥पञ्च_१.२८॥
 # wtranslit = parivartini saṁsāre mr̥taḥ ko vā na jāyate. jātas tu gaṇyate so’tra yaḥ sphurec ca śriyādhikaḥ:pañca_1.28:
@@ -2435,7 +2436,7 @@
 # wtext = तथा च
 # wtext = स्तिमितोन्नतसञ्चारा जनसंतापहारिणः। जायंते विरला लोके जलदा इव सज्जनाः॥पञ्च_१.३०॥
 # wtranslit = stimitonnatasañcārā janasaṁtāpahāriṇaḥ. jāyaṁte viralā loke jaladā iva sajjanāḥ:pañca_1.30:
-# 
+#
 # translit = jāyante viralā loke jaladā iva sajjanāḥ:
 # wtext = जायंते विरला लोके जलदा इव सज्जनाः॥पञ्च_१.३०॥
 # wtranslit = jāyaṁte viralā loke jaladā iva sajjanāḥ:pañca_1.30:
@@ -2489,7 +2490,7 @@
 # ryder(139) = "My dear fellow, after a little the jobless man does hold a job.
 # wparagraph
 # wtext = उक्तं च
-# 
+#
 # translit = apr̥ṣṭaḥ atra apradhānaḥ yaḥ brūte rājñaḥ puraḥ kudhīḥ.
 # wtext = अपृष्टोऽत्राप्रधानो यो ब्रूते राज्ञः पुरः कुधीः। न केवलम् असम्मानं लभते च विडंबनम्॥पञ्च_१.३३॥
 # wtranslit = apr̥ṣṭo’trāpradhāno yo brūte rājñaḥ puraḥ kudhīḥ. na kevalam asammānaṁ labhate ca viḍaṁbanam:pañca_1.33:
@@ -2557,7 +2558,7 @@
 # wtranslit = damanaka āha mā maivaṁ vada.
 # ptext(140) = uktam ca
 # ryder(140) = As the saying goes:
-# 
+#
 # translit = apradhānaḥ pradhānam syāt sevate yadi pārthivam.
 # wtext = अप्रधानः प्रधानः स्यात् सेवते यदि पार्थिवम्। प्रधानोऽप्य् अप्रधानः स्याद् यदि सेवाविवर्जितः॥पञ्च_१.३५॥
 # wtranslit = apradhānaḥ pradhānaḥ syāt sevate yadi pārthivam. pradhāno’py apradhānaḥ syād yadi sevāvivarjitaḥ:pañca_1.35:
@@ -2610,7 +2611,7 @@
 # wparagraph
 # wtext = धवलान्य् आतपत्राणि वाजिनश् च मनोरमाः। सदा मत्ताश् च मातंगाः प्रसन्ने सति भूपतौ॥पञ्च_१.४३॥
 # wtranslit = dhavalāny ātapatrāṇi vājinaś ca manoramāḥ. sadā mattāś ca mātaṁgāḥ prasanne sati bhūpatau:pañca_1.43:
-# 
+#
 # translit = karaṭakaḥ āha
 # wtext = करटक आह अथ भवान् किं कर्तुमनाः?
 # wtranslit = karaṭaka āha atha bhavān kiṁ kartumanāḥ?
@@ -2667,7 +2668,7 @@
 # text = सः अब्रवीत्
 # wtext = तदैनं गत्वा भयकारणं विज्ञाय संधिविग्रहयानआसनसंश्रयद्वैधीभावानाम् एकतमेन संविधास्ये।
 # wtranslit = tadainaṁ gatvā bhayakāraṇaṁ vijñāya saṁdhivigrahayānaāsanasaṁśrayadvaidhībhāvānām ekatamena saṁvidhāsye.
-# 
+#
 # translit = saḥ abravīt
 # wtext = करटक आह कथं वेत्ति भवान् यद् भयाविष्टोऽयं स्वामी?
 # wtranslit = karaṭaka āha kathaṁ vetti bhavān yad bhayāviṣṭo’yaṁ svāmī?
@@ -2736,7 +2737,7 @@
 # pparagraph
 # ptext(156) = tat enam adya eva Atma prakzA pra BAveRa vaSI karizyAmi
 # ryder(156) = So by virtue of native intelligence I intend to get him into my power this very day."
-# 
+#
 # translit = karaṭakaḥ āha
 # wtext = करटक आह
 # wtranslit = karaṭaka āha
@@ -2836,7 +2837,7 @@
 # pparagraph
 # ptext(165) = karawakaH Aha
 # ryder(165) = But Cheek objected:
-# 
+#
 # translit = kadācit ayam anucitasthānapraveśād bhavantam avamanyeta
 # wikisource = https://sa.wikisource.org/wiki/%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D_%E0%A5%A6%E0%A5%A8%E0%A4%95
 # orig = panchatantra.conllu sent_id 166
