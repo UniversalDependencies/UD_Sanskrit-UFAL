@@ -1,0 +1,41 @@
+Sun Feb 11 20:52:18 CET 2018
+perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Sanskrit
+Running the following version of tools/evaluate_treebank.pl:
+commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Feb 11 20:27:50 2018 +0100
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Evaluating the following revision of UD_Sanskrit:
+commit 447d66d28e9a4f7a487cf9514d069e66f247ea87
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 11:51:14 2017 +0100
+Size: counted 1723 of 1723 words (nodes).
+Size: min(0, log((N/1000)**2)) = 1.08813391509159.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 1330 out of 1723 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 31 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi: found 1 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 1723 words.
+Genres: found 1 out of 14 known.
+(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
+(weight=0.0769230769230769) * (score{genres}=0.0714285714285714) = 0.00549450549450549
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.0787617591493428) = 0.0201953228588059
+(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
+(weight=0.307692307692308) * (score{udapi}=0.994196169471851) = 0.305906513683647
+(weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
+(TOTAL score=0.622802570890246) * (availability=1) * (validity=1) = 0.622802570890246
+STARS = 3
+UD_Sanskrit	0.622802570890246	3
+Switched to branch 'dev'
+Your branch is up-to-date with 'origin/dev'.
