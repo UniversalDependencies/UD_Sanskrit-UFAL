@@ -6,6 +6,9 @@ collection of interrelated fables by Vishnu Sharma.
 
 # Introduction
 
+Annotation of this treebank started as a student internship project at
+ÚFAL, Faculty of Mathematics and Physics, Charles University, Prague.
+
 The Sanskrit text is also available from Wikisource and from the Sanskrit
 Documents website; note however that the exact wording at these sources
 sometimes differs.
