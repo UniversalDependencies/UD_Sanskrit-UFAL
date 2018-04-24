@@ -4152,7 +4152,7 @@
 4	तेन	तद्	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	Translit=tena|LTranslit=tad|Gloss=this
 5-6	क्षुत्क्षामेण	_	_	_	_	_	_	_	Translit=kṣutkṣāmeṇa|Gloss=(suffering-for-hunger)
 5	क्षुत्	क्षुध्	NOUN	_	Compound=Yes	6	nmod	_	LId=क्षुध्-२|Translit=kṣut|LTranslit=kṣudh|Gloss=hunger
-6	क्षामेण	क्षाम	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	9	obl	_	Translit=kṣāmeṇa|LTranslit=kṣāma|Gloss=scrawny
+6	क्षामेण	क्षाम	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	9	obl	_	Translit=kṣāmeṇa|LTranslit=kṣāma|Gloss=suffering
 7	उदकम्	उदक	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	Translit=udakam|LTranslit=udaka|Gloss=water
 8	अनुएष्टुम्	अनु-इष्	VERB	_	VerbForm=Inf	9	xcomp	_	Translit=anueṣṭum|LTranslit=anu-iṣ|Gloss=hunt
 9	आरब्धम्	आ-रभ्	VERB	_	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Translit=ārabdham|LTranslit=ā-rabh|Gloss=started
