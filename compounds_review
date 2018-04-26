@@ -3345,7 +3345,7 @@
 # translit = tataḥ tayā manorathānām api agamyam.
 # orig = panchatantra.conllu sent_id 1220
 # ryder = And she assented, for she thought:
-# the agent of a gerundive can be expressed with the abl or instr 
+# the agent of a gerundive can be expressed with the abl or instr
 1	ततः	ततः	ADV	_	_	6	advmod	_	Translit=tataḥ|LTranslit=tataḥ|Gloss=then
 2	तया	तद्	PRON	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	6	obl:agent	_	Translit=tayā|LTranslit=tad|Gloss=by-her
 3-4	मनोरथानाम्	_	_	_	_	_	_	_	Translit=manorathānām|Gloss=(thought-like-chariot)
@@ -4284,3 +4284,4 @@
 2	भवाम्	भव	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	Translit=bhavām|LTranslit=bhava|Gloss=you
 3	कर्तुम्	कृ	VERB	_	VerbForm=Inf	4	advcl	_	Translit=kartum|LTranslit=kr̥
 4	मनाः	मनस्	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Translit=manāḥ|LTranslit=manas|Gloss=thought
+
