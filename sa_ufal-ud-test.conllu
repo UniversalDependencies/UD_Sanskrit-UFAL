@@ -637,17 +637,17 @@
 # text_fr = et les traités prennent du temps pour être intelligibles.
 # text_en = Mastered verbal sciences require time spent.
 # ryder = and the verbal sciences require much time for mastery.
-1-3	प्रभूतकालज्ञेयानि	_	_	_	_	_	_	_	Translit=prabhūtakālajñeyāni|Gloss=(who-will-be-known-with-time-spent)
+1-3	प्रभूतकालज्ञेयानि	_	_	_	_	_	_	_	Translit=prabhūtakālajñeyāni|Gloss=(must-be-known-with-time-spent)
 1	प्रभूत	प्र-भूत	ADJ	_	Compound=Yes|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	Translit=prabhūta|LTranslit=pra-bhūta|Gloss=spent
 2	काल	काल	NOUN	_	Compound=Yes	3	obl	_	LId=काल-१|Translit=kāla|LTranslit=kāla|Gloss=time
 3	ज्ञेयानि	ज्ञेय	ADJ	_	Case=Nom|Gender=Neut|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Pass	0	root	_	Translit=jñeyāni|LTranslit=jñeya|Gloss=must-be-known
-4-5	शब्दशास्त्राणि	_	_	_	_	_	_	_	Translit=śabdaśāstrāṇi|Gloss=(sciences-of-speech)
-4	शब्द	शब्द	NOUN	_	Compound=Yes	4	nmod	_	SpaceAfter=No|Translit=śabda|LTranslit=śabda|Gloss=speech
+4-5	शब्दशास्त्राणि	_	_	_	_	_	_	_	SpaceAfter=No|Translit=śabdaśāstrāṇi|Gloss=(sciences-of-speech)
+4	शब्द	शब्द	NOUN	_	Compound=Yes	5	nmod	_	Translit=śabda|LTranslit=śabda|Gloss=speech
 5	शास्त्राणि	शास्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	Translit=śāstrāṇi|LTranslit=śāstra|Gloss=sciences
 6	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = panc0.s23
-# text = तत् सङ्क्षेपमात्रम् शास्त्रम् किंचिद् एतेषाम् प्रबोधनअर्थम् चिन्त्यताम्।
+# text = तत् सङ्क्षेपमात्रम् शास्त्रम् किंचिद् एतेषाम् प्रबोधनार्थम् चिन्त्यताम्।
 # translit = tat saṅkṣepamātram śāstram kiṁcid eteṣām prabodhana artham cintyatām.
 # wtext = तत् सङ्क्षेपमात्रं शास्त्रं किञ्चितेतेषां प्रबोधनार्थं चिन्त्यतामिति।
 # wtranslit = tat saṅkṣepamātraṁ śāstraṁ kiñciteteṣāṁ prabodhanārthaṁ cintyatāmiti.
@@ -662,7 +662,7 @@
 4	शास्त्रम्	शस्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	Translit=śāstram|LTranslit=śastra|Gloss=precept
 5	किंचिद्	किम्-चिद्	DET	_	PronType=Ind	4	det	_	Translit=kiṁcid|LTranslit=kiṁ-cid|Gloss=some
 6	एतेषाम्	एतद्	PRON	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	7	nmod:poss	_	Translit=eteṣām|LTranslit=etad|Gloss=of-these
-7-8	प्रबोधनार्थम	_	_	_	_	_	_	_	Translit=प्रबोधनअर्थम्|Gloss=(goal-of-awakening)
+7-8	प्रबोधनार्थम्	_	_	_	_	_	_	_	SpaceAfter=No|Translit=prabodhanārthaṁ|Gloss=(goal-of-awakening)
 7	प्रबोधन	प्रबोधन	NOUN	_	Compound=Yes	8	nmod	_	Translit=prabodhana|LTranslit=prabodhana|Gloss=awakening
 8	अर्थम्	अर्थ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	Translit=artham|LTranslit=artha|Gloss=goal
 9	चिन्त्यताम्	चिन्त्	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|Translit=cintyatām|LTranslit=cint|Gloss=should-be-considered
@@ -682,7 +682,7 @@
 
 # newpar id = panc0.p14
 # sent_id = panc0.s25
-# text = अनन्तपारं किल शब्दशास्त्रम् स्वल्पं तथायुर्वहवश्च विघ्नाः। सारं ततो ग्राह्यमपास्य फल्गु हंसैर्ययथा क्षीरमिवाम्बुमध्यात् ॥
+# text = अनन्तपारं किल शब्दशास्त्रम् स्वल्पं तथायुर्वहवश्च विघ्नाः। सारं ततो ग्राह्यमपास्य फल्गु हंसैर्ययथा क्षीरमिवाम्बुमध्यात्॥
 # translit = anantapāraṁ kila śabdaśāstram svalpaṁ tathāyurvahavaśca vighnāḥ. sāraṁ tato grāhyamapāsya phalgu haṁsairyayathā kṣīramivāmbumadhyāt :
 # ptext = an anta pAram kila Sabda SAstram svalpam taTA AyuH bahavaH ca viGnAH yat sAra BUtam tat upa AsanIyam haMsEH yaTA kzIram iva ambu maDyAt
 # wsid = ॥०.६॥
@@ -691,7 +691,7 @@
 # text_en = Verbal science does not have limits, life is short, and it brings you obstacles.
 # ryder = Since verbal science has no final end, / Since life is short, and obstacles impend, / Let central facts be picked and firmly fixed, / As swans extract the milk with water mixed.
 1-2	अनन्तपारं	_	_	_	_	_	_	_	Translit=anantapāraṁ|Gloss=(whose-boundary-is-without-limit)
-1	अनन्त	अनन्त	ADJ	_	Compound=Yes	2		amod	Translit=ananta|LTranslit=ananta|Gloss=without-limit
+1	अनन्त	अनन्त	ADJ	_	Compound=Yes	2	amod	Translit=ananta|LTranslit=ananta|Gloss=without-limit
 2	पारं	पार	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Translit=pāraṁ|LTranslit=pāra|Gloss=boundary,shore
 3	किल	किल	ADV	_	_	4	advmod	_	Translit=kila|LTranslit=kila|Gloss=apparently
 4-5	शब्दशास्त्रम्	_	_	_	_	_	_	_	Translit=śabdaśāstram|Gloss=(science-of-speech)
@@ -750,7 +750,7 @@
 12	संसदि	संसद्	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	Translit=saṁsadi|LTranslit=saṁsad|Gloss=at-the-court
 13-14	लब्धकीर्तिः	_	_	_	_	_	_	_	SpaceAfter=No|Translit=labdhakīrtiḥ|LTranslit=labdhakīrti|Gloss=(received-glory)
 13	लब्ध	लब्ध	NOUN	_	Compound=Yes|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	Translit=labdha|LTranslit=labdha|Gloss=received
-14	कीर्तिः	कीर्ति	_	NOUN	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	Translit=kīrtiḥ|LTranslit=kīrti|Gloss=glory
+14	कीर्तिः	कीर्ति	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	Translit=kīrtiḥ|LTranslit=kīrti|Gloss=glory
 15	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = panc0.s27
@@ -897,7 +897,7 @@
 2	अहम्	अहम्	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Translit=aham|LTranslit=aham|Gloss=I
 3-4	विद्याविक्रयं	_	_	_	_	_	_	_	Translit=vidyāvikrayaṁ|Gloss=(sale-of-knwoledge)
 3	विद्या	विद्यविक्रय	NOUN	_	Compound=Yes	4	nmod	_	Translit=vidyā|LTranslit=vidyā|Gloss=knowledge
-4	विक्रयं	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=vidyāvikrayaṁ|LTranslit=vidyavikraya|Gloss=sale
+4	विक्रयं	विक्रय	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=vikrayaṁ|LTranslit=vikraya|Gloss=sale
 5	करोमि	कृ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LId=कृ-१|Translit=karomi|LTranslit=kr̥|Gloss=do
 6-7	शासनशतेन	_	_	_	_	_	_	_	SpaceAfter=No|Translit=śāsanaśatena|Gloss=(for-a-hundred-commander)
 6	शासन	शासन	NOUN	_	Compound=Yes	7	nmod	_	Translit=śāsana|LTranslit=śāsana|Gloss=commander
