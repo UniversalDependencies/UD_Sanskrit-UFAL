@@ -89,7 +89,7 @@
 18	नित्यं	नित्य	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	Translit=nityaṁ|LTranslit=nitya|Gloss=Nityā
 19-20	ग्रहाश्च	_	_	_	_	_	_	_	SpaceAfter=No|Translit=grahāśca|Gloss=and-stars
 19	ग्रहाः	ग्रह	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	Translit=grahāḥ|LTranslit=graha|Gloss=stars
-20	च	च	CCONJ	_	_	1	conj	_	SpaceAfter=No|Translit=ca|LTranslit=ca|Gloss=etc.
+20	च	च	CCONJ	_	_	1	conj	_	Translit=ca|LTranslit=ca|Gloss=etc.
 21	॥	॥	PUNCT	_	_	1	punct	_	Translit=:|LTranslit=:|Gloss=.
 
 # newpar id = panc0.p4
@@ -640,7 +640,7 @@
 1-3	प्रभूतकालज्ञेयानि	_	_	_	_	_	_	_	Translit=prabhūtakālajñeyāni|Gloss=(who-will-be-known-with-time-spent)
 1	प्रभूत	प्र-भूत	ADJ	_	Compound=Yes|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	Translit=prabhūta|LTranslit=pra-bhūta|Gloss=spent
 2	काल	काल	NOUN	_	Compound=Yes	3	obl	_	LId=काल-१|Translit=kāla|LTranslit=kāla|Gloss=time
-3	ज्ञेयानि	ज्ञेय	ADJ	_	Case=Nom|Gender=Neut|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Pass	0	root	_ Translit=jñeyāni|LTranslit=jñeya|Gloss=who-will-be-known
+3	ज्ञेयानि	ज्ञेय	ADJ	_	Case=Nom|Gender=Neut|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Pass	0	root	_	Translit=jñeyāni|LTranslit=jñeya|Gloss=must-be-known
 4-5	शब्दशास्त्राणि	_	_	_	_	_	_	_	Translit=śabdaśāstrāṇi|Gloss=(sciences-of-speech)
 4	शब्द	शब्द	NOUN	_	Compound=Yes	4	nmod	_	SpaceAfter=No|Translit=śabda|LTranslit=śabda|Gloss=speech
 5	शास्त्राणि	शास्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	Translit=śāstrāṇi|LTranslit=śāstra|Gloss=sciences
