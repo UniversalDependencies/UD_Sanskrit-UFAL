@@ -51,7 +51,7 @@
 11	आदित्यौ	आदित्य	PROPN	_	Case=Nom|Gender=Masc|Number=Dual	10	conj	_	Translit=ādityau|LTranslit=āditya|Gloss=Āditya
 12-15	सरस्वत्यदधियुगनगा	_	_	_	_	_	_	_	Translit=sarasvatyadadhiyuganagā|Gloss=(Sarasvatī-oceans-age-of-the-world)-and-mountains
 12	सरस्वती	सरस्वती	PROPN	_	Compound=Yes	1	conj	_	Translit=sarasvatī|LTranslit=sarasvatī|Gloss=Sarasvatī
-13	अदधि	अदधि	X	_   	    _	12	conj	_	Translit=adadhi|LTranslit=adadhi|Gloss=oceans
+13	अदधि	अदधि	X	_ _	12 conj	_	Translit=adadhi|LTranslit=adadhi|Gloss=oceans
 14	युग	युग	NOUN	_	Compound=Yes	12	conj	_	Translit=yuga|LTranslit=yuga|Gloss=age-of-the-world
 15	नगा	नग	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	Translit=nagā|LTranslit=naga|Gloss=mountains
 16-18	वायुरुर्वीभुजङ्गाः	_	_	_	_	_	_	_	SpaceAfter=No|Translit=vāyururvībhujaṅgāḥ|Gloss=wind-(earth-and-snakes)
