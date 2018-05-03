@@ -656,7 +656,7 @@
 # text_fr = Alors pensez plutôt à leur en faire un condensé pour éveiller leur conscience.
 # ryder = Therefore let some kind of epitome be devised to wake their intelligence.
 1	तत्	तद्	ADV	_	_	9	advmod	_	Translit=tat|LTranslit=tad|Gloss=so
-2-3	सङ्क्षेपमात्रम	_	_	_	_	_	_	_	Translit=saṅkṣepamātram|Gloss=(having-the-measure-of-a-summary,only-a-summary)
+2-3	सङ्क्षेपमात्रम्	_	_	_	_	_	_	_	Translit=saṅkṣepamātram|Gloss=(having-the-measure-of-a-summary,only-a-summary)
 2	सङ्क्षेप्र	सङ्क्षेप्र	NOUN	_	Compound=Yes	4	nmod	_	Translit=saṅkṣepa|LTranslit=saṅkṣepa|Gloss=summary
 3	मात्रम्	मत्र	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	Translit=mātram|LTranslit=matra|Gloss=having-the-measure-of
 4	शास्त्रम्	शस्त्र	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	Translit=śāstram|LTranslit=śastra|Gloss=precept
@@ -691,7 +691,7 @@
 # text_en = Verbal science does not have limits, life is short, and it brings you obstacles.
 # ryder = Since verbal science has no final end, / Since life is short, and obstacles impend, / Let central facts be picked and firmly fixed, / As swans extract the milk with water mixed.
 1-2	अनन्तपारं	_	_	_	_	_	_	_	Translit=anantapāraṁ|Gloss=(whose-boundary-is-without-limit)
-1	अनन्त	अनन्त	ADJ	_	Compound=Yes	2	amod	Translit=ananta|LTranslit=ananta|Gloss=without-limit
+1	अनन्त	अनन्त	ADJ	_	Compound=Yes	2	amod	_	Translit=ananta|LTranslit=ananta|Gloss=without-limit
 2	पारं	पार	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Translit=pāraṁ|LTranslit=pāra|Gloss=boundary,shore
 3	किल	किल	ADV	_	_	4	advmod	_	Translit=kila|LTranslit=kila|Gloss=apparently
 4-5	शब्दशास्त्रम्	_	_	_	_	_	_	_	Translit=śabdaśāstram|Gloss=(science-of-speech)
