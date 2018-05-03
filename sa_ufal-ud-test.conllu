@@ -33,7 +33,7 @@
 
 # # newpar id = panc0.p3
 # sent_id = panc0.s2c
-# text = ब्रह्मा रुद्रः कुमारो हरिवरुणयमा वह्निरिद्रः कुबेरः चन्द्रादित्यौ सरस्वत्यदधियुगनगा वायुरुर्वीभुजङ्गाः ।
+# text = ब्रह्मा रुद्रः कुमारो हरिवरुणयमा वह्निरिद्रः कुबेरः चन्द्रादित्यौ सरस्वत्यदधियुगनगा वायुरुर्वीभुजङ्गाः।
 # translit = brahmā rudraḥ kumāro harivaruṇayamā vahniridraḥ kuberaḥ candrādityau sarasvatyadadhiyuganagā vāyururvībhujaṅgāḥ .
 # text_fr = J’en appelle à Brahmā, créateur du monde, À Rudra, destructeur du monde, À Kumāra, premier fils de Shiva, dieu de la guerre, À Hari, protecteur du monde, À Varuṇa, dieu des océans, À Yamā, dieu de la mort, À Vahni, dieu du feu, À Indra, roi des dieux, maître du ciel, À Kubera, dieu des richesses de la terre ; J’en appelle à Chandra, la lune, et à Aditya, le soleil, À Sarasvatī, déesse de la sagesse, de la parole sacrée et de la science, Aux océans, Aux âges du monde, yuga, À la montagne, nagā, Au vent, vayu, À la terre, urvi, Et aux serpents, bhujanga ;
 1	ब्रह्मा	ब्रह्मन्	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Translit=brahmā|LTranslit=brahman|Gloss=Brahmā
@@ -62,7 +62,7 @@
 19	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # # sent_id = panc0.s2d
-# text = सिढा नद्यो श्विनौ श्रीर् दितिर् अदितिसुता मातरश् चंडिकाद्या वेदास्तीर्थानि यक्षा गणवसुमुनयः पन्तु नित्यं ग्रहाश्च ॥
+# text = सिढा नद्यो श्विनौ श्रीर् दितिर् अदितिसुता मातरश् चंडिकाद्या वेदास्तीर्थानि यक्षा गणवसुमुनयः पन्तु नित्यं ग्रहाश्च॥
 # translit = siḍhā nadyo śvinau śrīr ditir aditisutā mātaraś caṁḍikādyā vedāstīrthāni yakṣā gaṇavasumunayaḥ pantu nityaṁ grahāśca :
 # text_fr = J’en appelle aux hommes accomplis, siddha, Aux rivières, Aux jumeaux célestes émissaires de l’aurore, Aśvini, À la déesse Sri, la suprême, À Diti, la déesse sombre, mère des titans, Aux enfants de la déesse Aditi, À toutes les mères, À Chaṇḍikā, la déesse farouche, et à toutes les autres ! J’en appelle aux védas, Aux lieux saints de pèlerinages, tirtha, Aux génies sylvestres, yaksa, Aux divinités mineures de la troupe de Shiva, gaṇa, Aux assistants d’Indra, vasu, Aux sages, à vous, qui faites vœu de silence, Et à vous, les astres, Vous tous, protégéez-nous !
 1	सिढा	सिढ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	Translit=siḍhā|LTranslit=siḍha|Gloss=siddha
@@ -70,9 +70,9 @@
 3	श्विनौ	अश्विनी	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	Translit=śvinau|LTranslit=aśvinī|Gloss=Aśvini
 4	श्रीर्	श्री	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Translit=śrīr|LTranslit=śrī|Gloss=Sri
 5	दितिर्	दिति	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Translit=ditir|LTranslit=diti|Gloss=Diti
-6-7	अदितिसुता	_	_	_	_	_	_	_	Translit=aditisutā|Gloss=(sons-of-Aditi)
+6-7	अदितिसुता	_	_	_	_	_	_	_	Translit=aditisutā|Gloss=(son-of-Aditi)
 6	अदिति	अदिति	PROPN	_	Compound=Yes	7	nmod	_	Translit=aditisutā|LTranslit=aditisutā|Gloss=Aditi
-7	सुता	सुत	NOUN	_	Case=Nom|Gender=Masc|Number=Plural	1	conj	_	Translit=sutā|LTranslit=suta|Gloss=sons
+7	सुता	सुत	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=sutā|LTranslit=suta|Gloss=son
 8	मातरश्	मातृ	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	Translit=mātaraś|LTranslit=mātr̥|Gloss=mothers
 9-10	चंडिकाद्या	_	_	_	_	_	_	_	Translit=caṁḍikādyā|Gloss=Caṇḍikā-Ādyā
 9	चंडिका	चण्डिका	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Translit=caṁḍikā|LTranslit=caṇḍikā|Gloss=Caṇḍikā
@@ -89,7 +89,7 @@
 18	नित्यं	नित्य	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	Translit=nityaṁ|LTranslit=nitya|Gloss=Nityā
 19-20	ग्रहाश्च	_	_	_	_	_	_	_	SpaceAfter=No|Translit=grahāśca|Gloss=and-stars
 19	ग्रहाः	ग्रह	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	Translit=grahāḥ|LTranslit=graha|Gloss=stars
-20	च	च	CCONJ	_	_	1	conj	_	Translit=ca|LTranslit=ca|Gloss=etc.
+20	च	च	CCONJ	_	_	1	conj	_	SpaceAfter=No|Translit=ca|LTranslit=ca|Gloss=etc.
 21	॥	॥	PUNCT	_	_	1	punct	_	Translit=:|LTranslit=:|Gloss=.
 
 # newpar id = panc0.p4
@@ -105,7 +105,7 @@
 6	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = panc0.s2f
-# text = चाणक्याय च विदुषे नमोऽस्तु नयशास्त्रकर्तृभ्यः ॥
+# text = चाणक्याय च विदुषे नमोऽस्तु नयशास्त्रकर्तृभ्यः॥
 # translit = cāṇakyāya ca viduṣe namo’stu nayaśāstrakartr̥bhyaḥ :
 # text_fr = Et à Canakya, ministre de Chandra Gupta Maurya, À tous les savants, Auteurs du traité du Naya-shastra, traité qui rend compte de la réalité multiforme, Vous tous, protégéez-nous !
 # wsid = ॥०.१॥
@@ -116,7 +116,7 @@
 4	नमः	नमस्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	Translit=namaḥ|LTranslit=namas|Gloss=glory
 5	अस्तु	अस्	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Translit=astu|LTranslit=as|Gloss=be
 6-7	नयशास्त्रकर्तृभ्यः	_	_	_	_	_	_	_	SpaceAfter=No|Translit=nayaśāstrakartr̥bhyaḥ|Gloss=(Nayashastra-authors)
-6	नयशास्त्र	नयशास्त्र	PROPN	_	Compund=Yes	7	nmod	_	Translit=nayaśāstra|LTranslit=nayaśāstra|Gloss=Naya-shastra
+6	नयशास्त्र	नयशास्त्र	PROPN	_	Compound=Yes	7	nmod	_	Translit=nayaśāstra|LTranslit=nayaśāstra|Gloss=Naya-shastra
 7	कर्तृभ्यः	कर्तृ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	1	conj	_	Translit=kartr̥bhyaḥ|LTranslit=kartr̥|Gloss=authors
 8	॥	॥	PUNCT	_	_	5	punct	_	Translit=:|LTranslit=:|Gloss=.
 
@@ -240,7 +240,7 @@
 # ryder = Now when the king perceived that they were hostile to education, he summoned his counselors and said:
 1	अथ	अथ	ADV	_	_	10	advmod	_	Translit=atha|LTranslit=atha|Gloss=thus
 2	तान्	तद्	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	Translit=tān|LTranslit=tad|Gloss=that
-3-4	शास्तविमुखान्	_	_	_	_	_	_	_	Translit=śāstravimukhān|Gloss=(disinclined-to-education)
+3-4	शास्त्रविमुखान्	_	_	_	_	_	_	_	Translit=śāstravimukhān|Gloss=(disinclined-to-education)
 3	शास्त्र	शास्त्र	NOUN	_	Compound=Yes	4	obl	_	Translit=śāstra|LTranslit=śāstra|Gloss=education
 4	विमुखान्	विमुख	ADJ	_	Case=Acc|Gender=Masc|Number=Plur	5	xcomp	_	Translit=vimukhān|LTranslit=vimukha|Gloss=disinclined
 5	समालोक्य	समालोक्	VERB	_	VerbForm=Conv	10	advcl	_	Translit=samālokya|LTranslit=samālok|Gloss=after-having-perceived
@@ -458,7 +458,7 @@
 
 # newpar id = panc0.p11
 # sent_id = panc0.s15
-# text = तदेतेषां यथा बुद्धिप्रबोधनं भवति तथा कोऽप्युपायोऽनुष्ठीयताम् ।
+# text = तदेतेषां यथा बुद्धिप्रबोधनं भवति तथा कोऽप्युपायोऽनुष्ठीयताम्।
 # orig = panchatantra.conllu sent_id 15
 # translit = tadeteṣāṁ yathā buddhiprabodhanaṁ bhavati tathā ko’pyupāyo’nuṣṭhīyatām .
 # ptext = tat ezAm budDi praboDanam yaTA Bavati taTA kena api upAyena anu sTeyam iti
@@ -624,7 +624,7 @@
 # ryder = "O King, the duration of life is limited,
 1	अशाश्वतो	शाश्वत	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|Polarity=Neg	0	root	_	Translit=aśāśvato|LTranslit=śāśvata|Gloss=not-eternal
 2	यं	यद्	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	4	nmod	_	Translit=yaṁ|LTranslit=yad|Gloss=which
-3-4	जीवितव्यविषयः	_	_	_	_	_	_	SpaceAfter=No|Translit=jīvitavyaviṣayaḥ|Gloss=(duration-of-life)
+3-4	जीवितव्यविषयः	_	_	_	_	_	_	_	SpaceAfter=No|Translit=jīvitavyaviṣayaḥ|Gloss=(duration-of-life)
 3	जीवितव्य	जीवितव्य	NOUN	_	Compound=Yes	4	nmod	_	Translit=jīvitavya|LTranslit=jīvitavya|Gloss=life
 4	विषयः	विषय	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	Translit=viṣayaḥ|LTranslit=viṣaya|Gloss=duration
 5	।	।	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.|Gloss=.
