@@ -1692,7 +1692,7 @@
 3	गांधिक	गान्धिक	NOUN	_	Compound=Yes	4	nmod:poss	_	Translit=gāṁdhikạ|LTranslit=gāndhika|Gloss=perfumer
 4	व्यवहारः	व्यवहार	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Translit=vyavahāraḥ|LTranslit=vyavahāra|Gloss=activity
 5	,	,	PUNCT	_	_	6	punct	_	Translit=,|LTranslit=,|Gloss=,
-6-7	निक्षेपप्रवेशः	_	_	_	_	_	_	_	SpaceAfter=No|Translit=nikṣepapraveśaḥ|Gloss=(depot-entry)
+6-7	निक्षेपप्रवेश	_	_	_	_	_	_	_	SpaceAfter=No|Translit=nikṣepapraveśaḥ|Gloss=(depot-entry)
 6	निक्षेप	नि-क्षेप	NOUN	_	Compound=Yes	7	nmod	_	Translit=nikṣepa|LTranslit=ni-kṣepa|Gloss=depot
 7	प्रवेशः	प्रवेश	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	Translit=praveśaḥ|LTranslit=praveśa|Gloss=entry
 8	,	,	PUNCT	_	_	9	punct	_	Translit=,|LTranslit=,|Gloss=,
@@ -1703,7 +1703,7 @@
 12	ग्राहक	ग्राहक	NOUN	_	Compound=Yes	13	nmod:poss	_	̣Translit=grāhaka|LTranslit=grāhaka|Gloss=purchaser
 13	अगमः	आगम	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	Translit=āgamaḥ|LTranslit=āhakāgama|Gloss=income
 14	,	,	PUNCT	_	_	11	punct	_	Translit=,|LTranslit=,|Gloss=,
-15-17	मिथ्याक्रयकथनम्	_	_	_	_	_	_	_	SpaceAfter=No|Translit=mithyākrayakathanam|Gloss=(false-cammerce-narration)
+15-17	कूटतुलामानम्	_	_	_	_	_	_	_	SpaceAfter=No|Translit=mithyākrayakathanam|Gloss=(false-cammerce-narration)
 15	मिथ्या	मिथ्या	ADV	_	Compound=Yes	17	advmod	_	Translit=mithyā|LTranslit=mithyā|Gloss=falsely
 16	आक्रय	मक्रय	NOUN	_	Compound=Yes	17	nmod	_	Translit=ākraya|LTranslit=ākraya|Gloss=commerce
 17	कथनम्	कथन	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	Translit=kathanam|LTranslit=kathana|Gloss=narration
@@ -1713,7 +1713,7 @@
 20	तुला	तुला	NOUN	_	Compound=Yes	21	nmod	_	Translit=tulā|LTranslit=tulā|Gloss=balance
 21	मानम्	मान	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	Translit=mānam|LTranslit=māna|Gloss=weighing
 22	,	,	PUNCT	_	_	19	punct	_	Translit=,|LTranslit=,|Gloss=,
-23	देशअतराद्	देशान्तर	NOUN	_	Case=Abl|Gender=Neut|Number=Sing	20	nmod	_	Translit=deśāṁtarād|LTranslit=deśāntara|Gloss=from-another-land
+23	देशांतराद्	देशान्तर	NOUN	_	Case=Abl|Gender=Neut|Number=Sing	20	nmod	_	Translit=deśāṁtarād|LTranslit=deśāntara|Gloss=from-another-land
 24-25	भांडानयनं	_	_	_	_	_	_	_	Translit=bhāṁḍānayanaṁ|Gloss=(transport-of-merchandise)
 24	भांड	भाण्ड	NOUN	_	Compound=Yes	25	nmod	_	Translit=bhāṁḍa|LTranslit=bhāṇḍa|Gloss=merchandise
 25	आनयनं	आनयन	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	Translit=ānayanaṁ|LTranslit=ānayana|Gloss=transport
