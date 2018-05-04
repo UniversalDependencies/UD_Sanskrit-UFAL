@@ -1799,7 +1799,7 @@
 5	आदाय	आदा	VERB	_	VerbForm=Conv	14	advcl	_	Translit=ādāya|LTranslit=ādā|Gloss=after-having-collected
 6	शुभायाम्	शुभ	ADJ	_	Case=Loc|Gender=Fem|Number=Sing	7	amod	_	Translit=śubhāyām|LTranslit=śubha|Gloss=brilliant
 7	तिथौ	तिथ	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	14	obl	_	Translit=tithau|LTranslit=titha|Gloss=phase-of-the-moon
-8-10	गुरुजनअनुज्ञातः	_	_	_	_	_	_	_	Translit=gurujanānujñāta|Gloss=(after-being-authorized-from-parents)
+8-10	गुरुजनानुज्ञातः	_	_	_	_	_	_	_	Translit=gurujanānujñāta|Gloss=(after-being-authorized-from-parents)
 8	गुरु	गुरु	ADJ	_	Compound=Yes	9	amod	_	Translit=guru|LTranslit=guru|Gloss=venerable
 9	जन	जन	NOUN	_	Compound=Yes	10	nmod	_	Translit=jana|LTranslit=jana|Gloss=man,generator
 10	अनुज्ञातः	अनु-ज्ञ	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	nsubj:pass	_	Translit=anujñātaḥ|LTranslit=anu-jña|Gloss=authorized
