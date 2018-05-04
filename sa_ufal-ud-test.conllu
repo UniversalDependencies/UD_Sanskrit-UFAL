@@ -3975,7 +3975,7 @@
 10	नैर्गुण्यम्	नैर्गुण्य	NOUN	_	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	2	advcl	_	Translit=nairguṇyam|LTranslit=nairguṇya|Gloss=mediocrity
 11-13	प्रतिज्ञाभङ्गभीरुणा	_	_	_	_	_	_	_	SpaceAfter=No|Translit=pratijñābhaṅgabhīruṇā|Gloss=(afraid-of-promise-breaking)
 11	प्रतिज्ञा	प्रतिज्ञा	NOUN	_	Compound=Yes	12	nmod	_	Translit=pratijñā|LTranslit=pratijñā|Gloss=promise
-12	भङ्ग		भङ्ग	NOUN	_	Compound=Yes	13	nmod	_	Translit=bhaṅga|LTranslit=bhaṅga|Gloss=breaking
+12	भङ्ग	भङ्ग	NOUN	_	Compound=Yes	13	nmod	_	Translit=bhaṅga|LTranslit=bhaṅga|Gloss=breaking
 13	भीरुणा	भीरु	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	Translit=bhīruṇā|LTranslit=bhīru|Gloss=afraid
 14	।	।	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.|Gloss=.
 
