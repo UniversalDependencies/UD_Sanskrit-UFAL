@@ -1774,7 +1774,7 @@
 15	समीहे	समीह्	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Mid	8	conj	_	Translit=samīhe|LTranslit=samīh|Gloss=aspires
 16	स	तद्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	17	nsubj	_	Translit=sa|LTranslit=tad|Gloss=that
 17	भवति	भू	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=bhavati|LTranslit=bhū|Gloss=exists
-18-19	पालकः	_	_	_	_	_	_	_	Translit=dhanapālakaḥ|Gloss=(protector-of-riches)
+18-19	धनपालकः	_	_	_	_	_	_	_	Translit=dhanapālakaḥ|Gloss=(protector-of-riches)
 18	धन	धन	NOUN	_	Compound=Yes	19	nmod	_	Translit=dhana|LTranslit=dhana|Gloss=riches
 19	पालकः	पालक	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	17	xcomp	_	Translit=pālakaḥ|LTranslit=pālaka|Gloss=protector
 20	मूर्खः	मूर्ख	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No|Translit=mūrkhaḥ|LTranslit=mūrkha|Gloss=fool
