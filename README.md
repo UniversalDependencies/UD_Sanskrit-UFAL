@@ -28,8 +28,9 @@ analysis of the text.
 
 # Changelog:
 
-* 2018-04-15 v2.2
+* 2018-07-01 v2.2
   * Repository renamed from UD_Sanskrit to UD_Sanskrit-UFAL.
+  * Word segmentation of compounds revisited.
 * 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
 
@@ -44,7 +45,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Dwivedi, Puneet; Zeman, Daniel
+Contributors: Dwivedi, Puneet; Zeman, Daniel; Biagetti, Erica
 Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
