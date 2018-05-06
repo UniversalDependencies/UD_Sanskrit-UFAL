@@ -1692,7 +1692,7 @@
 3	गांधिक	गान्धिक	NOUN	_	Compound=Yes	4	nmod:poss	_	Translit=gāṁdhikạ|LTranslit=gāndhika|Gloss=perfumer
 4	व्यवहारः	व्यवहार	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Translit=vyavahāraḥ|LTranslit=vyavahāra|Gloss=activity
 5	,	,	PUNCT	_	_	6	punct	_	Translit=,|LTranslit=,|Gloss=,
-6-7	निक्षेपप्रवेश	_	_	_	_	_	_	_	SpaceAfter=No|Translit=nikṣepapraveśaḥ|Gloss=(depot-entry)
+6-7	निक्षेपप्रवेशः	_	_	_	_	_	_	_	SpaceAfter=No|Translit=nikṣepapraveśaḥ|Gloss=(depot-entry)
 6	निक्षेप	नि-क्षेप	NOUN	_	Compound=Yes	7	nmod	_	Translit=nikṣepa|LTranslit=ni-kṣepa|Gloss=depot
 7	प्रवेशः	प्रवेश	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	Translit=praveśaḥ|LTranslit=praveśa|Gloss=entry
 8	,	,	PUNCT	_	_	9	punct	_	Translit=,|LTranslit=,|Gloss=,
