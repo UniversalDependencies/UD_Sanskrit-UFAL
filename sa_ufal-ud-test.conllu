@@ -3083,9 +3083,9 @@
 2	रथकारः	रथकार	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=rathakāraḥ|LTranslit=rathakāra|Gloss=carpenter
 3	तस्य	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	4	nmod:poss	_	Translit=tasya|LTranslit=tad|Gloss=his
 4	निश्चयम्	निश्चय	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=niścayam|LTranslit=niścaya|Gloss=determination
-5-6	विज्ञायअवदत्	_	_	_	_	_	_	_	SpaceAfter=No|Translit=vijñāyāvadat|Gloss=having-perceived-said
+5-6	विज्ञायावदत्	_	_	_	_	_	_	_	SpaceAfter=No|Translit=vijñāyāvadat|Gloss=having-perceived-said
 5	विज्ञाय	विज्ञ	VERB	_	VerbForm=Conv	6	advmod	_	Translit=vijñāya|LTranslit=vijña|Gloss=having-perceived
-6	अवदत्	विज्ञयवद्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=vijñāyāvadat|LTranslit=vijñayavad|Gloss=said
+6	अवदत्	विज्ञयवद्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	Translit=vijñāyāvadat|LTranslit=vijñayavad|Gloss=said
 7	।	।	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = panc5.s106
