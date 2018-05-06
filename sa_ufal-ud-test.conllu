@@ -1855,7 +1855,7 @@
 1-2	तयोरएकः	_	_	_	_	_	_	_	Translit=tayorekaḥ|Gloss=the-one-of-them
 1	तयोर्	तद्	PRON	_	Case=Gen|Gender=Masc|Number=Dual|PronType=Dem	2	nmod	_	Translit=tayor|LTranslit=tad|Gloss=of-them
 2	एकः	एक	NUM	_	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	17	nsubj	_	Translit=ekaḥ|LTranslit=eka|Gloss=the-one
-3-4	संजीवकअभिधानो	_	_	_	_	_	_	_	Translit=saṁjīvakābhidhāno|Gloss=(called-Sanjivaka)
+3-4	संजीवकाभिधानो	_	_	_	_	_	_	_	Translit=saṁjīvakābhidhāno|Gloss=(called-Sanjivaka)
 3	संजीवक	सञ्जीवक	PROPN	_	Compound=Yes	4	nmod	_	Translit=saṁjīvaka|LTranslit=sañjīvaka|Gloss=Sanjivaka
 4	अभिधानो	अकाभिधान	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	Translit=abhidhāno|LTranslit=abhidhāna|Gloss=appelation
 5-6	यमुनाकच्छम्	_	_	_	_	_	_	_	Translit=yamunākaccham|Gloss=(bank-of-Yamuna)
