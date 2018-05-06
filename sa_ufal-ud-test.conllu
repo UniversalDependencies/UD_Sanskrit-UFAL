@@ -1803,7 +1803,7 @@
 8	गुरु	गुरु	ADJ	_	Compound=Yes	9	amod	_	Translit=guru|LTranslit=guru|Gloss=venerable
 9	जन	जन	NOUN	_	Compound=Yes	10	nmod	_	Translit=jana|LTranslit=jana|Gloss=man,generator
 10	अनुज्ञातः	अनु-ज्ञ	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	nsubj:pass	_	Translit=anujñātaḥ|LTranslit=anu-jña|Gloss=authorized
-11-13	सुरथअधिरूढः	_	_	_	_	_	_	_	Translit=surathādhirūḍhaḥ|Gloss=(got-on-good-chariot)
+11-13	सुरथाधिरूढः	_	_	_	_	_	_	_	Translit=surathādhirūḍhaḥ|Gloss=(got-on-good-chariot)
 11	सु	सु	ADV	_	Compound=Yes	12	amod	_	Translit=su|LTranslit=su|Gloss=good
 12	रथ	रथ	NOUN	_	Compound=Yes	13	obl	_	Translit=ratha|LTranslit=ratha|Gloss=chariot
 13	अधिरूढः	अधि-रुह्	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	_	Translit=adhirūḍhaḥ|LTranslit=adhi-ruh|Gloss=got-on
