@@ -1687,7 +1687,7 @@
 # text = तद् यथा गांधिकव्यवहारः, निक्षेपप्रवेशः, गोष्ठिककर्मपरिचितग्राहकागमः, मिथ्याक्रयकथनम्, कूटतुलामानम्, देशांतराद् भांडानयनं चेति।
 # translit = tad yathā gāṁdhikavyavahāraḥ, nikṣepapraveśaḥ, goṣṭhikakarmaparicitagrāhakāgamaḥ, mithyākrayakathanam, kūṭatulāmānam, deśāṁtarād bhāṁḍānayanaṁ ceti.
 1	तद्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	Translit=tad|LTranslit=tad|Gloss=it
-2	यथा	यथा	ADV	_	PronType=Rel	3	advmod	_	SpaceAfter=No|Translit=yathā|LTranslit=yathā|Gloss=as
+2	यथा	यथा	ADV	_	PronType=Rel	3	advmod	_	Translit=yathā|LTranslit=yathā|Gloss=as
 3-4	गांधिकव्यवहारः	_	_	_	_	_	_	_	SpaceAfter=No|Translit=gāṁdhikavyavahāraḥ|Gloss=(activity-of-perfumer)
 3	गांधिक	गान्धिक	NOUN	_	Compound=Yes	4	nmod:poss	_	Translit=gāṁdhikạ|LTranslit=gāndhika|Gloss=perfumer
 4	व्यवहारः	व्यवहार	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Translit=vyavahāraḥ|LTranslit=vyavahāra|Gloss=activity
