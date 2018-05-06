@@ -3470,7 +3470,7 @@
 1	तत्	तद्	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	Translit=tat|LTranslit=tad|Gloss=it
 2	श्रुत्वा	श्रु	VERB	_	VerbForm=Conv	10	advcl	_	Translit=śrutvā|LTranslit=śru|Gloss=after-having-heard
 3	सा	तद्	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	10	nsubj	_	Translit=sā|LTranslit=tad|Gloss=she
-4-6	पुलकितसर्वअङ्गी	_	_	_	_	_	_	_	Translit=pulakitasarvāṅgī|Gloss=(thrilling-in-every-limb)
+4-6	पुलकितसर्वाङ्गी	_	_	_	_	_	_	_	Translit=pulakitasarvāṅgī|Gloss=(thrilling-in-every-limb)
 4	पुलकित	पुलकित	ADJ	_	Compound=Yes	6	amod	_	Translit=pulakita|LTranslit=pulakita|Gloss=thrilling-for-joy
 5	सर्व	सर्व	ADJ	_	Compound=Yes	6	amod	_	Translit=sarva|LTranslit=sarva|Gloss=all
 6	अङ्गी	अङ्गिन्	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	7	amod	_	Translit=aṅgī|LTranslit=aṅgin|Gloss=having-limbs
@@ -4137,7 +4137,7 @@
 # ryder = and in a few days entered a great forest.
 1	कतिभिः	कति	DET	_	Case=Ins|Number=Plur|PronType=Int	2	det	_	Translit=katibhiḥ|LTranslit=kati|Gloss=for-a-few
 2	दिवसैः	दिवस	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	5	obl	_	Translit=divasaiḥ|LTranslit=divasa|Gloss=days
-3-4	महाअटवीम्	_	_	_	_	_	_	_	Translit=mahāṭavīm|Gloss=(great-forest)
+3-4	महाटवीम्	_	_	_	_	_	_	_	Translit=mahāṭavīm|Gloss=(great-forest)
 3	महा	महत्	ADJ	_	Compound=Yes	4	amod	_	Translit=mahā|LTranslit=mahat|Gloss=great
 4	अटवीम्	अटवी	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	Translit=aṭavīm|LTranslit=aṭavī|Gloss=forest
 5	प्रविष्टः	प्र-विश्	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Translit=praviṣṭaḥ|LTranslit=pra-viś|Gloss=entered
