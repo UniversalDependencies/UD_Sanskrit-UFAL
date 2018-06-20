@@ -6,6 +6,9 @@ collection of interrelated fables by Vishnu Sharma.
 
 # Introduction
 
+Annotation of this treebank started as a student internship project at
+ÚFAL, Faculty of Mathematics and Physics, Charles University, Prague.
+
 The Sanskrit text is also available from Wikisource and from the Sanskrit
 Documents website; note however that the exact wording at these sources
 sometimes differs.
@@ -25,6 +28,9 @@ analysis of the text.
 
 # Changelog:
 
+* 2018-07-01 v2.2
+  * Repository renamed from UD_Sanskrit to UD_Sanskrit-UFAL.
+  * Word segmentation of compounds revisited.
 * 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
 
@@ -39,7 +45,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Dwivedi, Puneet; Zeman, Daniel
+Contributors: Dwivedi, Puneet; Zeman, Daniel; Biagetti, Erica
 Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
