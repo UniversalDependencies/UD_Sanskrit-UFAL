@@ -46,7 +46,7 @@
 7-8	वह्निरिद्रः	_	_	_	_	_	_	_	Translit=vahniridraḥ|Gloss=Vahni-Indra
 7	वह्निः	वह्नि	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=vahniḥ|LTranslit=vahni|Gloss=Vahni
 8	इद्रः	इन्द्र	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=idraḥ|LTranslit=indra|Gloss=Indra
-9	कुबेरः	कुबेर	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=kuberaḥ|Translit=kubera|Gloss=Kubera
+9	कुबेरः	कुबेर	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=kuberaḥ|LTranslit=kubera|Gloss=Kubera
 10-11	चन्द्रादित्यौ	_	_	_	_	_	_	_	Translit=candrādityau|Gloss=(Chandra-and-Āditya)
 10	चन्द्र	चन्द्र	PROPN	_	Compound=Yes	1	conj	_	Translit=candra|LTranslit=candra|Gloss=Chandra
 11	आदित्यौ	आदित्य	PROPN	_	Case=Nom|Gender=Masc|Number=Dual	10	conj	_	Translit=ādityau|LTranslit=āditya|Gloss=Āditya
@@ -1496,7 +1496,7 @@
 # translit = tataḥ prāptasya sataḥ rakṣaṇe vivardhane upayoge ādi kāryam.
 # orig = panchatantra.conllu sent_id 61
 # ptext = tataH pra Aptasya sataH rakzaRa vi varDana upayoga Adi kAryam
-# ryder = Therefore, money once acquired should be guarded, increased, employed. 
+# ryder = Therefore, money once acquired should be guarded, increased, employed.
 1	ततः	ततः	ADV	_	_	8	advmod	_	Translit=tataḥ|LTranslit=tataḥ|Gloss=then
 2	प्राप्तस्य	प्राप्त	ADJ	_	Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	Translit=prāptasya|LTranslit=prāpta|Gloss=obtained
 3	सतः	सत	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	nsubj	_	Translit=sataḥ|LTranslit=sat|LDeriv=स|Gloss=being-present
@@ -3581,7 +3581,7 @@
 2	समर्थेन	समर्थ	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	3	amod	_	Translit=samarthena|LTranslit=samartha|Gloss=powerful
 3	शत्रुणा	शत्रु	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	obl:agent	_	Translit=śatruṇā|LTranslit=śatru|Gloss=enemy
 4	समागत्य	समा-गम्	VERB	_	VerbForm=Conv	7	advcl	_	Translit=samāgatya|LTranslit=samā-gam|Gloss=after-having-approached
-5-6	पुररोधः	_	_	_	_	_	_	_	Translit=purarodhaḥ||Gloss=(siege-of-city)
+5-6	पुररोधः	_	_	_	_	_	_	_	Translit=purarodhaḥ|Gloss=(siege-of-city)
 5	पुर	पुर	NOUN	_	Compound=Yes	6	nmod	_	Translit=pura|LTranslit=pura|Gloss=city
 6	रोधः	रोध	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	Translit=rodhaḥ|LTranslit=rodha|Gloss=siege
 7	कृतः	कृ	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Translit=kr̥taḥ|LTranslit=kr̥|Gloss=done
