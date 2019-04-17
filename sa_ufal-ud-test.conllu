@@ -1281,7 +1281,7 @@
 1	वर्धमानो	वृध्	VERB	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	Translit=vardhamāno|LTranslit=vardhamāna|Gloss=flourishing
 2	महान्	महत्	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	Translit=mahān|LTranslit=mahat|Gloss=great
 3	स्नेहः	स्नेह	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	Translit=snehaḥ|LTranslit=sneha|Gloss=friendship
-4-6	सिंहगोवृषयोर्वने	_	_	_	_	_	_	_	jSpaceAfter=No|Translit=siṁhagovr̥ṣayorvane|Gloss=(of-lion-and-bull)-in-forest|SpaceAfter=No
+4-6	सिंहगोवृषयोर्वने	_	_	_	_	_	_	_	Translit=siṁhagovr̥ṣayorvane|Gloss=(of-lion-and-bull)-in-forest
 4	सिंह	सिंह	NOUN	_	Compound=Yes	3	nmod	_	Translit=siṁha|LTranslit=siṁha|Gloss=lion
 5	गोवृषयोः	गोवृष	NOUN	_	Case=Gen|Gender=Masc|Number=Dual	4	conj	_	Translit=govr̥ṣayoḥ|LTranslit=govr̥ṣa|Gloss=bull
 6	वने	वन	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	Translit=vane|LTranslit=vana|Gloss=in-forest
