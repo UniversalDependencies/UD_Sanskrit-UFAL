@@ -1678,7 +1678,7 @@
 2	वाणिज्यम्	वाणिज्य	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	Translit=vāṇijyam|LTranslit=vāṇijya|Gloss=commerce
 3-6	सप्तविधमर्थागमाय	_	_	_	_	_	_	_	Translit=saptavidhamarthāgamāya|Gloss=(to-coming-of-wealth)-(seven-times)
 3	सप्त	सप्तन्	NUM	_	Compound=Yes|NumType=Card	4	nummod	_	Translit=sapta|LTranslit=saptan|Gloss=seven
-4	विधम्	विध	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	advmod	_	Translit=vidham|LTranslit=vidha|Gloss=times
+4	विधम्	विध	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	Translit=vidham|LTranslit=vidha|Gloss=times
 5	अर्था	अर्थ	NOUN	_	Compound=Yes	6	nmod	_	Translit=artha|LTranslit=artha|Gloss=wealth
 6	आगमाय	आगम	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	Translit=āgamāya|LTranslit=āgama|Gloss=to-coming
 7	स्यात्	अस्	VERB	_	Mood=Opt|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=syāt|LTranslit=as|Gloss=be
@@ -1762,10 +1762,10 @@
 2	वशात्	वश	NOUN	_	Case=Abl|Gender=Masc|Number=Sing	3	obl	_	Translit=vaśāt|LTranslit=vaśa|Gloss=from-authority
 3	उपपन्ने	उप-पद	VERB	_	Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	Translit=upapanne|LTranslit=upa-pad|Gloss=obtained
 4	सति	सत्	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	5	nsubj	_	LDeriv=स|Translit=sati|LTranslit=sat|Gloss=being-present
-5	विभवे	विभव	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	8	advcl	_	Translit=vibhave|LTranslit=vibhava|Gloss=rich
+5	विभवे	विभव	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	6	advcl	_	Translit=vibhave|LTranslit=vibhava|Gloss=rich
 6	यस्य	यद्	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	16	acl:relcl	_	Translit=yasya|LTranslit=yad|Gloss=of-which
 7	न	न	PART	_	Polarity=Neg	6	advmod	_	Translit=na|LTranslit=na|Gloss=not
-8	अस्ति	अस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	Translit=asti|LTranslit=as|Gloss=is
+8	अस्ति	अस्	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	Translit=asti|LTranslit=as|Gloss=is
 9	भोगः	भोग	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Translit=bhogaḥ|LTranslit=bhoga|Gloss=pleasure
 10	इच्छा	इच्छा	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	Translit=icchā|LTranslit=icchā|Gloss=desire
 11	न	न	PART	_	Polarity=Neg	15	advmod	_	Translit=na|LTranslit=na|Gloss=not
@@ -2565,7 +2565,7 @@
 # text_en = Scholars remember the unsurpassable weight of expectant mothers.
 1	निरतिशयं	निरतिशय	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	LDeriv=अति-शी|Translit=niratiśayaṁ|LTranslit=niratiśaya|Gloss=unsurpassed
 2	गरिमाणं	गरिमन्	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=garimāṇaṁ|LTranslit=gariman|Gloss=weight
-3	तेन	तद्	DET	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	5	advmod	_	Translit=tena|LTranslit=tad|Gloss=thus
+3	तेन	तद्	DET	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	Translit=tena|LTranslit=tad|Gloss=thus
 4	जनन्याः	जनन	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	2	nmod:poss	_	Translit=jananyāḥ|LTranslit=janana|Gloss=of-expectant-mother
 5	स्मरन्ति	स्मृ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=smaranti|LTranslit=smr̥|Gloss=remember
 6	विद्वांसः	विद्वस्	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No|Translit=vidvāṁsaḥ|LTranslit=vidvas|Gloss=scholars
@@ -3051,7 +3051,7 @@
 # orig = panchatantra.conllu sent_id 1187
 # ptext = tat ezA kadA cit vESya sutA Bavizyati
 # ryder = The girl may be the daughter of a woman of my caste.
-1	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	advmod	_	Translit=tat|LTranslit=tad|Gloss=thus
+1	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	obl	_	Translit=tat|LTranslit=tad|Gloss=thus
 2	एषा	एतद्	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	Translit=eṣā|LTranslit=etad|Gloss=this
 3	कदाचिद्	कदा-चिद्	ADV	_	PronType=Int	6	advmod	_	Translit=kadācid|LTranslit=kadā-cid|Gloss=perhaps
 4-5	वैश्यासुता	_	_	_	_	_	_	_	Translit=vaiśyāsutā|Gloss=(daughter-of-castle-worker)
@@ -3442,7 +3442,7 @@
 # translit = kim evam śīlakhaṇḍanaṁ kr̥tam.
 # orig = panchatantra.conllu sent_id 1242
 # ryder = How could you throw your character away?
-1	किम्	किम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	5	advmod	_	LId=क-१|Translit=kim|LTranslit=kim|Gloss=why
+1	किम्	किम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	5	obl	_	LId=क-१|Translit=kim|LTranslit=kim|Gloss=why
 2	एवम्	एवम्	ADV	_	_	5	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
 3-4	शीलखण्डनं	_	_	_	_	_	_	_	Translit=śīlakhaṇḍanam|Gloss=(destruction-of-character)
 3	शील	शील	NOUN	_	Compound=Yes	4	nmod	_	Translit=śīla|LTranslit=śīla|Gloss=character
@@ -3528,7 +3528,7 @@
 # translit = tat siddhāḥ asmākam sarve hr̥dayasthā manorathāḥ.
 # orig = panchatantra.conllu sent_id 1255
 # ryder = All the desires nearest our hearts are granted.
-1	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	2	advmod	_	Translit=tat|LTranslit=tad|Gloss=thus
+1	तत्	तद्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	2	obl	_	Translit=tat|LTranslit=tad|Gloss=thus
 2	सिद्धाः	सिद्ध	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	Translit=siddhāḥ|LTranslit=siddha|Gloss=fullfilled
 3	अस्माकम्	अहम्	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	8	nmod:poss	_	Translit=asmākam|LTranslit=aham|Gloss=our
 4	सर्वे	सर्व	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	8	det	_	Translit=sarve|LTranslit=sarva|Gloss=all
@@ -4182,7 +4182,7 @@
 # text = तत्र आसीत् मारीचः नाम राक्षसः।
 # translit = tatra āsīt mārīcaḥ nāma rākṣasaḥ.
 # text_en = There was a man-eating giant named Maricha.
-1	तत्र	तत्र	ADV	_	_	2	expl	_	Translit=tatra|LTranslit=tatra|Gloss=there
+1	तत्र	तत्र	ADV	_	_	2	advmod	_	Translit=tatra|LTranslit=tatra|Gloss=there
 2	आसीत्	आस्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	Translit=āsīt|LTranslit=ās|Gloss=was
 3	मारीचः	मारीच	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	Translit=mārīcaḥ|LTranslit=mārīca|Gloss=Maricha
 4	नाम	नामन्	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	Translit=nāma|LTranslit=nāman|Gloss=name
