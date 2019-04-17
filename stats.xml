@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>230</sentences><tokens>1474</tokens><words>1843</words><fused>259</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>230</sentences><tokens>1474</tokens><words>1843</words><fused>259</fused></test>
   </size>
   <lemmas unique="776" /><!-- ।, तद्, न, अहम्, च, अर्थ, कृ, यद्, अस्, अपि, किम्, इदम्, एतद्, वच्, ब्रू -->
   <forms unique="1063" /><!-- ।, न, च, तत्, अपि, अहम्, ॥, अथ, अस्ति, इति, एवम्, ततः, तस्य, अब्रवीत्, किम् -->
@@ -108,7 +111,7 @@
     <dep name="flat">3</dep>
     <dep name="iobj">10</dep>
     <dep name="mark">10</dep>
-    <dep name="nmod">151</dep>
+    <dep name="nmod">146</dep>
     <dep name="nmod:poss">52</dep>
     <dep name="nsubj">168</dep>
     <dep name="nsubj:cop">19</dep>
@@ -116,7 +119,7 @@
     <dep name="nummod">13</dep>
     <dep name="nummod:gov">1</dep>
     <dep name="obj">102</dep>
-    <dep name="obl">117</dep>
+    <dep name="obl">122</dep>
     <dep name="obl:agent">20</dep>
     <dep name="obl:arg">1</dep>
     <dep name="orphan">7</dep>
