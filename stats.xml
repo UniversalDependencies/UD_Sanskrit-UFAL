@@ -18,7 +18,7 @@
     <tag name="ADJ">113</tag><!-- महत्, पर, सकल, स्वल्प, गम्भीर, गान्धर्व, जात, प्रथम, प्राप्त, मानुष -->
     <tag name="ADP">6</tag><!-- प्रति, अप, अभि, उपरि, पुरस् -->
     <tag name="ADV">194</tag><!-- अपि, अथ, इति, एवम्, ततः, तत्र, यथा, तद्, अत्र, वरम् -->
-    <tag name="AUX">15</tag><!-- अस्, भू -->
+    <tag name="AUX">16</tag><!-- अस्, भू -->
     <tag name="CCONJ">33</tag><!-- च, अथ, तु, वा -->
     <tag name="DET">70</tag><!-- तद्, इदम्, किम्, एतद्, यद्, किम्-चिद्, सर्व, अदस्, एन, कति -->
     <tag name="INTJ">3</tag><!-- भोस्, ओं -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">94</tag><!-- करटक, दमनक, पिङ्गलक, अर्थशास्त्र, पञ्चतन्त्र, सञ्जीवक, कामशास्त्र, नीतिशस्त्र, महिलारोप्य, मित्रभेद -->
     <tag name="PUNCT">195</tag><!-- ।, ॥, ,, ?, ", -, – -->
     <tag name="SCONJ">9</tag><!-- यदि, इव, चेद्, यथा, यद् -->
-    <tag name="VERB">315</tag><!-- कृ, वच्, ब्रू, भू, गम्, अह्, श्रु, अस्, स्था, ज्ञा -->
+    <tag name="VERB">314</tag><!-- कृ, वच्, ब्रू, भू, गम्, अह्, श्रु, स्था, अस्, ज्ञा -->
     <tag name="X">2</tag><!-- अदधि, पन्तु -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -88,11 +88,11 @@
     <feat name="Voice" value="Pass" upos="ADJ,NOUN,VERB">134</feat><!-- उक्तं, आरब्धम्, उच्यते, अनुष्ठीयताम्, अभिहितम्, उक्ते, कृत, गतः, प्रस्थितः, मृत -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="39">
+  <deps unique="38">
     <dep name="acl">32</dep>
     <dep name="acl:relcl">7</dep>
     <dep name="advcl">72</dep>
-    <dep name="advmod">209</dep>
+    <dep name="advmod">205</dep>
     <dep name="advmod:emph">8</dep>
     <dep name="amod">81</dep>
     <dep name="appos">5</dep>
@@ -107,7 +107,6 @@
     <dep name="dep">1</dep>
     <dep name="det">61</dep>
     <dep name="discourse">1</dep>
-    <dep name="expl">1</dep>
     <dep name="flat">3</dep>
     <dep name="iobj">10</dep>
     <dep name="mark">10</dep>
@@ -119,7 +118,7 @@
     <dep name="nummod">13</dep>
     <dep name="nummod:gov">1</dep>
     <dep name="obj">102</dep>
-    <dep name="obl">122</dep>
+    <dep name="obl">127</dep>
     <dep name="obl:agent">20</dep>
     <dep name="obl:arg">1</dep>
     <dep name="orphan">7</dep>
