@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Sanskrit-UFAL:
-commit 417d5a0013e89101267b5af714390311e9dbb374
-Merge: dfcb6c7 8df2808
+commit 31b155cc47f6799aca29e3de6df7f691538f69b7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:41:21 2019 +0200
 Size: counted 1843 of 1843 words (nodes).
 Size: min(0, log((N/1000)**2)) = 1.22278935737537.
 Size: maximum value 13.815511 is for 1000000 words or more.
