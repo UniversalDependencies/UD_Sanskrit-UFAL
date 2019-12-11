@@ -6,7 +6,7 @@
 # wikisource = https://sa.wikisource.org/wiki/%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D_%E0%A5%A6%E0%A5%A7
 # wikisource_ryder = https://en.wikisource.org/wiki/The_Panchatantra_(Purnabhadra%27s_Recension_of_1199_CE)/Introduction
 # french_translation = http://www.chatranjali.fr/Sanskrit/Pancatantra/Prologue_dev.html
-1	पञ्चतन्त्रम्	पञ्चतन्त्र	PROPN			_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Translit=pañcatantram|LTranslit=pañcatantra|Gloss=five-essays,Panchatantra
+1	पञ्चतन्त्रम्	पञ्चतन्त्र	PROPN		_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Translit=pañcatantram|LTranslit=pañcatantra|Gloss=five-essays,Panchatantra
 2	कथामुखम्	कथामुख	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	parataxis	_	Translit=kathāmukham|LTranslit=kathāmukha|Gloss=introduction
 
 # newpar id = panc0.p2
