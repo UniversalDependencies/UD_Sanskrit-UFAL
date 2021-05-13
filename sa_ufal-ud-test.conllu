@@ -573,7 +573,7 @@
 2	च	च	CCONJ	_	_	7	cc	_	Translit=ca|LTranslit=ca|Gloss=and
 3	ततो	तद्	ADV	_	PronType=Dem	7	advmod	_	Translit=tato|LTranslit=tad|Gloss=so
 4-6	धर्मार्थकामशास्त्राणि	_	_	_	_	_	_	_	Translit=dharmārthakāmaśāstrāṇi|Gloss=(Dharma-Artha-and-Kamashastra)
-4	धर्म	धर्मा	PROPN	_	Compound=Yes	7	nsubj:pass	_	Translit=dharmā|LTranslit=dharmā|Gloss=Dharma(śāstra),good-manner
+4	धर्म	धर्मा	PROPN	_	Compound=Yes	7	nsubj:pass	_	Translit=dharma|LTranslit=dharmā|Gloss=Dharma(śāstra),good-manner
 5	अर्थ	अर्थ	PROPN	_	Compound=Yes	4	conj	_	Translit=artha|LTranslit=artha|Gloss=Artha(śāstra),State-Administration
 6	कामशास्त्राणि	कामशास्त्र	PROPN	_	Case=Acc|Gender=Neut|Number=Plur	4	conj	_	Translit=kāmaśāstrāṇi|LTranslit=kāmaśāstra|Gloss=Kamashastra,treatise-of-pleasure
 7	ज्ञायन्ते	ज्ञा	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|Translit=jñāyante|LTranslit=jñā|Gloss=are-known
