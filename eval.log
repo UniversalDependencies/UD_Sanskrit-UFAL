@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Sanskrit-UFAL:
-commit b710de8297aa91c5f0316e4d35ef79fadc32bbeb
+commit 201fc4ed62a52ab3ae108c113f6c724ed8c53ebf
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:54:34 2021 +0200
+Date:   Wed Nov 3 17:00:19 2021 +0100
 Size: counted 1843 of 1843 words (nodes).
 Size: min(0, log((N/1000)**2)) = 1.22278935737537.
 Size: maximum value 13.815511 is for 1000000 words or more.
