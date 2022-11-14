@@ -315,7 +315,7 @@
 1	अथवा	अथवा	ADV	_	_	4	advmod	_	Translit=athavā|LTranslit=athavā|Gloss=after-all
 2-3	साध्विदम्	_	_	_	_	_	_	_	Translit=sādhvidam|Gloss=this-wise-thing
 2	साधु	साधु	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	Translit=sādhu|LTranslit=sādhu|Gloss=wise-thing
-3	इदम्	इदम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj:pass	_	Translit=idam|LTranslit=idam|Gloss=this
+3	इदम्	इदम्	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	Translit=idam|LTranslit=idam|Gloss=this
 4	उच्यते	वच्	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=ucyate|LTranslit=vac|Gloss=said
 5	-	-	PUNCT	_	_	4	punct	_	Translit=-|LTranslit=-|Gloss=-
 
