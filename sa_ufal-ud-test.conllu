@@ -138,7 +138,7 @@
 2	अर्थशास्त्र	अर्थशास्त्र	PROPN	_	Compound=Yes	3	nmod	_	Translit=arthaśāstra|LTranslit=arthaśāstra|Gloss=Arthaśāstra,State-Administration
 3	सारम्	सार	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Translit=sāram|LTranslit=sāra|Gloss=essence
 4	जगति	जगत्	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	Translit=jagati|LTranslit=jagat|Gloss=in-the-world
-5	समालोक्य	समालोक्	VERB	_	VerbForm=Conv	11	advcl	_	Translit=samālokya|LTranslit=samālok|Gloss=after-having-studied
+5	समालोक्य	समालोक्	VERB	_	VerbForm=Conv	12	advcl	_	Translit=samālokya|LTranslit=samālok|Gloss=after-having-studied
 6-7	विष्णुशर्मेदम्	_	_	_	_	_	_	_	Translit=viṣṇuśarmedam|Gloss=Vishnusharma-this|SpaceAfter=No
 6	विष्णुशर्मा	विष्णुशर्मन्	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	Translit=viṣṇuśarmā|LTranslit=viṣṇuśarman|Gloss=Vishnusharma
 7	इदम्	इदम्	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	Translit=idam|LTranslit=idam|Gloss=this
