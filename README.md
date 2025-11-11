@@ -39,6 +39,7 @@ analysis of the text.
 Data available since: UD v1.4
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: fiction
 Lemmas: manual native
 UPOS: manual native

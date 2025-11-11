@@ -51,24 +51,24 @@
     <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">536</feat><!-- तस्य, स, अर्थम्, सः, अयम्, देव, अर्थाः, भवान्, राजा, असौ -->
     <feat name="Gender" value="Neut" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">255</feat><!-- तत्, किम्, नाम, इदम्, उक्तं, एतत्, अर्थम्, आरब्धम्, किं, नमः -->
     <feat name="Mood" value="Imp" upos="ADJ,AUX,VERB">23</feat><!-- अनुष्ठीयताम्, अस्तु, गृहाण, आगच्छ, कथ्यताम्, कुरु, क्रियताम्, गच्छतु, चिन्त्यताम्, जीवतु -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">148</feat><!-- अस्ति, अब्रवीत्, आह, भवति, करिष्यामि, उच्यते, करोमि, प्रोवाच, उवाच, करिष्यति -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">147</feat><!-- अस्ति, अब्रवीत्, आह, भवति, करिष्यामि, उच्यते, करोमि, प्रोवाच, उवाच, करिष्यति -->
     <feat name="Mood" value="Jus" upos="VERB">1</feat><!-- वोचः -->
     <feat name="Mood" value="Opt" upos="AUX,VERB">7</feat><!-- स्यात्, अवमन्येत, दहेत्, प्रसाधयेत्, विनश्येत् -->
     <feat name="Number" value="Dual" upos="ADJ,NOUN,PRON,PROPN,VERB">16</feat><!-- तौ, अजातौ, आदित्यौ, आरब्धौ, आवयोः, उत्पन्नौ, ऐव, गोवृषयोः, तयोर्, नामानौ -->
     <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">143</feat><!-- अर्थाः, एतान्, तान्, ते, अस्माकम्, एते, कामशास्त्राणि, त्रयः, पुत्राः, पुत्रान् -->
-    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">953</feat><!-- तत्, अहम्, अस्ति, तस्य, अब्रवीत्, अर्थम्, किम्, नाम, आह, स -->
+    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">954</feat><!-- तत्, अहम्, अस्ति, तस्य, अब्रवीत्, अर्थम्, किम्, नाम, आह, स -->
     <feat name="NumType" value="Card" upos="NUM">18</feat><!-- एकः, त्रयः, शतेन, अशीति, एक, एकम्, तिस्रः, त्रि, द्वादशभिर्, पञ्चभिः -->
     <feat name="NumType" value="Ord" upos="ADJ">3</feat><!-- प्रथमम्, आद्यः -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">60</feat><!-- अहम्, मम, मया, करिष्यामि, अस्मत्, करोमि, अस्माकम्, ब्रवीमि, मे, अपठम् -->
-    <feat name="Person" value="2" upos="ADJ,PRON,VERB">30</feat><!-- त्वम्, गृहाण, तव, त्वाम्, अनुभविष्यसि, आगच्छ, इच्छसि, करिष्यसि, कुरु, तिष्ठ -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">168</feat><!-- अस्ति, अब्रवीत्, आह, तत्, भवति, तस्य, भवान्, उच्यते, एनम्, प्रोवाच -->
+    <feat name="Person" value="2" upos="ADJ,PRON,VERB">31</feat><!-- त्वम्, गृहाण, तव, त्वत्, त्वाम्, अनुभविष्यसि, आगच्छ, इच्छसि, करिष्यसि, कुरु -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">169</feat><!-- अस्ति, अब्रवीत्, आह, तत्, भवति, तस्य, भवान्, उच्यते, एनम्, प्रोवाच -->
     <feat name="Polarity" value="Neg" upos="ADJ,PART,VERB">43</feat><!-- न, अजात, अजातौ, अप्रयुज्यमानः, अप्राप्तस्य, अलब्धाः, अविद्वान्, अशाश्वतो, असंभाव्यां, नहि -->
     <feat name="Polite" value="Form" upos="PRON">10</feat><!-- भवान्, भवतः, भवत्, भवद्भिः, भवन्तम्, भवाम् -->
     <feat name="Poss" value="Yes" upos="DET,PRON">8</feat><!-- यस्या, तस्य, मे, स्व -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">160</feat><!-- तत्, तस्य, स, अत्र, तथा, सः, अयम्, इदम्, असौ, एतत् -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">11</feat><!-- किंचिद्, कदाचित्, आत्मना, कः, कदाचिद्, कर्हिचित्, कस्मिंश्चिद्, किञ्चित् -->
     <feat name="PronType" value="Int" upos="ADV,DET,PART,PRON">30</feat><!-- किम्, कथम्, किं, को, कः, कतिभिः, कदाचिद्, कम्, कस्मिंश्चित्, कियत् -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">69</feat><!-- अहम्, मम, भवान्, मया, अस्मत्, एनम्, त्वम्, अस्माकम्, तव, त्वाम् -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">71</feat><!-- अहम्, मम, भवान्, मया, अस्मत्, एनम्, त्वम्, अस्माकम्, तव, त्वत् -->
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">40</feat><!-- यथा, यत्र, यस्या, यः, यत्, यतः, यस्य, येन, य, यं -->
     <feat name="PronType" value="Tot" upos="DET,PRON">5</feat><!-- सर्व, सर्वम्, सर्वे, सर्वेषाम् -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">3</feat><!-- आत्मानः, स्व, स्वाः -->
@@ -94,7 +94,7 @@
     <dep name="advcl">72</dep>
     <dep name="advmod">205</dep>
     <dep name="advmod:emph">8</dep>
-    <dep name="amod">81</dep>
+    <dep name="amod">82</dep>
     <dep name="appos">5</dep>
     <dep name="aux">2</dep>
     <dep name="case">7</dep>
@@ -110,15 +110,15 @@
     <dep name="flat">3</dep>
     <dep name="iobj">10</dep>
     <dep name="mark">10</dep>
-    <dep name="nmod">146</dep>
+    <dep name="nmod">147</dep>
     <dep name="nmod:poss">52</dep>
     <dep name="nsubj">168</dep>
     <dep name="nsubj:cop">19</dep>
     <dep name="nsubj:pass">36</dep>
-    <dep name="nummod">13</dep>
+    <dep name="nummod">14</dep>
     <dep name="nummod:gov">1</dep>
-    <dep name="obj">102</dep>
-    <dep name="obl">127</dep>
+    <dep name="obj">101</dep>
+    <dep name="obl">125</dep>
     <dep name="obl:agent">20</dep>
     <dep name="obl:arg">1</dep>
     <dep name="orphan">7</dep>

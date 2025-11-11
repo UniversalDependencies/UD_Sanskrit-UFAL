@@ -846,7 +846,7 @@
 2	त्वाम्	त्वद्	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	iobj	_	Translit=tvām|LTranslit=tvad|Gloss=you
 3-4	शासनशतेन	_	_	_	_	_	_	_	Translit=śāsanaśatena|Gloss=(with-a-hundred-commander)
 3	शासन	शासन	NOUN	_	Compound=Yes	5	obl	_	Translit=śāsana|LTranslit=śāsana|Gloss=commander
-4	शतेन	शत	NUM	_	Case=Ins|Gender=Neut|Number=Sing|NumType=Card	3	obl	_	Translit=śatena|LTranslit=śata|Gloss=hundred
+4	शतेन	शत	NUM	_	Case=Ins|Gender=Neut|Number=Sing|NumType=Card	3	nummod	_	Translit=śatena|LTranslit=śata|Gloss=hundred
 5	नियोजयिष्यामि	नि-युज्	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act,Cau	0	root	_	SpaceAfter=No|Translit=niyojayiṣyāmi|LTranslit=ni-yuj|Gloss=employ
 6	।	।	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.|Gloss=.
 
@@ -1008,7 +1008,7 @@
 # ryder = But in order that your request may be granted, I will show a sporting spirit in reference to artistic matters.
 1	किन्तु	किन्तु	ADV	_	_	8	advmod	_	Translit=kintu|LTranslit=kintu|Gloss=nevertheless
 2-5	त्वत्प्रार्थनासिद्धर्थस्य	_	_	_	_	_	_	_	Translit=tvatprārthanāsiddharthasya|Gloss=(for-the-reason-of-your-request-accomplished)
-2	त्वत्	त्वद्	PRON	_	Compound=Yes	3	nmod:poss	_	Translit=tvat|LTranslit=tvad|Gloss=you
+2	त्वत्	त्वद्	PRON	_	Compound=Yes|Number=Sing|Person=2|PronType=Prs	3	nmod:poss	_	Translit=tvat|LTranslit=tvad|Gloss=you
 3	प्रार्थना	प्रार्थना	NOUN	_	Compound=Yes	5	nmod	_	Translit=prārthanā|LTranslit=prārthanā|Gloss=request
 4	सिद्धि	सिध	VERB	_	Compound=Yes|Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	Translit=siddha|LTranslit=sidh|Gloss=accomplished
 5	अर्थस्य	अर्थ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	Translit=artham|LTranslit=artha|Gloss=for-the-reason
@@ -2038,7 +2038,7 @@
 5	सिंहः	सिंह	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	Translit=siṁhaḥ|LTranslit=siṁha|Gloss=lion
 6-8	सर्वमृगपरिवृतः	_	_	_	_	_	_	_	Translit=sarvamr̥gaparivr̥taḥ|Gloss=(surrounded-by-all-animals)
 6	सर्व	सर्व	DET	_	Compound=Yes|PronType=Tot	7	det	_	Translit=sarva|LTranslit=sarva|Gloss=all
-7	मृग	मृग	NOUN	_	Compound=Yes	9	obl	_	Translit=mr̥ga|LTranslit=mr̥ga|Gloss=animals
+7	मृग	मृग	NOUN	_	Compound=Yes	9	nmod	_	Translit=mr̥ga|LTranslit=mr̥ga|Gloss=animals
 8	परिवृतः	परि-वृ	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	Translit=parivr̥taḥ|LTranslit=pari-vr̥|Gloss=surrounded
 9-10	पिपासाकुल	_	_	_	_	_	_	_	Tranlit=pipāsākula|Gloss=(with-lot-of-thirst)
 9	पिपासा	पिपासा	NOUN	_	Compound=Yes	10	nmod	_	Translit=pipāsā|LTranslit=pipāsā|Gloss=thirst
@@ -2119,10 +2119,10 @@
 # orig = panchatantra.conllu sent_id 98
 # ptext = tO ca parasparam mantrayitum A rabDO
 # ryder = These two conferred secretly,
-1	तौ	तद्	PRON	_	Case=Nom|Gender=Masc|Number=Dual	4	nsubj	_	Translit=tau|LTranslit=tad|Gloss=they
+1	तौ	तद्	PRON	_	Case=Nom|Gender=Masc|Number=Dual|Person=3|PronType=Prs	4	nsubj	_	Translit=tau|LTranslit=tad|Gloss=they
 2	परस्परम्	परस्पर	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	Translit=parasparam|LTranslit=paraspara|Gloss=mutual
 3	विचारम्	विचार	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Translit=vicāram|LTranslit=vicāra|Gloss=debate
-4	आरब्धौ	आ-रभ्	VERB	_	Case=Nom|Gender=Masc|Mood=Ind|Number=Dual|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Translit=ārabdhau|LTranslit=ā-rabh|Gloss=took
+4	आरब्धौ	आ-रभ्	VERB	_	Case=Nom|Gender=Masc|Number=Dual|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Translit=ārabdhau|LTranslit=ā-rabh|Gloss=took
 5	।	।	PUNCT	_	_	4	punct	_	Translit=.|LTranslit=.|Gloss=.
 
 # sent_id = panc1.s100
@@ -3412,7 +3412,7 @@
 # ryder = Having thus considered the matter from every point of view, he sought the queen and said:
 1	एवम्	एवम्	ADV	_	_	4	advmod	_	Translit=evam|LTranslit=evam|Gloss=this-way
 2-3	बहुविधं	_	_	_	_	_	_	_	Translit=bahuvidhaṁ|Gloss=(great-measure)
-2	बहु	बहु	ADJ	_	Compound=Yes	4	obj	_	Translit=bahu|LTranslit=bahu|Gloss=many
+2	बहु	बहु	ADJ	_	Compound=Yes	3	amod	_	Translit=bahu|LTranslit=bahu|Gloss=many
 3	विधं	विध	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Translit=vidhaṁ|LTranslit=vidha|Gloss=measure
 4	विचिन्त्य	वि-चिन्त्	VERB	_	VerbForm=Conv	8	advcl	_	Translit=vicintya|LTranslit=vi-cint|Gloss=after-having-thought-over
 5-6	देवीपार्श्वे	_	_	_	_	_	_	_	Translit=devīpārśve|Gloss=(in-presence-of-queen)
